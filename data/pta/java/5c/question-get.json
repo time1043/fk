@@ -1,0 +1,67 @@
+{
+  "problemSetProblem": {
+    "id": "1983003941989945359",
+    "label": "",
+    "score": 15,
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 15,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "3\na 11 false\nb 12 true\nc 10 false\n",
+            "output": "This is static initialization block\nThis is initialization block, id is 0\nThis is initialization block, id is 1\nThis is initialization block, id is 2\nPerson [name\u003dc, age\u003d10, gender\u003dfalse, id\u003d2]\nPerson [name\u003db, age\u003d12, gender\u003dtrue, id\u003d1]\nPerson [name\u003da, age\u003d11, gender\u003dfalse, id\u003d0]\nThis is initialization block, id is 3\nThis is constructor\nnull,0,false,3\nPerson [name\u003dnull, age\u003d0, gender\u003dfalse, id\u003d3]\n"
+          },
+          {
+            "name": "",
+            "input": "3\na 11 false\nb 12 true\nc 10 false\n",
+            "output": "This is static initialization block\nThis is initialization block, id is 0\nThis is initialization block, id is 1\nThis is initialization block, id is 2\nPerson [name\u003dc, age\u003d10, gender\u003dfalse, id\u003d2]\nPerson [name\u003db, age\u003d12, gender\u003dtrue, id\u003d1]\nPerson [name\u003da, age\u003d11, gender\u003dfalse, id\u003d0]\nThis is initialization block, id is 3\nThis is constructor\nnull,0,false,3\nPerson [name\u003dnull, age\u003d0, gender\u003dfalse, id\u003d3]\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    },
+    "deadline": "1970-01-01T00:00:00Z",
+    "title": "jmu-Java-03面向对象基础-02-构造方法与初始化块",
+    "content": "## 1.定义一个Person类\n**属性：**`String name`, `boolean gender`, `int age`, `int id` ,所有的变量必须为私有(private)。  \n**无参构造函数:**`Person()`, **功能：**打印**This is constructor**  。  \n**有参构造函数:**`Person(name, gender, age) `  ，**功能：**给属性赋值。  \n建议：使用Eclipse自动生成toString方法  \n \n## 2.定义类的初始化块\n为Person类加入**初始化块**，在初始化块中对`id`属性赋值，并且要保证每次的值比上次创建的对象的值`+1`。然后在下一行打印`This is initialization block, id is ...`  其中`...`是id的值。  \n**提示：**可为`Person`类定义一个`static`属性来记录所创建的对象个数。\n\n## 3.编写静态初始化块\n打印`This is static initialization block`\n\n## 4.编写main方法  \n- 首先输入n，代表要创建的对象数量。  \n- 然后从控制台分别读取n行的`name age gender`, 并调用有参构造函数`Person(name, age, gender)`新建对象 。\n- 将创建好的n个对象逆序输出(即输出`toString()`方法)。\n- 使用无参构造函数新建一个Person对象，然后直接打印该对象。\n\n## 思考\n初始化类与对象有几种方法，构造函数、初始化块、静态初始化块。这三种方法执行的先后顺序是什么？各执行几次。\n\n### 输入样例:\n```in\n3\na 11 false\nb 12 true\nc 10 false\n\n```\n### 输出样例:\n```out\nThis is static initialization block\nThis is initialization block, id is 0\nThis is initialization block, id is 1\nThis is initialization block, id is 2\nPerson [name\u003dc, age\u003d10, gender\u003dfalse, id\u003d2]\nPerson [name\u003db, age\u003d12, gender\u003dtrue, id\u003d1]\nPerson [name\u003da, age\u003d11, gender\u003dfalse, id\u003d0]\nThis is initialization block, id is 3\nThis is constructor\nnull,0,false,3\nPerson [name\u003dnull, age\u003d0, gender\u003dfalse, id\u003d3]\n\n```",
+    "type": "PROGRAMMING",
+    "author": "郑如滨",
+    "difficulty": 0,
+    "compiler": "NO_COMPILER",
+    "problemStatus": "PENDING_REVIEW",
+    "lastSubmissionId": "0",
+    "solution": "",
+    "problemSetId": "1983003941901864960",
+    "problemId": "4975",
+    "description": "## 1.定义一个Person类\n**属性：**`String name`, `boolean gender`, `int age`, `int id` ,所有的变量必须为私有(private)。  \n**无参构造函数:**`Person()`, **功能：**打印**This is constructor**  。  \n**有参构造函数:**`Person(name, gender, age) `  ，**功能：**给属性赋值。  \n建议：使用Eclipse自动生成toString方法  \n \n## 2.定义类的初始化块\n为Person类加入**初始化块**，在初始化块中对`id`属性赋值，并且要保证每次的值比上次创建的对象的值`+1`。然后在下一行打印`This is initialization block, id is ...`  其中`...`是id的值。  \n**提示：**可为`Person`类定义一个`static`属性来记录所创建的对象个数。\n\n## 3.编写静态初始化块\n打印`This is static initialization block`\n\n## 4.编写main方法  \n- 首先输入n，代表要创建的对象数量。  \n- 然后从控制台分别读取n行的`name age gender`, 并调用有参构造函数`Person(name, age, gender)`新建对象 。\n- 将创建好的n个对象逆序输出(即输出`toString()`方法)。\n- 使用无参构造函数新建一个Person对象，然后直接打印该对象。\n\n## 思考\n初始化类与对象有几种方法，构造函数、初始化块、静态初始化块。这三种方法执行的先后顺序是什么？各执行几次。\n\n### 输入样例:\n```in\n3\na 11 false\nb 12 true\nc 10 false\n\n```\n### 输出样例:\n```out\nThis is static initialization block\nThis is initialization block, id is 0\nThis is initialization block, id is 1\nThis is initialization block, id is 2\nPerson [name\u003dc, age\u003d10, gender\u003dfalse, id\u003d2]\nPerson [name\u003db, age\u003d12, gender\u003dtrue, id\u003d1]\nPerson [name\u003da, age\u003d11, gender\u003dfalse, id\u003d0]\nThis is initialization block, id is 3\nThis is constructor\nnull,0,false,3\nPerson [name\u003dnull, age\u003d0, gender\u003dfalse, id\u003d3]\n\n```",
+    "problemPoolIndex": 1,
+    "indexInProblemPool": 1,
+    "authorOrganizationId": "46"
+  },
+  "organization": {
+    "id": "46",
+    "name": "集美大学",
+    "code": "jmu",
+    "type": "SCHOOL",
+    "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+  },
+  "examLabel": "7-1"
+}

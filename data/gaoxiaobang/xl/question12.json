@@ -1,0 +1,206 @@
+[
+  {
+    "questionId": "143330",
+    "level": "中",
+    "questionName": "生命的自然属性包括：",
+    "answerList": [
+      {
+        "answerId": "551449",
+        "quizQuestionId": "143330",
+        "comments": "",
+        "text": "健康问题"
+      },
+      {
+        "answerId": "551450",
+        "quizQuestionId": "143330",
+        "comments": "",
+        "text": "安全问题"
+      },
+      {
+        "answerId": "551451",
+        "quizQuestionId": "143330",
+        "comments": "",
+        "text": "伦理问题"
+      },
+      {
+        "answerId": "551452",
+        "quizQuestionId": "143330",
+        "comments": "",
+        "text": "自然属性"
+      }
+    ],
+    "name": "生命的自然属性包括：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143335",
+    "level": "中",
+    "questionName": "生命的三个属性（）、（）和()。",
+    "answerList": [
+      {
+        "answerId": "551469",
+        "quizQuestionId": "143335",
+        "comments": "",
+        "text": "精神属性"
+      },
+      {
+        "answerId": "551470",
+        "quizQuestionId": "143335",
+        "comments": "",
+        "text": "自然属性"
+      },
+      {
+        "answerId": "551471",
+        "quizQuestionId": "143335",
+        "comments": "",
+        "text": "人性"
+      },
+      {
+        "answerId": "551472",
+        "quizQuestionId": "143335",
+        "comments": "",
+        "text": "心理（社会）属性"
+      }
+    ],
+    "name": "生命的三个属性（）、（）和()。",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143331",
+    "level": "中",
+    "questionName": "<p>人与已的内涵包括：</p>",
+    "answerList": [
+      {
+        "answerId": "551453",
+        "quizQuestionId": "143331",
+        "comments": "",
+        "text": "<p>欣赏自己</p>"
+      },
+      {
+        "answerId": "551454",
+        "quizQuestionId": "143331",
+        "comments": "",
+        "text": "<p>接纳自己</p>"
+      },
+      {
+        "answerId": "551455",
+        "quizQuestionId": "143331",
+        "comments": "",
+        "text": "<p>认识自己</p>"
+      },
+      {
+        "answerId": "551456",
+        "quizQuestionId": "143331",
+        "comments": "",
+        "text": "<p>尊重他人</p>"
+      }
+    ],
+    "name": "<p>人与已的内涵包括：</p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143332",
+    "level": "中",
+    "questionName": "人与人的内涵包括：",
+    "answerList": [
+      {
+        "answerId": "551457",
+        "quizQuestionId": "143332",
+        "comments": "",
+        "text": "学会关爱他人"
+      },
+      {
+        "answerId": "551458",
+        "quizQuestionId": "143332",
+        "comments": "",
+        "text": "与他人分工合作"
+      },
+      {
+        "answerId": "551459",
+        "quizQuestionId": "143332",
+        "comments": "",
+        "text": "尊重他人"
+      },
+      {
+        "answerId": "551460",
+        "quizQuestionId": "143332",
+        "comments": "",
+        "text": "接纳他人"
+      }
+    ],
+    "name": "人与人的内涵包括：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143333",
+    "level": "中",
+    "questionName": "<p>人与地的内涵包括：</p>",
+    "answerList": [
+      {
+        "answerId": "551461",
+        "quizQuestionId": "143333",
+        "comments": "",
+        "text": "<p>适应环境</p>"
+      },
+      {
+        "answerId": "551462",
+        "quizQuestionId": "143333",
+        "comments": "",
+        "text": "<p>爱护环境</p>"
+      },
+      {
+        "answerId": "551463",
+        "quizQuestionId": "143333",
+        "comments": "",
+        "text": "<p>珍惜所有生命</p>"
+      },
+      {
+        "answerId": "551464",
+        "quizQuestionId": "143333",
+        "comments": "",
+        "text": "<p>改变环境</p>"
+      }
+    ],
+    "name": "<p>人与地的内涵包括：</p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143334",
+    "level": "中",
+    "questionName": "<p>人与天的内涵包括：</p>",
+    "answerList": [
+      {
+        "answerId": "551465",
+        "quizQuestionId": "143334",
+        "comments": "",
+        "text": "<p>接触大自然</p>"
+      },
+      {
+        "answerId": "551466",
+        "quizQuestionId": "143334",
+        "comments": "",
+        "text": "<p>体会和认识自己与世界</p>"
+      },
+      {
+        "answerId": "551467",
+        "quizQuestionId": "143334",
+        "comments": "",
+        "text": "<p>人与人的关系</p>"
+      },
+      {
+        "answerId": "551468",
+        "quizQuestionId": "143334",
+        "comments": "",
+        "text": "<p>宇宙的关系</p>"
+      }
+    ],
+    "name": "<p>人与天的内涵包括：</p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_answers"
+  }
+]

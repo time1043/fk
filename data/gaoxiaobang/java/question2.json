@@ -1,0 +1,410 @@
+[
+  {
+    "questionId": "297132",
+    "level": "中",
+    "questionName": "关于String类提供的常用方法的叙述中，错误的是哪个选项<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1092938",
+        "quizQuestionId": "297132",
+        "comments": "",
+        "text": "length()返回字符串的长度  "
+      },
+      {
+        "answerId": "1092939",
+        "quizQuestionId": "297132",
+        "comments": "",
+        "text": "equals()比较字符串是否内容相等"
+      },
+      {
+        "answerId": "1092940",
+        "quizQuestionId": "297132",
+        "comments": "",
+        "text": "concat()连接字符串"
+      },
+      {
+        "answerId": "1092941",
+        "quizQuestionId": "297132",
+        "comments": "",
+        "text": "charAt()返回指定字符的位置"
+      }
+    ],
+    "name": "关于String类提供的常用方法的叙述中，错误的是哪个选项<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297133",
+    "level": "中",
+    "questionName": "仔细分析下面程序，正确的输出结果是哪个选项<br/>public class Test1 {<br/>public static void changeStr(String str) {<br/>str = &quot;welcome&quot;; }<br/>public static void main(String[] args) {<br/>  String str = &quot;1234&quot;;<br/>changeStr(str);<br/>System.out.println(str);<br/> }<br/>}",
+    "answerList": [
+      {
+        "answerId": "1092942",
+        "quizQuestionId": "297133",
+        "comments": "",
+        "text": "welcome  "
+      },
+      {
+        "answerId": "1092943",
+        "quizQuestionId": "297133",
+        "comments": "",
+        "text": "welcome1234  "
+      },
+      {
+        "answerId": "1092944",
+        "quizQuestionId": "297133",
+        "comments": "",
+        "text": "1234 welcome "
+      },
+      {
+        "answerId": "1092945",
+        "quizQuestionId": "297133",
+        "comments": "",
+        "text": "1234<br/>"
+      }
+    ],
+    "name": "仔细分析下面程序，正确的输出结果是哪个选项<br/>public class Test1 {<br/>public static void changeStr(String str) {<br/>str = &quot;welcome&quot;; }<br/>public static void main(String[] args) {<br/>  String str = &quot;1234&quot;;<br/>changeStr(str);<br/>System.out.println(str);<br/> }<br/>}",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297125",
+    "level": "中",
+    "questionName": "执行下面语句后的结果是（）<br/>String str=&quot;china&quot;;<br/>System.out.println(str.charAt(1));",
+    "answerList": [
+      {
+        "answerId": "1092910",
+        "quizQuestionId": "297125",
+        "comments": "",
+        "text": "c"
+      },
+      {
+        "answerId": "1092911",
+        "quizQuestionId": "297125",
+        "comments": "",
+        "text": "h"
+      },
+      {
+        "answerId": "1092912",
+        "quizQuestionId": "297125",
+        "comments": "",
+        "text": "0"
+      },
+      {
+        "answerId": "1092913",
+        "quizQuestionId": "297125",
+        "comments": "",
+        "text": "1"
+      }
+    ],
+    "name": "执行下面语句后的结果是（）<br/>String str=&quot;china&quot;;<br/>System.out.println(str.charAt(1));",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297126",
+    "level": "中",
+    "questionName": "有定义：String s=&quot;Hello&quot;;下列说法中，哪个不正确。",
+    "answerList": [
+      {
+        "answerId": "1092914",
+        "quizQuestionId": "297126",
+        "comments": "",
+        "text": "String不是简单类型，而是Java定义的一个类"
+      },
+      {
+        "answerId": "1092915",
+        "quizQuestionId": "297126",
+        "comments": "",
+        "text": "s的长度是5"
+      },
+      {
+        "answerId": "1092916",
+        "quizQuestionId": "297126",
+        "comments": "",
+        "text": "s变量里存储的是地址"
+      },
+      {
+        "answerId": "1092917",
+        "quizQuestionId": "297126",
+        "comments": "",
+        "text": "若又有定义：String t=s;则系统又单另开辟存储空间，存放字符串&rdquo;Hello&rdquo;，变量t指向新的存储空间的起始地址"
+      }
+    ],
+    "name": "有定义：String s=&quot;Hello&quot;;下列说法中，哪个不正确。",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297127",
+    "level": "中",
+    "questionName": "下面的叙述中错误的是",
+    "answerList": [
+      {
+        "answerId": "1092918",
+        "quizQuestionId": "297127",
+        "comments": "",
+        "text": "字符串变量中存储了字符串的值"
+      },
+      {
+        "answerId": "1092919",
+        "quizQuestionId": "297127",
+        "comments": "",
+        "text": "字符串用关键字String标记，属于引用类型"
+      },
+      {
+        "answerId": "1092920",
+        "quizQuestionId": "297127",
+        "comments": "",
+        "text": "Java定义&ldquo;+&rdquo;可用于两个字符串的连接运算"
+      },
+      {
+        "answerId": "1092921",
+        "quizQuestionId": "297127",
+        "comments": "",
+        "text": "可以使用&lt;字符串变量&gt;.&lt;方法名&gt;调用Java为String类定义的许多方法"
+      }
+    ],
+    "name": "下面的叙述中错误的是",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297128",
+    "level": "中",
+    "questionName": "执行下面语句段后的结果是哪个选项<br/>String str=&quot;sheep!&quot;;<br/>System.out.println(str.indexOf(&quot;e&quot;));<br/>",
+    "answerList": [
+      {
+        "answerId": "1092922",
+        "quizQuestionId": "297128",
+        "comments": "",
+        "text": "2"
+      },
+      {
+        "answerId": "1092923",
+        "quizQuestionId": "297128",
+        "comments": "",
+        "text": "3"
+      },
+      {
+        "answerId": "1092924",
+        "quizQuestionId": "297128",
+        "comments": "",
+        "text": "&quot;she&quot;"
+      },
+      {
+        "answerId": "1092925",
+        "quizQuestionId": "297128",
+        "comments": "",
+        "text": "&quot;eep!&quot;"
+      }
+    ],
+    "name": "执行下面语句段后的结果是哪个选项<br/>String str=&quot;sheep!&quot;;<br/>System.out.println(str.indexOf(&quot;e&quot;));<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297129",
+    "level": "中",
+    "questionName": "执行下列语句段后，正确的结果是哪个选项<br/>int x=97;   System.out.println((char)97);<br/>",
+    "answerList": [
+      {
+        "answerId": "1092926",
+        "quizQuestionId": "297129",
+        "comments": "",
+        "text": "97"
+      },
+      {
+        "answerId": "1092927",
+        "quizQuestionId": "297129",
+        "comments": "",
+        "text": "a"
+      },
+      {
+        "answerId": "1092928",
+        "quizQuestionId": "297129",
+        "comments": "",
+        "text": "没有结果"
+      },
+      {
+        "answerId": "1092929",
+        "quizQuestionId": "297129",
+        "comments": "",
+        "text": "编译出错"
+      }
+    ],
+    "name": "执行下列语句段后，正确的结果是哪个选项<br/>int x=97;   System.out.println((char)97);<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297130",
+    "level": "中",
+    "questionName": "有定义：<br/>String s=&quot;Hello&quot;; <br/>String t=s;<br/>下列说法中正确的是哪个选项。<br/>",
+    "answerList": [
+      {
+        "answerId": "1092930",
+        "quizQuestionId": "297130",
+        "comments": "",
+        "text": "s变量和t变量中均存放字符串Hello  "
+      },
+      {
+        "answerId": "1092931",
+        "quizQuestionId": "297130",
+        "comments": "",
+        "text": "内存中开辟了两块空间存放字符串Hello"
+      },
+      {
+        "answerId": "1092932",
+        "quizQuestionId": "297130",
+        "comments": "",
+        "text": "s变量存储的是null "
+      },
+      {
+        "answerId": "1092933",
+        "quizQuestionId": "297130",
+        "comments": "",
+        "text": "s变量和t变量均指向同一个字符串Hello"
+      }
+    ],
+    "name": "有定义：<br/>String s=&quot;Hello&quot;; <br/>String t=s;<br/>下列说法中正确的是哪个选项。<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297131",
+    "level": "中",
+    "questionName": "要输出&quot;hello&quot;,the boy said语句，正确的代码是哪个选项<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1092934",
+        "quizQuestionId": "297131",
+        "comments": "",
+        "text": "System.out.println(&quot;hello&quot;,the boy said); "
+      },
+      {
+        "answerId": "1092935",
+        "quizQuestionId": "297131",
+        "comments": "",
+        "text": "System.out.println(&quot;hello&quot;,the boy said &quot;);"
+      },
+      {
+        "answerId": "1092936",
+        "quizQuestionId": "297131",
+        "comments": "",
+        "text": "System.out.println(&quot;\\&quot;hello\\&quot;,the boy said&quot;);"
+      },
+      {
+        "answerId": "1092937",
+        "quizQuestionId": "297131",
+        "comments": "",
+        "text": "System.out.println(&quot;\\&quot;hello&quot;,the boy said&quot;);"
+      }
+    ],
+    "name": "要输出&quot;hello&quot;,the boy said语句，正确的代码是哪个选项<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297122",
+    "level": "中",
+    "questionName": "下面是字符串的合并运算，结果错误的是",
+    "answerList": [
+      {
+        "answerId": "1092898",
+        "quizQuestionId": "297122",
+        "comments": "",
+        "text": "System.out.println(&quot;3&quot;+&quot;car&quot;);          3car"
+      },
+      {
+        "answerId": "1092899",
+        "quizQuestionId": "297122",
+        "comments": "",
+        "text": "System.out.println(1+2+&quot;car&quot;);          3car"
+      },
+      {
+        "answerId": "1092900",
+        "quizQuestionId": "297122",
+        "comments": "",
+        "text": "System.out.println(&quot; &quot;+1+2+&quot;car&quot;);       12car"
+      },
+      {
+        "answerId": "1092901",
+        "quizQuestionId": "297122",
+        "comments": "",
+        "text": "System.out.println(&quot; &quot;+1+2+&quot;car&quot;);       3car"
+      }
+    ],
+    "name": "下面是字符串的合并运算，结果错误的是",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297123",
+    "level": "中",
+    "questionName": "执行下面的代码,结果是<br/>String str=&quot; &quot;;   System.out.println(str.length());<br/>",
+    "answerList": [
+      {
+        "answerId": "1092902",
+        "quizQuestionId": "297123",
+        "comments": "",
+        "text": "0"
+      },
+      {
+        "answerId": "1092903",
+        "quizQuestionId": "297123",
+        "comments": "",
+        "text": "1"
+      },
+      {
+        "answerId": "1092904",
+        "quizQuestionId": "297123",
+        "comments": "",
+        "text": "NULL"
+      },
+      {
+        "answerId": "1092905",
+        "quizQuestionId": "297123",
+        "comments": "",
+        "text": "没有显示"
+      }
+    ],
+    "name": "执行下面的代码,结果是<br/>String str=&quot; &quot;;   System.out.println(str.length());<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297124",
+    "level": "中",
+    "questionName": "Java允许在源程序文件中添加注释，以增加程序的可读性；属于多行注释的方式是（）。",
+    "answerList": [
+      {
+        "answerId": "1092906",
+        "quizQuestionId": "297124",
+        "comments": "",
+        "text": "// 多行语句"
+      },
+      {
+        "answerId": "1092907",
+        "quizQuestionId": "297124",
+        "comments": "",
+        "text": "/*多行语句*/ "
+      },
+      {
+        "answerId": "1092908",
+        "quizQuestionId": "297124",
+        "comments": "",
+        "text": "/**多行语句**/"
+      },
+      {
+        "answerId": "1092909",
+        "quizQuestionId": "297124",
+        "comments": "",
+        "text": "//多行语句//"
+      }
+    ],
+    "name": "Java允许在源程序文件中添加注释，以增加程序的可读性；属于多行注释的方式是（）。",
+    "comment": "",
+    "questionType": "multiple_choice"
+  }
+]

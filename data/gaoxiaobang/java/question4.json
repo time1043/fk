@@ -1,0 +1,274 @@
+[
+  {
+    "questionId": "297303",
+    "level": "中",
+    "questionName": "设a、b为long型变量，x、y为float型变量，ch为char类型变量且它们均已被赋值，则下列语句中正确的是（   ）。<br/>",
+    "answerList": [
+      {
+        "answerId": "1093473",
+        "quizQuestionId": "297303",
+        "comments": "",
+        "text": "switch(x+y) {  }"
+      },
+      {
+        "answerId": "1093474",
+        "quizQuestionId": "297303",
+        "comments": "",
+        "text": "switch(ch+1) {  } "
+      },
+      {
+        "answerId": "1093475",
+        "quizQuestionId": "297303",
+        "comments": "",
+        "text": "switch ch { } "
+      },
+      {
+        "answerId": "1093476",
+        "quizQuestionId": "297303",
+        "comments": "",
+        "text": "switch(a+b); {}"
+      }
+    ],
+    "name": "设a、b为long型变量，x、y为float型变量，ch为char类型变量且它们均已被赋值，则下列语句中正确的是（   ）。<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297297",
+    "level": "中",
+    "questionName": "已知如下代码：<br/>switch(m){<br/>  case 0: System.out.println(&quot;Condition 0&quot;);<br/>  case 1: System.out.println(&quot;Condition 1&quot;);<br/>  case 2: System.out.println(&quot;Condition 2&quot;);<br/>  case 3: System.out.println(&quot;Condition 3&quot;);break;<br/>  default:System.out.println(&quot;Other Condition&quot;); <br/> }<br/>当m的值为（     ）时，输出内容包含&ldquo;Condition 3&rdquo;<br/>",
+    "answerList": [
+      {
+        "answerId": "1093449",
+        "quizQuestionId": "297297",
+        "comments": "",
+        "text": "2"
+      },
+      {
+        "answerId": "1093450",
+        "quizQuestionId": "297297",
+        "comments": "",
+        "text": "0、1"
+      },
+      {
+        "answerId": "1093451",
+        "quizQuestionId": "297297",
+        "comments": "",
+        "text": "0、1、2 "
+      },
+      {
+        "answerId": "1093452",
+        "quizQuestionId": "297297",
+        "comments": "",
+        "text": "0、1、2、3"
+      }
+    ],
+    "name": "已知如下代码：<br/>switch(m){<br/>  case 0: System.out.println(&quot;Condition 0&quot;);<br/>  case 1: System.out.println(&quot;Condition 1&quot;);<br/>  case 2: System.out.println(&quot;Condition 2&quot;);<br/>  case 3: System.out.println(&quot;Condition 3&quot;);break;<br/>  default:System.out.println(&quot;Other Condition&quot;); <br/> }<br/>当m的值为（     ）时，输出内容包含&ldquo;Condition 3&rdquo;<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297298",
+    "level": "中",
+    "questionName": "下列语句输出的结果是：（     ）<br/> public class X3 {    <br/>public static void main(String[] args) {<br/>for(int i=0; i&lt;10; i++){<br/>      if(i==5) break;<br/>       System.out.print(i);<br/>      }<br/>   }<br/>}<br/>",
+    "answerList": [
+      {
+        "answerId": "1093453",
+        "quizQuestionId": "297298",
+        "comments": "",
+        "text": "编译错误"
+      },
+      {
+        "answerId": "1093454",
+        "quizQuestionId": "297298",
+        "comments": "",
+        "text": "1234"
+      },
+      {
+        "answerId": "1093455",
+        "quizQuestionId": "297298",
+        "comments": "",
+        "text": "01234"
+      },
+      {
+        "answerId": "1093456",
+        "quizQuestionId": "297298",
+        "comments": "",
+        "text": "12345"
+      }
+    ],
+    "name": "下列语句输出的结果是：（     ）<br/> public class X3 {    <br/>public static void main(String[] args) {<br/>for(int i=0; i&lt;10; i++){<br/>      if(i==5) break;<br/>       System.out.print(i);<br/>      }<br/>   }<br/>}<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297299",
+    "level": "中",
+    "questionName": "下列语句输出的结果是：（     ）<br/> public class Lx1 {<br/>public static void main(String[] args) {<br/>    for(int i=0;i&lt;5;i++){<br/>  switch(i){<br/>  case 0:System.out.print(&quot;B&quot;);<br/>  case 1:System.out.print(&quot;e&quot;);break;<br/>  case 2:System.out.print(&quot;g&quot;);<br/>  case 3:System.out.print(&quot;!&quot;);break;<br/>  case 4:System.out.print(&quot;!&quot;);break;<br/>  default:System.out.print(&quot;!&quot;);<br/>  }<br/>   }<br/>}<br/>}<br/>",
+    "answerList": [
+      {
+        "answerId": "1093457",
+        "quizQuestionId": "297299",
+        "comments": "",
+        "text": "Beg!!!"
+      },
+      {
+        "answerId": "1093458",
+        "quizQuestionId": "297299",
+        "comments": "",
+        "text": "Beeg! "
+      },
+      {
+        "answerId": "1093459",
+        "quizQuestionId": "297299",
+        "comments": "",
+        "text": "Beg!"
+      },
+      {
+        "answerId": "1093460",
+        "quizQuestionId": "297299",
+        "comments": "",
+        "text": "Beeg!!!"
+      }
+    ],
+    "name": "下列语句输出的结果是：（     ）<br/> public class Lx1 {<br/>public static void main(String[] args) {<br/>    for(int i=0;i&lt;5;i++){<br/>  switch(i){<br/>  case 0:System.out.print(&quot;B&quot;);<br/>  case 1:System.out.print(&quot;e&quot;);break;<br/>  case 2:System.out.print(&quot;g&quot;);<br/>  case 3:System.out.print(&quot;!&quot;);break;<br/>  case 4:System.out.print(&quot;!&quot;);break;<br/>  default:System.out.print(&quot;!&quot;);<br/>  }<br/>   }<br/>}<br/>}<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297300",
+    "level": "中",
+    "questionName": "下列（  ）不属于Java语言流程控制结构？<br/>",
+    "answerList": [
+      {
+        "answerId": "1093461",
+        "quizQuestionId": "297300",
+        "comments": "",
+        "text": "分支语句"
+      },
+      {
+        "answerId": "1093462",
+        "quizQuestionId": "297300",
+        "comments": "",
+        "text": "跳转语句"
+      },
+      {
+        "answerId": "1093463",
+        "quizQuestionId": "297300",
+        "comments": "",
+        "text": "循环语句 "
+      },
+      {
+        "answerId": "1093464",
+        "quizQuestionId": "297300",
+        "comments": "",
+        "text": "赋值语句"
+      }
+    ],
+    "name": "下列（  ）不属于Java语言流程控制结构？<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297301",
+    "level": "中",
+    "questionName": "假设a是int类型的变量，并初始化为1，则下列（   ）是合法的条件语句？<br/>",
+    "answerList": [
+      {
+        "answerId": "1093465",
+        "quizQuestionId": "297301",
+        "comments": "",
+        "text": "if(a){  } "
+      },
+      {
+        "answerId": "1093466",
+        "quizQuestionId": "297301",
+        "comments": "",
+        "text": "if(a&lt;&lt;=3){ } "
+      },
+      {
+        "answerId": "1093467",
+        "quizQuestionId": "297301",
+        "comments": "",
+        "text": "if(a=2){ }"
+      },
+      {
+        "answerId": "1093468",
+        "quizQuestionId": "297301",
+        "comments": "",
+        "text": "if(true){ }"
+      }
+    ],
+    "name": "假设a是int类型的变量，并初始化为1，则下列（   ）是合法的条件语句？<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297302",
+    "level": "中",
+    "questionName": "下列说法中，不正确的一个是（   ）。<br/>",
+    "answerList": [
+      {
+        "answerId": "1093469",
+        "quizQuestionId": "297302",
+        "comments": "",
+        "text": "switch语句的功能可以由if&hellip;else if语句来实现"
+      },
+      {
+        "answerId": "1093470",
+        "quizQuestionId": "297302",
+        "comments": "",
+        "text": "若用于比较的数据类型为double型，则不可以用switch语句来实现"
+      },
+      {
+        "answerId": "1093471",
+        "quizQuestionId": "297302",
+        "comments": "",
+        "text": "if &hellip;else if语句的执行效率总是比switch语句高"
+      },
+      {
+        "answerId": "1093472",
+        "quizQuestionId": "297302",
+        "comments": "",
+        "text": "case子句中可以有多个语句，并且不需要大括号{ }"
+      }
+    ],
+    "name": "下列说法中，不正确的一个是（   ）。<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297296",
+    "level": "中",
+    "questionName": "下列循环体执行的次数是（    ）。<br/>int y=2, x=4;<br/>while(--x != x/y){ }<br/>",
+    "answerList": [
+      {
+        "answerId": "1093445",
+        "quizQuestionId": "297296",
+        "comments": "",
+        "text": "1"
+      },
+      {
+        "answerId": "1093446",
+        "quizQuestionId": "297296",
+        "comments": "",
+        "text": "2"
+      },
+      {
+        "answerId": "1093447",
+        "quizQuestionId": "297296",
+        "comments": "",
+        "text": "3"
+      },
+      {
+        "answerId": "1093448",
+        "quizQuestionId": "297296",
+        "comments": "",
+        "text": "4"
+      }
+    ],
+    "name": "下列循环体执行的次数是（    ）。<br/>int y=2, x=4;<br/>while(--x != x/y){ }<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  }
+]

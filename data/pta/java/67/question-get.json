@@ -1,0 +1,342 @@
+{
+  "organizationById": {
+    "17": {
+      "id": "17",
+      "name": "浙江传媒学院",
+      "code": "zumc",
+      "type": "SCHOOL",
+      "logo": "1adfb2e4-2999-43e0-a4e3-e0b71fce6ec0.png"
+    },
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1983701703730794496",
+      "label": "2-1",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "x[24]为0",
+            "x[24]未定义",
+            "x[25]为0",
+            "x[0]没有数值存在"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "执行完以下代码int[ ] x \u003d new int[25]；后，以下哪项说明是正确的(   )",
+      "content": "执行完以下代码int[ ] x \u003d new int[25]；后，以下哪项说明是正确的(   ) \n\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1249173072641933312",
+      "description": "执行完以下代码int[ ] x \u003d new int[25]；后，以下哪项说明是正确的(   ) \n\n",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1983701703730794497",
+      "label": "2-2",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["1", "2", "3", "4"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Set操作--下列程序代码运行结果是：（    ）。",
+      "content": "下列程序代码运行结果是：（    ）。\t\n```\nimport java.util.*;\t\npublic class Test {\t \n    public int hashCode() {\t    \n         return 1;\t \n    }\t \n    public boolean equals(Object b) {\t    \n        return true;\t\n   }\t\n    public static void main(String args[]) {\t    \n        Set set \u003d new HashSet();\t    \n        set.add(new Test());\t    \n        set.add(new String(\"ABC\"));\t    \n        set.add(new Test());\t    \n        System.out.println(set.size());\t \n    }\n}\n```\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1366699426469740544",
+      "description": "下列程序代码运行结果是：（    ）。\t\n```\nimport java.util.*;\t\npublic class Test {\t \n    public int hashCode() {\t    \n         return 1;\t \n    }\t \n    public boolean equals(Object b) {\t    \n        return true;\t\n   }\t\n    public static void main(String args[]) {\t    \n        Set set \u003d new HashSet();\t    \n        set.add(new Test());\t    \n        set.add(new String(\"ABC\"));\t    \n        set.add(new Test());\t    \n        System.out.println(set.size());\t \n    }\n}\n```\n",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983701703730794498",
+      "label": "2-3",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["1", "3", "2", "4"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "若int a[][]\u003d{{123,345,334},{1,2},{3,4}};  则 a[2][1]\u003d（    ）。",
+      "content": "若int a[][]\u003d{{123,345,334},{1,2},{3,4}};  则 a[2][1]\u003d（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1406817383625183232",
+      "description": "若int a[][]\u003d{{123,345,334},{1,2},{3,4}};  则 a[2][1]\u003d（    ）。",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983701703730794499",
+      "label": "2-4",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["编译错误\n", "会报运行错误\n", "0", "null"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "如下语句执行结果是：（      ）。",
+      "content": "如下语句执行结果是：（      ）。\n```\nint[] intArr\u003dnew int[10];\nSystem.out.println(intArr[0]);\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1407345204286296064",
+      "description": "如下语句执行结果是：（      ）。\n```\nint[] intArr\u003dnew int[10];\nSystem.out.println(intArr[0]);\n```",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983701703734988800",
+      "label": "2-5",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["编译错误\n", "会报运行错误\n", "0", "null\n"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "如下语句执行结果是：（     ）。",
+      "content": "如下语句执行结果是：（     ）。\n```\nint[] intArr\u003dnew int[10];\t\nSystem.out.println(intArr[10]);\t\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1407345845440184320",
+      "description": "如下语句执行结果是：（     ）。\n```\nint[] intArr\u003dnew int[10];\t\nSystem.out.println(intArr[10]);\t\n```",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983701703734988801",
+      "label": "2-6",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "a[0]\u003d8;\n",
+            "a[a.length-1]\u003d90;\n",
+            "a[3]\u003d9;\n",
+            "```\nint i\u003d1;\na[i]\u003d0;\n```\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "设有数组的定义int[] a \u003d new int[3]，则下面对数组元素的引用错误的是（    ）。",
+      "content": "设有数组的定义int[] a \u003d new int[3]，则下面对数组元素的引用错误的是（    ）。\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1407347592191643648",
+      "description": "设有数组的定义int[] a \u003d new int[3]，则下面对数组元素的引用错误的是（    ）。\n",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983701703734988802",
+      "label": "2-7",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "arr.length()\n",
+            "arr.size()",
+            "arr.length\n",
+            "arr.size"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "数组的定义为：`int[] arr\u003dnew int[10];`",
+      "content": "数组的定义为：`int[] arr\u003dnew int[10];`\n如何获得数组的长度？\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1407349464818180096",
+      "description": "数组的定义为：`int[] arr\u003dnew int[10];`\n如何获得数组的长度？\n",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983701703734988803",
+      "label": "2-8",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["x[24]为0\n", "x[25]为0", "x[0]为空\n", "x[24]未定义"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "执行完以下代码`int[ ] x \u003d new int[25]；`后，以下哪项说明是正确的（      ）。",
+      "content": "执行完以下代码`int[ ] x \u003d new int[25]；`后，以下哪项说明是正确的（      ）。\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1407349934471176192",
+      "description": "执行完以下代码`int[ ] x \u003d new int[25]；`后，以下哪项说明是正确的（      ）。\n",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983701703734988804",
+      "label": "2-9",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["1", "2", "3", "4"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "List操作--下列程序代码运行结果是：（    ）。\t",
+      "content": "下列程序代码运行结果是：（ ）。\t\n```\nimport java.util.ArrayList;\n\timport java.util.List;\npublic class Test {\n\t public static void main(String args[]) {\n\t    List list \u003d new ArrayList();\n\t    list.add(new Test());\n\t    list.add(new String(\"\"ABC\"\"));\n\t    list.add(new Test());\n\t    System.out.println(list.size());\n\t }\n\t}\n```\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1424623510076375040",
+      "description": "下列程序代码运行结果是：（ ）。\t\n```\nimport java.util.ArrayList;\n\timport java.util.List;\npublic class Test {\n\t public static void main(String args[]) {\n\t    List list \u003d new ArrayList();\n\t    list.add(new Test());\n\t    list.add(new String(\"\"ABC\"\"));\n\t    list.add(new Test());\n\t    System.out.println(list.size());\n\t }\n\t}\n```\n",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983701703734988805",
+      "label": "2-10",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "ArrayList myList\u003dnew Object()；\n",
+            "List myList\u003dnew ArrayList()；",
+            "ArrayList myList\u003dnew List()；",
+            "List myList\u003dnew List();"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "List--欲构造ArrayList类的一个实例，此类实现了List接口，下列哪个写法是正确的 ？",
+      "content": "欲构造ArrayList类的一个实例，此类实现了List接口，下列哪个写法是正确的 ？",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1424628149060464640",
+      "description": "欲构造ArrayList类的一个实例，此类实现了List接口，下列哪个写法是正确的 ？",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1983701703730794496": "2-1",
+    "1983701703730794497": "2-2",
+    "1983701703730794498": "2-3",
+    "1983701703730794499": "2-4",
+    "1983701703734988800": "2-5",
+    "1983701703734988801": "2-6",
+    "1983701703734988802": "2-7",
+    "1983701703734988803": "2-8",
+    "1983701703734988804": "2-9",
+    "1983701703734988805": "2-10"
+  }
+}

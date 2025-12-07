@@ -1,0 +1,187 @@
+{
+  "organizationById": {
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1980428028242960394",
+      "label": "3-1",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": ["基本数据类型", "整数类型", "浮点类型", "引用型数据类型"],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java中的数据类型可以分为两大类，分别是：（    ）和（    ）。",
+      "content": "Java中的数据类型可以分为两大类，分别是：（    ）和（    ）。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1372405005445656576",
+      "description": "Java中的数据类型可以分为两大类，分别是：（    ）和（    ）。",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1980428028242960395",
+      "label": "3-2",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 6,
+          "choices": [
+            "float f\u003d12.34;",
+            "byte b\u003d23;",
+            "float f1\u003d100;",
+            "long l\u003d23.3;",
+            "float f2\u003d100L;",
+            "char ch\u003d100;"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列赋值哪项赋值是不正确的？",
+      "content": "下列赋值哪项赋值是不正确的？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1372407841097109504",
+      "description": "下列赋值哪项赋值是不正确的？",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1980428028242960396",
+      "label": "3-3",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "所有switch-case语句都可以用if语句进行改写\n",
+            "所有if语句都可以用switch-case语句进行改写\n",
+            "switch-case语句用于等值判断\n",
+            "if语句可用于等值判断，也可用于区间判断，有时要用结构比较复杂的嵌套\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "switch-case语句与if语句相比，说法正确的是：",
+      "content": "switch-case语句与if语句相比，说法正确的是：\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1407339882985394176",
+      "description": "switch-case语句与if语句相比，说法正确的是：\n",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1980428028242960397",
+      "label": "3-4",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": ["0", "1", "true\n", "false"],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在Java语言的if结构中，是否执行该分支结构的判断条件表达式的运算结果可能是：（     ）。",
+      "content": "在Java语言的if结构中，是否执行该分支结构的判断条件表达式的运算结果可能是：（     ）。\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1407341927364661248",
+      "description": "在Java语言的if结构中，是否执行该分支结构的判断条件表达式的运算结果可能是：（     ）。\n",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1980428028242960398",
+      "label": "3-5",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "```\nif(  )\n{    } \n```",
+            "```\nif(  )\n{  }\nelse\n{  }\n```",
+            "```\nif(  )\n{   }\nelse if(  )\n{  }\nelse if(  )\n{  }\n```",
+            "```\nif(  )\n{  }\nelse if(  )\n{  }\nelse if(  )\n{  }\nelse\n{  }\t\n```\n\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面关于Java中的if结构形式，哪些是合法的? ",
+      "content": "下面关于Java中的if结构形式，哪些是合法的?\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1424178205149036544",
+      "description": "下面关于Java中的if结构形式，哪些是合法的?\n",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1980428028242960394": "3-1",
+    "1980428028242960395": "3-2",
+    "1980428028242960396": "3-3",
+    "1980428028242960397": "3-4",
+    "1980428028242960398": "3-5"
+  }
+}

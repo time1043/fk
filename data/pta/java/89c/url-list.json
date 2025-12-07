@@ -1,0 +1,92 @@
+{
+  "total": 5,
+  "problemSetProblems": [
+    {
+      "id": "1990595265456459781",
+      "label": "7-3",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 26,
+      "submitCount": 54,
+      "title": "jmu-Java-04面向对象进阶-01-接口-Comparable",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1990595265414516736",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1990595265456459782",
+      "label": "7-4",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 24,
+      "submitCount": 32,
+      "title": "jmu-Java-04面向对象进阶--02-接口-Comparator",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1990595265414516736",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1990595265456459783",
+      "label": "",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 24,
+      "submitCount": 39,
+      "title": "打球过程",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1990595265414516736",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1990595265456459784",
+      "label": "",
+      "score": 15,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 19,
+      "submitCount": 80,
+      "title": "sdut-oop-7 答答租车系统（类的继承与多态 面向对象综合练习）",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1990595265414516736",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1990595265456459785",
+      "label": "",
+      "score": 15,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 24,
+      "submitCount": 28,
+      "title": "快递计价器",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1990595265414516736",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1990595265456459781": "7-3",
+    "1990595265456459782": "7-4",
+    "1990595265456459783": "7-3",
+    "1990595265456459784": "7-4",
+    "1990595265456459785": "7-5"
+  }
+}

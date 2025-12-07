@@ -1,0 +1,19 @@
+{
+  "problemType": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+  "details": [
+    {
+      "problemId": "0",
+      "problemSetProblemId": "1977900031309058055",
+      "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+        "answers": ["A", "D"]
+      }
+    },
+    {
+      "problemId": "0",
+      "problemSetProblemId": "1977900031309058056",
+      "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+        "answers": ["B", "D"]
+      }
+    }
+  ]
+}

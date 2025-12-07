@@ -1,0 +1,240 @@
+[
+  {
+    "questionId": "143336",
+    "level": "中",
+    "questionName": "人的本能包括：",
+    "answerList": [
+      {
+        "answerId": "551473",
+        "quizQuestionId": "143336",
+        "comments": "",
+        "text": "生命本能"
+      },
+      {
+        "answerId": "551474",
+        "quizQuestionId": "143336",
+        "comments": "",
+        "text": "社会认同本能"
+      },
+      {
+        "answerId": "551475",
+        "quizQuestionId": "143336",
+        "comments": "",
+        "text": "自我认同本能"
+      },
+      {
+        "answerId": "551476",
+        "quizQuestionId": "143336",
+        "comments": "",
+        "text": "解脱本能"
+      }
+    ],
+    "name": "人的本能包括：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143337",
+    "level": "中",
+    "questionName": "提升自己的社会适应能力包括：",
+    "answerList": [
+      {
+        "answerId": "551477",
+        "quizQuestionId": "143337",
+        "comments": "",
+        "text": "顺势"
+      },
+      {
+        "answerId": "551478",
+        "quizQuestionId": "143337",
+        "comments": "",
+        "text": "借势"
+      },
+      {
+        "answerId": "551479",
+        "quizQuestionId": "143337",
+        "comments": "",
+        "text": "造势"
+      },
+      {
+        "answerId": "551480",
+        "quizQuestionId": "143337",
+        "comments": "",
+        "text": "整合"
+      }
+    ],
+    "name": "提升自己的社会适应能力包括：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143338",
+    "level": "中",
+    "questionName": "价值观是人们关于价值本质的认识以及任何事物的（ ）观点的体系。",
+    "answerList": [
+      {
+        "answerId": "551481",
+        "quizQuestionId": "143338",
+        "comments": "",
+        "text": "评价标准"
+      },
+      {
+        "answerId": "551482",
+        "quizQuestionId": "143338",
+        "comments": "",
+        "text": "评价原则"
+      },
+      {
+        "answerId": "551483",
+        "quizQuestionId": "143338",
+        "comments": "",
+        "text": "评价方法"
+      },
+      {
+        "answerId": "551484",
+        "quizQuestionId": "143338",
+        "comments": "",
+        "text": "认知评价"
+      }
+    ],
+    "name": "价值观是人们关于价值本质的认识以及任何事物的（ ）观点的体系。",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143339",
+    "level": "中",
+    "questionName": "心理健康的内容包括：",
+    "answerList": [
+      {
+        "answerId": "551485",
+        "quizQuestionId": "143339",
+        "comments": "",
+        "text": "自我悦纳"
+      },
+      {
+        "answerId": "551486",
+        "quizQuestionId": "143339",
+        "comments": "",
+        "text": "社会适应良好"
+      },
+      {
+        "answerId": "551487",
+        "quizQuestionId": "143339",
+        "comments": "",
+        "text": "与客观的环境统一和适应"
+      },
+      {
+        "answerId": "551488",
+        "quizQuestionId": "143339",
+        "comments": "",
+        "text": "情绪相对稳定"
+      }
+    ],
+    "name": "心理健康的内容包括：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143340",
+    "level": "中",
+    "questionName": "“善有善报，恶有恶报”属于（ ）学。",
+    "answerList": [
+      {
+        "answerId": "551489",
+        "quizQuestionId": "143340",
+        "comments": "",
+        "text": "报应学"
+      },
+      {
+        "answerId": "551490",
+        "quizQuestionId": "143340",
+        "comments": "",
+        "text": "因果学"
+      },
+      {
+        "answerId": "551491",
+        "quizQuestionId": "143340",
+        "comments": "",
+        "text": "相对学"
+      },
+      {
+        "answerId": "551492",
+        "quizQuestionId": "143340",
+        "comments": "",
+        "text": "厚黑学"
+      }
+    ],
+    "name": "“善有善报，恶有恶报”属于（ ）学。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143341",
+    "level": "中",
+    "questionName": "心理健康大致可分为：",
+    "answerList": [
+      {
+        "answerId": "551493",
+        "quizQuestionId": "143341",
+        "comments": "",
+        "text": "心理疾病或障碍"
+      },
+      {
+        "answerId": "551494",
+        "quizQuestionId": "143341",
+        "comments": "",
+        "text": "健全人格"
+      },
+      {
+        "answerId": "551495",
+        "quizQuestionId": "143341",
+        "comments": "",
+        "text": "心理机能正常"
+      },
+      {
+        "answerId": "551496",
+        "quizQuestionId": "143341",
+        "comments": "",
+        "text": "心理健康"
+      }
+    ],
+    "name": "心理健康大致可分为：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143342",
+    "level": "中",
+    "questionName": "（ ）是指那种由不正确、不合理的价值认识概括形成,并占主导地位的错误价值观念。",
+    "answerList": [
+      {
+        "answerId": "551497",
+        "quizQuestionId": "143342",
+        "comments": "",
+        "text": "价值观念错位"
+      },
+      {
+        "answerId": "551498",
+        "quizQuestionId": "143342",
+        "comments": "",
+        "text": "价值评价偏差"
+      },
+      {
+        "answerId": "551499",
+        "quizQuestionId": "143342",
+        "comments": "",
+        "text": "逆反心理"
+      },
+      {
+        "answerId": "551500",
+        "quizQuestionId": "143342",
+        "comments": "",
+        "text": "价值认同失衡"
+      }
+    ],
+    "name": "（ ）是指那种由不正确、不合理的价值认识概括形成,并占主导地位的错误价值观念。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  }
+]

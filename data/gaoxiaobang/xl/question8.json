@@ -1,0 +1,240 @@
+[
+  {
+    "questionId": "143297",
+    "level": "中",
+    "questionName": "<p>人际交往的两个技巧分别是（ &nbsp;）和（ &nbsp;）。</p>",
+    "answerList": [
+      {
+        "answerId": "551335",
+        "quizQuestionId": "143297",
+        "comments": "",
+        "text": "<p>接受批评法</p>"
+      },
+      {
+        "answerId": "551336",
+        "quizQuestionId": "143297",
+        "comments": "",
+        "text": "<p>一分为二法</p>"
+      },
+      {
+        "answerId": "551337",
+        "quizQuestionId": "143297",
+        "comments": "",
+        "text": "<p>借力法</p>"
+      },
+      {
+        "answerId": "551338",
+        "quizQuestionId": "143297",
+        "comments": "",
+        "text": "<p>自我整合法</p>"
+      }
+    ],
+    "name": "<p>人际交往的两个技巧分别是（ &nbsp;）和（ &nbsp;）。</p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143291",
+    "level": "中",
+    "questionName": "<p>大学生人际交往的问题有：</p>",
+    "answerList": [
+      {
+        "answerId": "551311",
+        "quizQuestionId": "143291",
+        "comments": "",
+        "text": "<p>不会交往</p>"
+      },
+      {
+        "answerId": "551312",
+        "quizQuestionId": "143291",
+        "comments": "",
+        "text": "<p>不愿交往</p>"
+      },
+      {
+        "answerId": "551313",
+        "quizQuestionId": "143291",
+        "comments": "",
+        "text": "<p>不善交往</p>"
+      },
+      {
+        "answerId": "551314",
+        "quizQuestionId": "143291",
+        "comments": "",
+        "text": "<p>不易交往</p>"
+      }
+    ],
+    "name": "<p>大学生人际交往的问题有：</p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143292",
+    "level": "中",
+    "questionName": "人际交往的过程包括：",
+    "answerList": [
+      {
+        "answerId": "551315",
+        "quizQuestionId": "143292",
+        "comments": "",
+        "text": "定向阶段"
+      },
+      {
+        "answerId": "551316",
+        "quizQuestionId": "143292",
+        "comments": "",
+        "text": "稳定交往阶段"
+      },
+      {
+        "answerId": "551317",
+        "quizQuestionId": "143292",
+        "comments": "",
+        "text": "感情交流阶段"
+      },
+      {
+        "answerId": "551318",
+        "quizQuestionId": "143292",
+        "comments": "",
+        "text": "情感探索阶段"
+      }
+    ],
+    "name": "人际交往的过程包括：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143293",
+    "level": "中",
+    "questionName": "人际交往的原则有：",
+    "answerList": [
+      {
+        "answerId": "551319",
+        "quizQuestionId": "143293",
+        "comments": "",
+        "text": "相容原则"
+      },
+      {
+        "answerId": "551320",
+        "quizQuestionId": "143293",
+        "comments": "",
+        "text": "理解原则"
+      },
+      {
+        "answerId": "551321",
+        "quizQuestionId": "143293",
+        "comments": "",
+        "text": "信用原则"
+      },
+      {
+        "answerId": "551322",
+        "quizQuestionId": "143293",
+        "comments": "",
+        "text": "相互原则"
+      }
+    ],
+    "name": "人际交往的原则有：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143294",
+    "level": "中",
+    "questionName": "人际交往的三个隐藏动力是：",
+    "answerList": [
+      {
+        "answerId": "551323",
+        "quizQuestionId": "143294",
+        "comments": "",
+        "text": "身份定位"
+      },
+      {
+        "answerId": "551324",
+        "quizQuestionId": "143294",
+        "comments": "",
+        "text": "付出与收取的平衡"
+      },
+      {
+        "answerId": "551325",
+        "quizQuestionId": "143294",
+        "comments": "",
+        "text": "包容"
+      },
+      {
+        "answerId": "551326",
+        "quizQuestionId": "143294",
+        "comments": "",
+        "text": "秩序"
+      }
+    ],
+    "name": "人际交往的三个隐藏动力是：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143295",
+    "level": "中",
+    "questionName": "人际交往中界限不清的现象有：",
+    "answerList": [
+      {
+        "answerId": "551327",
+        "quizQuestionId": "143295",
+        "comments": "",
+        "text": "拯救"
+      },
+      {
+        "answerId": "551328",
+        "quizQuestionId": "143295",
+        "comments": "",
+        "text": "讨好"
+      },
+      {
+        "answerId": "551329",
+        "quizQuestionId": "143295",
+        "comments": "",
+        "text": "控制"
+      },
+      {
+        "answerId": "551330",
+        "quizQuestionId": "143295",
+        "comments": "",
+        "text": "重感情"
+      }
+    ],
+    "name": "人际交往中界限不清的现象有：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143296",
+    "level": "中",
+    "questionName": "人际交往中的心理障碍有：",
+    "answerList": [
+      {
+        "answerId": "551331",
+        "quizQuestionId": "143296",
+        "comments": "",
+        "text": "嫉妒心理"
+      },
+      {
+        "answerId": "551332",
+        "quizQuestionId": "143296",
+        "comments": "",
+        "text": "自卑心理"
+      },
+      {
+        "answerId": "551333",
+        "quizQuestionId": "143296",
+        "comments": "",
+        "text": "自负心理"
+      },
+      {
+        "answerId": "551334",
+        "quizQuestionId": "143296",
+        "comments": "",
+        "text": "恐怖心理"
+      }
+    ],
+    "name": "人际交往中的心理障碍有：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  }
+]

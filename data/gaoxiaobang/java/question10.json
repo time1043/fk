@@ -1,0 +1,274 @@
+[
+  {
+    "questionId": "297347",
+    "level": "中",
+    "questionName": "关于异常的含义，下列描述不正确的一个是（    ）",
+    "answerList": [
+      {
+        "answerId": "1093649",
+        "quizQuestionId": "297347",
+        "comments": "",
+        "text": "异常可以出现在编译阶段"
+      },
+      {
+        "answerId": "1093650",
+        "quizQuestionId": "297347",
+        "comments": "",
+        "text": "异常可以出现在运行阶段"
+      },
+      {
+        "answerId": "1093651",
+        "quizQuestionId": "297347",
+        "comments": "",
+        "text": "可以自定义的异常事件 "
+      },
+      {
+        "answerId": "1093652",
+        "quizQuestionId": "297347",
+        "comments": "",
+        "text": "方法内部的异常语句只能通过throws抛出<br/>"
+      }
+    ],
+    "name": "关于异常的含义，下列描述不正确的一个是（    ）",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297348",
+    "level": "中",
+    "questionName": "自定义异常时，一般建议通过对下列哪一项进行继承？<br/>",
+    "answerList": [
+      {
+        "answerId": "1093653",
+        "quizQuestionId": "297348",
+        "comments": "",
+        "text": "Error类"
+      },
+      {
+        "answerId": "1093654",
+        "quizQuestionId": "297348",
+        "comments": "",
+        "text": "unCheckException类"
+      },
+      {
+        "answerId": "1093655",
+        "quizQuestionId": "297348",
+        "comments": "",
+        "text": "Exception类"
+      },
+      {
+        "answerId": "1093656",
+        "quizQuestionId": "297348",
+        "comments": "",
+        "text": "RunTimeException类<br/>"
+      }
+    ],
+    "name": "自定义异常时，一般建议通过对下列哪一项进行继承？<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297349",
+    "level": "中",
+    "questionName": "对应try和catch子句的排列方式，下列哪一项是正确的？",
+    "answerList": [
+      {
+        "answerId": "1093657",
+        "quizQuestionId": "297349",
+        "comments": "",
+        "text": "特殊异常在前，一般异常在后"
+      },
+      {
+        "answerId": "1093658",
+        "quizQuestionId": "297349",
+        "comments": "",
+        "text": "一般异常在前，特殊异常在后"
+      },
+      {
+        "answerId": "1093659",
+        "quizQuestionId": "297349",
+        "comments": "",
+        "text": "只能有子类异常"
+      },
+      {
+        "answerId": "1093660",
+        "quizQuestionId": "297349",
+        "comments": "",
+        "text": "try语句块不能单独匹配finally"
+      }
+    ],
+    "name": "对应try和catch子句的排列方式，下列哪一项是正确的？",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297350",
+    "level": "中",
+    "questionName": "对应try、catch、finally的组合中，下列哪一项是不正确的？<br/>",
+    "answerList": [
+      {
+        "answerId": "1093661",
+        "quizQuestionId": "297350",
+        "comments": "",
+        "text": "try可以同时匹配 catch和finally"
+      },
+      {
+        "answerId": "1093662",
+        "quizQuestionId": "297350",
+        "comments": "",
+        "text": "try 匹配多个catch"
+      },
+      {
+        "answerId": "1093663",
+        "quizQuestionId": "297350",
+        "comments": "",
+        "text": "try仅匹配一个 finally"
+      },
+      {
+        "answerId": "1093664",
+        "quizQuestionId": "297350",
+        "comments": "",
+        "text": "catch语句块仅和finally匹配"
+      }
+    ],
+    "name": "对应try、catch、finally的组合中，下列哪一项是不正确的？<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297351",
+    "level": "中",
+    "questionName": "有一个异常类为NumberException，在方法体内抛出该异常对象的正确写法是（    ）<br/>",
+    "answerList": [
+      {
+        "answerId": "1093665",
+        "quizQuestionId": "297351",
+        "comments": "",
+        "text": "new throw NumberException();"
+      },
+      {
+        "answerId": "1093666",
+        "quizQuestionId": "297351",
+        "comments": "",
+        "text": "throw new NumberException();"
+      },
+      {
+        "answerId": "1093667",
+        "quizQuestionId": "297351",
+        "comments": "",
+        "text": "throws NumberException();"
+      },
+      {
+        "answerId": "1093668",
+        "quizQuestionId": "297351",
+        "comments": "",
+        "text": "throws NumberException;"
+      }
+    ],
+    "name": "有一个异常类为NumberException，在方法体内抛出该异常对象的正确写法是（    ）<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297352",
+    "level": "中",
+    "questionName": "下列抛出异常分为三种情况，请选出不符合的一项？<br/>",
+    "answerList": [
+      {
+        "answerId": "1093669",
+        "quizQuestionId": "297352",
+        "comments": "",
+        "text": "由系统自动抛出异常"
+      },
+      {
+        "answerId": "1093670",
+        "quizQuestionId": "297352",
+        "comments": "",
+        "text": "通过throw抛出异常"
+      },
+      {
+        "answerId": "1093671",
+        "quizQuestionId": "297352",
+        "comments": "",
+        "text": "可以利用if语句进行抛出"
+      },
+      {
+        "answerId": "1093672",
+        "quizQuestionId": "297352",
+        "comments": "",
+        "text": "通过throws抛出异常"
+      }
+    ],
+    "name": "下列抛出异常分为三种情况，请选出不符合的一项？<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297353",
+    "level": "中",
+    "questionName": "<p>由于异常对象与catch块的匹配是按照catch块的（ &nbsp; ） 顺序进行的，所以在处理多异常时应注意认真设计各catch块的排列顺序。<br/></p>",
+    "answerList": [
+      {
+        "answerId": "1093673",
+        "quizQuestionId": "297353",
+        "comments": "",
+        "text": "<p>从前至后(catch出现的先后顺序)</p>"
+      },
+      {
+        "answerId": "1093674",
+        "quizQuestionId": "297353",
+        "comments": "",
+        "text": "<p>父类子类顺序</p>"
+      },
+      {
+        "answerId": "1093675",
+        "quizQuestionId": "297353",
+        "comments": "",
+        "text": "<p>从后往前(catch出现的逆序)</p>"
+      },
+      {
+        "answerId": "1093676",
+        "quizQuestionId": "297353",
+        "comments": "",
+        "text": "<p>随机</p>"
+      }
+    ],
+    "name": "<p>由于异常对象与catch块的匹配是按照catch块的（ &nbsp; ） 顺序进行的，所以在处理多异常时应注意认真设计各catch块的排列顺序。<br/></p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297354",
+    "level": "中",
+    "questionName": "下列程序执行的结果是（    ）。<br/>   public class Ch10_1{<br/>   public static void main(String[] args) {<br/>   try{<br/>    return;<br/>   }<br/>   finally{<br/>    System.out.println(&quot;结束&quot;);<br/>   }<br/>     }<br/>}<br/>",
+    "answerList": [
+      {
+        "answerId": "1093677",
+        "quizQuestionId": "297354",
+        "comments": "",
+        "text": "程序正常，无任何信息返回"
+      },
+      {
+        "answerId": "1093678",
+        "quizQuestionId": "297354",
+        "comments": "",
+        "text": "程序正常运行，并输出&ldquo;结束&rdquo;"
+      },
+      {
+        "answerId": "1093679",
+        "quizQuestionId": "297354",
+        "comments": "",
+        "text": "编译通过，但运行时出现异常 "
+      },
+      {
+        "answerId": "1093680",
+        "quizQuestionId": "297354",
+        "comments": "",
+        "text": "没有catch子句，编译报错"
+      }
+    ],
+    "name": "下列程序执行的结果是（    ）。<br/>   public class Ch10_1{<br/>   public static void main(String[] args) {<br/>   try{<br/>    return;<br/>   }<br/>   finally{<br/>    System.out.println(&quot;结束&quot;);<br/>   }<br/>     }<br/>}<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  }
+]

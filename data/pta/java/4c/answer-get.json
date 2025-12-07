@@ -1,0 +1,540 @@
+[
+  {
+    "submission": {
+      "id": "1983738312792891392",
+      "userId": "1970648872905211904",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1980428028242960399",
+      "submitAt": "2025-10-30T03:30:44Z",
+      "status": "ACCEPTED",
+      "score": 10,
+      "compiler": "JAVAC",
+      "time": 0.088,
+      "memory": 17829888,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1980428028242960399",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "public class Main {\n    public static void main(String[] args ){\n        for (int i = 1000; i < 9999; i++) {\n            int a = i / 1000;\n            int b = i / 100 % 10;\n            int c = i / 10 % 10;\n            int d = i % 10;\n            if(a==b&&c==d){\n                for (int j = 10; j <100 ; j++) {\n                    if (j*j==i){\n                        System.out.println(\"车牌号码是\"+i);\n                    }\n                }\n\n            }\n        }\n    }\n}\n"
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 10,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "0": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.088,
+                "memory": 17829888,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 10,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1980428028242960399"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1980428028221988864",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-10-30T03:30:45Z"
+    }
+  },
+  {
+    "submission": {
+      "id": "1984066471405182976",
+      "userId": "1970648872905211904",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1980428028242960400",
+      "submitAt": "2025-10-31T01:14:43Z",
+      "status": "ACCEPTED",
+      "score": 10,
+      "compiler": "JAVAC",
+      "time": 0.111,
+      "memory": 18526208,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1980428028242960400",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        // 确保有输入再读取\n        if (scanner.hasNext()) {\n            String str = scanner.next();\n            boolean isPalindrome = true;\n            \n            for (int i = 0; i < str.length() / 2; i++) {\n                if (str.charAt(i) != str.charAt(str.length() - i - 1)) {\n                    isPalindrome = false;\n                    break;\n                }\n            }\n            \n            System.out.println(isPalindrome ? \"yes\" : \"no\");\n        }\n        \n        scanner.close();\n    }\n}"
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 10,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "0": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.111,
+                "memory": 18391040,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 5,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "1": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.11,
+                "memory": 18526208,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 5,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1980428028242960400"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1980428028221988864",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-10-31T01:14:44Z"
+    }
+  },
+  {
+    "submission": {
+      "id": "1984070281326379008",
+      "userId": "1970648872905211904",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1980428028242960401",
+      "submitAt": "2025-10-31T01:29:51Z",
+      "status": "ACCEPTED",
+      "score": 10,
+      "compiler": "JAVAC",
+      "time": 0.154,
+      "memory": 19718144,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1980428028242960401",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.Scanner;\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int ints=scanner.nextInt();\n        int[] ints1 = new int[ints];\n        for (int i = 0; i < ints1.length; i++) {\n            ints1[i]=scanner.nextInt();\n        }\n        int max=ints1[0];\n        for (int j : ints1) {\n            if (j >= max) {\n                max = j;\n            }\n        }\n        System.out.println(max);\n\n    }\n}\n"
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 10,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "0": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.142,
+                "memory": 19357696,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "1": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.154,
+                "memory": 19681280,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "2": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.152,
+                "memory": 19718144,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "3": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.126,
+                "memory": 19140608,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "4": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.152,
+                "memory": 19681280,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1980428028242960401"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1980428028221988864",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-10-31T01:29:52Z"
+    }
+  },
+  {
+    "submission": {
+      "id": "1984088311854940160",
+      "userId": "1970648872905211904",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1980428028242960402",
+      "submitAt": "2025-10-31T02:41:30Z",
+      "status": "ACCEPTED",
+      "score": 15,
+      "compiler": "JAVAC",
+      "time": 0.117,
+      "memory": 18886656,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1980428028242960402",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int n = scanner.nextInt();\n        \n        if (n == 1) {\n            System.out.println(1);\n        } else if (n == 2) {\n            System.out.println(2);\n        } else {\n            int a = 1;  // 第1个月\n            int b = 2;  // 第2个月\n            int result = 0;\n            \n            for (int i = 3; i <= n; i++) {\n                result = a + b;\n                a = b;\n                b = result;\n            }\n            \n            System.out.println(result);\n        }\n        \n        scanner.close();\n    }\n}"
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 15,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "0": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.117,
+                "memory": 18886656,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "1": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.117,
+                "memory": 18710528,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "2": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.114,
+                "memory": 18530304,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "3": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.116,
+                "memory": 18632704,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "4": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.116,
+                "memory": 18771968,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1980428028242960402"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1980428028221988864",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-10-31T02:41:31Z"
+    }
+  },
+  {
+    "submission": {
+      "id": "1984081692416950272",
+      "userId": "1970648872905211904",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1980428028242960403",
+      "submitAt": "2025-10-31T02:15:12Z",
+      "status": "ACCEPTED",
+      "score": 15,
+      "compiler": "JAVAC",
+      "time": 0.121,
+      "memory": 18944000,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1980428028242960403",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.Scanner;\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int a=scanner.nextInt();\n        int b=scanner.nextInt();\n        int c=scanner.nextInt();\n        int d=scanner.nextInt();\n        System.out.println(Math.abs(a-c)+Math.abs(b-d));\n\n    }\n}\n"
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 15,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "0": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.119,
+                "memory": 18784256,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "1": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.12,
+                "memory": 18755584,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "2": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.119,
+                "memory": 18579456,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "3": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.12,
+                "memory": 18944000,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "4": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.121,
+                "memory": 18591744,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1980428028242960403"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1980428028221988864",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-10-31T02:15:13Z"
+    }
+  }
+]

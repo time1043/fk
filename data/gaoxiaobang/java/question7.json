@@ -1,0 +1,274 @@
+[
+  {
+    "questionId": "297319",
+    "level": "中",
+    "questionName": "执行以下程序，正确的结果是（  ）<br/>import java.util.Arrays;<br/>public class Lx1 {<br/> public static void main(String[] args) {<br/>  String s1[] = { &quot;欢&quot;,&quot;迎&quot; ,&quot;5&quot;, &quot;G&quot;, &quot;网&quot;, &quot;络&quot;, };<br/>  Arrays.sort(s1);<br/>  for (String s0 : s1)<br/>   System.out.print(s0);<br/> }<br/>}",
+    "answerList": [
+      {
+        "answerId": "1093537",
+        "quizQuestionId": "297319",
+        "comments": "",
+        "text": "欢迎5G网络"
+      },
+      {
+        "answerId": "1093538",
+        "quizQuestionId": "297319",
+        "comments": "",
+        "text": "5G欢迎网络"
+      },
+      {
+        "answerId": "1093539",
+        "quizQuestionId": "297319",
+        "comments": "",
+        "text": "网络欢迎5G"
+      },
+      {
+        "answerId": "1093540",
+        "quizQuestionId": "297319",
+        "comments": "",
+        "text": "5G欢络网迎"
+      }
+    ],
+    "name": "执行以下程序，正确的结果是（  ）<br/>import java.util.Arrays;<br/>public class Lx1 {<br/> public static void main(String[] args) {<br/>  String s1[] = { &quot;欢&quot;,&quot;迎&quot; ,&quot;5&quot;, &quot;G&quot;, &quot;网&quot;, &quot;络&quot;, };<br/>  Arrays.sort(s1);<br/>  for (String s0 : s1)<br/>   System.out.print(s0);<br/> }<br/>}",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297320",
+    "level": "中",
+    "questionName": "设有下列数组定义语句：<br/> int a[][]= {{1, 2}, {3}};<br/>则对此语句的叙述正确的是（   ）。<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1093541",
+        "quizQuestionId": "297320",
+        "comments": "",
+        "text": "定义了一个名为a的一维数组  "
+      },
+      {
+        "answerId": "1093542",
+        "quizQuestionId": "297320",
+        "comments": "",
+        "text": " a数组 a[1][1]为0"
+      },
+      {
+        "answerId": "1093543",
+        "quizQuestionId": "297320",
+        "comments": "",
+        "text": " a数组元素的下标为1～3"
+      },
+      {
+        "answerId": "1093544",
+        "quizQuestionId": "297320",
+        "comments": "",
+        "text": "数组中每个元素的类型都是整数"
+      }
+    ],
+    "name": "设有下列数组定义语句：<br/> int a[][]= {{1, 2}, {3}};<br/>则对此语句的叙述正确的是（   ）。<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297321",
+    "level": "中",
+    "questionName": "下列程序输出的结果是（    ）<br/>public class Lx2 {<br/>public static void main(String[] args) {<br/> String a[][] ={{&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;},{&quot;&quot;},{&quot;&quot;,&quot;&quot;}};<br/> System.out.println(a[2].length);<br/>}<br/>}",
+    "answerList": [
+      {
+        "answerId": "1093545",
+        "quizQuestionId": "297321",
+        "comments": "",
+        "text": "1"
+      },
+      {
+        "answerId": "1093546",
+        "quizQuestionId": "297321",
+        "comments": "",
+        "text": "2"
+      },
+      {
+        "answerId": "1093547",
+        "quizQuestionId": "297321",
+        "comments": "",
+        "text": "3"
+      },
+      {
+        "answerId": "1093548",
+        "quizQuestionId": "297321",
+        "comments": "",
+        "text": "4"
+      }
+    ],
+    "name": "下列程序输出的结果是（    ）<br/>public class Lx2 {<br/>public static void main(String[] args) {<br/> String a[][] ={{&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;},{&quot;&quot;},{&quot;&quot;,&quot;&quot;}};<br/> System.out.println(a[2].length);<br/>}<br/>}",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297322",
+    "level": "中",
+    "questionName": "给出下面代码，关于该程序以下哪个说法是正确的？（   ）<br/>public class Person{<br/>static int arr[] = new int[5];<br/>public static void main(String a[]) {<br/> for(int i=0;i&lt;arr.length;i++)<br/>System.out.print(arr[0]);<br/>}<br/>}",
+    "answerList": [
+      {
+        "answerId": "1093549",
+        "quizQuestionId": "297322",
+        "comments": "",
+        "text": "编译时将产生错误"
+      },
+      {
+        "answerId": "1093550",
+        "quizQuestionId": "297322",
+        "comments": "",
+        "text": "编译时正确，运行时将产生错误"
+      },
+      {
+        "answerId": "1093551",
+        "quizQuestionId": "297322",
+        "comments": "",
+        "text": "输出5个零"
+      },
+      {
+        "answerId": "1093552",
+        "quizQuestionId": "297322",
+        "comments": "",
+        "text": "输出空"
+      }
+    ],
+    "name": "给出下面代码，关于该程序以下哪个说法是正确的？（   ）<br/>public class Person{<br/>static int arr[] = new int[5];<br/>public static void main(String a[]) {<br/> for(int i=0;i&lt;arr.length;i++)<br/>System.out.print(arr[0]);<br/>}<br/>}",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297323",
+    "level": "中",
+    "questionName": "下列程序的运行结果（   ）<br/>public class Lx3 {<br/>    public static void main(String[] args) {<br/>   int a[]={12,39,26,41,55,63,72,40,83,95};<br/>  int i1=0,i2=0;<br/>  for(int i=0;i&lt;a.length;i++)<br/>     if(a[i] %2 == 1) i1++;<br/>     else i2++;<br/>   System.out.println(i1+&quot; &quot;+i2);<br/>   }<br/>}<br/>",
+    "answerList": [
+      {
+        "answerId": "1093553",
+        "quizQuestionId": "297323",
+        "comments": "",
+        "text": "4  6"
+      },
+      {
+        "answerId": "1093554",
+        "quizQuestionId": "297323",
+        "comments": "",
+        "text": "程序错误"
+      },
+      {
+        "answerId": "1093555",
+        "quizQuestionId": "297323",
+        "comments": "",
+        "text": "6  4"
+      },
+      {
+        "answerId": "1093556",
+        "quizQuestionId": "297323",
+        "comments": "",
+        "text": "3  7"
+      }
+    ],
+    "name": "下列程序的运行结果（   ）<br/>public class Lx3 {<br/>    public static void main(String[] args) {<br/>   int a[]={12,39,26,41,55,63,72,40,83,95};<br/>  int i1=0,i2=0;<br/>  for(int i=0;i&lt;a.length;i++)<br/>     if(a[i] %2 == 1) i1++;<br/>     else i2++;<br/>   System.out.println(i1+&quot; &quot;+i2);<br/>   }<br/>}<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297324",
+    "level": "中",
+    "questionName": "阅读以下程序，选择正确的运行结果：（   ）<br/>public class Lx4 {<br/>   public static void main(String[] args) {<br/>   int a[]={36,25,48,14,55,40,32,66};<br/>  int b1,b2;<br/>  b1=b2=a[0];<br/>  for(int i=1;i&lt;a.length;i++)<br/>     if ( a[i] &gt;b1 ){<br/>        if ( b1 &gt;b2 ) b2=b1;<br/>        b1=a[i];<br/>       }<br/>  System.out.println(b1+&quot; &quot;+b2);<br/>    }<br/>   }",
+    "answerList": [
+      {
+        "answerId": "1093557",
+        "quizQuestionId": "297324",
+        "comments": "",
+        "text": "55  66"
+      },
+      {
+        "answerId": "1093558",
+        "quizQuestionId": "297324",
+        "comments": "",
+        "text": "66  55"
+      },
+      {
+        "answerId": "1093559",
+        "quizQuestionId": "297324",
+        "comments": "",
+        "text": "66  48"
+      },
+      {
+        "answerId": "1093560",
+        "quizQuestionId": "297324",
+        "comments": "",
+        "text": "55  48"
+      }
+    ],
+    "name": "阅读以下程序，选择正确的运行结果：（   ）<br/>public class Lx4 {<br/>   public static void main(String[] args) {<br/>   int a[]={36,25,48,14,55,40,32,66};<br/>  int b1,b2;<br/>  b1=b2=a[0];<br/>  for(int i=1;i&lt;a.length;i++)<br/>     if ( a[i] &gt;b1 ){<br/>        if ( b1 &gt;b2 ) b2=b1;<br/>        b1=a[i];<br/>       }<br/>  System.out.println(b1+&quot; &quot;+b2);<br/>    }<br/>   }",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297325",
+    "level": "中",
+    "questionName": "下面代码的功能是（   ）。<br/>public class Lx5 {<br/><br/> public static void main(String[] args) {<br/>  int[] a = new int[3];<br/>  a[0] = 10;<br/>  a[1] = 20;<br/>  a[2] = 5;<br/>  System.out.println(guessWhat(a));<br/> }<br/><br/> public static int guessWhat(int arr[]) {<br/>  int x = 0;<br/>  for (int i = 0; i &lt; arr.length; i++) {<br/>   if (x &lt; arr[i]) {<br/>    x = arr[i];<br/>   }<br/>  }<br/>  return x;<br/> }<br/>}<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1093561",
+        "quizQuestionId": "297325",
+        "comments": "",
+        "text": "10"
+      },
+      {
+        "answerId": "1093562",
+        "quizQuestionId": "297325",
+        "comments": "",
+        "text": "20"
+      },
+      {
+        "answerId": "1093563",
+        "quizQuestionId": "297325",
+        "comments": "",
+        "text": "5"
+      },
+      {
+        "answerId": "1093564",
+        "quizQuestionId": "297325",
+        "comments": "",
+        "text": "2"
+      }
+    ],
+    "name": "下面代码的功能是（   ）。<br/>public class Lx5 {<br/><br/> public static void main(String[] args) {<br/>  int[] a = new int[3];<br/>  a[0] = 10;<br/>  a[1] = 20;<br/>  a[2] = 5;<br/>  System.out.println(guessWhat(a));<br/> }<br/><br/> public static int guessWhat(int arr[]) {<br/>  int x = 0;<br/>  for (int i = 0; i &lt; arr.length; i++) {<br/>   if (x &lt; arr[i]) {<br/>    x = arr[i];<br/>   }<br/>  }<br/>  return x;<br/> }<br/>}<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297326",
+    "level": "中",
+    "questionName": "下列代码的输出结果是（   ）。 <br/>  public class Lx6 {<br/> String str = new String(&quot;Joe&quot;);<br/> char[] ch = { &#39;A&#39;, &#39;d&#39;, &#39;D&#39; };<br/><br/> public static void main(String[] args) {<br/>  Lx6 ex = new Lx6();<br/>  ex.change(ex.str, ex.ch);<br/>  System.out.print(ex.str + &quot; and &quot;);<br/>  System.out.println(ex.ch);<br/> }<br/><br/> public void change(String str, char ch[]) {<br/>  str = &quot;you win&quot;;<br/>  ch[0] = &#39;T&#39;;<br/> }<br/>}",
+    "answerList": [
+      {
+        "answerId": "1093565",
+        "quizQuestionId": "297326",
+        "comments": "",
+        "text": "Joe and AdT "
+      },
+      {
+        "answerId": "1093566",
+        "quizQuestionId": "297326",
+        "comments": "",
+        "text": "Joe and TdD"
+      },
+      {
+        "answerId": "1093567",
+        "quizQuestionId": "297326",
+        "comments": "",
+        "text": "you win and TdD"
+      },
+      {
+        "answerId": "1093568",
+        "quizQuestionId": "297326",
+        "comments": "",
+        "text": "test ok and AdD"
+      }
+    ],
+    "name": "下列代码的输出结果是（   ）。 <br/>  public class Lx6 {<br/> String str = new String(&quot;Joe&quot;);<br/> char[] ch = { &#39;A&#39;, &#39;d&#39;, &#39;D&#39; };<br/><br/> public static void main(String[] args) {<br/>  Lx6 ex = new Lx6();<br/>  ex.change(ex.str, ex.ch);<br/>  System.out.print(ex.str + &quot; and &quot;);<br/>  System.out.println(ex.ch);<br/> }<br/><br/> public void change(String str, char ch[]) {<br/>  str = &quot;you win&quot;;<br/>  ch[0] = &#39;T&#39;;<br/> }<br/>}",
+    "comment": "",
+    "questionType": "multiple_choice"
+  }
+]

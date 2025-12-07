@@ -1,0 +1,1017 @@
+{
+  "organizationById": {
+    "1": {
+      "id": "1",
+      "name": "浙江大学",
+      "code": "zju",
+      "type": "SCHOOL",
+      "logo": "ffecf2a6-4935-4344-b640-35360f3c1f88.png"
+    },
+    "75": {
+      "id": "75",
+      "name": "河北农业大学",
+      "code": "hebau",
+      "type": "SCHOOL",
+      "logo": "ad5787ec-3e39-4d08-bd68-1dd0e1ac1bae.png"
+    },
+    "17": {
+      "id": "17",
+      "name": "浙江传媒学院",
+      "code": "zumc",
+      "type": "SCHOOL",
+      "logo": "1adfb2e4-2999-43e0-a4e3-e0b71fce6ec0.png"
+    },
+    "205": {
+      "id": "205",
+      "name": "兰州大学",
+      "code": "lzu",
+      "type": "SCHOOL",
+      "logo": "ab16eeb2-105d-498b-aa50-8dd591540d99.png"
+    },
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    },
+    "1353694861766860800": {
+      "id": "1353694861766860800",
+      "name": "新疆科技学院",
+      "code": "xjust",
+      "type": "SCHOOL",
+      "logo": ""
+    },
+    "262": {
+      "id": "262",
+      "name": "天津仁爱学院",
+      "code": "tjrac",
+      "type": "SCHOOL",
+      "logo": ""
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1977900031300669440",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["Int", "goto", "变量", "$0"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Which one below is NOT a valid Java identifier?   ",
+      "content": "Which one below is NOT a valid Java identifier?   @[](2)\n\nA. Int\t\nB. goto\t\nC. 变量\t\nD. $0",
+      "type": "MULTIPLE_CHOICE",
+      "author": "翁恺",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "948838047225704448",
+      "description": "Which one below is NOT a valid Java identifier?",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1"
+    },
+    {
+      "id": "1977900031300669441",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["1,2,3", "2,3,4", "2,2,3", "2,3,3"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在Java中，以下程序段的输出结果是。",
+      "content": "在Java中，以下程序段的输出结果是。@[](1)\n\n![222.png](~/e1c0eb9a-f221-43ae-8a94-14f42cb1f52b.png)\nA. 1,2,3\nB. 2,3,4\nC. 2,2,3\nD. 2,3,3",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘永福",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1211658907918213120",
+      "description": "在Java中，以下程序段的输出结果是。\n\n![222.png](~/e1c0eb9a-f221-43ae-8a94-14f42cb1f52b.png)",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "75"
+    },
+    {
+      "id": "1977900031304863744",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["1.0", "1", "1.5", "2"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "若有定义:int x\u003d3,y\u003d2;float a\u003d2.5,b\u003d4.5;则下面表达式的值为（）。",
+      "content": "若有定义:int x\u003d3,y\u003d2;float a\u003d2.5,b\u003d4.5;则下面表达式的值为（）。\n\n(x+y)%2+(int)a/(int)b。@[](1)\n\nA. 1.0\nB. 1\nC. 1.5\nD. 2\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘永福",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1211676773828739072",
+      "description": "若有定义:int x\u003d3,y\u003d2;float a\u003d2.5,b\u003d4.5;则下面表达式的值为（）。\n\n(x+y)%2+(int)a/(int)b。",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "75"
+    },
+    {
+      "id": "1977900031304863745",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["byte", "int", "boolean", "String"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面那种类型不属于Java的基本数据类型？ ",
+      "content": "下面那种类型不属于Java的基本数据类型？ @[](2)\n\nA. byte\nB. int\nC. boolean\nD. String\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1227435329182650368",
+      "description": "下面那种类型不属于Java的基本数据类型？",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1977900031304863746",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["B", "C", "D", "a"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "假设有如下程序：",
+      "content": "假设有如下程序：\n```\npublic class Demo {\n        public static void main(String args[]) {\n                int num \u003d 68 ;\n                char c \u003d (char) num ;\n                System.out.println(c) ;\n        }\n}\n```\n最终的执行结果是什么？ @[](2)\n\nA. B\nB. C\nC. D\nD. a\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1227436010295676928",
+      "description": "假设有如下程序：\n```\npublic class Demo {\n        public static void main(String args[]) {\n                int num \u003d 68 ;\n                char c \u003d (char) num ;\n                System.out.println(c) ;\n        }\n}\n```\n最终的执行结果是什么？",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1977900031304863747",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["1239", "12345", "会产生编译错误", "123+4+5"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "以下语句输出的结果是?",
+      "content": "以下语句输出的结果是?@[](2)\n```\n String str\u003d\"123\"; \n int x\u003d4,y\u003d5; \n str \u003d str + (x + y); \n System.out.println(str);\n```\nA. 1239\nB. 12345\nC. 会产生编译错误\nD. 123+4+5 \n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1227439556479045632",
+      "description": "以下语句输出的结果是?\n```\n String str\u003d\"123\";\n int x\u003d4,y\u003d5;\n str \u003d str + (x + y);\n System.out.println(str);\n```",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1977900031304863748",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["int", "long", "byte", "double"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "一个表达式中有int、byte、long、double型的数据相加，其结果是（  ）类型的值 ",
+      "content": "一个表达式中有int、byte、long、double型的数据相加，其结果是（  ）类型的值 @[](2)\n\nA. int\nB.  long\nC. byte\nD. double\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1238663264599416832",
+      "description": "一个表达式中有int、byte、long、double型的数据相加，其结果是（  ）类型的值",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1977900031304863749",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["11", "12", "10", "11.25"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "45 / 4的结果是（  ）?  ",
+      "content": " 45 / 4的结果是（  ）?  @[](2)\n\nA. 11\nB. 12\nC. 10\nD. 11.25\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1238665640081235968",
+      "description": " 45 / 4的结果是（  ）?",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1977900031304863750",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "输出i\u003d10\n",
+            "输出i\u003d100\n",
+            "输出i\u003d1000\n",
+            "编译错误\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "当编译并运行下列Java程序段时，将会发生什么情况？",
+      "content": "当编译并运行下列Java程序段时，将会发生什么情况？\n```\nclass VarInBase{\n    int i\u003d10;\n    public void print(){\n       System.out.println(\"\"i\u003d\"\"+i);\n    }\n}\nclass VarInSub extends VarInBase{\n    int i\u003d100;\n    public void print(){\n        int i\u003d1000;\n        System.out.println(\"\"i\u003d\"\"+i);\n    }\n}\npublic class Main{\n    public static void main(String args[]){\n        VarInBase m\u003dnew VarInSub();\n        m.print();\n    }\n}\n```\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "马俊",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1333368357234987008",
+      "description": "当编译并运行下列Java程序段时，将会发生什么情况？\n```\nclass VarInBase{\n    int i\u003d10;\n    public void print(){\n       System.out.println(\"\"i\u003d\"\"+i);\n    }\n}\nclass VarInSub extends VarInBase{\n    int i\u003d100;\n    public void print(){\n        int i\u003d1000;\n        System.out.println(\"\"i\u003d\"\"+i);\n    }\n}\npublic class Main{\n    public static void main(String args[]){\n        VarInBase m\u003dnew VarInSub();\n        m.print();\n    }\n}\n```\n",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "205"
+    },
+    {
+      "id": "1977900031304863751",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "11111111",
+            "11111111 11111111",
+            "11111111 11111111 11111111 11111111",
+            "11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111111"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "-1作为int数据类型出现，在内存中的存储形式是：（      ）。",
+      "content": "-1作为int数据类型出现，在内存中的存储形式是：（      ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1369133486866489344",
+      "description": "-1作为int数据类型出现，在内存中的存储形式是：（      ）。",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1977900031304863752",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "byte-short(char)- int-long-float-double\t",
+            "byte-short(char)- int-float-long-double\t",
+            "byte-short- int(char)-long-float-double\t",
+            "byte(char)-short- int-long-float-double"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在JAVA中，按精度从小到大的顺序排列，各种基本数据类型自动转换的顺序是：（         ）。",
+      "content": "在JAVA中，按精度从小到大的顺序排列，各种基本数据类型自动转换的顺序是：（         ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1369136041562529792",
+      "description": "在JAVA中，按精度从小到大的顺序排列，各种基本数据类型自动转换的顺序是：（         ）。",
+      "problemPoolIndex": 11,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1977900031304863753",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["rwkj@163", "Java程序设计\n", "8a", "e-mail"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列（       ）是合法标识符。",
+      "content": "下列（       ）是合法标识符。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1406811324880699392",
+      "description": "下列（       ）是合法标识符。",
+      "problemPoolIndex": 12,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1977900031304863754",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["字母", "数字\n", "下划线_", "$"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面哪些元素不能作为Java标识符的首字符？（   ）",
+      "content": "下面哪些元素不能作为Java标识符的首字符？（   ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1406811790927646720",
+      "description": "下面哪些元素不能作为Java标识符的首字符？（   ）",
+      "problemPoolIndex": 13,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1977900031304863755",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "float  f\u003d1.3;\n",
+            "char  c\u003d\"a\";\n",
+            "byte  b\u003d257;\n",
+            "int  i\u003d10;\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "JAVA中，下面哪个赋值表达式正确：（      ）",
+      "content": "JAVA中，下面哪个赋值表达式正确：（      ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1407326435623108608",
+      "description": "JAVA中，下面哪个赋值表达式正确：（      ）",
+      "problemPoolIndex": 14,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1977900031304863756",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "equals()\n",
+            "hashcode()\n",
+            "toString()\n",
+            "\u003d\u003d\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "\u003d\u003d--判断两个对象的引用是否相同，使用（       ）方式进行判断。",
+      "content": "判断两个对象的引用是否相同，使用（       ）方式进行判断。\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1424342196542439424",
+      "description": "判断两个对象的引用是否相同，使用（       ）方式进行判断。\n",
+      "problemPoolIndex": 15,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1977900031304863757",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "System.out.println(我是一个Java程序员了！);",
+            "System.Out.println(\"我是一个Java程序员了！\");",
+            "System.out.println(\"我是一个Java程序员了！\");",
+            "System.Out.Println(\"我是一个Java程序员了！\");"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在控制台显示消息的语句正确的是（  ）",
+      "content": "在控制台显示消息的语句正确的是（  ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "贾园园",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1457605133037862912",
+      "description": "在控制台显示消息的语句正确的是（  ）",
+      "problemPoolIndex": 16,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1353694861766860800"
+    },
+    {
+      "id": "1977900031304863758",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["编译", "编写源代码", "运行", "发布"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面选项中不是开发Java程序的步骤（  ）",
+      "content": "下面选项中不是开发Java程序的步骤（  ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "贾园园",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1457605521141006336",
+      "description": "下面选项中不是开发Java程序的步骤（  ）",
+      "problemPoolIndex": 17,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1353694861766860800"
+    },
+    {
+      "id": "1977900031304863759",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "在main()方法中任何位置定义的变量，其作用域为整个main()方法。",
+            "代码块中定义的变量，在代码块外也是可以使用的。",
+            "变量的作用域为：从定义处开始，到变量所在代码块结束的位置。",
+            "变量的作用域不受代码块的限制。"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列关于变量作用域的说法中，正确的是（）",
+      "content": "下列关于变量作用域的说法中，正确的是（）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘生智",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1457700398532984832",
+      "description": "下列关于变量作用域的说法中，正确的是（）",
+      "problemPoolIndex": 18,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1353694861766860800"
+    },
+    {
+      "id": "1977900031304863760",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["user", "$inner", "class", "login_1"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "以下标识符中，不合法的是（ ）",
+      "content": "以下标识符中，不合法的是（ ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘生智",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1457700802970378240",
+      "description": "以下标识符中，不合法的是（ ）",
+      "problemPoolIndex": 19,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1353694861766860800"
+    },
+    {
+      "id": "1977900031304863761",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["if", "float", "Final", "try"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列选项中，不属于Java中关键字的是（）",
+      "content": "下列选项中，不属于Java中关键字的是（）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘生智",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1457701119602581504",
+      "description": "下列选项中，不属于Java中关键字的是（）",
+      "problemPoolIndex": 20,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1353694861766860800"
+    },
+    {
+      "id": "1977900031304863762",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["198", "2e3f", "true", "null"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列选项中，属于布尔常量的是（）",
+      "content": "下列选项中，属于布尔常量的是（）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘生智",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1457701382801915904",
+      "description": "下列选项中，属于布尔常量的是（）",
+      "problemPoolIndex": 21,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1353694861766860800"
+    },
+    {
+      "id": "1977900031304863763",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "byte a\u003d1;",
+            "short b\u003d100;",
+            "int c\u003d\u0027a\u0027;",
+            "long d\u003d8888888888888888;"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列选项中，哪一个不能通过编译（ ）",
+      "content": "下列选项中，哪一个不能通过编译（ ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘生智",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1457702023813939200",
+      "description": "下列选项中，哪一个不能通过编译（ ）",
+      "problemPoolIndex": 22,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1353694861766860800"
+    },
+    {
+      "id": "1977900031304863764",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "float f \u003d 1F;",
+            "float f \u003d 1.0;",
+            "float f \u003d \u00271\u0027;",
+            "float f \u003d \"1\";"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列浮点数的定义中，正确的是（ ）",
+      "content": "下列浮点数的定义中，正确的是（ ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘生智",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1457702277749014528",
+      "description": "下列浮点数的定义中，正确的是（ ）",
+      "problemPoolIndex": 23,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1353694861766860800"
+    },
+    {
+      "id": "1977900031309058048",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["7", "1", "2", "3"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "若int a \u003d 7;a %\u003d 2;则执行后，变量a的值是（）",
+      "content": "若int a \u003d 7;a %\u003d 2;则执行后，变量a的值是（）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘生智",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1457703042812600320",
+      "description": "若int a \u003d 7;a %\u003d 2;则执行后，变量a的值是（）",
+      "problemPoolIndex": 24,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1353694861766860800"
+    },
+    {
+      "id": "1977900031309058049",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["\u003d", "\u003d\u003d", "\u003c", "\u003c\u003d"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列选项中，不属于比较运算符的是（ ）",
+      "content": "下列选项中，不属于比较运算符的是（ ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘生智",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1457703554491629568",
+      "description": "下列选项中，不属于比较运算符的是（ ）",
+      "problemPoolIndex": 25,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1353694861766860800"
+    },
+    {
+      "id": "1977900031309058050",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["1,1", "1,1.0", "1.0,1", "1.0,1.0"],
+          "maxDisplayChoicesPerLine": 2
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "执行下列程序后，输出的正确结果是 ____ 。",
+      "content": "执行下列程序后，输出的正确结果是（）。\n```\npublic class Test {\n    public static void main(String[] args) {\n        System.out.print(100%3);\n        System.out.print(\",\");\n        System.out.println(100%3.0);\n    }\n}\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "LFL",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1477517500329533440",
+      "description": "执行下列程序后，输出的正确结果是（）。\n```\npublic class Test {\n    public static void main(String[] args) {\n        System.out.print(100%3);\n        System.out.print(\",\");\n        System.out.println(100%3.0);\n    }\n}\n```",
+      "problemPoolIndex": 26,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    },
+    {
+      "id": "1977900031309058051",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["1", "1.75", "2.5", "3"],
+          "maxDisplayChoicesPerLine": 2
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "假设有以下整型变量赋初值语句：int i\u003d1+1/2+1/4；请问该语句执行后变量i的值为：",
+      "content": "假设有以下整型变量赋初值语句：int i\u003d1+1/2+1/4；请问该语句执行后变量i的值为：\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘凤良",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1477600815068807168",
+      "description": "假设有以下整型变量赋初值语句：int i\u003d1+1/2+1/4；请问该语句执行后变量i的值为：\n",
+      "problemPoolIndex": 27,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    },
+    {
+      "id": "1977900031309058052",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "c\u003dfalse; result\u003dfalse;",
+            "c\u003dtrue; result\u003dtrue;",
+            "c\u003dtrue; result\u003dfalse;",
+            "c\u003dfalse; result\u003dtrue;"
+          ],
+          "maxDisplayChoicesPerLine": 2
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面程序段：",
+      "content": "下面程序段：\n```{JAVA}\nboolean a \u003d false;\nboolean b \u003d true;\nboolean c \u003d (a \u0026\u0026 b) \u0026\u0026 (!b);\nboolean result \u003d (a \u0026 b) \u0026 (!b);\n```\n执行完后，正确的结果是（）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘凤良",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1477805074674679808",
+      "description": "下面程序段：\n```{JAVA}\nboolean a \u003d false;\nboolean b \u003d true;\nboolean c \u003d (a \u0026\u0026 b) \u0026\u0026 (!b);\nboolean result \u003d (a \u0026 b) \u0026 (!b);\n```\n执行完后，正确的结果是（）。",
+      "problemPoolIndex": 28,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    },
+    {
+      "id": "1977900031309058053",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "s +\u003d books;",
+            "char c \u003d s[1];",
+            "int len \u003d s.length;",
+            "String t \u003d s.toLowerCase();"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "已知有如下定义：String s \u003d \"story\"; 下面 ____ 表达式是合法的。",
+      "content": "已知有如下定义：String s \u003d \"story\";  下面（ ）表达式是合法的。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "LFL",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1477866075932704768",
+      "description": "已知有如下定义：String s \u003d \"story\";  下面（ ）表达式是合法的。",
+      "problemPoolIndex": 29,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    },
+    {
+      "id": "1977900031309058054",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "\u0027M\u0027 ",
+            "How are you",
+            "\u0027#apple\u0027",
+            "\"apple\""
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列选项中，合法的String型字符串常量是(  ) ",
+      "content": "下列选项中，合法的String型字符串常量是(  ) @[](2)\n\nA. \u0027M\u0027 \nB. How are you\nC. \u0027#apple\u0027\nD. \"apple\"\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1249166952145530880",
+      "description": "下列选项中，合法的String型字符串常量是(  ) \n\n",
+      "problemPoolIndex": 30,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1977900031300669440": "2-1",
+    "1977900031300669441": "2-2",
+    "1977900031304863744": "2-3",
+    "1977900031304863745": "2-4",
+    "1977900031304863746": "2-5",
+    "1977900031304863747": "2-6",
+    "1977900031304863748": "2-7",
+    "1977900031304863749": "2-8",
+    "1977900031304863750": "2-9",
+    "1977900031304863751": "2-10",
+    "1977900031304863752": "2-11",
+    "1977900031304863753": "2-12",
+    "1977900031304863754": "2-13",
+    "1977900031304863755": "2-14",
+    "1977900031304863756": "2-15",
+    "1977900031304863757": "2-16",
+    "1977900031304863758": "2-17",
+    "1977900031304863759": "2-18",
+    "1977900031304863760": "2-19",
+    "1977900031304863761": "2-20",
+    "1977900031304863762": "2-21",
+    "1977900031304863763": "2-22",
+    "1977900031304863764": "2-23",
+    "1977900031309058048": "2-24",
+    "1977900031309058049": "2-25",
+    "1977900031309058050": "2-26",
+    "1977900031309058051": "2-27",
+    "1977900031309058052": "2-28",
+    "1977900031309058053": "2-29",
+    "1977900031309058054": "2-30"
+  }
+}

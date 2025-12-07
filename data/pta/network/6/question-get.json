@@ -1,0 +1,1585 @@
+{
+  "organizationById": {
+    "4": {
+      "id": "4",
+      "name": "Google",
+      "code": "gg",
+      "type": "COMPANY",
+      "logo": ""
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1993121488926822400",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "进行数据分组",
+            "保证可靠传输",
+            "确定数据传输路径",
+            "提高传输速度"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "TCP的主要功能是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976235065350",
+      "description": "TCP的主要功能是（    ）",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016704",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["010", "110", "100", "101"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "C类IP地址的最高三个比特位，从高到低依次是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976235065351",
+      "description": "C类IP地址的最高三个比特位，从高到低依次是（    ）",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016705",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["阻塞域", "管理域", "广播域", "冲突域"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "以太网交换机的每一个端口可以看做一个（    ） 。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976235065352",
+      "description": "以太网交换机的每一个端口可以看做一个（    ） 。",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016706",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["物理层", "数据链路层", "网络层", "传输层"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "局域网中的MAC与OSI参考模型相对应（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976235065353",
+      "description": "局域网中的MAC与OSI参考模型相对应（    ）。",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016707",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["网卡", "网桥", "中继器", "路由器"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "下列只能简单再生信号的设备是（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976235065354",
+      "description": "下列只能简单再生信号的设备是（    ）。",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016708",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "面向连接的数据报服务",
+            "无连接的数据报服务",
+            "面向连接的虚电路服务",
+            "无连接的虚电路服务"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "IP协议提供的服务类型是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976239259648",
+      "description": "IP协议提供的服务类型是（    ）",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016709",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "该文本中含有声音",
+            "该文本中含有二进制数",
+            "该文本中含有链接到其他文本的连接点",
+            "该文本中含有图像"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "超文本的含义是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976239259649",
+      "description": "超文本的含义是（    ）",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016710",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["路由重定向", "目的不可达", "源点抑制", "超时"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "若路由器 R 因为拥塞丢弃 IP 分组，则此时 R 可向发出该 IP 分组的源主机发送的ICMP 报文类型是（    ） 。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976239259650",
+      "description": "若路由器 R 因为拥塞丢弃 IP 分组，则此时 R 可向发出该 IP 分组的源主机发送的ICMP 报文类型是（    ） 。",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016711",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["总线", "环形", "星形", "树形"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "哪种物理拓扑将工作站连接到一台中央设备？（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976239259651",
+      "description": "哪种物理拓扑将工作站连接到一台中央设备？（    ）",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016712",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["易于扩展", "电缆长度短", "不需接线盒", "简单的访问协议"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "下列属于星形拓扑的优点的是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976239259652",
+      "description": "下列属于星形拓扑的优点的是（    ）",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016713",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["双绞线", "同轴电缆", "光纤", "通信卫星"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "在下列传输介质中，那种传输介质的抗电磁干扰性最好（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976239259653",
+      "description": "在下列传输介质中，那种传输介质的抗电磁干扰性最好（    ）",
+      "problemPoolIndex": 11,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016714",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["网络层", "传输层", "会话层", "表示层"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "OSI/RM 模型中，哪个层次用来在设备的进程间传递报文（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976239259654",
+      "description": "OSI/RM 模型中，哪个层次用来在设备的进程间传递报文（    ）",
+      "problemPoolIndex": 12,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016715",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["物理层", "链路层", "网络层", "运输层"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "集线器是工作在（    ）的设备",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976239259655",
+      "description": "集线器是工作在（    ）的设备",
+      "problemPoolIndex": 13,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016716",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["HTTP", "SMTP", "TCP", "IP"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "下面哪个协议运行在网络层（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976239259656",
+      "description": "下面哪个协议运行在网络层（    ）",
+      "problemPoolIndex": 14,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016717",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "52.213.12.23",
+            "210.123.23.12",
+            "223.123.213.23",
+            "156.123.32.12"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "以下IP地址中，属于A类地址的是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976239259657",
+      "description": "以下IP地址中，属于A类地址的是（    ）",
+      "problemPoolIndex": 15,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016718",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["同轴电缆", "光纤", "双绞线", "红外线"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "100Base-T 使用_______作为传输媒体（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976239259658",
+      "description": "100Base-T 使用_______作为传输媒体（    ）。",
+      "problemPoolIndex": 16,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016719",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["分组", "报文", "帧", "比特流"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "在OSI参考模型中,数据链路层的协议数据单元是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976239259659",
+      "description": "在OSI参考模型中,数据链路层的协议数据单元是（    ）",
+      "problemPoolIndex": 17,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016720",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["200000", "300000", "220000", "180000"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "采用数据传输速率为3600bps，以异步传输方式传输，每个字节加1bit起始位、1bit的终止位。传输数据长度为72000000，忽略传播延时，需要多少时间（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976243453952",
+      "description": "采用数据传输速率为3600bps，以异步传输方式传输，每个字节加1bit起始位、1bit的终止位。传输数据长度为72000000，忽略传播延时，需要多少时间（    ）。",
+      "problemPoolIndex": 18,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016721",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["50bit", "100bit", "150bit", "200bit"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "采用CSMA/CD介质访问控制方式的局域网，总线长度为1000m，数据传输速率为10Mbps,电磁波在总线传输介质中的传播速率为200000000m。最小帧长度应该为（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976243453953",
+      "description": "采用CSMA/CD介质访问控制方式的局域网，总线长度为1000m，数据传输速率为10Mbps,电磁波在总线传输介质中的传播速率为200000000m。最小帧长度应该为（    ）。",
+      "problemPoolIndex": 19,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016722",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["40m", "80m", "160m", "100m"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "采用CSMA/CD介质访问控制方式的局域网，数据传输速率为1Gbps,电磁波在总线传输介质中的传播速率为200000000m。如果最小帧长度为800bit，那么两台主机的距离是多少米（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976243453954",
+      "description": "采用CSMA/CD介质访问控制方式的局域网，数据传输速率为1Gbps,电磁波在总线传输介质中的传播速率为200000000m。如果最小帧长度为800bit，那么两台主机的距离是多少米（    ）。",
+      "problemPoolIndex": 20,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016723",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["5μs", "10μs", "20μs", "30μs"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "采用CSMA/CD介质访问控制方式的局域网，总线长度为2000m，数据传输速率为10Mbps,电磁波在总线传输介质中的传播速率为200000000m。假设网中只有两台主机连接在总线的两端，请问检查到冲突最短的时间是（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976243453955",
+      "description": "采用CSMA/CD介质访问控制方式的局域网，总线长度为2000m，数据传输速率为10Mbps,电磁波在总线传输介质中的传播速率为200000000m。假设网中只有两台主机连接在总线的两端，请问检查到冲突最短的时间是（    ）。",
+      "problemPoolIndex": 21,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016724",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["激光", "微波", "红外线", "光纤"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "无线信道的传输媒体不包括（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976243453956",
+      "description": "无线信道的传输媒体不包括（    ）",
+      "problemPoolIndex": 22,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016725",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["物理层", "数据链路层", "网络层", "运输层"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "RS-232-C是________接口规范（       ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976243453957",
+      "description": "RS-232-C是________接口规范（       ）。",
+      "problemPoolIndex": 23,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016726",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["线路故障", "路由故障", "服务器网卡故障", "域名解析故障"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "某工作站无法访问域名为www.test.com的服务器，此时使用ping命令按照该服务器的IP地址进行测试，发现响应正常。但是按照服务器域名进行测试，发现超时。此时可能出现的问题是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976243453958",
+      "description": "某工作站无法访问域名为www.test.com的服务器，此时使用ping命令按照该服务器的IP地址进行测试，发现响应正常。但是按照服务器域名进行测试，发现超时。此时可能出现的问题是（    ）",
+      "problemPoolIndex": 24,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016727",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "90.43.0.15",
+            "129.62.0.143",
+            "133.52.0.143",
+            "90.3.96.44"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "IP地址10000101 00110100 00000000 10001111的十进制写法是（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976243453959",
+      "description": "IP地址10000101 00110100 00000000 10001111的十进制写法是（    ）。",
+      "problemPoolIndex": 25,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016728",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["CSMA", "CDMA", "CSMA/CD", "CSMA/CA"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "Ethernet局域网采用的媒体访问控制方式为（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976243453960",
+      "description": "Ethernet局域网采用的媒体访问控制方式为（    ）。",
+      "problemPoolIndex": 26,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016729",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["10base-T", "10base-2", "100base-5", "100base-F"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "哪一个名称代表以光纤为传输介质的以太网（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976243453961",
+      "description": "哪一个名称代表以光纤为传输介质的以太网（    ）",
+      "problemPoolIndex": 27,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016730",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["网络层", "应用层", "运输层", "会话层"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "文件传输协议是__________上的协议。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976247648256",
+      "description": "文件传输协议是__________上的协议。",
+      "problemPoolIndex": 28,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016731",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["ICMP", "SMTP", "TELNET", "FTP"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "下列协议中不属于应用层协议的是（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976247648257",
+      "description": "下列协议中不属于应用层协议的是（    ）。",
+      "problemPoolIndex": 29,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016732",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["调制解调器", "网桥", "路由器", "集线器"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "在星型局域网结构中，作为中央节点的设备是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976247648258",
+      "description": "在星型局域网结构中，作为中央节点的设备是（    ）",
+      "problemPoolIndex": 30,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016733",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["工作站", "网卡", "网络服务器", "网络互连设备"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "对局域网来说，网络控制的核心是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976247648259",
+      "description": "对局域网来说，网络控制的核心是（    ）",
+      "problemPoolIndex": 31,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016734",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "粗同轴电缆，星形拓扑结构",
+            "粗同轴电缆，总线拓扑结构",
+            "细同轴电缆，星形拓扑结构",
+            "细同轴电缆，总线拓扑结构"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "10BASE-5采用的是 （    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976247648260",
+      "description": "10BASE-5采用的是 （    ）",
+      "problemPoolIndex": 32,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016735",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "smtp.163.com",
+            "POP3.163.com",
+            "smtp.abc.com",
+            "POP3.abc.com"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "在Foxmail中添加一个abc@163.com的帐号，则发送邮件服务器的配置为（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976247648261",
+      "description": "在Foxmail中添加一个abc@163.com的帐号，则发送邮件服务器的配置为（    ）",
+      "problemPoolIndex": 33,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016736",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["总线", "星型", "树型", "球型"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "中心结点出现故障造成全网瘫痪的网络是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976247648262",
+      "description": "中心结点出现故障造成全网瘫痪的网络是（    ）",
+      "problemPoolIndex": 34,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016737",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["一个", "三个", "两个", "任意多个"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "在总线型拓扑结构网络中，每次可传输信号的设备数目为（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976247648263",
+      "description": "在总线型拓扑结构网络中，每次可传输信号的设备数目为（    ）",
+      "problemPoolIndex": 35,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016738",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["任意多", "5个", "4个", "2个"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "在10 BASE-5以太网中，用来扩展线缆长度的中继器，最多可以有（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976247648264",
+      "description": "在10 BASE-5以太网中，用来扩展线缆长度的中继器，最多可以有（    ）。",
+      "problemPoolIndex": 36,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016739",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["因特网", "校园网", "上海热线", "中国教育网"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "下列网络属于局域网的是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976247648265",
+      "description": "下列网络属于局域网的是（    ）",
+      "problemPoolIndex": 37,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016740",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "星状拓扑结构",
+            "环状拓扑结构",
+            "总线状拓扑结构",
+            "以上三种网络拓扑故障诊断和隔离一样容易"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "故障诊断和隔离比较容易的一种网络拓扑是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976247648266",
+      "description": "故障诊断和隔离比较容易的一种网络拓扑是（    ）",
+      "problemPoolIndex": 38,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016741",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "星状拓扑结构",
+            "环状拓扑结构",
+            "总线状拓扑结构",
+            "以上三种网络拓扑都适用使用光纤"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "以下哪种拓扑结构比较适用使用光纤（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976251842560",
+      "description": "以下哪种拓扑结构比较适用使用光纤（    ）",
+      "problemPoolIndex": 39,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016742",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "使用X.25交换机",
+            "由交换机识别MAC地址进行交换",
+            "用路由器代替交换机",
+            "二层交换，三层转发"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "下面对三层交换机的描述中最准确的是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976251842561",
+      "description": "下面对三层交换机的描述中最准确的是（    ）",
+      "problemPoolIndex": 40,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488931016743",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["协议", "服务", "规则", "数据包"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "计算机网络体系结构中，下层的目的是向上一层提供（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976251842562",
+      "description": "计算机网络体系结构中，下层的目的是向上一层提供（    ）",
+      "problemPoolIndex": 41,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488935211008",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "ICMP协议根据MAC地址查找对应的IP地",
+            "ICMP协议把公网的IP地址转换为私网的IP地址",
+            "ICMP协议集中管理网网络中的IP地址分配",
+            "ICMP协议根据网络通信的情况把控制报文发送给发送方主机"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "下面关于ICMP协议的描述中.正确的是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976251842563",
+      "description": "下面关于ICMP协议的描述中.正确的是（    ）",
+      "problemPoolIndex": 42,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488935211009",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "资源共享",
+            "提高计算机的可靠性",
+            "共享数据库",
+            "使用服务器上的硬盘"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "计算机网络的主要功能有____________、数据传输和进行分布处理。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976251842564",
+      "description": "计算机网络的主要功能有____________、数据传输和进行分布处理。",
+      "problemPoolIndex": 43,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488935211010",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "计算机网络的分层结构和协议的集合",
+            "计算机网络的连接形式",
+            "计算机网络的协议集合",
+            "由通信线路连接起来的网络系统"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "计算机网络的体系结构是指（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976251842565",
+      "description": "计算机网络的体系结构是指（    ）",
+      "problemPoolIndex": 44,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488935211011",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "比特、帧、分组",
+            "比特、分组、帧",
+            "帧、分组、比特",
+            "分组、比特、帧"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "在OSI参考模型的物理层、数据链路层、网络层传送的数据单位分别为（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976251842566",
+      "description": "在OSI参考模型的物理层、数据链路层、网络层传送的数据单位分别为（    ）",
+      "problemPoolIndex": 45,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488935211012",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["网桥", "中继器", "网关", "路由器"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "为实现计算机网络的一个网段的通信电缆长度的延伸，应选择（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976251842567",
+      "description": "为实现计算机网络的一个网段的通信电缆长度的延伸，应选择（    ）",
+      "problemPoolIndex": 46,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488935211013",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["应用层", "传输层", "网络层", "网络接口层"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "TCP/IP协议的IP层是指（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976251842568",
+      "description": "TCP/IP协议的IP层是指（    ）",
+      "problemPoolIndex": 47,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488935211014",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["LAN", "WAN", "MAN", "专用网"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "分布在一座大楼或一集中建筑群中的网络可称为（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976251842569",
+      "description": "分布在一座大楼或一集中建筑群中的网络可称为（    ）",
+      "problemPoolIndex": 48,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488935211015",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["41.7ms", "258.7ms", "288ms", "246.5ms"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "主机A、主机B以及链路上的路由器均使用100Mbps网卡，A端向B端发送一张3MB的照片，传输路径上要经过6个路由器。路由与路由之间的距离为200km，信号传播速度为200000000m/s。忽略主机连接路由长度、排队延时、处理延时，采用报文分组交换方法，报文头长度为30B，分组数据长度为64KB，求A端到B端需要多长时间（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976251842570",
+      "description": "主机A、主机B以及链路上的路由器均使用100Mbps网卡，A端向B端发送一张3MB的照片，传输路径上要经过6个路由器。路由与路由之间的距离为200km，信号传播速度为200000000m/s。忽略主机连接路由长度、排队延时、处理延时，采用报文分组交换方法，报文头长度为30B，分组数据长度为64KB，求A端到B端需要多长时间（    ）。",
+      "problemPoolIndex": 49,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1993121488935211016",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["A类", "B类", "C类", "D类"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "IP地址202、116、44、67属于（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993121218612981760",
+      "problemId": "1665885976251842571",
+      "description": "IP地址202.116.44.67属于（    ）",
+      "problemPoolIndex": 50,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1993121488926822400": "1-1",
+    "1993121488931016704": "1-2",
+    "1993121488931016705": "1-3",
+    "1993121488931016706": "1-4",
+    "1993121488931016707": "1-5",
+    "1993121488931016708": "1-6",
+    "1993121488931016709": "1-7",
+    "1993121488931016710": "1-8",
+    "1993121488931016711": "1-9",
+    "1993121488931016712": "1-10",
+    "1993121488931016713": "1-11",
+    "1993121488931016714": "1-12",
+    "1993121488931016715": "1-13",
+    "1993121488931016716": "1-14",
+    "1993121488931016717": "1-15",
+    "1993121488931016718": "1-16",
+    "1993121488931016719": "1-17",
+    "1993121488931016720": "1-18",
+    "1993121488931016721": "1-19",
+    "1993121488931016722": "1-20",
+    "1993121488931016723": "1-21",
+    "1993121488931016724": "1-22",
+    "1993121488931016725": "1-23",
+    "1993121488931016726": "1-24",
+    "1993121488931016727": "1-25",
+    "1993121488931016728": "1-26",
+    "1993121488931016729": "1-27",
+    "1993121488931016730": "1-28",
+    "1993121488931016731": "1-29",
+    "1993121488931016732": "1-30",
+    "1993121488931016733": "1-31",
+    "1993121488931016734": "1-32",
+    "1993121488931016735": "1-33",
+    "1993121488931016736": "1-34",
+    "1993121488931016737": "1-35",
+    "1993121488931016738": "1-36",
+    "1993121488931016739": "1-37",
+    "1993121488931016740": "1-38",
+    "1993121488931016741": "1-39",
+    "1993121488931016742": "1-40",
+    "1993121488931016743": "1-41",
+    "1993121488935211008": "1-42",
+    "1993121488935211009": "1-43",
+    "1993121488935211010": "1-44",
+    "1993121488935211011": "1-45",
+    "1993121488935211012": "1-46",
+    "1993121488935211013": "1-47",
+    "1993121488935211014": "1-48",
+    "1993121488935211015": "1-49",
+    "1993121488935211016": "1-50"
+  }
+}

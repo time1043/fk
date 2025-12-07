@@ -1,0 +1,357 @@
+{
+  "organizationById": {
+    "46": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1983003941989945344",
+      "label": "2-1",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "编译出错",
+            "编译通过，运行出错",
+            "编译通过，运行时输出“I am an int”",
+            "编译通过，运行时输出“I am a char\""
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于下面的类描述中正确的是：   ",
+      "content": "关于下面的类描述中正确的是：   @[](1)\n```\nclass Test{                                     \n    void test(int i){                             \n        System.out.println(\"I am an int.\");             \n    }                                             \n    void test(String s){                              \n        System.out.println(\"I am a char\");             \n    }                                             \n    public static void main(String args[]){           \n        Test t\u003dnew Test();                            \n        t.test(\u0027a\u0027);                                  \n    }                                         \n}       \n```\nA. 编译出错\nB. 编译通过，运行出错\nC. 编译通过，运行时输出“I am an int”\nD. 编译通过，运行时输出“I am a char\"\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "郑如滨",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1205284708274200576",
+      "description": "关于下面的类描述中正确的是：\n```\nclass Test{\n    void test(int i){\n        System.out.println(\"I am an int.\");\n    }\n    void test(String s){\n        System.out.println(\"I am a char\");\n    }\n    public static void main(String args[]){\n        Test t\u003dnew Test();\n        t.test(\u0027a\u0027);\n    }\n}\n```",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    {
+      "id": "1983003941989945345",
+      "label": "2-2",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "类和对象都是具体的。\n",
+            "类是抽象的，对象是具体的。\n",
+            "一般情况下，在定义类之后，能创建无数个对象，可以说，类能化身千万。\n",
+            "类是引用型数据类型。\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于类和对象的关系，下列说法哪种说法是错误的？",
+      "content": "关于类和对象的关系，下列说法哪种说法是错误的？",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1408038342701645824",
+      "description": "关于类和对象的关系，下列说法哪种说法是错误的？",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983003941989945346",
+      "label": "2-3",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "用来创建类的实例时调用的方法\n",
+            "调用该方法时，对实例变量赋值\n",
+            "定义时，方法名称与类名相同，返回值类型可以不写，也可以写成void\n",
+            "一个类的构造方法可以定义多个，多个构造方法的参数有明显区别。\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于构造方法定义与作用，下列说法错误的是：（    ）。",
+      "content": "关于构造方法定义与作用，下列说法**错误**的是：（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1424181825965850624",
+      "description": "关于构造方法定义与作用，下列说法**错误**的是：（    ）。",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983003941989945347",
+      "label": "2-4",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "一个类的构造方法可以有多个\n",
+            "构造方法在类定义时被调用\n",
+            "构造方法只能由对象的其它方法调用\n",
+            "构造方法可以和类同名，也可以和类名不同\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "以下有关构造方法的说法，正确的是：（      ）",
+      "content": "以下有关构造方法的说法，正确的是： ____。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1424184094744576000",
+      "description": "以下有关构造方法的说法，正确的是： ____。",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983003941989945348",
+      "label": "2-5",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "不能通过编译，因为缺少方法名和返回类型\n",
+            "不能通过编译，因为只能有一个静态初始化器",
+            "编译通过，执行结果为：\n```\nx\u003d15\nx\u003d5\nx\u003d5\n```\n",
+            "编译通过，执行结果为：\n```\nx\u003d3\nx\u003d8\nx\u003d8\n```"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "static变量、方法、静态代码块--关于以下代码的说明，正确的是（ ）。",
+      "content": "关于以下代码的说明，正确的是（ ）。\n```\nclass Main {\n\tstatic int x \u003d 10;\n\tstatic {\n\t\tx +\u003d 5;\n\t\tSystem.out.println(\"x\u003d\" + x);\n\t}\n\tpublic static void main(String args[ ])\n\t{\n\t\tSystem.out.println(\"x\u003d\" + x);\n\t}\n\tstatic {\n\t\tx /\u003d 3;\n\t\tSystem.out.println(\"x\u003d\" + x);\n\t}\n}\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1424200041257697280",
+      "description": "关于以下代码的说明，正确的是（ ）。\n```\nclass Main {\n\tstatic int x \u003d 10;\n\tstatic {\n\t\tx +\u003d 5;\n\t\tSystem.out.println(\"x\u003d\" + x);\n\t}\n\tpublic static void main(String args[ ])\n\t{\n\t\tSystem.out.println(\"x\u003d\" + x);\n\t}\n\tstatic {\n\t\tx /\u003d 3;\n\t\tSystem.out.println(\"x\u003d\" + x);\n\t}\n}\n```",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983003941989945349",
+      "label": "2-6",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "private\u003c 默认 \u003c protected \u003c public\n",
+            "默认 \u003c private\u003c protected \u003c public\n",
+            "protected \u003c 默认 \u003c private \u003c public\n",
+            "protected \u003c private\u003c 默认  \u003c public\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "访问权限--在Java中，针对类和成员提供了4种访问级别，以下控制级别由小到大的顺序是：（    ）。",
+      "content": "在Java中，针对类和成员提供了4种访问级别，以下控制级别由小到大的顺序是：（    ）。\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1424211681571176448",
+      "description": "在Java中，针对类和成员提供了4种访问级别，以下控制级别由小到大的顺序是：（    ）。\n",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983003941989945350",
+      "label": "2-7",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["protected\n", "public\n", "默认\n", "private\n"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "访问权限--在成员方法的访问控制修饰符中，规定访问权限只包含该类自身作用域和同包作用域的修饰符是（       ）。",
+      "content": "在成员方法的访问控制修饰符中，规定访问权限只包含该类自身作用域和同包作用域的修饰符是（       ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1424211982428663808",
+      "description": "在成员方法的访问控制修饰符中，规定访问权限只包含该类自身作用域和同包作用域的修饰符是（       ）。",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983003941989945351",
+      "label": "2-8",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "abstract不能与final并列修饰同一个类\n",
+            "abstract类中可以有private的成员\n",
+            "abstract方法必须在abstract类中\n",
+            "static方法中能访问非static的属性\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "类成员修饰词--下列关于修饰符使用的说法，错误的是（      ）。",
+      "content": "下列关于修饰符使用的说法，错误的是（      ）。\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1424265573633818624",
+      "description": "下列关于修饰符使用的说法，错误的是（      ）。\n",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983003941989945352",
+      "label": "2-9",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["this\n", "super\n", "static\n", "public\n"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "this--在非静态成员方法中，可以使用关键字（    ）指代当前对象，访问类的其他非静态成员。",
+      "content": "在非静态成员方法中，可以使用关键字（    ）指代当前对象，访问类的其他非静态成员。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1424266275672227840",
+      "description": "在非静态成员方法中，可以使用关键字（    ）指代当前对象，访问类的其他非静态成员。",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983003941989945353",
+      "label": "2-10",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["A处", "B处", "C处", "D处"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "final方法不能被重写--有如下程序代码，哪处出现编译错误？（     ）",
+      "content": "有如下程序代码，哪处出现编译错误？（     ）\n```\nclass Father {\n int a \u003d 100;    // A\n final public void print() { // B\n  System.out.println(a);\n }\n}\n\nclass Child extends Father { \n int a \u003d 200;                // C\n public void print() {       // D\n  System.out.println(a);  \n }\n}\n```\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1424278887365541888",
+      "description": "有如下程序代码，哪处出现编译错误？（     ）\n```\nclass Father {\n int a \u003d 100;    // A\n final public void print() { // B\n  System.out.println(a);\n }\n}\n\nclass Child extends Father { \n int a \u003d 200;                // C\n public void print() {       // D\n  System.out.println(a);  \n }\n}\n```\n",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1983003941989945344": "2-1",
+    "1983003941989945345": "2-2",
+    "1983003941989945346": "2-3",
+    "1983003941989945347": "2-4",
+    "1983003941989945348": "2-5",
+    "1983003941989945349": "2-6",
+    "1983003941989945350": "2-7",
+    "1983003941989945351": "2-8",
+    "1983003941989945352": "2-9",
+    "1983003941989945353": "2-10"
+  }
+}

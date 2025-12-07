@@ -1,0 +1,260 @@
+[
+  {
+    "questionId": "143255",
+    "level": "中",
+    "questionName": "心理成长主要是指个体能发展出良好的自我意识。",
+    "answerList": [
+      {
+        "answerId": "551214",
+        "quizQuestionId": "143255",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551215",
+        "quizQuestionId": "143255",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "心理成长主要是指个体能发展出良好的自我意识。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143256",
+    "level": "中",
+    "questionName": "人格包含的心理特征有：",
+    "answerList": [
+      {
+        "answerId": "551216",
+        "quizQuestionId": "143256",
+        "comments": "",
+        "text": "气质"
+      },
+      {
+        "answerId": "551217",
+        "quizQuestionId": "143256",
+        "comments": "",
+        "text": "能力"
+      },
+      {
+        "answerId": "551218",
+        "quizQuestionId": "143256",
+        "comments": "",
+        "text": "性格"
+      },
+      {
+        "answerId": "551219",
+        "quizQuestionId": "143256",
+        "comments": "",
+        "text": "血型"
+      }
+    ],
+    "name": "人格包含的心理特征有：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143257",
+    "level": "中",
+    "questionName": "瑞士心理学家皮亚杰认为成熟和遗传并不是生物发展的唯一原因，环境也对生物发展起作用。                         ",
+    "answerList": [
+      {
+        "answerId": "551220",
+        "quizQuestionId": "143257",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551221",
+        "quizQuestionId": "143257",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "瑞士心理学家皮亚杰认为成熟和遗传并不是生物发展的唯一原因，环境也对生物发展起作用。                         ",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143258",
+    "level": "中",
+    "questionName": "自我发展的行为思路是归属感—满意度—幸福感。",
+    "answerList": [
+      {
+        "answerId": "551222",
+        "quizQuestionId": "143258",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551223",
+        "quizQuestionId": "143258",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "自我发展的行为思路是归属感—满意度—幸福感。",
+    "comment": "自我发展的行为思路是思考—分化—整合",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143259",
+    "level": "中",
+    "questionName": "弗洛伊德的人格结构理论认为人格由（）组成。",
+    "answerList": [
+      {
+        "answerId": "551224",
+        "quizQuestionId": "143259",
+        "comments": "",
+        "text": "本我"
+      },
+      {
+        "answerId": "551225",
+        "quizQuestionId": "143259",
+        "comments": "",
+        "text": "镜我"
+      },
+      {
+        "answerId": "551226",
+        "quizQuestionId": "143259",
+        "comments": "",
+        "text": "自我"
+      },
+      {
+        "answerId": "551227",
+        "quizQuestionId": "143259",
+        "comments": "",
+        "text": "超我"
+      }
+    ],
+    "name": "弗洛伊德的人格结构理论认为人格由（）组成。",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143260",
+    "level": "中",
+    "questionName": "感觉是心理现象发展的基础。           ",
+    "answerList": [
+      {
+        "answerId": "551228",
+        "quizQuestionId": "143260",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551229",
+        "quizQuestionId": "143260",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "感觉是心理现象发展的基础。           ",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "145802",
+    "level": "中",
+    "questionName": "下列关于“知情意”角度的自我意识表述正确的是：",
+    "answerList": [
+      {
+        "answerId": "560987",
+        "quizQuestionId": "145802",
+        "comments": "",
+        "text": "自我认知是主观自我对客观自我的评价"
+      },
+      {
+        "answerId": "560988",
+        "quizQuestionId": "145802",
+        "comments": "",
+        "text": "自我体验是主观自我对客观自我产生的情绪体验"
+      },
+      {
+        "answerId": "560989",
+        "quizQuestionId": "145802",
+        "comments": "",
+        "text": "自我控制是对自己行为和思想、言语的控制，以达到自我期望的目标"
+      },
+      {
+        "answerId": "560990",
+        "quizQuestionId": "145802",
+        "comments": "",
+        "text": "生理自我是个体对自己身体、生理状态的认识和体验"
+      }
+    ],
+    "name": "下列关于“知情意”角度的自我意识表述正确的是：",
+    "comment": "生理自我是“自我本身”角度的自我意识",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "145803",
+    "level": "中",
+    "questionName": "自我意识发展的三个特征是什么？",
+    "answerList": [
+      {
+        "answerId": "560991",
+        "quizQuestionId": "145803",
+        "comments": "",
+        "text": "自我完善"
+      },
+      {
+        "answerId": "560992",
+        "quizQuestionId": "145803",
+        "comments": "",
+        "text": "自我认识"
+      },
+      {
+        "answerId": "560993",
+        "quizQuestionId": "145803",
+        "comments": "",
+        "text": "自我体验"
+      },
+      {
+        "answerId": "560994",
+        "quizQuestionId": "145803",
+        "comments": "",
+        "text": "自我控制"
+      }
+    ],
+    "name": "自我意识发展的三个特征是什么？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "145804",
+    "level": "易",
+    "questionName": "如何欣然接受自我？",
+    "answerList": [
+      {
+        "answerId": "560995",
+        "quizQuestionId": "145804",
+        "comments": "",
+        "text": "只接受长处"
+      },
+      {
+        "answerId": "560996",
+        "quizQuestionId": "145804",
+        "comments": "",
+        "text": "只接受短处"
+      },
+      {
+        "answerId": "560997",
+        "quizQuestionId": "145804",
+        "comments": "",
+        "text": "接受自己本来所具备的一切"
+      },
+      {
+        "answerId": "560998",
+        "quizQuestionId": "145804",
+        "comments": "",
+        "text": "接受一切别人给予的痛苦"
+      }
+    ],
+    "name": "如何欣然接受自我？",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  }
+]

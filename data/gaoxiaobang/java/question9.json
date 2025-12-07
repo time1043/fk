@@ -1,0 +1,342 @@
+[
+  {
+    "questionId": "297337",
+    "level": "中",
+    "questionName": "定义一个接口的关键字是（     ）<br/>",
+    "answerList": [
+      {
+        "answerId": "1093609",
+        "quizQuestionId": "297337",
+        "comments": "",
+        "text": "extends"
+      },
+      {
+        "answerId": "1093610",
+        "quizQuestionId": "297337",
+        "comments": "",
+        "text": "abstract"
+      },
+      {
+        "answerId": "1093611",
+        "quizQuestionId": "297337",
+        "comments": "",
+        "text": "interface"
+      },
+      {
+        "answerId": "1093612",
+        "quizQuestionId": "297337",
+        "comments": "",
+        "text": "implements"
+      }
+    ],
+    "name": "定义一个接口的关键字是（     ）<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297338",
+    "level": "中",
+    "questionName": "<p>关于接口说法不正确的是（ &nbsp; ）<br/></p>",
+    "answerList": [
+      {
+        "answerId": "1093613",
+        "quizQuestionId": "297338",
+        "comments": "",
+        "text": "<p>接口的方法都是抽象方法（除了默认方法外）</p>"
+      },
+      {
+        "answerId": "1093614",
+        "quizQuestionId": "297338",
+        "comments": "",
+        "text": "<p>接口不能实例化</p>"
+      },
+      {
+        "answerId": "1093615",
+        "quizQuestionId": "297338",
+        "comments": "",
+        "text": "<p>实现接口使用extends关键字</p>"
+      },
+      {
+        "answerId": "1093616",
+        "quizQuestionId": "297338",
+        "comments": "",
+        "text": "<p>实现接口使用implements关键字</p>"
+      }
+    ],
+    "name": "<p>关于接口说法不正确的是（ &nbsp; ）<br/></p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297339",
+    "level": "中",
+    "questionName": "下列自有关多态的叙述正确的是哪项？<br/>",
+    "answerList": [
+      {
+        "answerId": "1093617",
+        "quizQuestionId": "297339",
+        "comments": "",
+        "text": "父类的引用指向子类的实例是一种多态"
+      },
+      {
+        "answerId": "1093618",
+        "quizQuestionId": "297339",
+        "comments": "",
+        "text": "子类的引用指向子类的实例是一种多态"
+      },
+      {
+        "answerId": "1093619",
+        "quizQuestionId": "297339",
+        "comments": "",
+        "text": "接口的引用指向实现该接口类的实例不是一种多态"
+      },
+      {
+        "answerId": "1093620",
+        "quizQuestionId": "297339",
+        "comments": "",
+        "text": "抽象类的引用指向抽象类的实例是一种多态"
+      }
+    ],
+    "name": "下列自有关多态的叙述正确的是哪项？<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297340",
+    "level": "中",
+    "questionName": "在Java接口中，下列选项中属于有效的方法是（  ）<br/>",
+    "answerList": [
+      {
+        "answerId": "1093621",
+        "quizQuestionId": "297340",
+        "comments": "",
+        "text": "public void aMethod();"
+      },
+      {
+        "answerId": "1093622",
+        "quizQuestionId": "297340",
+        "comments": "",
+        "text": "static {};"
+      },
+      {
+        "answerId": "1093623",
+        "quizQuestionId": "297340",
+        "comments": "",
+        "text": "aMethod(){}"
+      },
+      {
+        "answerId": "1093624",
+        "quizQuestionId": "297340",
+        "comments": "",
+        "text": "private void aMethod();"
+      }
+    ],
+    "name": "在Java接口中，下列选项中属于有效的方法是（  ）<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297341",
+    "level": "中",
+    "questionName": "下面说法不正确的是（   ）<br/>",
+    "answerList": [
+      {
+        "answerId": "1093625",
+        "quizQuestionId": "297341",
+        "comments": "",
+        "text": "abstract 可以修饰类、接口、方法"
+      },
+      {
+        "answerId": "1093626",
+        "quizQuestionId": "297341",
+        "comments": "",
+        "text": "abstract修饰的类主要用于被继承"
+      },
+      {
+        "answerId": "1093627",
+        "quizQuestionId": "297341",
+        "comments": "",
+        "text": "abstract可以修饰变量"
+      },
+      {
+        "answerId": "1093628",
+        "quizQuestionId": "297341",
+        "comments": "",
+        "text": "abstract修饰的类，其子类也可以是abstract修饰的"
+      }
+    ],
+    "name": "下面说法不正确的是（   ）<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297342",
+    "level": "中",
+    "questionName": "一个类实现接口的情况是（   ）",
+    "answerList": [
+      {
+        "answerId": "1093629",
+        "quizQuestionId": "297342",
+        "comments": "",
+        "text": "一次可以实现多个接口"
+      },
+      {
+        "answerId": "1093630",
+        "quizQuestionId": "297342",
+        "comments": "",
+        "text": "一次只能实现一个接口"
+      },
+      {
+        "answerId": "1093631",
+        "quizQuestionId": "297342",
+        "comments": "",
+        "text": "不能实现接口"
+      },
+      {
+        "answerId": "1093632",
+        "quizQuestionId": "297342",
+        "comments": "",
+        "text": "不一定"
+      }
+    ],
+    "name": "一个类实现接口的情况是（   ）",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297343",
+    "level": "中",
+    "questionName": "以下关于Comparable 和 Comparator 两个接口的说法正确的是？<br/>",
+    "answerList": [
+      {
+        "answerId": "1093633",
+        "quizQuestionId": "297343",
+        "comments": "",
+        "text": "Comparator接口中的方法只有一个comparable()"
+      },
+      {
+        "answerId": "1093634",
+        "quizQuestionId": "297343",
+        "comments": "",
+        "text": "Comparable接口中的方法只有一个compareTo()"
+      },
+      {
+        "answerId": "1093635",
+        "quizQuestionId": "297343",
+        "comments": "",
+        "text": "Comparable接口中的方法只有一个compare()"
+      },
+      {
+        "answerId": "1093636",
+        "quizQuestionId": "297343",
+        "comments": "",
+        "text": "Comparable 和 Comparator 两个接口的方法都是一样的"
+      }
+    ],
+    "name": "以下关于Comparable 和 Comparator 两个接口的说法正确的是？<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297344",
+    "level": "中",
+    "questionName": "下面关于接口的说法中不正确的是（   ）<br/>",
+    "answerList": [
+      {
+        "answerId": "1093637",
+        "quizQuestionId": "297344",
+        "comments": "",
+        "text": "接口中所有的方法都是抽象的"
+      },
+      {
+        "answerId": "1093638",
+        "quizQuestionId": "297344",
+        "comments": "",
+        "text": "接口中所有的方法都是public访问权限"
+      },
+      {
+        "answerId": "1093639",
+        "quizQuestionId": "297344",
+        "comments": "",
+        "text": "子接口继承父接口所用的关键字是implements"
+      },
+      {
+        "answerId": "1093640",
+        "quizQuestionId": "297344",
+        "comments": "",
+        "text": "接口是Java中的特殊类，包含常量和抽象方法"
+      }
+    ],
+    "name": "下面关于接口的说法中不正确的是（   ）<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297345",
+    "level": "中",
+    "questionName": "区分类中重载方法的依据是（   ）<br/>",
+    "answerList": [
+      {
+        "answerId": "1093641",
+        "quizQuestionId": "297345",
+        "comments": "",
+        "text": "形参列表的类型和顺序"
+      },
+      {
+        "answerId": "1093642",
+        "quizQuestionId": "297345",
+        "comments": "",
+        "text": "不同的形参名称"
+      },
+      {
+        "answerId": "1093643",
+        "quizQuestionId": "297345",
+        "comments": "",
+        "text": "返回值的类型不同 "
+      },
+      {
+        "answerId": "1093644",
+        "quizQuestionId": "297345",
+        "comments": "",
+        "text": "访问权限不同<br/>"
+      }
+    ],
+    "name": "区分类中重载方法的依据是（   ）<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297346",
+    "level": "中",
+    "questionName": "子类对象能否直接向其父类赋值？父类对象能否向其子类赋值？（    ）<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1093645",
+        "quizQuestionId": "297346",
+        "comments": "",
+        "text": "能，能"
+      },
+      {
+        "answerId": "1093646",
+        "quizQuestionId": "297346",
+        "comments": "",
+        "text": "能，不能"
+      },
+      {
+        "answerId": "1093647",
+        "quizQuestionId": "297346",
+        "comments": "",
+        "text": "不能，能"
+      },
+      {
+        "answerId": "1093648",
+        "quizQuestionId": "297346",
+        "comments": "",
+        "text": "不能，不能"
+      }
+    ],
+    "name": "子类对象能否直接向其父类赋值？父类对象能否向其子类赋值？（    ）<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  }
+]

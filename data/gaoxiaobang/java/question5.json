@@ -1,0 +1,342 @@
+[
+  {
+    "questionId": "297304",
+    "level": "中",
+    "questionName": "下列不符合对象和类的关系的是(     )。<br/>",
+    "answerList": [
+      {
+        "answerId": "1093477",
+        "quizQuestionId": "297304",
+        "comments": "",
+        "text": "学生和人类"
+      },
+      {
+        "answerId": "1093478",
+        "quizQuestionId": "297304",
+        "comments": "",
+        "text": "马和动物"
+      },
+      {
+        "answerId": "1093479",
+        "quizQuestionId": "297304",
+        "comments": "",
+        "text": "狗和猫        "
+      },
+      {
+        "answerId": "1093480",
+        "quizQuestionId": "297304",
+        "comments": "",
+        "text": "飞机和交通工具"
+      }
+    ],
+    "name": "下列不符合对象和类的关系的是(     )。<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297305",
+    "level": "中",
+    "questionName": "下列关于Java的垃圾回收机制描述正确的是（ ）<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1093481",
+        "quizQuestionId": "297305",
+        "comments": "",
+        "text": "垃圾回收机制必须通过程序员调用相应方法，才能自动启动"
+      },
+      {
+        "answerId": "1093482",
+        "quizQuestionId": "297305",
+        "comments": "",
+        "text": "Java程序员用System.gc()方法一定能进行垃圾回收"
+      },
+      {
+        "answerId": "1093483",
+        "quizQuestionId": "297305",
+        "comments": "",
+        "text": "垃圾回收机制属于JVM自动操作，Java程序员可以不进行垃圾回收操作"
+      },
+      {
+        "answerId": "1093484",
+        "quizQuestionId": "297305",
+        "comments": "",
+        "text": "垃圾回收机制是由操作系统自动执行跟JVM无关"
+      }
+    ],
+    "name": "下列关于Java的垃圾回收机制描述正确的是（ ）<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297306",
+    "level": "中",
+    "questionName": "下面关于构造方法的说法，正确的是（    ）<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1093485",
+        "quizQuestionId": "297306",
+        "comments": "",
+        "text": "Java中的构造方法名必须和类名相同"
+      },
+      {
+        "answerId": "1093486",
+        "quizQuestionId": "297306",
+        "comments": "",
+        "text": "Java语言规定构造方法不可以重载"
+      },
+      {
+        "answerId": "1093487",
+        "quizQuestionId": "297306",
+        "comments": "",
+        "text": "Java语言规定构造方法没有返回值，可以用void声明"
+      },
+      {
+        "answerId": "1093488",
+        "quizQuestionId": "297306",
+        "comments": "",
+        "text": "类的私有方法也可以被其他类直接访问"
+      }
+    ],
+    "name": "下面关于构造方法的说法，正确的是（    ）<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297307",
+    "level": "中",
+    "questionName": "如果局部变量和成员变量同名，如何在局部变量作用域内引用成员变量？<br/>",
+    "answerList": [
+      {
+        "answerId": "1093489",
+        "quizQuestionId": "297307",
+        "comments": "",
+        "text": "不能引用，必须改名，使它们的名称不相同"
+      },
+      {
+        "answerId": "1093490",
+        "quizQuestionId": "297307",
+        "comments": "",
+        "text": "在成员变量前加this，使用this访问该成员变量"
+      },
+      {
+        "answerId": "1093491",
+        "quizQuestionId": "297307",
+        "comments": "",
+        "text": "在成员变量前加super，使用super访问该成员变量"
+      },
+      {
+        "answerId": "1093492",
+        "quizQuestionId": "297307",
+        "comments": "",
+        "text": "不影响，系统可以自己区分<br/>"
+      }
+    ],
+    "name": "如果局部变量和成员变量同名，如何在局部变量作用域内引用成员变量？<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297308",
+    "level": "中",
+    "questionName": "有关Java中的类和对象，以下说法错误的是（ ）<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1093493",
+        "quizQuestionId": "297308",
+        "comments": "",
+        "text": "同一个类的所有对象都拥有相同的特征和行为"
+      },
+      {
+        "answerId": "1093494",
+        "quizQuestionId": "297308",
+        "comments": "",
+        "text": "类和对象一样，只是说法不同"
+      },
+      {
+        "answerId": "1093495",
+        "quizQuestionId": "297308",
+        "comments": "",
+        "text": " 对象是具有属性和行为的实体"
+      },
+      {
+        "answerId": "1093496",
+        "quizQuestionId": "297308",
+        "comments": "",
+        "text": "类规定了对象拥有的特征和行为"
+      }
+    ],
+    "name": "有关Java中的类和对象，以下说法错误的是（ ）<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297309",
+    "level": "中",
+    "questionName": "给定如下Java代码，编译运行后，输出的结果将是（    ）<br/>public class Test {<br/>    public static void main(String args[]) {<br/>        String s1 = new String(&quot;Test&quot;);<br/>        String s2 = new String(&quot;Test&quot;);<br/>        if (s1 == s2)<br/>            System.out.println(&quot;Same&quot;);<br/>        if (s1.equals(s2))<br/>            System.out.println(&quot;Equals&quot;);<br/>    }<br/>}",
+    "answerList": [
+      {
+        "answerId": "1093497",
+        "quizQuestionId": "297309",
+        "comments": "",
+        "text": "Same"
+      },
+      {
+        "answerId": "1093498",
+        "quizQuestionId": "297309",
+        "comments": "",
+        "text": "Equals"
+      },
+      {
+        "answerId": "1093499",
+        "quizQuestionId": "297309",
+        "comments": "",
+        "text": "Same Equals"
+      },
+      {
+        "answerId": "1093500",
+        "quizQuestionId": "297309",
+        "comments": "",
+        "text": "什么都不输出"
+      }
+    ],
+    "name": "给定如下Java代码，编译运行后，输出的结果将是（    ）<br/>public class Test {<br/>    public static void main(String args[]) {<br/>        String s1 = new String(&quot;Test&quot;);<br/>        String s2 = new String(&quot;Test&quot;);<br/>        if (s1 == s2)<br/>            System.out.println(&quot;Same&quot;);<br/>        if (s1.equals(s2))<br/>            System.out.println(&quot;Equals&quot;);<br/>    }<br/>}",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297310",
+    "level": "中",
+    "questionName": "给定如下Java程序的方法结构，则方法体实现语句正确的是（   ）。<br/>public String change(int i){<br/>  //方法体  <br/>}",
+    "answerList": [
+      {
+        "answerId": "1093501",
+        "quizQuestionId": "297310",
+        "comments": "",
+        "text": "return 100;"
+      },
+      {
+        "answerId": "1093502",
+        "quizQuestionId": "297310",
+        "comments": "",
+        "text": "return &#39;a&#39;;  "
+      },
+      {
+        "answerId": "1093503",
+        "quizQuestionId": "297310",
+        "comments": "",
+        "text": "return i+&quot;&quot;;"
+      },
+      {
+        "answerId": "1093504",
+        "quizQuestionId": "297310",
+        "comments": "",
+        "text": "return i;"
+      }
+    ],
+    "name": "给定如下Java程序的方法结构，则方法体实现语句正确的是（   ）。<br/>public String change(int i){<br/>  //方法体  <br/>}",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297311",
+    "level": "中",
+    "questionName": "给定Java代码如下所示，则编译运行后，输出结果是（   ）。<br/>public class Test{<br/> static int i;<br/>  public int aMethod() {<br/>      i++;<br/>      return i;<br/>  }<br/>  public static void main(String args[]) {<br/>    Test test = new Test();<br/>    test.aMethod();<br/>    System.out.println(test.aMethod());<br/>  }<br/>}<br/>",
+    "answerList": [
+      {
+        "answerId": "1093505",
+        "quizQuestionId": "297311",
+        "comments": "",
+        "text": "0"
+      },
+      {
+        "answerId": "1093506",
+        "quizQuestionId": "297311",
+        "comments": "",
+        "text": "1"
+      },
+      {
+        "answerId": "1093507",
+        "quizQuestionId": "297311",
+        "comments": "",
+        "text": "2"
+      },
+      {
+        "answerId": "1093508",
+        "quizQuestionId": "297311",
+        "comments": "",
+        "text": "3"
+      }
+    ],
+    "name": "给定Java代码如下所示，则编译运行后，输出结果是（   ）。<br/>public class Test{<br/> static int i;<br/>  public int aMethod() {<br/>      i++;<br/>      return i;<br/>  }<br/>  public static void main(String args[]) {<br/>    Test test = new Test();<br/>    test.aMethod();<br/>    System.out.println(test.aMethod());<br/>  }<br/>}<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297312",
+    "level": "中",
+    "questionName": "给定一个Java程序的代码如下所示，则编译运行后，输出结果是（   ）<br/>public class Test {<br/>    int count = 9;<br/>    public void count1() {<br/>        int count = 10;<br/>        System.out.println(&quot;count1=&quot; + count);<br/>    }<br/>    public void count2() {<br/>        System.out.println(&quot;count2=&quot; + count);<br/>    }<br/>    public static void main(String args[]) {<br/>        Test t = new Test();<br/>        t.count1();<br/>        t.count2();<br/>    }<br/>}",
+    "answerList": [
+      {
+        "answerId": "1093509",
+        "quizQuestionId": "297312",
+        "comments": "",
+        "text": "count1=9   count2=9"
+      },
+      {
+        "answerId": "1093510",
+        "quizQuestionId": "297312",
+        "comments": "",
+        "text": "count1=10  count2=9"
+      },
+      {
+        "answerId": "1093511",
+        "quizQuestionId": "297312",
+        "comments": "",
+        "text": "count1=10  count2=10"
+      },
+      {
+        "answerId": "1093512",
+        "quizQuestionId": "297312",
+        "comments": "",
+        "text": "count1=9   count2=10"
+      }
+    ],
+    "name": "给定一个Java程序的代码如下所示，则编译运行后，输出结果是（   ）<br/>public class Test {<br/>    int count = 9;<br/>    public void count1() {<br/>        int count = 10;<br/>        System.out.println(&quot;count1=&quot; + count);<br/>    }<br/>    public void count2() {<br/>        System.out.println(&quot;count2=&quot; + count);<br/>    }<br/>    public static void main(String args[]) {<br/>        Test t = new Test();<br/>        t.count1();<br/>        t.count2();<br/>    }<br/>}",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297313",
+    "level": "中",
+    "questionName": "在Java中，包com中定义了类TestUtil，在com的子包util中定义了同名类TestUtil，给定如下Java代码，编译运行时，将发生（   ）。<br/>package net;<br/>import com.util.TestUtil;<br/>import com.TestUtil;<br/>public class Test {<br/>  public static void main(String[] args)  {<br/>    TestUtil testutil = new TestUtil();<br/>  }<br/>}",
+    "answerList": [
+      {
+        "answerId": "1093513",
+        "quizQuestionId": "297313",
+        "comments": "",
+        "text": "创建了一个com.TestUtil对象"
+      },
+      {
+        "answerId": "1093514",
+        "quizQuestionId": "297313",
+        "comments": "",
+        "text": "创建了一个com.util.TestUtil对象"
+      },
+      {
+        "answerId": "1093515",
+        "quizQuestionId": "297313",
+        "comments": "",
+        "text": "创建了一个com.TestUtil对象和一个com.util.TestUtil对象"
+      },
+      {
+        "answerId": "1093516",
+        "quizQuestionId": "297313",
+        "comments": "",
+        "text": "编译无法通过"
+      }
+    ],
+    "name": "在Java中，包com中定义了类TestUtil，在com的子包util中定义了同名类TestUtil，给定如下Java代码，编译运行时，将发生（   ）。<br/>package net;<br/>import com.util.TestUtil;<br/>import com.TestUtil;<br/>public class Test {<br/>  public static void main(String[] args)  {<br/>    TestUtil testutil = new TestUtil();<br/>  }<br/>}",
+    "comment": "",
+    "questionType": "multiple_choice"
+  }
+]

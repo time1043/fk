@@ -1,0 +1,214 @@
+[
+  {
+    "questionId": "143298",
+    "level": "中",
+    "questionName": "人的心理发展源泉始于动作。",
+    "answerList": [
+      {
+        "answerId": "551339",
+        "quizQuestionId": "143298",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551340",
+        "quizQuestionId": "143298",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "人的心理发展源泉始于动作。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143299",
+    "level": "中",
+    "questionName": "本我、自我、超我不是以相同的比例存在于人格中。",
+    "answerList": [
+      {
+        "answerId": "551341",
+        "quizQuestionId": "143299",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551342",
+        "quizQuestionId": "143299",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "本我、自我、超我不是以相同的比例存在于人格中。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143300",
+    "level": "中",
+    "questionName": "<p>斯坦伯格认为爱情包含有三个成分，分别是：</p>",
+    "answerList": [
+      {
+        "answerId": "551343",
+        "quizQuestionId": "143300",
+        "comments": "",
+        "text": "<p>亲密</p>"
+      },
+      {
+        "answerId": "551344",
+        "quizQuestionId": "143300",
+        "comments": "",
+        "text": "<p>信任</p>"
+      },
+      {
+        "answerId": "551345",
+        "quizQuestionId": "143300",
+        "comments": "",
+        "text": "<p>激情</p>"
+      },
+      {
+        "answerId": "551346",
+        "quizQuestionId": "143300",
+        "comments": "",
+        "text": "<p>承诺</p>"
+      }
+    ],
+    "name": "<p>斯坦伯格认为爱情包含有三个成分，分别是：</p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143301",
+    "level": "中",
+    "questionName": "<p>态度是性格的核心，性格是气质的核心。</p>",
+    "answerList": [
+      {
+        "answerId": "551347",
+        "quizQuestionId": "143301",
+        "comments": "",
+        "text": "<p>正确</p>"
+      },
+      {
+        "answerId": "551348",
+        "quizQuestionId": "143301",
+        "comments": "",
+        "text": "<p>错误</p>"
+      }
+    ],
+    "name": "<p>态度是性格的核心，性格是气质的核心。</p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143302",
+    "level": "中",
+    "questionName": "为了得到想要的结果，人可以不断的去重复某种行为，原理是操作条件反射理论。",
+    "answerList": [
+      {
+        "answerId": "551349",
+        "quizQuestionId": "143302",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551350",
+        "quizQuestionId": "143302",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "为了得到想要的结果，人可以不断的去重复某种行为，原理是操作条件反射理论。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "145815",
+    "level": "中",
+    "questionName": "下列关于性意识发展的阶段说法错误的是：",
+    "answerList": [
+      {
+        "answerId": "561039",
+        "quizQuestionId": "145815",
+        "comments": "",
+        "text": "第一个阶段是异性疏远期，小学阶段"
+      },
+      {
+        "answerId": "561040",
+        "quizQuestionId": "145815",
+        "comments": "",
+        "text": "第二个阶段是异性接近期，中学阶段"
+      },
+      {
+        "answerId": "561041",
+        "quizQuestionId": "145815",
+        "comments": "",
+        "text": "第二个阶段是两性恋爱期，中学阶段"
+      },
+      {
+        "answerId": "561042",
+        "quizQuestionId": "145815",
+        "comments": "",
+        "text": "第三个阶段是两性恋爱期，大学阶段"
+      }
+    ],
+    "name": "下列关于性意识发展的阶段说法错误的是：",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "145816",
+    "level": "易",
+    "questionName": "一般大学生的恋情动机是什么？",
+    "answerList": [
+      {
+        "answerId": "561043",
+        "quizQuestionId": "145816",
+        "comments": "",
+        "text": "证明自己"
+      },
+      {
+        "answerId": "561044",
+        "quizQuestionId": "145816",
+        "comments": "",
+        "text": "从众与攀比"
+      },
+      {
+        "answerId": "561045",
+        "quizQuestionId": "145816",
+        "comments": "",
+        "text": "空虚与无聊"
+      },
+      {
+        "answerId": "561046",
+        "quizQuestionId": "145816",
+        "comments": "",
+        "text": "补偿与超越"
+      }
+    ],
+    "name": "一般大学生的恋情动机是什么？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "145817",
+    "level": "易",
+    "questionName": "“因为我需要你，所以我爱你”是成熟的爱。",
+    "answerList": [
+      {
+        "answerId": "561047",
+        "quizQuestionId": "145817",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "561048",
+        "quizQuestionId": "145817",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "“因为我需要你，所以我爱你”是成熟的爱。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  }
+]

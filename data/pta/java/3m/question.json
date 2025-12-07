@@ -1,0 +1,197 @@
+{
+  "organizationById": {
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    },
+    "205": {
+      "id": "205",
+      "name": "兰州大学",
+      "code": "lzu",
+      "type": "SCHOOL",
+      "logo": "ab16eeb2-105d-498b-aa50-8dd591540d99.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1977900031309058055",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": ["基本数据类型", "整数类型", "浮点类型", "引用型数据类型"],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java中的数据类型可以分为两大类，分别是：（    ）和（    ）。",
+      "content": "Java中的数据类型可以分为两大类，分别是：（    ）和（    ）。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1372405005445656576",
+      "description": "Java中的数据类型可以分为两大类，分别是：（    ）和（    ）。",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1977900031309058056",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "String str\u003d\u00271\u0027;\n",
+            "char ch1\u003d\"a\";",
+            "char ch2\u003d\"abc\".charAt(0);",
+            "String str1\u003d\"a\";"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于String与char类型，下列哪种赋值合法？",
+      "content": "关于String与char类型，下列哪种赋值合法？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1372410354525392896",
+      "description": "关于String与char类型，下列哪种赋值合法？",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1977900031309058057",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "int a\u003d20;a++;\n\na的值是21。\n",
+            "int a\u003d20;int b\u003da++;\n\nb的值是21。\n",
+            "int a\u003d20;int b\u003d++a;\n\nb的值是21。\n",
+            "int a\u003d3++; \n\na的值是3。\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java中,以下表达式说法正确的是：（     ）。",
+      "content": "Java中,以下表达式说法正确的是：（     ）。\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1407335179186667520",
+      "description": "Java中,以下表达式说法正确的是：（     ）。\n",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1977900031309058058",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "byte b\u003d340;",
+            " Boolean b\u003d1;",
+            "long l\u003d-2;",
+            "double d\u003d0.9239d;"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在Java中，下列赋值语句哪些是正确的：",
+      "content": "在Java中，下列赋值语句哪些是正确的：\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "马俊",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1475289942602088448",
+      "description": "在Java中，下列赋值语句哪些是正确的：\n",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "205"
+    },
+    {
+      "id": "1977900031309058059",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "$(36+6)/7\u003e\u003d5%4+7$",
+            "$!false\u0026\u0026!(4%2-4\u003d\u003d4)\u0026\u00267*4-5\u003e20$\n",
+            "$!(4\u003e2\u0026\u00264\u003c6)$\n",
+            "$!(45\u003e23\u0026\u002672/7\u003d\u003d0)$"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java语言中，下列表达式中哪些条件表达式的结果是真？",
+      "content": "Java语言中，下列表达式中哪些条件表达式的结果是真？\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "马俊",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1977900031233560576",
+      "problemId": "1475298207370719232",
+      "description": "Java语言中，下列表达式中哪些条件表达式的结果是真？\n",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "205"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1977900031309058055": "3-1",
+    "1977900031309058056": "3-2",
+    "1977900031309058057": "3-3",
+    "1977900031309058058": "3-4",
+    "1977900031309058059": "3-5"
+  }
+}

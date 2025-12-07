@@ -1,0 +1,358 @@
+{
+  "organizationById": {
+    "36": {
+      "id": "36",
+      "name": "吉首大学",
+      "code": "jsu",
+      "type": "SCHOOL",
+      "logo": "16c8421d-56ff-48b1-93f7-59dd804f8c64.png"
+    },
+    "17": {
+      "id": "17",
+      "name": "浙江传媒学院",
+      "code": "zumc",
+      "type": "SCHOOL",
+      "logo": "1adfb2e4-2999-43e0-a4e3-e0b71fce6ec0.png"
+    },
+    "920672097645928448": {
+      "id": "920672097645928448",
+      "name": "许昌学院",
+      "code": "xcu",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/xcu.png"
+    },
+    "263": {
+      "id": "263",
+      "name": "沈阳师范大学",
+      "code": "synu",
+      "type": "SCHOOL",
+      "logo": ""
+    },
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1980428028242960384",
+      "label": "2-1",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["0", "2", "4", "10"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面的方法，当输入为2的时候返回值是多少?（     ）",
+      "content": "下面的方法，当输入为2的时候返回值是多少?（     ）\n\u003cpre\u003e\npublic int getValue(int i) {\n         int result \u003d 0;\n         switch (i) {\n            case 1:\n                result \u003d result + i;\n            case 2:\n                result \u003d result + i * 2;\n            case 3:\n                result \u003d result + i * 3;\n        }\n        return result;\n }\n\u003c/pre\u003e\n@[](2)\n\nA. 0\nB. 2\nC. 4\nD. 10",
+      "type": "MULTIPLE_CHOICE",
+      "author": "王从银",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "2769",
+      "description": "下面的方法，当输入为2的时候返回值是多少?（     ）\n\u003cpre\u003e\npublic int getValue(int i) {\n         int result \u003d 0;\n         switch (i) {\n            case 1:\n                result \u003d result + i;\n            case 2:\n                result \u003d result + i * 2;\n            case 3:\n                result \u003d result + i * 3;\n        }\n        return result;\n }\n\u003c/pre\u003e",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "36"
+    },
+    {
+      "id": "1980428028242960385",
+      "label": "2-2",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["0", "1", "2", "以上答案都不正确"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在下面的代码段中，下列m的（  ）值将引起“default”的输出。   ",
+      "content": "在下面的代码段中，下列m的（  ）值将引起“default”的输出。   @[](2)\n```\nimport java.util.Scanner;\npublic class Main {\n    public static void main(String[] args) {\n    \tScanner input \u003d new Scanner(System.in);    \t\n        int m \u003d input.nextInt();\n        switch(m) {\n            case 0: System.out.println(\"case 0\");\n            case 1: System.out.println(\"case 1\");break;\n            case 2:\n            default:System.out.println(\"default\");\n        }\n    }\n}\n\n```\n\nA. 0\nB. 1\nC. 2\nD. 以上答案都不正确\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1230327412188925952",
+      "description": "在下面的代码段中，下列m的（  ）值将引起“default”的输出。\n```\nimport java.util.Scanner;\npublic class Main {\n    public static void main(String[] args) {\n    \tScanner input \u003d new Scanner(System.in);\n        int m \u003d input.nextInt();\n        switch(m) {\n            case 0: System.out.println(\"case 0\");\n            case 1: System.out.println(\"case 1\");break;\n            case 2:\n            default:System.out.println(\"default\");\n        }\n    }\n}\n\n```",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1980428028242960386",
+      "label": "2-3",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["60 ", "5", "0", "54"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列语句序列执行后，k 的值是(    )   ",
+      "content": "下列语句序列执行后，k 的值是(    )   @[](2)\n```\nint x\u003d6, y\u003d10, k\u003d5;\nswitch( x%y ){ \n        case 0: k\u003dx*y;\n  \tcase 6: k\u003dx/y;\n  \tcase 12: k\u003dx-y;\n  \tdefault: k\u003dx*y-x;\n}\n```\nA. 60 \nB. 5\nC. 0\nD. 54\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1249168618404098048",
+      "description": "下列语句序列执行后，k 的值是(    )   \n```\nint x\u003d6, y\u003d10, k\u003d5;\nswitch( x%y ){ \n        case 0: k\u003dx*y;\n  \tcase 6: k\u003dx/y;\n  \tcase 12: k\u003dx-y;\n  \tdefault: k\u003dx*y-x;\n}\n```\n",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1980428028242960387",
+      "label": "2-4",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "\n\u003cpre\u003e\nwhile (int  i\u003c7) {\n       i++;\n       System.out.println(“i is “+i);\n}\n\u003c/pre\u003e",
+            "\n\u003cpre\u003e\nint  j\u003d3; while(j) {\n       System.out.println(“ j  is “+j);\n}\n\u003c/pre\u003e",
+            "\n\u003cpre\u003e\nint  j\u003d0;\nfor(int  k\u003d0; j + k !\u003d10; j++,k++) {\n        System.out.println(“ j  is “+ j + “k  is”+ k);\n}\n\u003c/pre\u003e",
+            "\n\u003cpre\u003e\nint  j\u003d0;\ndo{\n      System.out.println( “j  is “+j++);\n     if (j \u003d\u003d 3) {\n        continue  loop;\n     }\n}while  (j\u003c10);\n\u003c/pre\u003e"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "以下选项中没有语法错误的是（       ） 。",
+      "content": "以下选项中没有语法错误的是（       ） 。   @[](2)\nA. \n\u003cpre\u003e\nwhile (int  i\u003c7) { \n       i++; \n       System.out.println(“i is “+i);  \n} \n\u003c/pre\u003e\nB. \n\u003cpre\u003e\nint  j\u003d3; while(j) {   \n       System.out.println(“ j  is “+j); \n} \n\u003c/pre\u003e\nC. \n\u003cpre\u003e\nint  j\u003d0; \nfor(int  k\u003d0; j + k !\u003d10; j++,k++) {     \n        System.out.println(“ j  is “+ j + “k  is”+ k); \n} \n\u003c/pre\u003e\nD.  \n\u003cpre\u003e\nint  j\u003d0; \ndo{ \n      System.out.println( “j  is “+j++);       \n     if (j \u003d\u003d 3) {\n        continue  loop;\n     }  \n}while  (j\u003c10);\n\u003c/pre\u003e",
+      "type": "MULTIPLE_CHOICE",
+      "author": "王从银",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "2727",
+      "description": "以下选项中没有语法错误的是（       ） 。",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "36"
+    },
+    {
+      "id": "1980428028242960388",
+      "label": "2-5",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["0", "0 3", "0 3 6", "0 3 6 9"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在JAVA中，给定代码片段如下所示，则编译运行后，输出结果是（）。",
+      "content": "在JAVA中，给定代码片段如下所示，则编译运行后，输出结果是（）。@[](2)\n```\nfor (int i \u003d 0; i \u003c 10; i++) {\n    if (i \u003d\u003d 10 - i) {\n        break;\n    }\n    \n    if (i % 3 !\u003d 0) {\n        continue;\n    }\n    System.out.print(i + \" \");\n}\n```\n\nA. 0\nB. 0 3\nC. 0 3 6\nD. 0 3 6 9\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "gwl",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1236600829365223424",
+      "description": "在JAVA中，给定代码片段如下所示，则编译运行后，输出结果是（）。\n```\nfor (int i \u003d 0; i \u003c 10; i++) {\n    if (i \u003d\u003d 10 - i) {\n        break;\n    }\n\n    if (i % 3 !\u003d 0) {\n        continue;\n    }\n    System.out.print(i + \" \");\n}\n```",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "920672097645928448"
+    },
+    {
+      "id": "1980428028242960389",
+      "label": "2-6",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["10", "11", "9", "1"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面代码将输出（    ）行 \"Welcome to Java\"?。   ",
+      "content": "下面代码将输出（    ）行 \"Welcome to Java\"?。   @[](2)\n```\nint count \u003d 0;\ndo {\n     System.out.println(\"Welcome to Java\");\n} while (count++ \u003c 10);\n```\nA. 10\nB. 11\nC. 9\nD. 1\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1238671080982716416",
+      "description": "下面代码将输出（    ）行 \"Welcome to Java\"?。\n```\nint count \u003d 0;\ndo {\n     System.out.println(\"Welcome to Java\");\n} while (count++ \u003c 10);\n```",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1980428028242960390",
+      "label": "2-7",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["编译错误", "0", "1", "2"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "分析下列代码的运行结果是什么？",
+      "content": "分析下列代码的运行结果是什么？\n\nvoid looper(){\n    \n\t\tint x\u003d0;\n\t\tone:\n\t\twhile(x\u003c20) {\n\t\t    two:\n\t\t\t\tSystem.out.print(++x);\n\t\t\t\tif(x\u003e3)\n\t\t\t\t  break two;\n\t\t}\n}\n\t\t\t\n@[](2)\n\nA. 编译错误\nB. 0\nC. 1\nD. 2",
+      "type": "MULTIPLE_CHOICE",
+      "author": "李妙妍",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1318368036123430912",
+      "description": "分析下列代码的运行结果是什么？\n\nvoid looper(){\n    \n\t\tint x\u003d0;\n\t\tone:\n\t\twhile(x\u003c20) {\n\t\t    two:\n\t\t\t\tSystem.out.print(++x);\n\t\t\t\tif(x\u003e3)\n\t\t\t\t  break two;\n\t\t}\n}\n\t\t\t",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "1980428028242960391",
+      "label": "2-8",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "编译时错误",
+            "运行时错误",
+            "The end",
+            "The value of i is 0"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "当编译并运行下列程序段时，运行结果是什么？",
+      "content": "当编译并运行下列程序段时，运行结果是什么？\n \n public class Test {\n \n\t\tpublic static void main(String[ ] args) {\n            int i\u003d0;\n            while (i--\u003c0){\n                 System.out.println(\"The value of i is \"+i);\n             }\n             System.out.println(\"The end\");\n\t\t }\n\t}\n\n@[](2)\n\nA. 编译时错误\nB. 运行时错误\nC. The end\nD. The value of i is 0",
+      "type": "MULTIPLE_CHOICE",
+      "author": "李妙妍",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1318408423663849472",
+      "description": "当编译并运行下列程序段时，运行结果是什么？\n \n public class Test {\n \n\t\tpublic static void main(String[ ] args) {\n            int i\u003d0;\n            while (i--\u003c0){\n                 System.out.println(\"The value of i is \"+i);\n             }\n             System.out.println(\"The end\");\n\t\t }\n\t}\n",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "1980428028242960392",
+      "label": "2-9",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["10", "20", "11", "21"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列选项中不属于本段代码输出结果的是（      ）",
+      "content": "下列选项中不属于本段代码输出结果的是（      ）\n\n\tpublic class Main{\n\t\tpublic static void main(String args[]) {\n\t\t  one:\n\t\t  two:\n\t\t  for(int i\u003d0; i\u003c3; i++) {\n\t\t      three:\n\t\t      for(int j\u003d10; j\u003c30; j+\u003d10) {\n\t\t         System.out.println(i+j);\n\t\t\t\t if(i\u003e0)\n\t\t\t\t    break one;\n\t\t      }\n\t\t  }\n\t\t}\n\t}\n@[](2)\n\nA. 10\nB. 20\nC. 11\nD. 21",
+      "type": "MULTIPLE_CHOICE",
+      "author": "李妙妍",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1318708938993946624",
+      "description": "下列选项中不属于本段代码输出结果的是（      ）\n\n\tpublic class Main{\n\t\tpublic static void main(String args[]) {\n\t\t  one:\n\t\t  two:\n\t\t  for(int i\u003d0; i\u003c3; i++) {\n\t\t      three:\n\t\t      for(int j\u003d10; j\u003c30; j+\u003d10) {\n\t\t         System.out.println(i+j);\n\t\t\t\t if(i\u003e0)\n\t\t\t\t    break one;\n\t\t      }\n\t\t  }\n\t\t}\n\t}",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "1980428028242960393",
+      "label": "2-10",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "类和对象都是具体的。\n",
+            "类是抽象的，对象是具体的。\n",
+            "一般情况下，在定义类之后，能创建无数个对象，可以说，类能化身千万。\n",
+            "类是引用型数据类型。\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于类和对象的关系，下列说法哪种说法是错误的？",
+      "content": "关于类和对象的关系，下列说法哪种说法是错误的？",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1408038342701645824",
+      "description": "关于类和对象的关系，下列说法哪种说法是错误的？",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1980428028242960384": "2-1",
+    "1980428028242960385": "2-2",
+    "1980428028242960386": "2-3",
+    "1980428028242960387": "2-4",
+    "1980428028242960388": "2-5",
+    "1980428028242960389": "2-6",
+    "1980428028242960390": "2-7",
+    "1980428028242960391": "2-8",
+    "1980428028242960392": "2-9",
+    "1980428028242960393": "2-10"
+  }
+}

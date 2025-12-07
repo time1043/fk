@@ -1,0 +1,574 @@
+[
+  {
+    "submission": {
+      "id": "1988191549802881024",
+      "userId": "1970645160325419008",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1983701703734988811",
+      "submitAt": "2025-11-11T10:26:18Z",
+      "status": "ACCEPTED",
+      "score": 10,
+      "compiler": "JAVAC",
+      "time": 0.117,
+      "memory": 19013632,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1983701703734988811",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.Scanner;\n\n// 类名改为 Main，与文件名一致\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        String[] words = scanner.nextLine().split(\" \");\n        String longestWord = \"\";\n        \n        for (String word : words) {\n            if (word.length() > longestWord.length()) {\n                longestWord = word;\n            }\n        }\n        \n        System.out.println(longestWord);\n        scanner.close();\n    }\n}"
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 10,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "0": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.116,
+                "memory": 18583552,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "1": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.117,
+                "memory": 19013632,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "2": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.11,
+                "memory": 18345984,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "3": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.116,
+                "memory": 18657280,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1983701703734988811"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1983701703705628672",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-11-11T10:26:19Z"
+    }
+  },
+  {
+    "submission": {
+      "id": "1988191792791494656",
+      "userId": "1970645160325419008",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1983701703734988812",
+      "submitAt": "2025-11-11T10:27:16Z",
+      "status": "ACCEPTED",
+      "score": 10,
+      "compiler": "JAVAC",
+      "time": 0.13,
+      "memory": 18890752,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1983701703734988812",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        // 使用 TreeSet 自动去重并按字母顺序排序（大小写敏感，符合字典序规则）\n        Set<String> wordSet = new TreeSet<>();\n\n        // 读取输入，直到遇到 \"!!!!!\" 结束\n        while (scanner.hasNextLine()) {\n            String line = scanner.nextLine().trim(); // 去除行首尾空格，处理空行/空格行\n            \n            // 终止条件：当前行是 \"!!!!!\"（trim后不影响，因为终止符无空格）\n            if (line.equals(\"!!!!!\")) {\n                break;\n            }\n            \n            // 忽略空行或纯空格行（trim后为空字符串）\n            if (line.isEmpty()) {\n                continue;\n            }\n            \n            // 按 1个或多个空格 分割单词（正则 \\\\s+ 匹配任意空白字符序列）\n            String[] words = line.split(\"\\\\s+\");\n            \n            // 将非空单词添加到集合（去重+排序）\n            for (String word : words) {\n                if (!word.isEmpty()) { // 避免分割后出现空字符串（极端情况）\n                    wordSet.add(word);\n                }\n            }\n        }\n        scanner.close();\n\n        // 输出不同单词的总数量\n        System.out.println(wordSet.size());\n\n        // 输出前10个单词（按字母顺序，TreeSet已排序）\n        int count = 0;\n        for (String word : wordSet) {\n            if (count >= 10) {\n                break;\n            }\n            System.out.println(word);\n            count++;\n        }\n    }\n}"
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 10,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "0": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.13,
+                "memory": 18890752,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 5,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "1": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.112,
+                "memory": 18608128,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 5,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1983701703734988812"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1983701703705628672",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-11-11T10:27:17Z"
+    }
+  },
+  {
+    "submission": {
+      "id": "1988191914266927104",
+      "userId": "1970645160325419008",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1983701703734988813",
+      "submitAt": "2025-11-11T10:27:45Z",
+      "status": "ACCEPTED",
+      "score": 10,
+      "compiler": "JAVAC",
+      "time": 0.297,
+      "memory": 26144768,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1983701703734988813",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.HashSet;\nimport java.util.Scanner;\nimport java.util.Set;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        // 用 HashSet 存储单词（自动去重），存储时统一转为小写（实现大小写不敏感）\n        Set<String> wordSet = new HashSet<>();\n\n        // 逐行读取输入，直到遇到 \"!!!!!\" 终止\n        while (scanner.hasNextLine()) {\n            String line = scanner.nextLine();\n            \n            // 终止条件：当前行等于 \"!!!!!\"（无需 trim，终止符无多余空格）\n            if (line.equals(\"!!!!!\")) {\n                break;\n            }\n            \n            // 忽略空行或纯空格行（trim 后为空字符串）\n            if (line.trim().isEmpty()) {\n                continue;\n            }\n            \n            // 按 1个或多个空格 分割单词（正则 \\\\s+ 匹配任意空白字符序列）\n            String[] words = line.split(\"\\\\s+\");\n            \n            // 遍历单词，统一转为小写后添加到集合（去重+大小写不敏感）\n            for (String word : words) {\n                if (!word.isEmpty()) { // 避免极端情况分割出空字符串\n                    wordSet.add(word.toLowerCase());\n                }\n            }\n        }\n        scanner.close();\n\n        // 输出不重复单词的个数（HashSet 的大小即为去重后的数量）\n        System.out.println(wordSet.size());\n    }\n}"
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 10,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "0": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.297,
+                "memory": 26144768,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 10,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1983701703734988813"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1983701703705628672",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-11-11T10:27:46Z"
+    }
+  },
+  {
+    "submission": {
+      "id": "1988192048451358720",
+      "userId": "1970645160325419008",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1983701703734988814",
+      "submitAt": "2025-11-11T10:28:17Z",
+      "status": "ACCEPTED",
+      "score": 10,
+      "compiler": "JAVAC",
+      "time": 0.127,
+      "memory": 18894848,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1983701703734988814",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int n = scanner.nextInt(); // 读取要打印的行数\n        scanner.close();\n\n        // 二维数组存储杨辉三角（n行，每行最多n个元素）\n        int[][] yanghui = new int[n][n];\n\n        // 填充杨辉三角\n        for (int i = 0; i < n; i++) {\n            // 每行的首元素和尾元素都是1\n            yanghui[i][0] = 1;\n            yanghui[i][i] = 1;\n\n            // 填充中间元素（从第2行开始，第2个元素到倒数第2个元素）\n            for (int j = 1; j < i; j++) {\n                // 当前元素 = 上一行前一列元素 + 上一行同列元素\n                yanghui[i][j] = yanghui[i-1][j-1] + yanghui[i-1][j];\n            }\n        }\n\n        // 打印杨辉三角（每个数字左对齐，占4个字符）\n        for (int i = 0; i < n; i++) {\n            for (int j = 0; j <= i; j++) {\n                // %-4d：左对齐，占4个字符，不足补空格\n                System.out.printf(\"%-4d\", yanghui[i][j]);\n            }\n            // 每行结束换行\n            System.out.println();\n        }\n    }\n}"
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 10,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "1": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.117,
+                "memory": 18444288,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "2": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.115,
+                "memory": 18759680,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "3": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.119,
+                "memory": 18771968,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "4": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.127,
+                "memory": 18894848,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "5": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.12,
+                "memory": 18771968,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1983701703734988814"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1983701703705628672",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-11-11T10:28:18Z"
+    }
+  },
+  {
+    "submission": {
+      "id": "1988192159273168896",
+      "userId": "1970645160325419008",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1983701703734988815",
+      "submitAt": "2025-11-11T10:28:44Z",
+      "status": "ACCEPTED",
+      "score": 10,
+      "compiler": "JAVAC",
+      "time": 0.121,
+      "memory": 19005440,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1983701703734988815",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        // 读取单行出勤记录，按空格分割为姓名数组\n        String[] names = scanner.nextLine().split(\"\\\\s+\");\n        scanner.close();\n\n        // 用 HashMap 统计每个人的出勤次数（键：姓名，值：次数）\n        Map<String, Integer> countMap = new HashMap<>();\n        for (String name : names) {\n            // 若姓名已存在，次数+1；否则初始化为1\n            countMap.put(name, countMap.getOrDefault(name, 0) + 1);\n        }\n\n        // 找出最大出勤次数\n        int maxCount = 0;\n        for (int count : countMap.values()) {\n            if (count > maxCount) {\n                maxCount = count;\n            }\n        }\n\n        // 收集所有出勤次数等于最大次数的姓名\n        List<String> resultList = new ArrayList<>();\n        for (Map.Entry<String, Integer> entry : countMap.entrySet()) {\n            if (entry.getValue() == maxCount) {\n                resultList.add(entry.getKey());\n            }\n        }\n\n        // 按要求格式输出（姓名用空格分割，结尾无空格）\n        for (int i = 0; i < resultList.size(); i++) {\n            if (i > 0) {\n                System.out.print(\" \");\n            }\n            System.out.print(resultList.get(i));\n        }\n        System.out.println();\n    }\n}"
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 10,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "0": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.116,
+                "memory": 18685952,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "1": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.121,
+                "memory": 18616320,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 2,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "2": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.116,
+                "memory": 19005440,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "3": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.114,
+                "memory": 18612224,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 3,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1983701703734988815"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1983701703705628672",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-11-11T10:28:44Z"
+    }
+  },
+  {
+    "submission": {
+      "id": "1988192505525395456",
+      "userId": "1970645160325419008",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1983701703734988816",
+      "submitAt": "2025-11-11T10:30:06Z",
+      "status": "ACCEPTED",
+      "score": 10,
+      "compiler": "JAVAC",
+      "time": 0.116,
+      "memory": 18857984,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1983701703734988816",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.LinkedHashMap;\nimport java.util.Map;\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        // LinkedHashMap 保证首次出现顺序（出征先后），同时统计次数\n        Map<String, Integer> astronautCount = new LinkedHashMap<>();\n        Scanner scanner = new Scanner(System.in);\n\n        // 循环读取输入，直到 \"end\" 结束\n        while (true) {\n            String line = scanner.nextLine().trim();\n            if (\"end\".equals(line)) {\n                break; // 终止条件\n            }\n            if (line.isEmpty()) {\n                continue; // 忽略空行\n            }\n            // 按单个空格分割姓名（题目明确分隔规则）\n            String[] names = line.split(\" \");\n            for (String name : names) {\n                // 次数统计：不存在则初始为1，存在则+1\n                astronautCount.put(name, astronautCount.getOrDefault(name, 0) + 1);\n            }\n        }\n        scanner.close();\n\n        // 按首次出征顺序输出结果\n        for (Map.Entry<String, Integer> entry : astronautCount.entrySet()) {\n            System.out.printf(\"%s %d%n\", entry.getKey(), entry.getValue());\n        }\n    }\n}"
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 10,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "1": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.116,
+                "memory": 18857984,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 10,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1983701703734988816"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1983701703705628672",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-11-11T10:30:07Z"
+    }
+  }
+]

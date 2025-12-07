@@ -1,0 +1,206 @@
+[
+  {
+    "questionId": "143288",
+    "level": "中",
+    "questionName": "学习心理学内容包括（  ）。",
+    "answerList": [
+      {
+        "answerId": "551299",
+        "quizQuestionId": "143288",
+        "comments": "",
+        "text": "思维方式"
+      },
+      {
+        "answerId": "551300",
+        "quizQuestionId": "143288",
+        "comments": "",
+        "text": "行为方式"
+      },
+      {
+        "answerId": "551301",
+        "quizQuestionId": "143288",
+        "comments": "",
+        "text": "生理机制"
+      },
+      {
+        "answerId": "551302",
+        "quizQuestionId": "143288",
+        "comments": "",
+        "text": "记忆原理"
+      }
+    ],
+    "name": "学习心理学内容包括（  ）。",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143289",
+    "level": "中",
+    "questionName": "如何培养正确的学习心理？",
+    "answerList": [
+      {
+        "answerId": "551303",
+        "quizQuestionId": "143289",
+        "comments": "",
+        "text": "了解最适合自己的学习方式"
+      },
+      {
+        "answerId": "551304",
+        "quizQuestionId": "143289",
+        "comments": "",
+        "text": "积极的冥想"
+      },
+      {
+        "answerId": "551305",
+        "quizQuestionId": "143289",
+        "comments": "",
+        "text": "劳逸结合"
+      },
+      {
+        "answerId": "551306",
+        "quizQuestionId": "143289",
+        "comments": "",
+        "text": "培养自己的专注力"
+      }
+    ],
+    "name": "如何培养正确的学习心理？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143290",
+    "level": "中",
+    "questionName": "身份管的是（ ）和（ ）。",
+    "answerList": [
+      {
+        "answerId": "551307",
+        "quizQuestionId": "143290",
+        "comments": "",
+        "text": "我是谁"
+      },
+      {
+        "answerId": "551308",
+        "quizQuestionId": "143290",
+        "comments": "",
+        "text": "健康问题"
+      },
+      {
+        "answerId": "551309",
+        "quizQuestionId": "143290",
+        "comments": "",
+        "text": "我的人生是怎样的"
+      },
+      {
+        "answerId": "551310",
+        "quizQuestionId": "143290",
+        "comments": "",
+        "text": "接纳自己"
+      }
+    ],
+    "name": "身份管的是（ ）和（ ）。",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "145809",
+    "level": "易",
+    "questionName": "大学生的学习特点有哪些？",
+    "answerList": [
+      {
+        "answerId": "561015",
+        "quizQuestionId": "145809",
+        "comments": "",
+        "text": "专业性"
+      },
+      {
+        "answerId": "561016",
+        "quizQuestionId": "145809",
+        "comments": "",
+        "text": "自主性"
+      },
+      {
+        "answerId": "561017",
+        "quizQuestionId": "145809",
+        "comments": "",
+        "text": "多元性"
+      },
+      {
+        "answerId": "561018",
+        "quizQuestionId": "145809",
+        "comments": "",
+        "text": "创新性"
+      }
+    ],
+    "name": "大学生的学习特点有哪些？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "145810",
+    "level": "易",
+    "questionName": "记忆的心理机制中有哪两个技巧？",
+    "answerList": [
+      {
+        "answerId": "561019",
+        "quizQuestionId": "145810",
+        "comments": "",
+        "text": "前摄抑制"
+      },
+      {
+        "answerId": "561020",
+        "quizQuestionId": "145810",
+        "comments": "",
+        "text": "中摄抑制"
+      },
+      {
+        "answerId": "561021",
+        "quizQuestionId": "145810",
+        "comments": "",
+        "text": "一次性记得越多越好"
+      },
+      {
+        "answerId": "561022",
+        "quizQuestionId": "145810",
+        "comments": "",
+        "text": "后摄抑制"
+      }
+    ],
+    "name": "记忆的心理机制中有哪两个技巧？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "145811",
+    "level": "易",
+    "questionName": "以下哪些属于缺乏学习动力的表现？",
+    "answerList": [
+      {
+        "answerId": "561023",
+        "quizQuestionId": "145811",
+        "comments": "",
+        "text": "逃避学习"
+      },
+      {
+        "answerId": "561024",
+        "quizQuestionId": "145811",
+        "comments": "",
+        "text": "注意力分散"
+      },
+      {
+        "answerId": "561025",
+        "quizQuestionId": "145811",
+        "comments": "",
+        "text": "有厌倦、冷漠的情绪"
+      },
+      {
+        "answerId": "561026",
+        "quizQuestionId": "145811",
+        "comments": "",
+        "text": "缺乏适宜的学习方法"
+      }
+    ],
+    "name": "以下哪些属于缺乏学习动力的表现？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  }
+]

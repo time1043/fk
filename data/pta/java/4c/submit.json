@@ -1,0 +1,13 @@
+{
+  "problemType": "PROGRAMMING",
+  "details": [
+    {
+      "problemId": "0",
+      "problemSetProblemId": "1980428028242960399",
+      "programmingSubmissionDetail": {
+        "program": "public class Main {\n    public static void main(String[] args ){\n        for (int i = 1000; i < 9999; i++) {\n            int a = i / 1000;\n            int b = i / 100 % 10;\n            int c = i / 10 % 10;\n            int d = i % 10;\n            if(a==b&&c==d){\n                for (int j = 10; j <100 ; j++) {\n                    if (j*j==i){\n                        System.out.println(\"车牌号码是\"+i);\n                    }\n                }\n\n            }\n        }\n    }\n}\n",
+        "compiler": "JAVAC"
+      }
+    }
+  ]
+}

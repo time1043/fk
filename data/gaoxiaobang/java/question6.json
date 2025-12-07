@@ -1,0 +1,172 @@
+[
+  {
+    "questionId": "297314",
+    "level": "中",
+    "questionName": "单列集合的顶层接口是(&ensp;&ensp;)<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1093517",
+        "quizQuestionId": "297314",
+        "comments": "",
+        "text": "java.util.Map"
+      },
+      {
+        "answerId": "1093518",
+        "quizQuestionId": "297314",
+        "comments": "",
+        "text": "java.util.Collection"
+      },
+      {
+        "answerId": "1093519",
+        "quizQuestionId": "297314",
+        "comments": "",
+        "text": "java.util.List"
+      },
+      {
+        "answerId": "1093520",
+        "quizQuestionId": "297314",
+        "comments": "",
+        "text": "java.util.Set&ensp;"
+      }
+    ],
+    "name": "单列集合的顶层接口是(&ensp;&ensp;)<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297315",
+    "level": "中",
+    "questionName": "关于迭代器说法错误的是(&ensp;&ensp;)&ensp;<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1093521",
+        "quizQuestionId": "297315",
+        "comments": "",
+        "text": "迭代器是取出集合元素的方式"
+      },
+      {
+        "answerId": "1093522",
+        "quizQuestionId": "297315",
+        "comments": "",
+        "text": "迭代器的hasNext()方法返回值是布尔类型&ensp;"
+      },
+      {
+        "answerId": "1093523",
+        "quizQuestionId": "297315",
+        "comments": "",
+        "text": "List集合有特有迭代器    "
+      },
+      {
+        "answerId": "1093524",
+        "quizQuestionId": "297315",
+        "comments": "",
+        "text": "next()方法将返回集合中的上一个元素"
+      }
+    ],
+    "name": "关于迭代器说法错误的是(&ensp;&ensp;)&ensp;<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297316",
+    "level": "中",
+    "questionName": "欲构造ArrayList类的一个实例，此类实现了List接口，下列哪个写法是正确的 ？",
+    "answerList": [
+      {
+        "answerId": "1093525",
+        "quizQuestionId": "297316",
+        "comments": "",
+        "text": "ArrayList myList=new Object()；"
+      },
+      {
+        "answerId": "1093526",
+        "quizQuestionId": "297316",
+        "comments": "",
+        "text": "List myList=new ArrayList()；"
+      },
+      {
+        "answerId": "1093527",
+        "quizQuestionId": "297316",
+        "comments": "",
+        "text": "ArrayList myList=new List()；"
+      },
+      {
+        "answerId": "1093528",
+        "quizQuestionId": "297316",
+        "comments": "",
+        "text": "List myList=new List();"
+      }
+    ],
+    "name": "欲构造ArrayList类的一个实例，此类实现了List接口，下列哪个写法是正确的 ？",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297317",
+    "level": "中",
+    "questionName": "下列程序代码运行结果是：（ ）。<br/>import java.util.ArrayList;<br/>    import java.util.List;<br/>public class Test {<br/>     public static void main(String args[]) {<br/>        List list = new ArrayList();<br/>        list.add(new Test());<br/>        list.add(new String(&quot;&quot;ABC&quot;&quot;));<br/>        list.add(new Test());<br/>        System.out.println(list.size());<br/>     }<br/>    }<br/>",
+    "answerList": [
+      {
+        "answerId": "1093529",
+        "quizQuestionId": "297317",
+        "comments": "",
+        "text": "1"
+      },
+      {
+        "answerId": "1093530",
+        "quizQuestionId": "297317",
+        "comments": "",
+        "text": "2"
+      },
+      {
+        "answerId": "1093531",
+        "quizQuestionId": "297317",
+        "comments": "",
+        "text": "3"
+      },
+      {
+        "answerId": "1093532",
+        "quizQuestionId": "297317",
+        "comments": "",
+        "text": "4"
+      }
+    ],
+    "name": "下列程序代码运行结果是：（ ）。<br/>import java.util.ArrayList;<br/>    import java.util.List;<br/>public class Test {<br/>     public static void main(String args[]) {<br/>        List list = new ArrayList();<br/>        list.add(new Test());<br/>        list.add(new String(&quot;&quot;ABC&quot;&quot;));<br/>        list.add(new Test());<br/>        System.out.println(list.size());<br/>     }<br/>    }<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297318",
+    "level": "中",
+    "questionName": "下列程序代码运行结果是：（ ）。<br/><br/>import java.util.*;    <br/>public class Test {     <br/>    public int hashCode() {        <br/>         return 1;     <br/>    }     <br/>    public boolean equals(Object b) {        <br/>        return true;    <br/>   }    <br/>    public static void main(String args[]) {        <br/>        Set set = new HashSet();        <br/>        set.add(new Test());        <br/>        set.add(new String(&quot;ABC&quot;));        <br/>        set.add(new Test());        <br/>        System.out.println(set.size());     <br/>    }<br/>}",
+    "answerList": [
+      {
+        "answerId": "1093533",
+        "quizQuestionId": "297318",
+        "comments": "",
+        "text": "1"
+      },
+      {
+        "answerId": "1093534",
+        "quizQuestionId": "297318",
+        "comments": "",
+        "text": "2"
+      },
+      {
+        "answerId": "1093535",
+        "quizQuestionId": "297318",
+        "comments": "",
+        "text": "3"
+      },
+      {
+        "answerId": "1093536",
+        "quizQuestionId": "297318",
+        "comments": "",
+        "text": "4"
+      }
+    ],
+    "name": "下列程序代码运行结果是：（ ）。<br/><br/>import java.util.*;    <br/>public class Test {     <br/>    public int hashCode() {        <br/>         return 1;     <br/>    }     <br/>    public boolean equals(Object b) {        <br/>        return true;    <br/>   }    <br/>    public static void main(String args[]) {        <br/>        Set set = new HashSet();        <br/>        set.add(new Test());        <br/>        set.add(new String(&quot;ABC&quot;));        <br/>        set.add(new Test());        <br/>        System.out.println(set.size());     <br/>    }<br/>}",
+    "comment": "",
+    "questionType": "multiple_choice"
+  }
+]

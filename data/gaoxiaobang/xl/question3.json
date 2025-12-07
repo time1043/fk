@@ -1,0 +1,352 @@
+[
+  {
+    "questionId": "143261",
+    "level": "中",
+    "questionName": "性格对于我们来说意味着什么呢？",
+    "answerList": [
+      {
+        "answerId": "551230",
+        "quizQuestionId": "143261",
+        "comments": "",
+        "text": "在小时候它是用来保护自己的模式。在成长以后反过来是阻碍我们内在潜力和能力发挥出来的一根绳索"
+      },
+      {
+        "answerId": "551231",
+        "quizQuestionId": "143261",
+        "comments": "",
+        "text": "对于我们来说去觉察自己这个模式，然后帮助我们从内在去开发自己的潜力，去提升我们的能力的一种最有效的工具"
+      },
+      {
+        "answerId": "551232",
+        "quizQuestionId": "143261",
+        "comments": "",
+        "text": "性格对于我们来说就是完全遗传因素影响造成的一个特点"
+      },
+      {
+        "answerId": "551233",
+        "quizQuestionId": "143261",
+        "comments": "",
+        "text": "性格不造成我们的任何局限性"
+      }
+    ],
+    "name": "性格对于我们来说意味着什么呢？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143262",
+    "level": "中",
+    "questionName": "九型性格分为三大感官中心，视觉中心、听觉中心、感觉中心。",
+    "answerList": [
+      {
+        "answerId": "551234",
+        "quizQuestionId": "143262",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551235",
+        "quizQuestionId": "143262",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "九型性格分为三大感官中心，视觉中心、听觉中心、感觉中心。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143263",
+    "level": "中",
+    "questionName": "一号人格的人是讲原则的，内心深度恐惧的是做错事情。",
+    "answerList": [
+      {
+        "answerId": "551236",
+        "quizQuestionId": "143263",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551237",
+        "quizQuestionId": "143263",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "一号人格的人是讲原则的，内心深度恐惧的是做错事情。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143264",
+    "level": "中",
+    "questionName": "二号的人会注重人际关系，希望通过帮助别人而赢得感激和认同，从而找到自我价值的满足感。",
+    "answerList": [
+      {
+        "answerId": "551238",
+        "quizQuestionId": "143264",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551239",
+        "quizQuestionId": "143264",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "二号的人会注重人际关系，希望通过帮助别人而赢得感激和认同，从而找到自我价值的满足感。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143265",
+    "level": "中",
+    "questionName": "三号的典型代表人物是雷锋。 ",
+    "answerList": [
+      {
+        "answerId": "551240",
+        "quizQuestionId": "143265",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551241",
+        "quizQuestionId": "143265",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "三号的典型代表人物是雷锋。 ",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143266",
+    "level": "中",
+    "questionName": "四号逆境的时候会自我、封闭，自我破坏，妒忌，容易产生无助、无望的感觉，情绪化，扮演受害者，沉浸在痛苦中。",
+    "answerList": [
+      {
+        "answerId": "551242",
+        "quizQuestionId": "143266",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551243",
+        "quizQuestionId": "143266",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "四号逆境的时候会自我、封闭，自我破坏，妒忌，容易产生无助、无望的感觉，情绪化，扮演受害者，沉浸在痛苦中。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143267",
+    "level": "中",
+    "questionName": "五号性格的人活在自己的思想世界里，他们不太重视物质生活需要，能够吃饱穿暖就够了。",
+    "answerList": [
+      {
+        "answerId": "551244",
+        "quizQuestionId": "143267",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551245",
+        "quizQuestionId": "143267",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "五号性格的人活在自己的思想世界里，他们不太重视物质生活需要，能够吃饱穿暖就够了。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143268",
+    "level": "中",
+    "questionName": "六号的特点有以下几点：",
+    "answerList": [
+      {
+        "answerId": "551246",
+        "quizQuestionId": "143268",
+        "comments": "",
+        "text": "属脑区，遇问题喜欢用脑分析，眼神是怯怯的，以审视搜索的目光来看待周围的人和事"
+      },
+      {
+        "answerId": "551247",
+        "quizQuestionId": "143268",
+        "comments": "",
+        "text": "害怕多疑，说话时不肯定，犹犹豫豫，吞吞吐吐，非常看重的是真实"
+      },
+      {
+        "answerId": "551248",
+        "quizQuestionId": "143268",
+        "comments": "",
+        "text": "如你骗他一次，他会记你一辈子"
+      },
+      {
+        "answerId": "551249",
+        "quizQuestionId": "143268",
+        "comments": "",
+        "text": "六号作决定时喜欢听取别人意见，一旦出现差错他就会立即怪罪别人，他害怕权威、恐惧权威、但有时有特别反叛权威"
+      },
+      {
+        "answerId": "551250",
+        "quizQuestionId": "143268",
+        "comments": "",
+        "text": "六号充满自信、活力，有魅力，受人欢迎，积极追求，有强烈目标感，事业第一"
+      }
+    ],
+    "name": "六号的特点有以下几点：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143269",
+    "level": "中",
+    "questionName": "七号的人他们做事情没有长性，三分钟热度。追求新鲜事物。一天到晚娱乐自己，通过转移注意力来保持正向的情绪。",
+    "answerList": [
+      {
+        "answerId": "551251",
+        "quizQuestionId": "143269",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551252",
+        "quizQuestionId": "143269",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "七号的人他们做事情没有长性，三分钟热度。追求新鲜事物。一天到晚娱乐自己，通过转移注意力来保持正向的情绪。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143270",
+    "level": "中",
+    "questionName": "八号性格的人是急性子、爱比较，因为过度追求一个又一个目标而让他们变成了“工作狂”。",
+    "answerList": [
+      {
+        "answerId": "551253",
+        "quizQuestionId": "143270",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551254",
+        "quizQuestionId": "143270",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "八号性格的人是急性子、爱比较，因为过度追求一个又一个目标而让他们变成了“工作狂”。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143271",
+    "level": "中",
+    "questionName": "九号性格的人比较能满足现状，自律性强，温文有礼，乐观，爱护家人朋友。",
+    "answerList": [
+      {
+        "answerId": "551255",
+        "quizQuestionId": "143271",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551256",
+        "quizQuestionId": "143271",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "九号性格的人比较能满足现状，自律性强，温文有礼，乐观，爱护家人朋友。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143272",
+    "level": "中",
+    "questionName": "一号性格和四号性格的异同点是：",
+    "answerList": [
+      {
+        "answerId": "551257",
+        "quizQuestionId": "143272",
+        "comments": "",
+        "text": "都是理想主义者"
+      },
+      {
+        "answerId": "551258",
+        "quizQuestionId": "143272",
+        "comments": "",
+        "text": "四号性格的人比较沉醉在自己的世界里"
+      },
+      {
+        "answerId": "551259",
+        "quizQuestionId": "143272",
+        "comments": "",
+        "text": "一号性格的人会压抑自己的情绪"
+      },
+      {
+        "answerId": "551260",
+        "quizQuestionId": "143272",
+        "comments": "",
+        "text": "面对批评，一号性格的人会马上改正，四号性格的人会置之不理"
+      }
+    ],
+    "name": "一号性格和四号性格的异同点是：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143273",
+    "level": "中",
+    "questionName": "四号身心受压，自我防卫时倾向二号，当感觉自我模式行不通时就去关注别人感受，甚至讨好别人，这样就越来越感觉到内在分离，这时控制欲更强，会疑神疑鬼。",
+    "answerList": [
+      {
+        "answerId": "551261",
+        "quizQuestionId": "143273",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551262",
+        "quizQuestionId": "143273",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "四号身心受压，自我防卫时倾向二号，当感觉自我模式行不通时就去关注别人感受，甚至讨好别人，这样就越来越感觉到内在分离，这时控制欲更强，会疑神疑鬼。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143274",
+    "level": "中",
+    "questionName": "九种人同时在星球上共存时，一个最完整、没有缺陷的团体诞生了，这九种人共同合作、互相制衡，堪称真正的梦幻组合。",
+    "answerList": [
+      {
+        "answerId": "551263",
+        "quizQuestionId": "143274",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551264",
+        "quizQuestionId": "143274",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "九种人同时在星球上共存时，一个最完整、没有缺陷的团体诞生了，这九种人共同合作、互相制衡，堪称真正的梦幻组合。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  }
+]

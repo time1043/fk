@@ -1,0 +1,172 @@
+[
+  {
+    "questionId": "143494",
+    "level": "中",
+    "questionName": "关于情绪、情感与认知、意志、个性的关系说法错误的是：",
+    "answerList": [
+      {
+        "answerId": "552058",
+        "quizQuestionId": "143494",
+        "comments": "",
+        "text": "情绪伴随认知过程而产生"
+      },
+      {
+        "answerId": "552059",
+        "quizQuestionId": "143494",
+        "comments": "",
+        "text": "认知过程是情绪的基础，情绪可以影响认知过程"
+      },
+      {
+        "answerId": "552060",
+        "quizQuestionId": "143494",
+        "comments": "",
+        "text": "认知过程是情绪的基础，而情绪对认知过程的影响不大"
+      },
+      {
+        "answerId": "552061",
+        "quizQuestionId": "143494",
+        "comments": "",
+        "text": "情绪激励意志，意志调控情绪"
+      }
+    ],
+    "name": "关于情绪、情感与认知、意志、个性的关系说法错误的是：",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143495",
+    "level": "易",
+    "questionName": "<p>关于情绪的影响说法错误的是：</p>",
+    "answerList": [
+      {
+        "answerId": "552062",
+        "quizQuestionId": "143495",
+        "comments": "",
+        "text": "<p>情绪不会影响职业生涯，因为职业最主要的是个人能力</p>"
+      },
+      {
+        "answerId": "552063",
+        "quizQuestionId": "143495",
+        "comments": "",
+        "text": "<p>情绪会影响身体健康</p>"
+      },
+      {
+        "answerId": "552064",
+        "quizQuestionId": "143495",
+        "comments": "",
+        "text": "<p>情绪会影响人际关系</p>"
+      },
+      {
+        "answerId": "552065",
+        "quizQuestionId": "143495",
+        "comments": "",
+        "text": "<p>情绪会影响学习成绩</p>"
+      }
+    ],
+    "name": "<p>关于情绪的影响说法错误的是：</p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "145812",
+    "level": "易",
+    "questionName": "大学生有什么样的情绪特征？",
+    "answerList": [
+      {
+        "answerId": "561027",
+        "quizQuestionId": "145812",
+        "comments": "",
+        "text": "丰富性和复杂性"
+      },
+      {
+        "answerId": "561028",
+        "quizQuestionId": "145812",
+        "comments": "",
+        "text": "波动性和两极性"
+      },
+      {
+        "answerId": "561029",
+        "quizQuestionId": "145812",
+        "comments": "",
+        "text": "冲动性和爆发性"
+      },
+      {
+        "answerId": "561030",
+        "quizQuestionId": "145812",
+        "comments": "",
+        "text": "阶段性和层次性"
+      }
+    ],
+    "name": "大学生有什么样的情绪特征？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "145813",
+    "level": "中",
+    "questionName": "良好情绪表现在哪些方面？",
+    "answerList": [
+      {
+        "answerId": "561031",
+        "quizQuestionId": "145813",
+        "comments": "",
+        "text": "对周围环境的评价上"
+      },
+      {
+        "answerId": "561032",
+        "quizQuestionId": "145813",
+        "comments": "",
+        "text": "情绪的转移能力上"
+      },
+      {
+        "answerId": "561033",
+        "quizQuestionId": "145813",
+        "comments": "",
+        "text": "年龄特征上"
+      },
+      {
+        "answerId": "561034",
+        "quizQuestionId": "145813",
+        "comments": "",
+        "text": "准确表述对周围环境的感受"
+      }
+    ],
+    "name": "良好情绪表现在哪些方面？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "145814",
+    "level": "易",
+    "questionName": "下列哪些属于不良情绪的体现？",
+    "answerList": [
+      {
+        "answerId": "561035",
+        "quizQuestionId": "145814",
+        "comments": "",
+        "text": "遇重大事情时情绪反应过于强烈"
+      },
+      {
+        "answerId": "561036",
+        "quizQuestionId": "145814",
+        "comments": "",
+        "text": "因一些小事而有过分的情绪反应"
+      },
+      {
+        "answerId": "561037",
+        "quizQuestionId": "145814",
+        "comments": "",
+        "text": "持久性的消极情绪"
+      },
+      {
+        "answerId": "561038",
+        "quizQuestionId": "145814",
+        "comments": "",
+        "text": "情绪过于迟钝、无动于衷、冷漠无情"
+      }
+    ],
+    "name": "下列哪些属于不良情绪的体现？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  }
+]

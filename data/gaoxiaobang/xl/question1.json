@@ -1,0 +1,70 @@
+[
+  {
+    "questionId": "143492",
+    "level": "易",
+    "questionName": "产生适应性心理困惑的因素包括：",
+    "answerList": [
+      {
+        "answerId": "552050",
+        "quizQuestionId": "143492",
+        "comments": "",
+        "text": "角色的改变"
+      },
+      {
+        "answerId": "552051",
+        "quizQuestionId": "143492",
+        "comments": "",
+        "text": "主观期望过高，与现实情况产生冲突"
+      },
+      {
+        "answerId": "552052",
+        "quizQuestionId": "143492",
+        "comments": "",
+        "text": "缺乏充分的心理准备"
+      },
+      {
+        "answerId": "552053",
+        "quizQuestionId": "143492",
+        "comments": "",
+        "text": "缺乏明确的学习目标"
+      }
+    ],
+    "name": "产生适应性心理困惑的因素包括：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143493",
+    "level": "中",
+    "questionName": "关于抑郁症的说法错误的是：",
+    "answerList": [
+      {
+        "answerId": "552054",
+        "quizQuestionId": "143493",
+        "comments": "",
+        "text": "抑郁症是由社会心理因素引起的一种持久的情绪抑郁"
+      },
+      {
+        "answerId": "552055",
+        "quizQuestionId": "143493",
+        "comments": "",
+        "text": "抑郁症患者会有妄想和幻想的症状"
+      },
+      {
+        "answerId": "552056",
+        "quizQuestionId": "143493",
+        "comments": "",
+        "text": "抑郁症患者会有焦虑和压抑的症状"
+      },
+      {
+        "answerId": "552057",
+        "quizQuestionId": "143493",
+        "comments": "",
+        "text": "抑郁症患者会有躯体不适并有睡眠障碍的症状"
+      }
+    ],
+    "name": "关于抑郁症的说法错误的是：",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  }
+]

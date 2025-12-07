@@ -1,0 +1,12 @@
+{
+  "problemType": "SQL_PROGRAMMING",
+  "details": [
+    {
+      "problemId": "0",
+      "problemSetProblemId": "1984133794331234304",
+      "sqlProgrammingSubmissionDetail": {
+        "program": "SELECT sname, nation, phone\nFROM student\nWHERE sname LIKE '李%';"
+      }
+    }
+  ]
+}

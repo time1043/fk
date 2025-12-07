@@ -1,0 +1,342 @@
+[
+  {
+    "questionId": "297327",
+    "level": "中",
+    "questionName": "Java语言类间的继承关系是（    ）。<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1093569",
+        "quizQuestionId": "297327",
+        "comments": "",
+        "text": "单继承"
+      },
+      {
+        "answerId": "1093570",
+        "quizQuestionId": "297327",
+        "comments": "",
+        "text": "多重继承"
+      },
+      {
+        "answerId": "1093571",
+        "quizQuestionId": "297327",
+        "comments": "",
+        "text": "不能继承"
+      },
+      {
+        "answerId": "1093572",
+        "quizQuestionId": "297327",
+        "comments": "",
+        "text": "不一定"
+      }
+    ],
+    "name": "Java语言类间的继承关系是（    ）。<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297328",
+    "level": "中",
+    "questionName": "下列关于抽象类说法正确的是（   ）<br/>",
+    "answerList": [
+      {
+        "answerId": "1093573",
+        "quizQuestionId": "297328",
+        "comments": "",
+        "text": "抽象类不能被继承"
+      },
+      {
+        "answerId": "1093574",
+        "quizQuestionId": "297328",
+        "comments": "",
+        "text": "抽象类不能实例化"
+      },
+      {
+        "answerId": "1093575",
+        "quizQuestionId": "297328",
+        "comments": "",
+        "text": "抽象类使用interface关键字"
+      },
+      {
+        "answerId": "1093576",
+        "quizQuestionId": "297328",
+        "comments": "",
+        "text": "抽象类中一定要有抽象方法"
+      }
+    ],
+    "name": "下列关于抽象类说法正确的是（   ）<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297329",
+    "level": "中",
+    "questionName": "下列不属于继承关系的是（   ）<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1093577",
+        "quizQuestionId": "297329",
+        "comments": "",
+        "text": "卡和银行卡"
+      },
+      {
+        "answerId": "1093578",
+        "quizQuestionId": "297329",
+        "comments": "",
+        "text": "汽车和轮胎"
+      },
+      {
+        "answerId": "1093579",
+        "quizQuestionId": "297329",
+        "comments": "",
+        "text": "人和学生"
+      },
+      {
+        "answerId": "1093580",
+        "quizQuestionId": "297329",
+        "comments": "",
+        "text": "动物和狗"
+      }
+    ],
+    "name": "下列不属于继承关系的是（   ）<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297330",
+    "level": "中",
+    "questionName": "关于final说法不正确的是（   ）<br/>",
+    "answerList": [
+      {
+        "answerId": "1093581",
+        "quizQuestionId": "297330",
+        "comments": "",
+        "text": "被final修饰的类不能被继承"
+      },
+      {
+        "answerId": "1093582",
+        "quizQuestionId": "297330",
+        "comments": "",
+        "text": "被final修饰的变量即为常量，只能赋值一次"
+      },
+      {
+        "answerId": "1093583",
+        "quizQuestionId": "297330",
+        "comments": "",
+        "text": "被final修饰的方法不能被重写"
+      },
+      {
+        "answerId": "1093584",
+        "quizQuestionId": "297330",
+        "comments": "",
+        "text": "被final修饰的方法属于类方法不属于实例"
+      }
+    ],
+    "name": "关于final说法不正确的是（   ）<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297331",
+    "level": "中",
+    "questionName": "已知类的继承关系如下：<br/><br/>class Employee{ }<br/>class Manager extends Employee{ }<br/>class Director extends Employee{ }<br/>",
+    "answerList": [
+      {
+        "answerId": "1093585",
+        "quizQuestionId": "297331",
+        "comments": "",
+        "text": "Employee e=new Manager();"
+      },
+      {
+        "answerId": "1093586",
+        "quizQuestionId": "297331",
+        "comments": "",
+        "text": "Director d= new Manager();"
+      },
+      {
+        "answerId": "1093587",
+        "quizQuestionId": "297331",
+        "comments": "",
+        "text": "Director d= new Employee();"
+      },
+      {
+        "answerId": "1093588",
+        "quizQuestionId": "297331",
+        "comments": "",
+        "text": "Manager m=new Director();"
+      }
+    ],
+    "name": "已知类的继承关系如下：<br/><br/>class Employee{ }<br/>class Manager extends Employee{ }<br/>class Director extends Employee{ }<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297332",
+    "level": "中",
+    "questionName": "在Java中，下面关于抽象类的描述正确的是（   ）<br/>",
+    "answerList": [
+      {
+        "answerId": "1093589",
+        "quizQuestionId": "297332",
+        "comments": "",
+        "text": "不能再从抽象类中派生出子类"
+      },
+      {
+        "answerId": "1093590",
+        "quizQuestionId": "297332",
+        "comments": "",
+        "text": "抽象类中可以没有抽象方法"
+      },
+      {
+        "answerId": "1093591",
+        "quizQuestionId": "297332",
+        "comments": "",
+        "text": "抽象类中的方法也必须都是抽象的"
+      },
+      {
+        "answerId": "1093592",
+        "quizQuestionId": "297332",
+        "comments": "",
+        "text": "声明抽象类可以不带有关键字abstract"
+      }
+    ],
+    "name": "在Java中，下面关于抽象类的描述正确的是（   ）<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297333",
+    "level": "中",
+    "questionName": "下列对Java中的继承描述错误的说法是（   ）<br/>",
+    "answerList": [
+      {
+        "answerId": "1093593",
+        "quizQuestionId": "297333",
+        "comments": "",
+        "text": " 子类至少有一个父类 "
+      },
+      {
+        "answerId": "1093594",
+        "quizQuestionId": "297333",
+        "comments": "",
+        "text": "子类可作为另一个子类的父类 "
+      },
+      {
+        "answerId": "1093595",
+        "quizQuestionId": "297333",
+        "comments": "",
+        "text": "子类除了包含它直接定义的属性外，还包含其父类的私有属性"
+      },
+      {
+        "answerId": "1093596",
+        "quizQuestionId": "297333",
+        "comments": "",
+        "text": "子类继承父类的方法访问权限可以发生变化<br/>"
+      }
+    ],
+    "name": "下列对Java中的继承描述错误的说法是（   ）<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297334",
+    "level": "中",
+    "questionName": "下面说法不正确的是（    ）<br/>",
+    "answerList": [
+      {
+        "answerId": "1093597",
+        "quizQuestionId": "297334",
+        "comments": "",
+        "text": "抽象类既可以做父类，也可以做子类"
+      },
+      {
+        "answerId": "1093598",
+        "quizQuestionId": "297334",
+        "comments": "",
+        "text": "abstract和final能同时修饰一个类"
+      },
+      {
+        "answerId": "1093599",
+        "quizQuestionId": "297334",
+        "comments": "",
+        "text": "抽象类中可以没有抽象方法，有抽象方法的类一定是抽象类"
+      },
+      {
+        "answerId": "1093600",
+        "quizQuestionId": "297334",
+        "comments": "",
+        "text": "声明为final类型的方法不能在其子类中重新定义<br/>"
+      }
+    ],
+    "name": "下面说法不正确的是（    ）<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297335",
+    "level": "中",
+    "questionName": "定义外部类的类头时，不可用的关键字是（    ）<br/>",
+    "answerList": [
+      {
+        "answerId": "1093601",
+        "quizQuestionId": "297335",
+        "comments": "",
+        "text": "public"
+      },
+      {
+        "answerId": "1093602",
+        "quizQuestionId": "297335",
+        "comments": "",
+        "text": "final"
+      },
+      {
+        "answerId": "1093603",
+        "quizQuestionId": "297335",
+        "comments": "",
+        "text": "protected"
+      },
+      {
+        "answerId": "1093604",
+        "quizQuestionId": "297335",
+        "comments": "",
+        "text": "abstract"
+      }
+    ],
+    "name": "定义外部类的类头时，不可用的关键字是（    ）<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297336",
+    "level": "中",
+    "questionName": "<p>在使用super 和this关键字时，以下描述正确的是</p>",
+    "answerList": [
+      {
+        "answerId": "1093605",
+        "quizQuestionId": "297336",
+        "comments": "",
+        "text": "<p>在子类构造方法中使用super（）显示调用父类的构造方法，super（）必须写在子类构造方法的第一行，否则编译不通过</p>"
+      },
+      {
+        "answerId": "1093606",
+        "quizQuestionId": "297336",
+        "comments": "",
+        "text": "<p>this（）和super（）可以同时出现在一个构造函数中</p>"
+      },
+      {
+        "answerId": "1093607",
+        "quizQuestionId": "297336",
+        "comments": "",
+        "text": "<p>super（）和this（）不一定要放在构造方法内第一行</p>"
+      },
+      {
+        "answerId": "1093608",
+        "quizQuestionId": "297336",
+        "comments": "",
+        "text": "<p>this（）和super（）可以在static环境中使用，包括static方法和static语句块</p>"
+      }
+    ],
+    "name": "<p>在使用super 和this关键字时，以下描述正确的是</p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_choice"
+  }
+]

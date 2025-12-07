@@ -1,0 +1,104 @@
+[
+  {
+    "questionId": "143318",
+    "level": "中",
+    "questionName": "网络性心理障碍的典型症状有：",
+    "answerList": [
+      {
+        "answerId": "551401",
+        "quizQuestionId": "143318",
+        "comments": "",
+        "text": "情绪低落"
+      },
+      {
+        "answerId": "551402",
+        "quizQuestionId": "143318",
+        "comments": "",
+        "text": "睡眠障碍"
+      },
+      {
+        "answerId": "551403",
+        "quizQuestionId": "143318",
+        "comments": "",
+        "text": "思维迟缓"
+      },
+      {
+        "answerId": "551404",
+        "quizQuestionId": "143318",
+        "comments": "",
+        "text": "社会活动减少"
+      }
+    ],
+    "name": "网络性心理障碍的典型症状有：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143319",
+    "level": "中",
+    "questionName": "形成网络依赖的几个原因包括：",
+    "answerList": [
+      {
+        "answerId": "551405",
+        "quizQuestionId": "143319",
+        "comments": "",
+        "text": "自我认知偏差"
+      },
+      {
+        "answerId": "551406",
+        "quizQuestionId": "143319",
+        "comments": "",
+        "text": "认同需要缺失"
+      },
+      {
+        "answerId": "551407",
+        "quizQuestionId": "143319",
+        "comments": "",
+        "text": "缺乏目标规划"
+      },
+      {
+        "answerId": "551408",
+        "quizQuestionId": "143319",
+        "comments": "",
+        "text": "人际交往障碍"
+      }
+    ],
+    "name": "形成网络依赖的几个原因包括：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143320",
+    "level": "中",
+    "questionName": "参加治疗网络依赖的自主团体的益处有：",
+    "answerList": [
+      {
+        "answerId": "551409",
+        "quizQuestionId": "143320",
+        "comments": "",
+        "text": "获得支持"
+      },
+      {
+        "answerId": "551410",
+        "quizQuestionId": "143320",
+        "comments": "",
+        "text": "获得理解"
+      },
+      {
+        "answerId": "551411",
+        "quizQuestionId": "143320",
+        "comments": "",
+        "text": "交友"
+      },
+      {
+        "answerId": "551412",
+        "quizQuestionId": "143320",
+        "comments": "",
+        "text": "开心"
+      }
+    ],
+    "name": "参加治疗网络依赖的自主团体的益处有：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  }
+]

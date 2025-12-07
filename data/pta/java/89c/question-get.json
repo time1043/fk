@@ -1,0 +1,367 @@
+[
+  {
+    "problemSetProblem": {
+      "id": "1990595265456459781",
+      "label": "7-3",
+      "score": 10,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n",
+              "output": "Wang-17\nli-17\nwang-14\nzhang-12\nzhang-15\n// 这行是标识信息，应替换为**2.main方法中**中的第4点要求。\n"
+            },
+            {
+              "name": "",
+              "input": "5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n",
+              "output": "Wang-17\nli-17\nwang-14\nzhang-12\nzhang-15\n// 这行是标识信息，应替换为**2.main方法中**中的第4点要求。\n"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "jmu-Java-04面向对象进阶-01-接口-Comparable",
+      "content": "编写实现**Comparable**接口的`PersonSortable`类，使其按name以及age排序\n\n## 1.编写PersonSortable类\n属性：`private name(String)`、`private age(int)`  \n有参构造函数：参数为name,age  \ntoString函数：返回格式为：name-age  \n实现**Comparable**接口：实现先对name升序排序，如果name相同则对age进行升序排序\n\n## 2.main方法中\n1. 首先输入n  \n2. 输入n行name age，并创建n个对象放入数组\n3. 对数组进行排序后输出。\n4. 最后一行使用`System.out.println(Arrays.toString(PersonSortable.class.getInterfaces()));`输出PersonSortable所实现的所有接口\n\n### 输入样例:\n```in\n5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n\n```\n### 输出样例:\n```out\nWang-17\nli-17\nwang-14\nzhang-12\nzhang-15\n//这行是标识信息\n\n```",
+      "type": "PROGRAMMING",
+      "author": "郑如滨",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "4980",
+      "description": "编写实现**Comparable**接口的`PersonSortable`类，使其按name以及age排序\n\n## 1.编写PersonSortable类\n属性：`private name(String)`、`private age(int)`  \n有参构造函数：参数为name,age  \ntoString函数：返回格式为：name-age  \n实现**Comparable**接口：实现先对name升序排序，如果name相同则对age进行升序排序\n\n## 2.main方法中\n1. 首先输入n  \n2. 输入n行name age，并创建n个对象放入数组\n3. 对数组进行排序后输出。\n4. 最后一行使用`System.out.println(Arrays.toString(PersonSortable.class.getInterfaces()));`输出PersonSortable所实现的所有接口\n\n### 输入样例:\n```in\n5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n\n```\n### 输出样例:\n```out\nWang-17\nli-17\nwang-14\nzhang-12\nzhang-15\n// 这行是标识信息，应替换为**2.main方法中**中的第4点要求。\n\n```",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "7-3"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1990595265456459782",
+      "label": "7-4",
+      "score": 10,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n\n",
+              "output": "NameComparator:sort\nWang-17\nli-17\nwang-14\nzhang-15\nzhang-12\nAgeComparator:sort\nzhang-12\nwang-14\nzhang-15\nWang-17\nli-17\n//最后两行是标识信息\n"
+            },
+            {
+              "name": "",
+              "input": "5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n\n",
+              "output": "NameComparator:sort\nWang-17\nli-17\nwang-14\nzhang-15\nzhang-12\nAgeComparator:sort\nzhang-12\nwang-14\nzhang-15\nWang-17\nli-17\n//最后两行是标识信息\n"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "jmu-Java-04面向对象进阶--02-接口-Comparator",
+      "content": "Arrays.sort可以对所有实现Comparable的对象进行排序。但如果有多种排序需求，如有时候需对name进行降序排序，有时候只需要对年龄进行排序。使用Comparable无法满足这样的需求。可以编写不同的`Comparator`来满足多样的排序需求。\n\n## 1.编写PersonSortable2类\n属性：`private name(String)`、`private age(int)`  \n有参构造函数：参数为name,age  \ntoString方法：返回格式`name-age`\n\n## 2 编写Comparator类\n1. 编写`NameComparator`类，实现对name进行**升序排序**\n2. 编写`AgeComparator`类，对age进行**升序排序**\n\n## 3.main方法中\n1. 输入n\n2. 输入n行name age，并创建n个对象放入数组\n3. 对数组按照name进行升序排序后输出。\n4. 在3的基础上对数组按照age进行升序排序后输出。\n5. 最后最后两行使用如下代码输出NameComparator与AgeComparator所实现的所有接口。\n\n```\nSystem.out.println(Arrays.toString(NameComparator.class.getInterfaces()));\nSystem.out.println(Arrays.toString(AgeComparator.class.getInterfaces()));\n\n```\n  \n\n### 输入样例:\n```in\n5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n\n\n```\n### 输出样例:\n```out\nNameComparator:sort\nWang-17\nli-17\nwang-14\nzhang-15\nzhang-12\nAgeComparator:sort\nzhang-12\nwang-14\nzhang-15\nWang-17\nli-17\n//最后两行是标识信息\n\n```",
+      "type": "PROGRAMMING",
+      "author": "郑如滨",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "4981",
+      "description": "Arrays.sort可以对所有实现Comparable的对象进行排序。但如果有多种排序需求，如有时候需对name进行降序排序，有时候只需要对年龄进行排序。使用Comparable无法满足这样的需求。可以编写不同的`Comparator`来满足多样的排序需求。\n\n## 1.编写PersonSortable2类\n属性：`private name(String)`、`private age(int)`  \n有参构造函数：参数为name,age  \ntoString方法：返回格式`name-age`\n\n## 2 编写Comparator类\n1. 编写`NameComparator`类，实现对name进行**升序排序**\n2. 编写`AgeComparator`类，对age进行**升序排序**\n\n## 3.main方法中\n1. 输入n\n2. 输入n行name age，并创建n个对象放入数组\n3. 对数组按照name进行升序排序后输出。\n4. 在3的基础上对数组按照age进行升序排序后输出。\n5. 最后最后两行使用如下代码输出NameComparator与AgeComparator所实现的所有接口。\n\n```\nSystem.out.println(Arrays.toString(NameComparator.class.getInterfaces()));\nSystem.out.println(Arrays.toString(AgeComparator.class.getInterfaces()));\n\n```\n  \n\n### 输入样例:\n```in\n5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n\n\n```\n### 输出样例:\n```out\nNameComparator:sort\nWang-17\nli-17\nwang-14\nzhang-15\nzhang-12\nAgeComparator:sort\nzhang-12\nwang-14\nzhang-15\nWang-17\nli-17\n//最后两行是标识信息\n\n```",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "7-4"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1990595265456459783",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "1 2-3\n",
+              "output": "now checking in\nnow starting\nnow playing football\nnow ending\nnow annoucing result: 2-3\n"
+            },
+            {
+              "name": "",
+              "input": "1 2-3\n",
+              "output": "now checking in\nnow starting\nnow playing football\nnow ending\nnow annoucing result: 2-3\n"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "打球过程",
+      "content": "利用模板方法来构造相关类实现下述过程：\n各种球类的玩法虽然不同，但是球类比赛的过程是类似的，都包含如下几个步骤：\n1球员报道-->2比赛开始-->3比赛-->4比赛结束-->5公布比赛成绩，且其中1 2 4步相同 第3步根据球类不同，玩法不同，第5步根据得分不同，公布方式结果不同\n构造类BallMatch表示球类比赛，包含方法compete表示真个比赛过程\n构造各个比赛过程的函数checkin,start,play,end,annouceResult\n打印信息如下：\nnow checking in\nnow starting\nnow playing football\nnow ending\nnow annoucing result: 2-3\n构造类FootballMatch和BasketBallMatch，实现具体的比赛过程。\n\n在main函数中，读入整数i，如果为1，则构造一个足球比赛过程，如果为2则构造一个篮球比赛过程\n打印比赛过程\n\n### 输入格式:\n\n比赛类型 比分\n\n### 输出格式:\n\n比赛过程信息\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n1 2-3\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\nnow checking in\nnow starting\nnow playing football\nnow ending\nnow annoucing result: 2-3\n```\n",
+      "type": "PROGRAMMING",
+      "author": "温彦",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "1070641892404682752",
+      "description": "利用模板方法来构造相关类实现下述过程：\n各种球类的玩法虽然不同，但是球类比赛的过程是类似的，都包含如下几个步骤：\n1球员报道-->2比赛开始-->3比赛-->4比赛结束-->5公布比赛成绩，且其中1 2 4步相同 第3步根据球类不同，玩法不同，第5步根据得分不同，公布方式结果不同\n构造类BallMatch表示球类比赛，包含方法compete表示真个比赛过程\n构造各个比赛过程的函数checkin,start,play,end,annouceResult\n打印信息如下：\nnow checking in\nnow starting\nnow playing football\nnow ending\nnow annoucing result: 2-3\n构造类FootballMatch和BasketBallMatch，实现具体的比赛过程。\n\n在main函数中，读入整数i，如果为1，则构造一个足球比赛过程，如果为2则构造一个篮球比赛过程\n打印比赛过程\n\n### 输入格式:\n\n比赛类型 比分\n\n### 输出格式:\n\n比赛过程信息\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n1 2-3\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\nnow checking in\nnow starting\nnow playing football\nnow ending\nnow annoucing result: 2-3\n```\n",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "153"
+    },
+    "organization": {
+      "id": "153",
+      "name": "山东科技大学",
+      "code": "sdust",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/sdust.png"
+    },
+    "examLabel": "7-3"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1990595265456459784",
+      "label": "",
+      "score": 15,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "2": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "3": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "1\n2\n1 1\n2 2\n",
+              "output": "15 0.00 1600"
+            },
+            {
+              "name": "",
+              "input": "1\n2\n1 1\n2 2\n",
+              "output": "15 0.00 1600"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "sdut-oop-7 答答租车系统（类的继承与多态 面向对象综合练习）",
+      "content": "各位面向对象的小伙伴们，在学习了面向对象的核心概念——类的封装、继承、多态之后，答答租车系统开始营运了。\n\n请你充分利用面向对象思想，为公司解决智能租车问题，根据客户选定的车型和租车天数，来计算租车费用，最大载客人数，最大载载重量。\n\n公司现有三种车型（客车、皮卡车、货车），每种车都有名称和租金的属性；其中：客车只能载人，货车只能载货，皮卡车是客货两用车，即可以载人，也可以载货。\n\n下面是答答租车公司的可用车型、容量及价目表：\n\n![007.jpg](~/d462b296-09af-4762-b762-28fb5bb2a05b.jpg)\n\n要求：根据客户输入的所租车型的序号及天数，计算所能乘载的总人数、货物总数量及租车费用总金额。\n\n### 输入格式:\n首行是一个整数：代表要不要租车 1——要租车（程序继续），0——不租车（程序结束）；\n\n第二行是一个整数，代表要租车的数量N；\n\n接下来是N行数据，每行2个整数m和n，其中：m表示要租车的编号，n表示租用该车型的天数。\n\n\n### 输出格式:\n若成功租车，则输出一行数据，数据间有一个空格，含义为：\n    载客总人数 载货总重量（保留2位小数） 租车金额（整数）\n若不租车，则输出： \n    0 0.00 0（含义同上）\n\n\n### 输入样例:\n\n```in\n1\n2\n1 1\n2 2\n\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n15 0.00 1600\n```\n",
+      "type": "PROGRAMMING",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "1391329302613622784",
+      "description": "各位面向对象的小伙伴们，在学习了面向对象的核心概念——类的封装、继承、多态之后，答答租车系统开始营运了。\n\n请你充分利用面向对象思想，为公司解决智能租车问题，根据客户选定的车型和租车天数，来计算租车费用，最大载客人数，最大载载重量。\n\n公司现有三种车型（客车、皮卡车、货车），每种车都有名称和租金的属性；其中：客车只能载人，货车只能载货，皮卡车是客货两用车，即可以载人，也可以载货。\n\n下面是答答租车公司的可用车型、容量及价目表：\n\n![007.jpg](~/d462b296-09af-4762-b762-28fb5bb2a05b.jpg)\n\n要求：根据客户输入的所租车型的序号及天数，计算所能乘载的总人数、货物总数量及租车费用总金额。\n\n### 输入格式:\n首行是一个整数：代表要不要租车 1——要租车（程序继续），0——不租车（程序结束）；\n\n第二行是一个整数，代表要租车的数量N；\n\n接下来是N行数据，每行2个整数m和n，其中：m表示要租车的编号，n表示租用该车型的天数。\n\n\n### 输出格式:\n若成功租车，则输出一行数据，数据间有一个空格，含义为：\n    载客总人数 载货总重量（保留2位小数） 租车金额（整数）\n若不租车，则输出： \n    0 0.00 0（含义同上）\n\n\n### 输入样例:\n\n```in\n1\n2\n1 1\n2 2\n\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n15 0.00 1600\n```\n",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    "organization": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    },
+    "examLabel": "7-4"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1990595265456459785",
+      "label": "",
+      "score": 15,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "DD3": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "SL2": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "ALL10": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "6\nSL 2\nDD 2\nSL 1\nSL 1\nSL 1\nDD 3",
+              "output": "63\n"
+            },
+            {
+              "name": "",
+              "input": "6\nSL 2\nDD 2\nSL 1\nSL 1\nSL 1\nDD 3",
+              "output": "63\n"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "快递计价器",
+      "content": "现需要编写一个简易快递计价程序。具体来说：\n\n1、**抽象**快递类`Express`，其包含一个属性`int weight`表示快递重量（单位为kg），一个方法`getWeight()`用于返回快递重量和一个**抽象方法**`getTotal()`用于计算快递运费。\n\n2、两个类继承`Express`，分别是：\n（a）顺路快递`SLExpress`：计价规则为首重(1kg)12元，每增加1kg费用加2元。\n（b）地地快递`DDExpress`：计价规则为首重(1kg)5元，每增加1kg费用加1元。\n\n3、Main：\n接收用户通过控制台输入的N行信息，自动计算所有快递的运费总和。\n\n\n### 输入样例:\n\n```in\n6\nSL 2\nDD 2\nSL 1\nSL 1\nSL 1\nDD 3\n```\n\n### 输入解释:\n\n第1行n表示需要计算的快递件数\n第2至n+1表示每个快递信息，即选哪家快递公司 以及快递的重量（单位kg）\n\n### 输出样例:\n\n```out\n63\n\n```\n\n### 输出解释:\n\n所有快递总运费。\n",
+      "type": "PROGRAMMING",
+      "author": "Ma",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "1589256976259903488",
+      "description": "现需要编写一个简易快递计价程序。具体来说：\n\n1、**抽象**快递类`Express`，其包含一个属性`int weight`表示快递重量（单位为kg），一个方法`getWeight()`用于返回快递重量和一个**抽象方法**`getTotal()`用于计算快递运费。\n\n2、两个类继承`Express`，分别是：\n（a）顺路快递`SLExpress`：计价规则为首重(1kg)12元，每增加1kg费用加2元。\n（b）地地快递`DDExpress`：计价规则为首重(1kg)5元，每增加1kg费用加1元。\n\n3、Main：\n接收用户通过控制台输入的N行信息，自动计算所有快递的运费总和。\n\n\n### 输入样例:\n\n```in\n6\nSL 2\nDD 2\nSL 1\nSL 1\nSL 1\nDD 3\n```\n\n### 输入解释:\n\n第1行n表示需要计算的快递件数\n第2至n+1表示每个快递信息，即选哪家快递公司 以及快递的重量（单位kg）\n\n### 输出样例:\n\n```out\n63\n\n```\n\n### 输出解释:\n\n所有快递总运费。\n",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "153"
+    },
+    "organization": {
+      "id": "153",
+      "name": "山东科技大学",
+      "code": "sdust",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/sdust.png"
+    },
+    "examLabel": "7-5"
+  }
+]

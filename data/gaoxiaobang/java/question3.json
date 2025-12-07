@@ -1,0 +1,512 @@
+[
+  {
+    "questionId": "297148",
+    "level": "中",
+    "questionName": "以下程序段，正确的说法是（    ）<br/>1． String s1=&ldquo;a&rdquo;+&ldquo;b&rdquo;;<br/>2． String s2=new String（s1）;<br/>3． if（s1= =s2）<br/>4． System.out.println(&ldquo;= = is succeeded&rdquo;);<br/>5． if (s1.equals(s2))<br/>6． System.out.println(&ldquo;.equals() is succeeded&rdquo;);<br/>",
+    "answerList": [
+      {
+        "answerId": "1093002",
+        "quizQuestionId": "297148",
+        "comments": "",
+        "text": "行4与行6都将执行"
+      },
+      {
+        "answerId": "1093003",
+        "quizQuestionId": "297148",
+        "comments": "",
+        "text": "行4执行，行6不执行"
+      },
+      {
+        "answerId": "1093004",
+        "quizQuestionId": "297148",
+        "comments": "",
+        "text": "行6执行，行4不执行"
+      },
+      {
+        "answerId": "1093005",
+        "quizQuestionId": "297148",
+        "comments": "",
+        "text": "行4、行6都不执行"
+      }
+    ],
+    "name": "以下程序段，正确的说法是（    ）<br/>1． String s1=&ldquo;a&rdquo;+&ldquo;b&rdquo;;<br/>2． String s2=new String（s1）;<br/>3． if（s1= =s2）<br/>4． System.out.println(&ldquo;= = is succeeded&rdquo;);<br/>5． if (s1.equals(s2))<br/>6． System.out.println(&ldquo;.equals() is succeeded&rdquo;);<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297142",
+    "level": "中",
+    "questionName": "已知x=2, y=3, z=4，则经过z-= --y &ndash; x--运算后，z的值为哪个选项<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1092978",
+        "quizQuestionId": "297142",
+        "comments": "",
+        "text": "1"
+      },
+      {
+        "answerId": "1092979",
+        "quizQuestionId": "297142",
+        "comments": "",
+        "text": "2"
+      },
+      {
+        "answerId": "1092980",
+        "quizQuestionId": "297142",
+        "comments": "",
+        "text": "3"
+      },
+      {
+        "answerId": "1092981",
+        "quizQuestionId": "297142",
+        "comments": "",
+        "text": "4"
+      }
+    ],
+    "name": "已知x=2, y=3, z=4，则经过z-= --y &ndash; x--运算后，z的值为哪个选项<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297143",
+    "level": "中",
+    "questionName": "设有类型定义short i=32； long j=64； 下面赋值语句中不正确的一个是哪个选项<br/>",
+    "answerList": [
+      {
+        "answerId": "1092982",
+        "quizQuestionId": "297143",
+        "comments": "",
+        "text": "j=i"
+      },
+      {
+        "answerId": "1092983",
+        "quizQuestionId": "297143",
+        "comments": "",
+        "text": "i=j "
+      },
+      {
+        "answerId": "1092984",
+        "quizQuestionId": "297143",
+        "comments": "",
+        "text": "i=(short)j"
+      },
+      {
+        "answerId": "1092985",
+        "quizQuestionId": "297143",
+        "comments": "",
+        "text": "j=(long)i<br/>"
+      }
+    ],
+    "name": "设有类型定义short i=32； long j=64； 下面赋值语句中不正确的一个是哪个选项<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297144",
+    "level": "中",
+    "questionName": "现有1个char类型的变量c1=66和1个整型变量i=2，当执行c1=c1+(char)i;语句后，c1的值为哪个选项<br/>",
+    "answerList": [
+      {
+        "answerId": "1092986",
+        "quizQuestionId": "297144",
+        "comments": "",
+        "text": "  &#39;d&#39; "
+      },
+      {
+        "answerId": "1092987",
+        "quizQuestionId": "297144",
+        "comments": "",
+        "text": "  &#39;D&#39; "
+      },
+      {
+        "answerId": "1092988",
+        "quizQuestionId": "297144",
+        "comments": "",
+        "text": "68"
+      },
+      {
+        "answerId": "1092989",
+        "quizQuestionId": "297144",
+        "comments": "",
+        "text": "语句在编译时出错"
+      }
+    ],
+    "name": "现有1个char类型的变量c1=66和1个整型变量i=2，当执行c1=c1+(char)i;语句后，c1的值为哪个选项<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297145",
+    "level": "中",
+    "questionName": "下列说法中，正确是哪个选项<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1092990",
+        "quizQuestionId": "297145",
+        "comments": "",
+        "text": "字符串&quot;\\\\abcd&quot; 的长度为6 "
+      },
+      {
+        "answerId": "1092991",
+        "quizQuestionId": "297145",
+        "comments": "",
+        "text": "False是Java的保留字 "
+      },
+      {
+        "answerId": "1092992",
+        "quizQuestionId": "297145",
+        "comments": "",
+        "text": "123.45L代表单精度浮点型"
+      },
+      {
+        "answerId": "1092993",
+        "quizQuestionId": "297145",
+        "comments": "",
+        "text": "False是合法的Java标识符"
+      }
+    ],
+    "name": "下列说法中，正确是哪个选项<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297146",
+    "level": "中",
+    "questionName": "<p>下列关于运算符优先级的说法中，不正确的一个是（ &nbsp; ）<br/></p>",
+    "answerList": [
+      {
+        "answerId": "1092994",
+        "quizQuestionId": "297146",
+        "comments": "",
+        "text": "<p>运算符按照优先级顺序表进行运算</p>"
+      },
+      {
+        "answerId": "1092995",
+        "quizQuestionId": "297146",
+        "comments": "",
+        "text": "<p>同一优先级的运算符在表达式中大多数是按照从左到右的顺序进行运算</p>"
+      },
+      {
+        "answerId": "1092996",
+        "quizQuestionId": "297146",
+        "comments": "",
+        "text": "<p>同一优先级的运算符在表达式中都是按照从右到左的顺序进行运算</p>"
+      },
+      {
+        "answerId": "1092997",
+        "quizQuestionId": "297146",
+        "comments": "",
+        "text": "<p>括号可以改变运算的优先次序</p>"
+      }
+    ],
+    "name": "<p>下列关于运算符优先级的说法中，不正确的一个是（ &nbsp; ）<br/></p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297147",
+    "level": "中",
+    "questionName": "运行如下程序:<br/>int a = b = 5;<br/>String s1 = &quot;祝你今天考出好成绩！&quot;;<br/>String s2 = s1;<br/>则表达式a == b与s2 == s1的结果正确的是（     ）<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1092998",
+        "quizQuestionId": "297147",
+        "comments": "",
+        "text": "true与true"
+      },
+      {
+        "answerId": "1092999",
+        "quizQuestionId": "297147",
+        "comments": "",
+        "text": "false与true"
+      },
+      {
+        "answerId": "1093000",
+        "quizQuestionId": "297147",
+        "comments": "",
+        "text": "true与false"
+      },
+      {
+        "answerId": "1093001",
+        "quizQuestionId": "297147",
+        "comments": "",
+        "text": "false与false"
+      }
+    ],
+    "name": "运行如下程序:<br/>int a = b = 5;<br/>String s1 = &quot;祝你今天考出好成绩！&quot;;<br/>String s2 = s1;<br/>则表达式a == b与s2 == s1的结果正确的是（     ）<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297135",
+    "level": "中",
+    "questionName": "下列哪个选项是合法的标识符？<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1092950",
+        "quizQuestionId": "297135",
+        "comments": "",
+        "text": "12class"
+      },
+      {
+        "answerId": "1092951",
+        "quizQuestionId": "297135",
+        "comments": "",
+        "text": "void"
+      },
+      {
+        "answerId": "1092952",
+        "quizQuestionId": "297135",
+        "comments": "",
+        "text": "-5"
+      },
+      {
+        "answerId": "1092953",
+        "quizQuestionId": "297135",
+        "comments": "",
+        "text": "_blank"
+      }
+    ],
+    "name": "下列哪个选项是合法的标识符？<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297136",
+    "level": "中",
+    "questionName": "在编写Java程序时，如果不为类的成员变量定义初始值，Java会给出它们的默认值，下列说法中不正确的是哪个选项<br/>",
+    "answerList": [
+      {
+        "answerId": "1092954",
+        "quizQuestionId": "297136",
+        "comments": "",
+        "text": "byte的默认值是0"
+      },
+      {
+        "answerId": "1092955",
+        "quizQuestionId": "297136",
+        "comments": "",
+        "text": "boolean的默认值是false"
+      },
+      {
+        "answerId": "1092956",
+        "quizQuestionId": "297136",
+        "comments": "",
+        "text": "char类型的默认值是&rsquo;\\0&rsquo; "
+      },
+      {
+        "answerId": "1092957",
+        "quizQuestionId": "297136",
+        "comments": "",
+        "text": "long类型的默认值是0.0L"
+      }
+    ],
+    "name": "在编写Java程序时，如果不为类的成员变量定义初始值，Java会给出它们的默认值，下列说法中不正确的是哪个选项<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297137",
+    "level": "中",
+    "questionName": "下列程序执行的结果是哪个选项<br/>public class News {<br/>  public static void main(String[] args) {<br/>     System.out.println(1+2+&quot;aa&quot;+3);<br/>  }<br/>}",
+    "answerList": [
+      {
+        "answerId": "1092958",
+        "quizQuestionId": "297137",
+        "comments": "",
+        "text": "&quot;12aa3&quot;"
+      },
+      {
+        "answerId": "1092959",
+        "quizQuestionId": "297137",
+        "comments": "",
+        "text": "&quot;3aa3&quot;"
+      },
+      {
+        "answerId": "1092960",
+        "quizQuestionId": "297137",
+        "comments": "",
+        "text": "&quot;12aa&quot;"
+      },
+      {
+        "answerId": "1092961",
+        "quizQuestionId": "297137",
+        "comments": "",
+        "text": "&quot;aa3&quot;"
+      }
+    ],
+    "name": "下列程序执行的结果是哪个选项<br/>public class News {<br/>  public static void main(String[] args) {<br/>     System.out.println(1+2+&quot;aa&quot;+3);<br/>  }<br/>}",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297138",
+    "level": "中",
+    "questionName": "表达式(12==0) &amp;&amp; (1/0 &lt; 1)的值为哪个选项<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1092962",
+        "quizQuestionId": "297138",
+        "comments": "",
+        "text": "true"
+      },
+      {
+        "answerId": "1092963",
+        "quizQuestionId": "297138",
+        "comments": "",
+        "text": "false"
+      },
+      {
+        "answerId": "1092964",
+        "quizQuestionId": "297138",
+        "comments": "",
+        "text": "0"
+      },
+      {
+        "answerId": "1092965",
+        "quizQuestionId": "297138",
+        "comments": "",
+        "text": "运行时抛出异常"
+      }
+    ],
+    "name": "表达式(12==0) &amp;&amp; (1/0 &lt; 1)的值为哪个选项<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297139",
+    "level": "中",
+    "questionName": "下列选项中，哪个选项不属于Java语言的基本数据类型？<br/>",
+    "answerList": [
+      {
+        "answerId": "1092966",
+        "quizQuestionId": "297139",
+        "comments": "",
+        "text": "整数型 "
+      },
+      {
+        "answerId": "1092967",
+        "quizQuestionId": "297139",
+        "comments": "",
+        "text": "数组"
+      },
+      {
+        "answerId": "1092968",
+        "quizQuestionId": "297139",
+        "comments": "",
+        "text": "浮点型"
+      },
+      {
+        "answerId": "1092969",
+        "quizQuestionId": "297139",
+        "comments": "",
+        "text": "字符型"
+      }
+    ],
+    "name": "下列选项中，哪个选项不属于Java语言的基本数据类型？<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297140",
+    "level": "中",
+    "questionName": "已知int y=2, z=3, n=4，则经过n=n+ -y*z/n运算后n的值为哪个选项<br/>",
+    "answerList": [
+      {
+        "answerId": "1092970",
+        "quizQuestionId": "297140",
+        "comments": "",
+        "text": "3"
+      },
+      {
+        "answerId": "1092971",
+        "quizQuestionId": "297140",
+        "comments": "",
+        "text": "-1"
+      },
+      {
+        "answerId": "1092972",
+        "quizQuestionId": "297140",
+        "comments": "",
+        "text": "-12"
+      },
+      {
+        "answerId": "1092973",
+        "quizQuestionId": "297140",
+        "comments": "",
+        "text": "-3"
+      }
+    ],
+    "name": "已知int y=2, z=3, n=4，则经过n=n+ -y*z/n运算后n的值为哪个选项<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297141",
+    "level": "中",
+    "questionName": "已知int a=2, b=3，则表达式a%b*4%b的值为哪个选项<br/><br/>",
+    "answerList": [
+      {
+        "answerId": "1092974",
+        "quizQuestionId": "297141",
+        "comments": "",
+        "text": "2"
+      },
+      {
+        "answerId": "1092975",
+        "quizQuestionId": "297141",
+        "comments": "",
+        "text": "1"
+      },
+      {
+        "answerId": "1092976",
+        "quizQuestionId": "297141",
+        "comments": "",
+        "text": "-1"
+      },
+      {
+        "answerId": "1092977",
+        "quizQuestionId": "297141",
+        "comments": "",
+        "text": "-2"
+      }
+    ],
+    "name": "已知int a=2, b=3，则表达式a%b*4%b的值为哪个选项<br/><br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297134",
+    "level": "中",
+    "questionName": "下列关于基本数据类型的说法中，不正确的是哪个选项<br/>",
+    "answerList": [
+      {
+        "answerId": "1092946",
+        "quizQuestionId": "297134",
+        "comments": "",
+        "text": "boolean类型变量的值只能取true或false"
+      },
+      {
+        "answerId": "1092947",
+        "quizQuestionId": "297134",
+        "comments": "",
+        "text": "float是带符号的32位浮点数"
+      },
+      {
+        "answerId": "1092948",
+        "quizQuestionId": "297134",
+        "comments": "",
+        "text": "double是带符号的64位浮点数"
+      },
+      {
+        "answerId": "1092949",
+        "quizQuestionId": "297134",
+        "comments": "",
+        "text": "char是8位Unicode字符"
+      }
+    ],
+    "name": "下列关于基本数据类型的说法中，不正确的是哪个选项<br/>",
+    "comment": "",
+    "questionType": "multiple_choice"
+  }
+]

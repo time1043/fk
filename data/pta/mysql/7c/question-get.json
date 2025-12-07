@@ -1,0 +1,2246 @@
+[
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430656",
+      "label": "10-1",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`)\n);\n\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n);",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE `l225` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL\n);",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询课程成绩最高二人",
+      "content": "本题目要求编写SQL语句，\n检索C002号课程的成绩最高的二人学号，姓名与成绩\n\n\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`),\n);\n\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n);\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n``` stu```表：\n\n\n![stu.JPG](~/bbf57a3f-bfff-4cc3-b175-6e34f9658519.JPG)\n\n\n``` sc```表：\n\n\n![sc.JPG](~/a88f12a4-f199-4034-b2f7-013aadcaf8b5.JPG)\n\n\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n\n![l225.JPG](~/6bd95adb-d82c-4b8e-869e-b08829194b99.JPG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "张庆",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1236657967450062848",
+      "description": "本题目要求编写SQL语句，\n检索C002号课程的成绩最高的二人学号，姓名与成绩\n\n\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`),\n);\n\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n);\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n``` stu```表：\n\n\n![stu.JPG](~/bbf57a3f-bfff-4cc3-b175-6e34f9658519.JPG)\n\n\n``` sc```表：\n\n\n![sc.JPG](~/a88f12a4-f199-4034-b2f7-013aadcaf8b5.JPG)\n\n\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n\n![l225.JPG](~/6bd95adb-d82c-4b8e-869e-b08829194b99.JPG)\n\n",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "10-1"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430657",
+      "label": "10-2",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`)\n);\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n)\n",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE `sc2` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`)\n);",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "MODIFY",
+          "permissions": ["SELECT", "UPDATE"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "修改女生成绩",
+      "content": "本题目要求编写UPDATE语句，\n把所有低于７５分的女生成绩提高5%;\n\n\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\n\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`)\n);\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n)\n\n\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n``` stu```表：\n\n\n![stu.JPG](~/d1009ca4-e96f-4400-81b7-aee761cf0861.JPG)\n\n\n``` sc```表：\n\n\n![sc.JPG](~/7c9724c4-82b9-4073-be6b-5a921d90c20a.JPG)\n\n### 输出样例:\n\n例如：\n修改女生成绩后的```sc```表如下：\n\n![u2b.JPG](~/507ca0d9-bb8b-497f-ba38-e9130b99471f.JPG)\n\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "张庆",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1237400362353565696",
+      "description": "本题目要求编写UPDATE语句，\n把所有低于７５分的女生成绩提高5%;\n\n\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\n\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`)\n);\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n)\n\n\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n``` stu```表：\n\n\n![stu.JPG](~/d1009ca4-e96f-4400-81b7-aee761cf0861.JPG)\n\n\n``` sc```表：\n\n\n![sc.JPG](~/7c9724c4-82b9-4073-be6b-5a921d90c20a.JPG)\n\n### 输出样例:\n\n例如：\n修改女生成绩后的```sc```表如下：\n\n![u2b.JPG](~/507ca0d9-bb8b-497f-ba38-e9130b99471f.JPG)\n\n\n",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "10-2"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430658",
+      "label": "10-3",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE `stu` (\n  `sno` char(4) NOT NULL, \n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`)\n);\nCREATE TABLE `cou` (\n  `cno` char(4) NOT NULL,\n  `cname` varchar(30) NOT NULL,\n  `credit` smallint(6) DEFAULT NULL,\n  `ptime` char(5) DEFAULT NULL,\n  `teacher` char(10) DEFAULT NULL,\n  PRIMARY KEY (`cno`)\n);\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_cno` FOREIGN KEY (`cno`) REFERENCES `cou` (`cno`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n);\n",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE `sc2` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`)\n);",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "MODIFY",
+          "permissions": ["SELECT", "DELETE"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "删除选修C语言课程的女生成绩记录",
+      "content": "本题目要求编写DELETE语句，删除选修’C语言’课程的女生的选课记录。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL, \n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,  --0为女生，1为男生。\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`)\n);\nCREATE TABLE `cou` (\n  `cno` char(4) NOT NULL,\n  `cname` varchar(30) NOT NULL,\n  `credit` smallint(6) DEFAULT NULL,\n  `ptime` char(5) DEFAULT NULL,\n  `teacher` char(10) DEFAULT NULL,\n  PRIMARY KEY (`cno`)\n)\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_cno` FOREIGN KEY (`cno`) REFERENCES `cou` (`cno`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n)\n\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n``` stu```表：\n\n\n![stu1.JPG](~/fcad1d1f-9d5c-45a9-9533-e19c0c6a5fa6.JPG)\n\n```cou```表：\n\n\n![cou.JPG](~/bb3c9397-96a3-4521-8cff-6b8c1b13a273.JPG)\n\n\n```sc```表：\n\n\n![sc1.JPG](~/c0c78e29-ffc1-406e-a62f-ce67b8661b29.JPG)\n\n\n\n\n### 输出样例:\n\n删除记录后，```sc```表如下：\n\n\n\n![sc2.JPG](~/97d96f20-6559-4eed-b062-089c504f5bf0.JPG)\n\n\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "张庆",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1237719824113999872",
+      "description": "本题目要求编写DELETE语句，删除选修’C语言’课程的女生的选课记录。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL, \n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,  --0为女生，1为男生。\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`)\n);\nCREATE TABLE `cou` (\n  `cno` char(4) NOT NULL,\n  `cname` varchar(30) NOT NULL,\n  `credit` smallint(6) DEFAULT NULL,\n  `ptime` char(5) DEFAULT NULL,\n  `teacher` char(10) DEFAULT NULL,\n  PRIMARY KEY (`cno`)\n)\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_cno` FOREIGN KEY (`cno`) REFERENCES `cou` (`cno`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n)\n\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n``` stu```表：\n\n\n![stu1.JPG](~/fcad1d1f-9d5c-45a9-9533-e19c0c6a5fa6.JPG)\n\n```cou```表：\n\n\n![cou.JPG](~/bb3c9397-96a3-4521-8cff-6b8c1b13a273.JPG)\n\n\n```sc```表：\n\n\n![sc1.JPG](~/c0c78e29-ffc1-406e-a62f-ce67b8661b29.JPG)\n\n\n\n\n### 输出样例:\n\n删除记录后，```sc```表如下：\n\n\n\n![sc2.JPG](~/97d96f20-6559-4eed-b062-089c504f5bf0.JPG)\n\n\n\n",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "10-3"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430659",
+      "label": "10-4",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE `products` (\n  `ProductID` int(11) NOT NULL ,\n  `ProductName` varchar(40) NOT NULL,\n  `UnitsInStock` smallint(2) DEFAULT '0',\n  `UnitsOnOrder` smallint(2) DEFAULT '0',\n  PRIMARY KEY (`ProductID`)\n);\n",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE `products` (\n  `ProductID` int(11) NOT NULL ,\n  `ProductName` varchar(40) NOT NULL,\n  PRIMARY KEY (`ProductID`)\n);\n",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "A1-7在产品表中找出库存量小于订购量的产品信息",
+      "content": "在```产品表(products)```中找出```库存量(UnitsInStock)```小于```订购量(UnitsOnOrder)```的产品的```产品编号（ProductID）```和```产品名称（ProductName）```\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n|列名|数据类型|长度|主码|说明|\n|---|---|---|---|---|\n|ProductID|int|11|√|产品编号|\n|ProductName|varchar|40||产品名称|\n|SupplierID|int|11||供应商编号|\n|CategoryID|int|11||种类编号|\n|QuantityPerUnit|varchar|20||数量|\n|UnitPrice|decimal|10,4||单价|\n|UnitsInStock|smallint|2||库存数量|\n|UnitsOnOrder|smallint|2||订购数量|\n|ReorderLevel|smallint|2||再次订购量|\n|Discontinued|bit|1||中止|\n\n\n### 表样例\n\n\n```products```表：\n\n|ProductID|ProductName|UnitsInStock|UnitsOnOrder|\n|---|---|---|---|\n|1|Chai|39|0|\n|2|Chang|17|40|\n|3|Aniseed Syrup|13|70|\n|4|Chef Anton's Cajun Seasoning|53|0|\n|5|Chef Anton's Gumbo Mix|0|0|\n|6|Grandma's Boysenberry Spread|120|0|\n|7|Uncle Bob's Organic Dried Pears|15|0|\n|8|Northwoods Cranberry Sauce|6|0|\n|9|Mishi Kobe Niku|29|0|\n|10|Ikura|31|0|\n\n### 输出样例:\n\n|ProductID|ProductName|\n|---|---|\n|2|Chang|\n|3|Aniseed Syrup|\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "柯海丰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1238844761365159936",
+      "description": "在```产品表(products)```中找出```库存量(UnitsInStock)```小于```订购量(UnitsOnOrder)```的产品的```产品编号（ProductID）```和```产品名称（ProductName）```\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n|列名|数据类型|长度|主码|说明|\n|---|---|---|---|---|\n|ProductID|int|11|√|产品编号|\n|ProductName|varchar|40||产品名称|\n|SupplierID|int|11||供应商编号|\n|CategoryID|int|11||种类编号|\n|QuantityPerUnit|varchar|20||数量|\n|UnitPrice|decimal|10,4||单价|\n|UnitsInStock|smallint|2||库存数量|\n|UnitsOnOrder|smallint|2||订购数量|\n|ReorderLevel|smallint|2||再次订购量|\n|Discontinued|bit|1||中止|\n\n\n### 表样例\n\n\n```products```表：\n\n|ProductID|ProductName|UnitsInStock|UnitsOnOrder|\n|---|---|---|---|\n|1|Chai|39|0|\n|2|Chang|17|40|\n|3|Aniseed Syrup|13|70|\n|4|Chef Anton's Cajun Seasoning|53|0|\n|5|Chef Anton's Gumbo Mix|0|0|\n|6|Grandma's Boysenberry Spread|120|0|\n|7|Uncle Bob's Organic Dried Pears|15|0|\n|8|Northwoods Cranberry Sauce|6|0|\n|9|Mishi Kobe Niku|29|0|\n|10|Ikura|31|0|\n\n### 输出样例:\n\n|ProductID|ProductName|\n|---|---|\n|2|Chang|\n|3|Aniseed Syrup|\n",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "2"
+    },
+    "organization": {
+      "id": "2",
+      "name": "浙大城市学院",
+      "code": "zucc",
+      "type": "SCHOOL",
+      "logo": "a7a4740b-4fb1-4f54-b79c-6080378d7579.png"
+    },
+    "examLabel": "10-4"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430660",
+      "label": "10-5",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE `employees` (\n  `EmployeeID` int(11) NOT NULL,\n  `LastName` varchar(20) NOT NULL,\n  `FirstName` varchar(10) NOT NULL,\n  `Title` varchar(30),\n  `TitleOfCourtesy` varchar(25),\n  `BirthDate` datetime,\n  `HireDate` datetime,\n  `Address` varchar(60),\n  `City` varchar(15),\n  `Region` varchar(15),\n  `PostalCode` varchar(10),\n  `Country` varchar(15),\n  `HomePhone` varchar(24),\n  `Extension` varchar(4),\n  `Photo` longblob,\n  `Notes` mediumtext,\n  `ReportsTo` int(11),\n  `PhotoPath` varchar(255),\n  `Salary` float,\n  PRIMARY KEY (`EmployeeID`)\n);\n",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE `results` (\n  `EmployeeID` int(11) NOT NULL,\n  `countSub` int(11) \n);\n",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "B1-7查找每位领导的直接下属数量",
+      "content": "查询每位领导的直接下属数量，显示：领导的```员工编号（EmployeeID）```，下属数量（重命名为（```countSub```））\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n|列名|数据类型|长度|主码|说明|\n|---|---|---|---|---|\n|EmployeeID| int|11|√|员工编号|\n|LastName| varchar|20||姓|\n|FirstName| varchar|10||名|\n|Title| varchar|30||职务|\n|TitleOfCourtesy| varchar|25||礼貌称号|\n|BirthDate| datetime,|||出生日期|\n|HireDate| datetime,|||入职日期|\n|Address| varchar|60||地址|\n|City| varchar|15||城市|\n|Region| varchar|15||区域|\n|PostalCode| varchar|10||邮政编码|\n|Country| varchar|15||国家|\n|HomePhone| varchar|24||住宅电话|\n|Extension| varchar|4||范围|\n|Photo| longblob,|||照片|\n|ReportsTo| int|11||直接上级|\n|PhotoPath| varchar|255||照片|\n\n\n\n### 表样例\n\n\n```employees```表：\n\n|EmployeeID|LastName|FirstName|Title|TitleOfCourtesy|BirthDate|HireDate|Address|City|Region|PostalCode|Country|HomePhone|Extension|ReportsTo|\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|1|Davolio|Nancy|Sales Representative|Ms.|1948/12/8 00:00:00|1992/5/1 00:00:00|507 - 20th Ave. E.Apt. 2A|Seattle|WA|98122|USA|(206) 555-9857|5467|2|\n|2|Fuller|Andrew|Vice President, Sales|Dr.|1952/2/19 00:00:00|1992/8/14 00:00:00|908 W. Capital Way|Tacoma|WA|98401|USA|(206) 555-9482|3457||\n|3|Leverling|Janet|Sales Representative|Ms.|1963/8/30 00:00:00|1992/4/1 00:00:00|722 Moss Bay Blvd.|Kirkland|WA|98033|USA|(206) 555-3412|3355|2|\n\n\n### 输出样例:\n\n|EmployeeID|countSub|\n|---|---|\n|2|2|\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "柯海丰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1241604798181416960",
+      "description": "查询每位领导的直接下属数量，显示：领导的```员工编号（EmployeeID）```，下属数量（重命名为（```countSub```））\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n|列名|数据类型|长度|主码|说明|\n|---|---|---|---|---|\n|EmployeeID| int|11|√|员工编号|\n|LastName| varchar|20||姓|\n|FirstName| varchar|10||名|\n|Title| varchar|30||职务|\n|TitleOfCourtesy| varchar|25||礼貌称号|\n|BirthDate| datetime,|||出生日期|\n|HireDate| datetime,|||入职日期|\n|Address| varchar|60||地址|\n|City| varchar|15||城市|\n|Region| varchar|15||区域|\n|PostalCode| varchar|10||邮政编码|\n|Country| varchar|15||国家|\n|HomePhone| varchar|24||住宅电话|\n|Extension| varchar|4||范围|\n|Photo| longblob,|||照片|\n|ReportsTo| int|11||直接上级|\n|PhotoPath| varchar|255||照片|\n\n\n\n### 表样例\n\n\n```employees```表：\n\n|EmployeeID|LastName|FirstName|Title|TitleOfCourtesy|BirthDate|HireDate|Address|City|Region|PostalCode|Country|HomePhone|Extension|ReportsTo|\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|1|Davolio|Nancy|Sales Representative|Ms.|1948/12/8 00:00:00|1992/5/1 00:00:00|507 - 20th Ave. E.Apt. 2A|Seattle|WA|98122|USA|(206) 555-9857|5467|2|\n|2|Fuller|Andrew|Vice President, Sales|Dr.|1952/2/19 00:00:00|1992/8/14 00:00:00|908 W. Capital Way|Tacoma|WA|98401|USA|(206) 555-9482|3457||\n|3|Leverling|Janet|Sales Representative|Ms.|1963/8/30 00:00:00|1992/4/1 00:00:00|722 Moss Bay Blvd.|Kirkland|WA|98033|USA|(206) 555-3412|3355|2|\n\n\n### 输出样例:\n\n|EmployeeID|countSub|\n|---|---|\n|2|2|\n\n",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "2"
+    },
+    "organization": {
+      "id": "2",
+      "name": "浙大城市学院",
+      "code": "zucc",
+      "type": "SCHOOL",
+      "logo": "a7a4740b-4fb1-4f54-b79c-6080378d7579.png"
+    },
+    "examLabel": "10-5"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430661",
+      "label": "10-6",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE `major` (\n  `mno` char(2) NOT NULL,\n  `mname` varchar(20) NOT NULL,\n  PRIMARY KEY (`mno`)\n);\n\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`),\n  KEY `fk_stu_mno` (`mno`),\n  CONSTRAINT `fk_stu_mno` FOREIGN KEY (`mno`) REFERENCES `major` (`mno`)\n);\n",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE `midt01` (\n  `sname` char(8) NOT NULL\n)",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询比“网络工程”专业所有学生年龄都小的学生姓名",
+      "content": "本题目要求编写SQL语句，\n查询比“网络工程”专业所有学生年龄都小的学生姓名。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`),\n  KEY `fk_stu_mno` (`mno`),\n  CONSTRAINT `fk_stu_mno` FOREIGN KEY (`mno`) REFERENCES `major` (`mno`)\n);\nCREATE TABLE `major` (\n  `mno` char(2) NOT NULL,\n  `mname` varchar(20) NOT NULL,\n  PRIMARY KEY (`mno`)\n)\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```stu```表：\n\n![stu.JPG](~/c9ad805e-7792-4269-ba0a-4be483aaac81.JPG)\n\n```major```表：\n\n![major.JPG](~/e5b27180-f435-461d-b599-d857eabeeab1.JPG)\n\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n\n![midt01.JPG](~/37a7b467-6f08-410a-8dd8-b25906c81710.JPG)\n\n\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "张庆",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1254691619364073472",
+      "description": "本题目要求编写SQL语句，\n查询比“网络工程”专业所有学生年龄都小的学生姓名。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`),\n  KEY `fk_stu_mno` (`mno`),\n  CONSTRAINT `fk_stu_mno` FOREIGN KEY (`mno`) REFERENCES `major` (`mno`)\n);\nCREATE TABLE `major` (\n  `mno` char(2) NOT NULL,\n  `mname` varchar(20) NOT NULL,\n  PRIMARY KEY (`mno`)\n)\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```stu```表：\n\n![stu.JPG](~/c9ad805e-7792-4269-ba0a-4be483aaac81.JPG)\n\n```major```表：\n\n![major.JPG](~/e5b27180-f435-461d-b599-d857eabeeab1.JPG)\n\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n\n![midt01.JPG](~/37a7b467-6f08-410a-8dd8-b25906c81710.JPG)\n\n\n\n",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "10-6"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430662",
+      "label": "10-7",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE `major` (\n  `mno` char(2) NOT NULL,\n  `mname` varchar(20) NOT NULL,\n  PRIMARY KEY (`mno`)\n);\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`),\n  KEY `fk_stu_mno` (`mno`),\n  CONSTRAINT `fk_stu_mno` FOREIGN KEY (`mno`) REFERENCES `major` (`mno`)\n)",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE `midt01b` (\n  `sname` char(8) NOT NULL\n)",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询软件工程专业中年龄最大的同学姓名",
+      "content": "本题目要求编写SQL语句，\n查询软件工程专业中年龄最大的同学姓名.\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `major` (\n  `mno` char(2) NOT NULL,\n  `mname` varchar(20) NOT NULL,\n  PRIMARY KEY (`mno`)\n);\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`),\n  KEY `fk_stu_mno` (`mno`),\n  CONSTRAINT `fk_stu_mno` FOREIGN KEY (`mno`) REFERENCES `major` (`mno`)\n)\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```stu```表：\n\n\n![stu.JPG](~/b3ed8aa7-449f-4c5d-b202-f51d145e4a86.JPG)\n\n```major```表：\n\n![major.JPG](~/246cf1c2-00c5-4558-84e2-96ae3f562214.JPG)\n\n\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n\n![midt01b.JPG](~/11a1b3d7-ec24-4e25-8081-c01bd7d9a5f9.JPG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "张庆",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1254694147153645568",
+      "description": "本题目要求编写SQL语句，\n查询软件工程专业中年龄最大的同学姓名.\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `major` (\n  `mno` char(2) NOT NULL,\n  `mname` varchar(20) NOT NULL,\n  PRIMARY KEY (`mno`)\n);\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`),\n  KEY `fk_stu_mno` (`mno`),\n  CONSTRAINT `fk_stu_mno` FOREIGN KEY (`mno`) REFERENCES `major` (`mno`)\n)\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```stu```表：\n\n\n![stu.JPG](~/b3ed8aa7-449f-4c5d-b202-f51d145e4a86.JPG)\n\n```major```表：\n\n![major.JPG](~/246cf1c2-00c5-4558-84e2-96ae3f562214.JPG)\n\n\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n\n![midt01b.JPG](~/11a1b3d7-ec24-4e25-8081-c01bd7d9a5f9.JPG)\n\n",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "10-7"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430663",
+      "label": "10-8",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE `major` (\n  `mno` char(2) NOT NULL,\n  `mname` varchar(20) NOT NULL,\n  PRIMARY KEY (`mno`)\n);\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`),\n  KEY `fk_stu_mno` (`mno`),\n  CONSTRAINT `fk_stu_mno` FOREIGN KEY (`mno`) REFERENCES `major` (`mno`)\n);\n\nCREATE TABLE `cou` (\n  `cno` char(4) NOT NULL,\n  `cname` varchar(30) NOT NULL,\n  `credit` smallint(6) DEFAULT NULL,\n  `ptime` char(5) DEFAULT NULL,\n  `teacher` char(10) DEFAULT NULL,\n  PRIMARY KEY (`cno`)\n);\n\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  KEY `fk_sc_cno` (`cno`),\n  CONSTRAINT `fk_sc_cno` FOREIGN KEY (`cno`) REFERENCES `cou` (`cno`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n)\n",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE `midt05b` (\n  `课程号` char(4) NOT NULL,\n  `课程名` varchar(30) NOT NULL,\n  `最高成绩` decimal(6,1) DEFAULT NULL,\n  `最低成绩` decimal(6,1) DEFAULT NULL,\n  `平均成绩` decimal(10,5) DEFAULT NULL\n)",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询选修人数超过2人且成绩都在60分以上的课程",
+      "content": "本题目要求编写SQL语句，查询选修人数超过2人且成绩都在60分以上的课程的课程名、最高成绩、最低成绩和平均成绩。\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `major` (\n  `mno` char(2) NOT NULL,\n  `mname` varchar(20) NOT NULL,\n  PRIMARY KEY (`mno`)\n);\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`),\n  KEY `fk_stu_mno` (`mno`),\n  CONSTRAINT `fk_stu_mno` FOREIGN KEY (`mno`) REFERENCES `major` (`mno`)\n);\n\nCREATE TABLE `cou` (\n  `cno` char(4) NOT NULL,\n  `cname` varchar(30) NOT NULL,\n  `credit` smallint(6) DEFAULT NULL,\n  `ptime` char(5) DEFAULT NULL,\n  `teacher` char(10) DEFAULT NULL,\n  PRIMARY KEY (`cno`)\n)；\n\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  KEY `fk_sc_cno` (`cno`),\n  CONSTRAINT `fk_sc_cno` FOREIGN KEY (`cno`) REFERENCES `cou` (`cno`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n)\n\n\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```stu```表：\n\n\n![stu.JPG](~/b3ed8aa7-449f-4c5d-b202-f51d145e4a86.JPG)\n\n```major```表：\n\n![major.JPG](~/246cf1c2-00c5-4558-84e2-96ae3f562214.JPG)\n\n```cou```表：\n\n![cou.JPG](~/933f8460-affd-428c-b663-5beb3b9d0da5.JPG)\n\n\n```sc```表：\n\n![sc.JPG](~/b27c21ce-8969-4dbc-9d89-727f338c84e6.JPG)\n\n\n\n## 输出样例:\n\n请在这里给出输出样例。例如：\n\n\n![midt05b.JPG](~/477adc02-9ee8-4fab-8eb7-254d2af1173a.JPG)\n\n\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "张庆",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1254824138742886400",
+      "description": "本题目要求编写SQL语句，查询选修人数超过2人且成绩都在60分以上的课程的课程名、最高成绩、最低成绩和平均成绩。\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `major` (\n  `mno` char(2) NOT NULL,\n  `mname` varchar(20) NOT NULL,\n  PRIMARY KEY (`mno`)\n);\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`),\n  KEY `fk_stu_mno` (`mno`),\n  CONSTRAINT `fk_stu_mno` FOREIGN KEY (`mno`) REFERENCES `major` (`mno`)\n);\n\nCREATE TABLE `cou` (\n  `cno` char(4) NOT NULL,\n  `cname` varchar(30) NOT NULL,\n  `credit` smallint(6) DEFAULT NULL,\n  `ptime` char(5) DEFAULT NULL,\n  `teacher` char(10) DEFAULT NULL,\n  PRIMARY KEY (`cno`)\n)；\n\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  KEY `fk_sc_cno` (`cno`),\n  CONSTRAINT `fk_sc_cno` FOREIGN KEY (`cno`) REFERENCES `cou` (`cno`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n)\n\n\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```stu```表：\n\n\n![stu.JPG](~/b3ed8aa7-449f-4c5d-b202-f51d145e4a86.JPG)\n\n```major```表：\n\n![major.JPG](~/246cf1c2-00c5-4558-84e2-96ae3f562214.JPG)\n\n```cou```表：\n\n![cou.JPG](~/933f8460-affd-428c-b663-5beb3b9d0da5.JPG)\n\n\n```sc```表：\n\n![sc.JPG](~/b27c21ce-8969-4dbc-9d89-727f338c84e6.JPG)\n\n\n\n## 输出样例:\n\n请在这里给出输出样例。例如：\n\n\n![midt05b.JPG](~/477adc02-9ee8-4fab-8eb7-254d2af1173a.JPG)\n\n\n\n",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "10-8"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430664",
+      "label": "10-9",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE student (\n  sno varchar(6) NOT NULL ,\n  sname varchar(10) ,\n  sex char(2) ,\n  nation char(2) ,\n  pnum char(18) ,\n  birth date ,\n  phone char(11) ,\n  dept varchar(20) ,\n  PRIMARY KEY (sno)\n) ;\nCREATE TABLE stu (\n  sno varchar(6) NOT NULL ,\n  sname varchar(10) ,\n  sex char(2) ,\n  nation char(2) ,\n  pnum char(18) ,\n  birth date ,\n  phone char(11) ,\n  dept varchar(20) ,\n  PRIMARY KEY (sno)\n) ;\n",
+          "cases": {
+            "3-3": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE stu (\n  sno varchar(6) NOT NULL ,\n  sname varchar(10) ,\n  sex char(2) ,\n  nation char(2) ,\n  pnum char(18) ,\n  birth date ,\n  phone char(11) ,\n  dept varchar(20) ,\n  PRIMARY KEY (sno)\n) ;\n",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "MODIFY",
+          "permissions": ["SELECT", "INSERT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "将student表中的数计学院的学生信息插入到stu表中。",
+      "content": "### 题干:\n将student表中的数计学院的学生信息插入到stu表中。<br>\n提示：请使用INSERT语句作答，stu数据表已存在，结构同student一样。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE student (<br>\n  sno varchar(6) NOT NULL ,<br>\n  sname varchar(10) ,<br>\n  sex char(2) ,<br>\n  nation char(2) ,<br>\n  pnum char(18) ,<br>\n  birth date ,<br>\n  phone char(11) ,<br>\n  dept varchar(20) ,<br>\n  PRIMARY KEY (sno)<br>\n) ;\n\n### 表样例\n上述表结构对应的表样例：\n\n```student```表：\n\n![student.png](~/214c212b-d599-4d1b-9c4e-d60f9bb3031d.png)\n\n### 输出样例:\n输出样例：\n\n```stu```表：\n\n![3-3.png](~/d0fe9800-fdc2-43b9-bc3f-e06bffa9c0c8.png)\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "白彦辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1325474043865022464",
+      "description": "### 题干:\n将student表中的数计学院的学生信息插入到stu表中。<br>\n提示：请使用INSERT语句作答，stu数据表已存在，结构同student一样。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE student (<br>\n  sno varchar(6) NOT NULL ,<br>\n  sname varchar(10) ,<br>\n  sex char(2) ,<br>\n  nation char(2) ,<br>\n  pnum char(18) ,<br>\n  birth date ,<br>\n  phone char(11) ,<br>\n  dept varchar(20) ,<br>\n  PRIMARY KEY (sno)<br>\n) ;\n\n### 表样例\n上述表结构对应的表样例：\n\n```student```表：\n\n![student.png](~/214c212b-d599-4d1b-9c4e-d60f9bb3031d.png)\n\n### 输出样例:\n输出样例：\n\n```stu```表：\n\n![3-3.png](~/d0fe9800-fdc2-43b9-bc3f-e06bffa9c0c8.png)\n",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "975756327607476224"
+    },
+    "organization": {
+      "id": "975756327607476224",
+      "name": "赤峰学院",
+      "code": "cfxy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/cfxy.png"
+    },
+    "examLabel": "10-9"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430665",
+      "label": "10-10",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE good(\ngid CHAR(4) PRIMARY KEY,\ngname VARCHAR(40) NOT NULL,\nprice FLOAT(10,2),\nstock INT\n);\n-- ----------------------------\n-- Table structure for  sale_recorder\n-- ----------------------------\nCREATE TABLE recorder(\nid INT PRIMARY KEY  AUTO_INCREMENT,\ncid CHAR(4),\ngid CHAR(4),\nquantity INT NOT NULL,\nsale_date DATETIME,\nCONSTRAINT recorder_gid_fk FOREIGN KEY (gid) REFERENCES good(gid)\n);",
+          "cases": {
+            "4-6": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE good(\ngid CHAR(4) PRIMARY KEY,\ngname VARCHAR(40) NOT NULL,\nprice FLOAT(10,2),\nstock INT\n);",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "没有被购买过的商品信息。",
+      "content": "### 题干:\n没有被购买过的商品信息。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE good(<br>\ngid CHAR(4) PRIMARY KEY,<br>\ngname VARCHAR(40) NOT NULL,<br>\nprice FLOAT(10,2),<br>\nstock INT<br>\n);<br>\nCREATE TABLE recorder(<br>\nid INT PRIMARY KEY  AUTO_INCREMENT,<br>\ncid CHAR(4),<br>\ngid CHAR(4),<br>\nquantity INT NOT NULL,<br>\nsale_date DATETIME,<br>\nCONSTRAINT recorder_gid_fk FOREIGN KEY (gid) REFERENCES good(gid)<br>\n);<br>\n### 表样例\n上述表结构对应的表样例：\n\n```good```表：\n\n![good.png](~/19c47604-68d2-49f0-9196-42b8f8416c98.png)\n\n```recorder```表：\n\n![recorder.png](~/27c2014d-8b65-4a05-857e-497d01d67e71.png)\n\n\n### 输出样例:\n输出样例：\n\n![4-6.png](~/485d30b0-f75d-431d-bfe4-1e5ff8e4a859.png)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "白彦辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1329815264622858240",
+      "description": "### 题干:\n没有被购买过的商品信息。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE good(<br>\ngid CHAR(4) PRIMARY KEY,<br>\ngname VARCHAR(40) NOT NULL,<br>\nprice FLOAT(10,2),<br>\nstock INT<br>\n);<br>\nCREATE TABLE recorder(<br>\nid INT PRIMARY KEY  AUTO_INCREMENT,<br>\ncid CHAR(4),<br>\ngid CHAR(4),<br>\nquantity INT NOT NULL,<br>\nsale_date DATETIME,<br>\nCONSTRAINT recorder_gid_fk FOREIGN KEY (gid) REFERENCES good(gid)<br>\n);<br>\n### 表样例\n上述表结构对应的表样例：\n\n```good```表：\n\n![good.png](~/19c47604-68d2-49f0-9196-42b8f8416c98.png)\n\n```recorder```表：\n\n![recorder.png](~/27c2014d-8b65-4a05-857e-497d01d67e71.png)\n\n\n### 输出样例:\n输出样例：\n\n![4-6.png](~/485d30b0-f75d-431d-bfe4-1e5ff8e4a859.png)\n\n",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "975756327607476224"
+    },
+    "organization": {
+      "id": "975756327607476224",
+      "name": "赤峰学院",
+      "code": "cfxy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/cfxy.png"
+    },
+    "examLabel": "10-10"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430666",
+      "label": "10-11",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE  sc  (  \n   sno  char(4) NOT NULL, \n   cno  char(4) NOT NULL, \n   grade  decimal(4,1) DEFAULT NULL,\n  PRIMARY KEY ( sno , cno )\n)",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE l218 (\n  课程号 char(4) NOT NULL\n) ;",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": true,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询S001学生选修而S003学生未选修的课程（MSSQL）",
+      "content": "本题目要求编写SQL语句，\n检索出``` sc```表中学号为S001的学生选修的而S003学号学生未选修的课程号。\n注意：查询结果忽略顺序只对比数据。\n\n提示：MSSQLServer 评测SQL语句。\n\n\n### 表结构:\n\n定义表结构的SQL语句如：\n\n```\n-- 学生选课成绩表\nCREATE TABLE  sc  (  \n   sno  char(4) NOT NULL,  -- 学生学号\n   cno  char(4) NOT NULL,  -- 课程号\n   grade  decimal(4,1) DEFAULT NULL,\n  PRIMARY KEY ( sno , cno )\n)\n```\n\n### 表样例\n\n上述表结构对应的表样例如\n\n``` sc```表：\n\n\n![sc.JPG](~/e4451831-395f-44fd-b378-9426ddcff5ce.JPG)\n\n\n### 输出样例:\n\n输出样例如：\n\n\n![l218.JPG](~/93a8f9d5-7eb2-45bb-a5d0-fd4ab34b16a6.JPG)\n\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "张庆",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1374888483457404928",
+      "description": "本题目要求编写SQL语句，\n检索出``` sc```表中学号为S001的学生选修的而S003学号学生未选修的课程号。\n注意：查询结果忽略顺序只对比数据。\n\n提示：MSSQLServer 评测SQL语句。\n\n\n### 表结构:\n\n定义表结构的SQL语句如：\n\n```\n-- 学生选课成绩表\nCREATE TABLE  sc  (  \n   sno  char(4) NOT NULL,  -- 学生学号\n   cno  char(4) NOT NULL,  -- 课程号\n   grade  decimal(4,1) DEFAULT NULL,\n  PRIMARY KEY ( sno , cno )\n)\n```\n\n### 表样例\n\n上述表结构对应的表样例如\n\n``` sc```表：\n\n\n![sc.JPG](~/e4451831-395f-44fd-b378-9426ddcff5ce.JPG)\n\n\n### 输出样例:\n\n输出样例如：\n\n\n![l218.JPG](~/93a8f9d5-7eb2-45bb-a5d0-fd4ab34b16a6.JPG)\n\n\n",
+      "problemPoolIndex": 11,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "10-11"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430667",
+      "label": "10-12",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "-- 专业表\nCREATE TABLE major (  \n  mno char(2) NOT NULL,\n  mname nvarchar(20) NOT NULL,\n  PRIMARY KEY (mno)\n);\n-- 学生表\nCREATE TABLE stu (    \n  sno char(4) NOT NULL,\n  sname nvarchar(8) NOT NULL,\n  sex smallint DEFAULT NULL,\n  mno char(2) DEFAULT NULL,\n  birdate datetime DEFAULT NULL,\n  memo ntext,\n  PRIMARY KEY (sno),\n  CONSTRAINT  fk_stu_mno FOREIGN KEY (mno) REFERENCES major (mno)\n);\n-- 课程表\nCREATE TABLE  cou  (  \n   cno  char(4) NOT NULL,\n   cname  nvarchar(30) NOT NULL,\n   credit  smallint DEFAULT NULL,\n   ptime  char(5) DEFAULT NULL,\n   teacher  nvarchar(10) DEFAULT NULL,\n  PRIMARY KEY ( cno )\n);\n-- 学生选课成绩表\nCREATE TABLE  sc  (  \n   sno  char(4) NOT NULL,  -- 学生学号\n   cno  char(4) NOT NULL,  -- 课程号\n   grade  decimal(4,1) DEFAULT NULL,\n  PRIMARY KEY ( sno , cno ),\n  CONSTRAINT  fk_sc_cno  FOREIGN KEY ( cno ) REFERENCES  cou  ( cno ),\n  CONSTRAINT  fk_sc_sno  FOREIGN KEY ( sno ) REFERENCES  stu  ( sno )\n)",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "create table result(\n姓名 nvarchar(8) ,\n专业名 nvarchar(20) ,\n总学分  smallint )\n;\n",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": true,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询选修课程2门以上且成绩都在80分以上的学生（MSSQL）",
+      "content": "查询选修课程数在2门以上（含2门）且所有选课成绩都在80分以上（含80分）的学生的姓名、专业名及总学分。\n\n提示：MSSQLServer 评测SQL语句。\n\n### 表结构:\n\n定义表结构的SQL语句如：\n\n```\n-- 专业表\nCREATE TABLE major (  \n  mno char(2) NOT NULL,\n  mname nvarchar(20) NOT NULL,\n  PRIMARY KEY (mno)\n);\n-- 学生表\nCREATE TABLE stu (    \n  sno char(4) NOT NULL,\n  sname nvarchar(8) NOT NULL,\n  sex smallint DEFAULT NULL,\n  mno char(2) DEFAULT NULL,\n  birdate datetime DEFAULT NULL,\n  memo ntext,\n  PRIMARY KEY (sno),\n  CONSTRAINT  fk_stu_mno FOREIGN KEY (mno) REFERENCES major (mno)\n);\n-- 课程表\nCREATE TABLE  cou  (  \n   cno  char(4) NOT NULL,\n   cname  nvarchar(30) NOT NULL,\n   credit  smallint DEFAULT NULL,\n   ptime  char(5) DEFAULT NULL,\n   teacher  nvarchar(10) DEFAULT NULL,\n  PRIMARY KEY ( cno )\n);\n-- 学生选课成绩表\nCREATE TABLE  sc  (  \n   sno  char(4) NOT NULL,  -- 学生学号\n   cno  char(4) NOT NULL,  -- 课程号\n   grade  decimal(4,1) DEFAULT NULL,\n  PRIMARY KEY ( sno , cno ),\n  CONSTRAINT  fk_sc_cno  FOREIGN KEY ( cno ) REFERENCES  cou  ( cno ),\n  CONSTRAINT  fk_sc_sno  FOREIGN KEY ( sno ) REFERENCES  stu  ( sno )\n)\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```stu```表：\n\n![stu表.PNG](~/e0eef1b9-75cc-47ef-a678-aa3edbd702a5.PNG)\n\n```major```表：\n\n![major表.PNG](~/5d0d470d-392b-4714-ae6a-692da9c0367d.PNG)\n\n```cou```表：\n\n![cou表.PNG](~/3cdc6e02-b2f5-4a5e-bffd-286e7f289342.PNG)\n\n\n```sc```表：\n\n\n![sc表.PNG](~/bb6c39e6-c800-45a1-bc42-7dca06d8ed3a.PNG)\n\n\n\n### 输出样例:\n\n输出样例如：\n\n\n![result.PNG](~/0511f054-cb54-40a4-b61e-7d54337c1710.PNG)\n\n\n\n\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "张庆",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1376771526037716992",
+      "description": "查询选修课程数在2门以上（含2门）且所有选课成绩都在80分以上（含80分）的学生的姓名、专业名及总学分。\n\n提示：MSSQLServer 评测SQL语句。\n\n### 表结构:\n\n定义表结构的SQL语句如：\n\n```\n-- 专业表\nCREATE TABLE major (  \n  mno char(2) NOT NULL,\n  mname nvarchar(20) NOT NULL,\n  PRIMARY KEY (mno)\n);\n-- 学生表\nCREATE TABLE stu (    \n  sno char(4) NOT NULL,\n  sname nvarchar(8) NOT NULL,\n  sex smallint DEFAULT NULL,\n  mno char(2) DEFAULT NULL,\n  birdate datetime DEFAULT NULL,\n  memo ntext,\n  PRIMARY KEY (sno),\n  CONSTRAINT  fk_stu_mno FOREIGN KEY (mno) REFERENCES major (mno)\n);\n-- 课程表\nCREATE TABLE  cou  (  \n   cno  char(4) NOT NULL,\n   cname  nvarchar(30) NOT NULL,\n   credit  smallint DEFAULT NULL,\n   ptime  char(5) DEFAULT NULL,\n   teacher  nvarchar(10) DEFAULT NULL,\n  PRIMARY KEY ( cno )\n);\n-- 学生选课成绩表\nCREATE TABLE  sc  (  \n   sno  char(4) NOT NULL,  -- 学生学号\n   cno  char(4) NOT NULL,  -- 课程号\n   grade  decimal(4,1) DEFAULT NULL,\n  PRIMARY KEY ( sno , cno ),\n  CONSTRAINT  fk_sc_cno  FOREIGN KEY ( cno ) REFERENCES  cou  ( cno ),\n  CONSTRAINT  fk_sc_sno  FOREIGN KEY ( sno ) REFERENCES  stu  ( sno )\n)\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```stu```表：\n\n![stu表.PNG](~/e0eef1b9-75cc-47ef-a678-aa3edbd702a5.PNG)\n\n```major```表：\n\n![major表.PNG](~/5d0d470d-392b-4714-ae6a-692da9c0367d.PNG)\n\n```cou```表：\n\n![cou表.PNG](~/3cdc6e02-b2f5-4a5e-bffd-286e7f289342.PNG)\n\n\n```sc```表：\n\n\n![sc表.PNG](~/bb6c39e6-c800-45a1-bc42-7dca06d8ed3a.PNG)\n\n\n\n### 输出样例:\n\n输出样例如：\n\n\n![result.PNG](~/0511f054-cb54-40a4-b61e-7d54337c1710.PNG)\n\n\n\n\n\n",
+      "problemPoolIndex": 12,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "10-12"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430668",
+      "label": "10-13",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE sc (\n sno char(7) ,\n cno char(7) ,\n score decimal(4,1),\n point decimal(2,1),\n PRIMARY KEY (sno,cno)\n);",
+          "cases": {
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE sc (\n  门数 int\n);\n",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "统计有学生选修的课程的门数，多人选修同一门只算一门",
+      "content": "本题目要求编写SQL语句，\n统计``sc```表中有学生选修的课程的门数，多人选修同一门只算一门，要求结果中列名显示“门数”\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE sc (\n sno char(7) ,\n cno char(7) ,\n  score decimal(4,1),\n\tpoint decimal(2,1),\n  PRIMARY KEY (sno,cno)\n) ;\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```sc```表：\n\n|sno|cno|score|point|\n|----|----|------|------|\n|1711202|0000011|53.0|0.0|\n|1711202|0000027|80.0|1.0|\n|1911201|0000027|84.0|1.0|\n|1911201|0000052|71.0|2.0|\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n|门数|\n|-----|\n|3|\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "sy",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1378676632123637760",
+      "description": "本题目要求编写SQL语句，\n统计``sc```表中有学生选修的课程的门数，多人选修同一门只算一门，要求结果中列名显示“门数”\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE sc (\n sno char(7) ,\n cno char(7) ,\n  score decimal(4,1),\n\tpoint decimal(2,1),\n  PRIMARY KEY (sno,cno)\n) ;\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```sc```表：\n\n|sno|cno|score|point|\n|----|----|------|------|\n|1711202|0000011|53.0|0.0|\n|1711202|0000027|80.0|1.0|\n|1911201|0000027|84.0|1.0|\n|1911201|0000052|71.0|2.0|\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n|门数|\n|-----|\n|3|\n",
+      "problemPoolIndex": 13,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "146"
+    },
+    "organization": {
+      "id": "146",
+      "name": "宁波财经学院",
+      "code": "dhy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/dhy.png"
+    },
+    "examLabel": "10-13"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430669",
+      "label": "10-14",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE sc (\n sno char(7) ,\n cno char(7) ,\n score decimal(4,1),\n point decimal(2,1),\n PRIMARY KEY (sno,cno)\n);",
+          "cases": {
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE sc (\n 课程号 char(7) ,\n 选修人数 int\n);",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": true,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "统计选修人数最多的3门课",
+      "content": "本题目要求编写SQL语句，\\\n统计出`sc`表中选修人数最多的3门课，要求结果中列名分别显示“课程号”、“选修人数”。\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE sc (\n sno char(7) ,\n cno char(7) ,\n  score decimal(4,1),\n    point decimal(2,1),\n  PRIMARY KEY (sno,cno)\n) ;\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n`sc`表：\n\n| sno | cno | score | point |\n| ----- | ----- | ----- | ----- |\n| 1711202 | 0000011 | 53\\.0 | 0\\.0 |\n| 1711202 | 0000027 | 80\\.0 | 1\\.0 |\n| 1911201 | 0000027 | 84\\.0 | 1\\.0 |\n| 1911201 | 0000052 | 71\\.0 | 2\\.0 |\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n| 课程号 | 选修人数 |\n| ----- | ----- |\n| 0000027 | 2 |\n| 0000011 | 1 |\n| 0000052 | 1 |\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "sy",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1379022195847438336",
+      "description": "本题目要求编写SQL语句，\\\n统计出`sc`表中选修人数最多的3门课，要求结果中列名分别显示“课程号”、“选修人数”。\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE sc (\n sno char(7) ,\n cno char(7) ,\n  score decimal(4,1),\n    point decimal(2,1),\n  PRIMARY KEY (sno,cno)\n) ;\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n`sc`表：\n\n| sno | cno | score | point |\n| ----- | ----- | ----- | ----- |\n| 1711202 | 0000011 | 53\\.0 | 0\\.0 |\n| 1711202 | 0000027 | 80\\.0 | 1\\.0 |\n| 1911201 | 0000027 | 84\\.0 | 1\\.0 |\n| 1911201 | 0000052 | 71\\.0 | 2\\.0 |\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n| 课程号 | 选修人数 |\n| ----- | ----- |\n| 0000027 | 2 |\n| 0000011 | 1 |\n| 0000052 | 1 |\n",
+      "problemPoolIndex": 14,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "146"
+    },
+    "organization": {
+      "id": "146",
+      "name": "宁波财经学院",
+      "code": "dhy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/dhy.png"
+    },
+    "examLabel": "10-14"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430670",
+      "label": "10-15",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE students (\n sno char(7) ,\n  sname char(8) NOT NULL,\n  class char(10),\n  ssex char(2),\n  bday date ,\n  bplace char(10) ,\n  IDNum char(18) ,\n  sdept char(16),\n  phone char(11),\n  PRIMARY KEY (sno)\n) ;",
+          "cases": {
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE students (\n  sname char(8)\n) ;",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询与“陆毅”同一个系的同学姓名",
+      "content": "本题目要求编写SQL语句，\n检索出```students```表中与“陆毅”同一个系的同学姓名。\n\n提示：请使用嵌套查询语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE students (\n sno char(7) ,\n  sname char(8) NOT NULL,\n  class char(10),\n  ssex char(2),\n  bday date ,\n  bplace char(10) ,\n  IDNum char(18) ,\n  sdept char(16),\n  phone char(11),\n  PRIMARY KEY (sno)\n) ;\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```students```表：\n\n|sno|sname|class|ssex|bday|bplace|IDNum|sdept|phone|\n|----|-------|-----|-----|-----|--------|-------|-------|-------|\n|1311104|李嘉欣|13英语1|女|1994-05-28|山西太原|330204199405281056|人文学院|15900002211|\n|1311105|苏有明|13英语1|男|1995-04-16|内蒙古包头|330204199504162036|人文学院|15900002222|\n|1711101|赵薇|17物流1|女|1999-02-11|安徽合肥|330203199902110925|经管学院|15900001177|\n|1711102|陆毅|17物流1|女|1999-02-17|上海|330203199902170017|经管学院|15900001188|\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n|sname|\n|-------|\n|赵薇|\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "sy",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1385876423336230912",
+      "description": "本题目要求编写SQL语句，\n检索出```students```表中与“陆毅”同一个系的同学姓名。\n\n提示：请使用嵌套查询语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE students (\n sno char(7) ,\n  sname char(8) NOT NULL,\n  class char(10),\n  ssex char(2),\n  bday date ,\n  bplace char(10) ,\n  IDNum char(18) ,\n  sdept char(16),\n  phone char(11),\n  PRIMARY KEY (sno)\n) ;\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```students```表：\n\n|sno|sname|class|ssex|bday|bplace|IDNum|sdept|phone|\n|----|-------|-----|-----|-----|--------|-------|-------|-------|\n|1311104|李嘉欣|13英语1|女|1994-05-28|山西太原|330204199405281056|人文学院|15900002211|\n|1311105|苏有明|13英语1|男|1995-04-16|内蒙古包头|330204199504162036|人文学院|15900002222|\n|1711101|赵薇|17物流1|女|1999-02-11|安徽合肥|330203199902110925|经管学院|15900001177|\n|1711102|陆毅|17物流1|女|1999-02-17|上海|330203199902170017|经管学院|15900001188|\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n|sname|\n|-------|\n|赵薇|\n",
+      "problemPoolIndex": 15,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "146"
+    },
+    "organization": {
+      "id": "146",
+      "name": "宁波财经学院",
+      "code": "dhy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/dhy.png"
+    },
+    "examLabel": "10-15"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430671",
+      "label": "10-16",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n\nCREATE TABLE sh_goods_comment (\n id INT  PRIMARY KEY,                  -- 评论id\n user_id INT  NOT NULL DEFAULT 0,      -- 用户id\n goods_id INT  NOT NULL DEFAULT 0 ,    -- 商品id\n content TEXT NOT NULL ,               -- 评论内容\n is_show TINYINT  NOT NULL DEFAULT 0,  -- 是否显示\n create_time INT  NOT NULL DEFAULT 0   -- 创建时间\n) ;",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  name VARCHAR(120) NOT NULL                   --商品名称\n) ;",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询没有任何评论信息的商品id和name（多表查询）",
+      "content": "本题目要求编写SQL语句，\n结合`sh_goods`表和`sh_goods_comment`表，查询在`sh_goods_comment`表中没有任何评论信息的商品记录。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n```\nCREATE TABLE sh_goods_comment (\n id INT  PRIMARY KEY,                  -- 评论id\n user_id INT  NOT NULL DEFAULT 0,      -- 用户id\n goods_id INT  NOT NULL DEFAULT 0 ,    -- 商品id\n content TEXT NOT NULL ,               -- 评论内容\n is_show TINYINT  NOT NULL DEFAULT 0,  -- 是否显示\n create_time INT  NOT NULL DEFAULT 0   -- 创建时间\n) ;\n```\n\n### 表样例\n\n`sh_goods`表：\n\n![sh_goods表数据.PNG](~/b5305518-2aab-4a1c-87db-2cf240d7ca2b.PNG)\n\n\n`sh_goods_comment`表\n\n![sh_goods_comment表数据.PNG](~/3a6ec02c-c125-4963-b452-071f647b3787.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/6d4941b7-f6f2-480c-9d0e-b0c35f1bf946.PNG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1444949316473622528",
+      "description": "本题目要求编写SQL语句，\n结合`sh_goods`表和`sh_goods_comment`表，查询在`sh_goods_comment`表中没有任何评论信息的商品记录。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n```\nCREATE TABLE sh_goods_comment (\n id INT  PRIMARY KEY,                  -- 评论id\n user_id INT  NOT NULL DEFAULT 0,      -- 用户id\n goods_id INT  NOT NULL DEFAULT 0 ,    -- 商品id\n content TEXT NOT NULL ,               -- 评论内容\n is_show TINYINT  NOT NULL DEFAULT 0,  -- 是否显示\n create_time INT  NOT NULL DEFAULT 0   -- 创建时间\n) ;\n```\n\n### 表样例\n\n`sh_goods`表：\n\n![sh_goods表数据.PNG](~/b5305518-2aab-4a1c-87db-2cf240d7ca2b.PNG)\n\n\n`sh_goods_comment`表\n\n![sh_goods_comment表数据.PNG](~/3a6ec02c-c125-4963-b452-071f647b3787.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/6d4941b7-f6f2-480c-9d0e-b0c35f1bf946.PNG)\n\n",
+      "problemPoolIndex": 16,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    "organization": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "examLabel": "10-16"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430672",
+      "label": "10-17",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n\nCREATE TABLE sh_goods_comment (\n id INT  PRIMARY KEY,                  -- 评论id\n user_id INT  NOT NULL DEFAULT 0,      -- 用户id\n goods_id INT  NOT NULL DEFAULT 0 ,    -- 商品id\n content TEXT NOT NULL ,               -- 评论内容\n is_show TINYINT  NOT NULL DEFAULT 0,  -- 是否显示\n create_time INT  NOT NULL DEFAULT 0   -- 创建时间\n) ;",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE sh_goods (\n  name VARCHAR(120) NOT NULL,                   --商品名称\n  content TEXT NOT NULL                         -- 评论内容\n) ;",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询用户评分为5星的商品的评论信息（多表查询）",
+      "content": "本题目要求编写SQL语句，\n结合`sh_goods`表和`sh_goods_comment`表，查询用户评分为5星的商品对应的评论信息。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n```\nCREATE TABLE sh_goods_comment (\n id INT  PRIMARY KEY,                  -- 评论id\n user_id INT  NOT NULL DEFAULT 0,      -- 用户id\n goods_id INT  NOT NULL DEFAULT 0 ,    -- 商品id\n content TEXT NOT NULL ,               -- 评论内容\n is_show TINYINT  NOT NULL DEFAULT 0,  -- 是否显示\n create_time INT  NOT NULL DEFAULT 0   -- 创建时间\n) ;\n\n```\n\n\n### 表样例\n\n`sh_goods`表：\n\n![sh_goods表数据.PNG](~/6a740e3d-2d6d-499b-9cc6-3d712c2333b2.PNG)\n\n`sh_goods_comment`表：\n\n![sh_goods_comment表数据.PNG](~/af844572-5d17-436b-b66d-108324ca1b75.PNG)\n\n\n\n### 输出样例:\n\n\n![答案.PNG](~/727ed681-84ff-470c-8697-375127b3ce80.PNG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1444955691287425024",
+      "description": "本题目要求编写SQL语句，\n结合`sh_goods`表和`sh_goods_comment`表，查询用户评分为5星的商品对应的评论信息。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n```\nCREATE TABLE sh_goods_comment (\n id INT  PRIMARY KEY,                  -- 评论id\n user_id INT  NOT NULL DEFAULT 0,      -- 用户id\n goods_id INT  NOT NULL DEFAULT 0 ,    -- 商品id\n content TEXT NOT NULL ,               -- 评论内容\n is_show TINYINT  NOT NULL DEFAULT 0,  -- 是否显示\n create_time INT  NOT NULL DEFAULT 0   -- 创建时间\n) ;\n\n```\n\n\n### 表样例\n\n`sh_goods`表：\n\n![sh_goods表数据.PNG](~/6a740e3d-2d6d-499b-9cc6-3d712c2333b2.PNG)\n\n`sh_goods_comment`表：\n\n![sh_goods_comment表数据.PNG](~/af844572-5d17-436b-b66d-108324ca1b75.PNG)\n\n\n\n### 输出样例:\n\n\n![答案.PNG](~/727ed681-84ff-470c-8697-375127b3ce80.PNG)\n\n",
+      "problemPoolIndex": 17,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    "organization": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "examLabel": "10-17"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430673",
+      "label": "10-18",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n\nCREATE TABLE sh_goods_category (\nid INT  PRIMARY KEY ,-- 分类id\nparent_id INT  NOT NULL DEFAULT 0, --上级分类id\nname VARCHAR(120) NOT NULL  --分类名称\n);",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE sh_goods(\ngid INT,                        -- 商品id\ncid INT,                        -- 分类id\ncname VARCHAR(120) NOT NULL,    --分类名称\nscore DECIMAL(3, 2)  NOT NULL   -- 用户评分\n);",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询五星商品对应的商品分类信息（多表查询）",
+      "content": "本题目要求编写SQL语句，\n结合`sh_goods`表和`sh_goods_category`表，查询所有用户评分为5分的商品对应的商品id、商品id、分类id和分类名称和用户评分。注意，查询结果显示字段依据输出样例设置。\n\n提示：以`sh_goods`表为主表。\n\n### 表结构:\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n\n```\nCREATE TABLE sh_goods_category (\nid INT  PRIMARY KEY ,-- 分类id\nparent_id INT  NOT NULL DEFAULT 0, --上级分类id\nname VARCHAR(120) NOT NULL  --分类名称\n);\n```\n\n### 表样例\n\n`sh_goods`表：\n\n![sh_goods表数据.PNG](~/df3945e2-ace1-4cff-bbd4-b1a56a70d565.PNG)\n\n\n`sh_goods_category`表\n\n\n![sh_goods_category表数据.PNG](~/32474b4b-94c3-45df-ba79-33833525c0bb.PNG)\n\n\n\n### 输出样例:\n\n\n![答案.PNG](~/2b83c9df-7299-4fc1-b34d-2c48e390590a.PNG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1445719373537837056",
+      "description": "本题目要求编写SQL语句，\n结合`sh_goods`表和`sh_goods_category`表，查询所有用户评分为5分的商品对应的商品id、商品id、分类id和分类名称和用户评分。注意，查询结果显示字段依据输出样例设置。\n\n提示：以`sh_goods`表为主表。\n\n### 表结构:\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n\n```\nCREATE TABLE sh_goods_category (\nid INT  PRIMARY KEY ,-- 分类id\nparent_id INT  NOT NULL DEFAULT 0, --上级分类id\nname VARCHAR(120) NOT NULL  --分类名称\n);\n```\n\n### 表样例\n\n`sh_goods`表：\n\n![sh_goods表数据.PNG](~/df3945e2-ace1-4cff-bbd4-b1a56a70d565.PNG)\n\n\n`sh_goods_category`表\n\n\n![sh_goods_category表数据.PNG](~/32474b4b-94c3-45df-ba79-33833525c0bb.PNG)\n\n\n\n### 输出样例:\n\n\n![答案.PNG](~/2b83c9df-7299-4fc1-b34d-2c48e390590a.PNG)\n\n",
+      "problemPoolIndex": 18,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    "organization": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "examLabel": "10-18"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430674",
+      "label": "10-19",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n\nCREATE TABLE sh_goods_category (\nid INT  PRIMARY KEY ,-- 分类id\nparent_id INT  NOT NULL DEFAULT 0, --上级分类id\nname VARCHAR(120) NOT NULL  --分类名称\n);",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE sh_goods (\nname VARCHAR(120)   --分类名称\n);",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询商品价格小于500的商品分类名称（多表查询）",
+      "content": "本题目要求编写SQL语句，\n从`sh_goods_category`表中获取分类中商品价格小于500的商品对应的分类名称。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n```\nCREATE TABLE sh_goods_category (\nid INT  PRIMARY KEY ,-- 分类id\nparent_id INT  NOT NULL DEFAULT 0, --上级分类id\nname VARCHAR(120) NOT NULL  --分类名称\n);\n```\n\n\n### 表样例\n\n`sh_goods`表：\n\n\n![sh_goods表数据.PNG](~/542e1021-ae5a-4922-b475-6625caef0e86.PNG)\n\n\n`sh_goods_category`表：\n\n\n![sh_goods_category表数据.PNG](~/3c6eba1c-9fc4-42e8-8785-524ea75ce34b.PNG)\n\n\n\n### 输出样例:\n\n\n![答案.PNG](~/726ffd31-ce25-4432-98cd-1f671c8d9155.PNG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1445984461553045504",
+      "description": "本题目要求编写SQL语句，\n从`sh_goods_category`表中获取分类中商品价格小于500的商品对应的分类名称。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n```\nCREATE TABLE sh_goods_category (\nid INT  PRIMARY KEY ,-- 分类id\nparent_id INT  NOT NULL DEFAULT 0, --上级分类id\nname VARCHAR(120) NOT NULL  --分类名称\n);\n```\n\n\n### 表样例\n\n`sh_goods`表：\n\n\n![sh_goods表数据.PNG](~/542e1021-ae5a-4922-b475-6625caef0e86.PNG)\n\n\n`sh_goods_category`表：\n\n\n![sh_goods_category表数据.PNG](~/3c6eba1c-9fc4-42e8-8785-524ea75ce34b.PNG)\n\n\n\n### 输出样例:\n\n\n![答案.PNG](~/726ffd31-ce25-4432-98cd-1f671c8d9155.PNG)\n\n",
+      "problemPoolIndex": 19,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    "organization": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "examLabel": "10-19"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430675",
+      "label": "10-20",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE student (\n  sno varchar(6) NOT NULL ,\n  sname varchar(10) ,\n  sex char(2) ,\n  nation char(2) ,\n  pnum char(18) ,\n  birth date ,\n  phone char(11) ,\n  dept varchar(20) ,\n  PRIMARY KEY (sno)\n) ;\n\nCREATE TABLE score (\n  sno varchar(6) NOT NULL,\n  cno varchar(6) NOT NULL,\n  term varchar(15),\n  grade int(11),\n  PRIMARY KEY (sno,cno)\n) ;",
+          "cases": {
+            "7-4": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE student (\n  sno varchar(6) NOT NULL ,\n  sname varchar(10) ,\n   dept varchar(20) \n) ;",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "检索选修了三门课以上的学生学号、姓名、院部。",
+      "content": "### 题干:\n检索选修了三门课以上的学生学号、姓名、院部。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE student (<br>\n  sno varchar(6) NOT NULL ,<br>\n  sname varchar(10) ,<br>\n  sex char(2) ,<br>\n  nation char(2) ,<br>\n  pnum char(18) ,<br>\n  birth date ,<br>\n  phone char(11) ,<br>\n  dept varchar(20) ,<br>\n  PRIMARY KEY (sno)<br>\n) ;<br>\nCREATE TABLE course (<br>\n  cno varchar(6) NOT NULL,<br>\n  cname varchar(20) ,<br>\n  credit int(11) ,<br>\n  attribute varchar(10) ,<br>\n  PRIMARY KEY (cno)<br>\n) ;<br>\nCREATE TABLE score (<br>\n  sno varchar(6) NOT NULL,<br>\n  cno varchar(6) NOT NULL,<br>\n  term varchar(15),<br>\n  grade int(11),<br>\n  PRIMARY KEY (sno,cno)<br>\n) ;<br>\n\n### 表样例\n```student```表：<br>\n![student.png](~/fc0ee9a4-816d-418e-a9d0-0e5b88f1c0c3.png)\n\n```course```表：<br>\n![course.png](~/faa091af-6618-44c6-8030-bdb1d7bd0d79.png)\n\n```score```表：<br>\n![score.png](~/48c9b210-cdfd-4afd-9276-bd3c7d0972b4.png)\n\n### 输出样例:\n\n\n![7-4.png](~/0c3eaa41-6a3f-4085-90d9-a696992948ac.png)\n\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "白彦辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1447910886374248448",
+      "description": "### 题干:\n检索选修了三门课以上的学生学号、姓名、院部。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE student (<br>\n  sno varchar(6) NOT NULL ,<br>\n  sname varchar(10) ,<br>\n  sex char(2) ,<br>\n  nation char(2) ,<br>\n  pnum char(18) ,<br>\n  birth date ,<br>\n  phone char(11) ,<br>\n  dept varchar(20) ,<br>\n  PRIMARY KEY (sno)<br>\n) ;<br>\nCREATE TABLE course (<br>\n  cno varchar(6) NOT NULL,<br>\n  cname varchar(20) ,<br>\n  credit int(11) ,<br>\n  attribute varchar(10) ,<br>\n  PRIMARY KEY (cno)<br>\n) ;<br>\nCREATE TABLE score (<br>\n  sno varchar(6) NOT NULL,<br>\n  cno varchar(6) NOT NULL,<br>\n  term varchar(15),<br>\n  grade int(11),<br>\n  PRIMARY KEY (sno,cno)<br>\n) ;<br>\n\n### 表样例\n```student```表：<br>\n![student.png](~/fc0ee9a4-816d-418e-a9d0-0e5b88f1c0c3.png)\n\n```course```表：<br>\n![course.png](~/faa091af-6618-44c6-8030-bdb1d7bd0d79.png)\n\n```score```表：<br>\n![score.png](~/48c9b210-cdfd-4afd-9276-bd3c7d0972b4.png)\n\n### 输出样例:\n\n\n![7-4.png](~/0c3eaa41-6a3f-4085-90d9-a696992948ac.png)\n\n\n",
+      "problemPoolIndex": 20,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "975756327607476224"
+    },
+    "organization": {
+      "id": "975756327607476224",
+      "name": "赤峰学院",
+      "code": "cfxy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/cfxy.png"
+    },
+    "examLabel": "10-20"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430676",
+      "label": "10-21",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE course (\n  cno varchar(6) NOT NULL,\n  cname varchar(20) ,\n  credit int(11) ,\n  attribute varchar(10) ,\n  PRIMARY KEY (cno)\n) ;\n\nCREATE TABLE score (\n  sno varchar(6) NOT NULL,\n  cno varchar(6) NOT NULL,\n  term varchar(15),\n  grade int(11),\n  PRIMARY KEY (sno,cno)\n) ;",
+          "cases": {
+            "7-5": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE course (\n  cno varchar(6) NOT NULL,\n  cname varchar(20) ,\n  total int(11)\n) ;",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询每门必修课的课程编号，课程名称和选修人数。",
+      "content": "### 题干:\n查询每门必修课的课程编号，课程名称和选修人数。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE student (<br>\n  sno varchar(6) NOT NULL ,<br>\n  sname varchar(10) ,<br>\n  sex char(2) ,<br>\n  nation char(2) ,<br>\n  pnum char(18) ,<br>\n  birth date ,<br>\n  phone char(11) ,<br>\n  dept varchar(20) ,<br>\n  PRIMARY KEY (sno)<br>\n) ;<br>\nCREATE TABLE course (<br>\n  cno varchar(6) NOT NULL,<br>\n  cname varchar(20) ,<br>\n  credit int(11) ,<br>\n  attribute varchar(10) ,<br>\n  PRIMARY KEY (cno)<br>\n) ;<br>\nCREATE TABLE score (<br>\n  sno varchar(6) NOT NULL,<br>\n  cno varchar(6) NOT NULL,<br>\n  term varchar(15),<br>\n  grade int(11),<br>\n  PRIMARY KEY (sno,cno)<br>\n) ;<br>\n\n### 表样例\n\n```student```表：<br>\n![student.png](~/fc0ee9a4-816d-418e-a9d0-0e5b88f1c0c3.png)\n\n```course```表：<br>\n![course.png](~/faa091af-6618-44c6-8030-bdb1d7bd0d79.png)\n\n```score```表：<br>\n![score.png](~/48c9b210-cdfd-4afd-9276-bd3c7d0972b4.png)\n\n### 输出样例:\n\n![7-5.png](~/bb0cdb94-4fa1-4bb9-98ae-615ad64986d3.png)\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "白彦辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1447913018360045568",
+      "description": "### 题干:\n查询每门必修课的课程编号，课程名称和选修人数。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE student (<br>\n  sno varchar(6) NOT NULL ,<br>\n  sname varchar(10) ,<br>\n  sex char(2) ,<br>\n  nation char(2) ,<br>\n  pnum char(18) ,<br>\n  birth date ,<br>\n  phone char(11) ,<br>\n  dept varchar(20) ,<br>\n  PRIMARY KEY (sno)<br>\n) ;<br>\nCREATE TABLE course (<br>\n  cno varchar(6) NOT NULL,<br>\n  cname varchar(20) ,<br>\n  credit int(11) ,<br>\n  attribute varchar(10) ,<br>\n  PRIMARY KEY (cno)<br>\n) ;<br>\nCREATE TABLE score (<br>\n  sno varchar(6) NOT NULL,<br>\n  cno varchar(6) NOT NULL,<br>\n  term varchar(15),<br>\n  grade int(11),<br>\n  PRIMARY KEY (sno,cno)<br>\n) ;<br>\n\n### 表样例\n\n```student```表：<br>\n![student.png](~/fc0ee9a4-816d-418e-a9d0-0e5b88f1c0c3.png)\n\n```course```表：<br>\n![course.png](~/faa091af-6618-44c6-8030-bdb1d7bd0d79.png)\n\n```score```表：<br>\n![score.png](~/48c9b210-cdfd-4afd-9276-bd3c7d0972b4.png)\n\n### 输出样例:\n\n![7-5.png](~/bb0cdb94-4fa1-4bb9-98ae-615ad64986d3.png)\n",
+      "problemPoolIndex": 21,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "975756327607476224"
+    },
+    "organization": {
+      "id": "975756327607476224",
+      "name": "赤峰学院",
+      "code": "cfxy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/cfxy.png"
+    },
+    "examLabel": "10-21"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430677",
+      "label": "10-22",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE student (\n  sno varchar(6) NOT NULL ,\n  sname varchar(10) ,\n  sex char(2) ,\n  nation char(2) ,\n  pnum char(18) ,\n  birth date ,\n  phone char(11) ,\n  dept varchar(20) ,\n  PRIMARY KEY (sno)\n) ;\n\nCREATE TABLE course (\n  cno varchar(6) NOT NULL,\n  cname varchar(20) ,\n  credit int(11) ,\n  attribute varchar(10) ,\n  PRIMARY KEY (cno)\n) ;\n\nCREATE TABLE score (\n  sno varchar(6) NOT NULL,\n  cno varchar(6) NOT NULL,\n  term varchar(15),\n  grade int(11),\n  PRIMARY KEY (sno,cno)\n) ;",
+          "cases": {
+            "7-7": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE student (\n  sname varchar(10) ,\n  dept varchar(20)\n) ;",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查找所有“大学语文”分数在80以上的学生的姓名，所在院系。",
+      "content": "### 题干:\n查找所有“大学语文”分数在80以上的学生的姓名，所在院系。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n定义表结构的SQL语句如下：<br>\nCREATE TABLE student (<br>\n  sno varchar(6) NOT NULL ,<br>\n  sname varchar(10) ,<br>\n  sex char(2) ,<br>\n  nation char(2) ,<br>\n  pnum char(18) ,<br>\n  birth date ,<br>\n  phone char(11) ,<br>\n  dept varchar(20) ,<br>\n  PRIMARY KEY (sno)<br>\n) ;<br>\nCREATE TABLE course (<br>\n  cno varchar(6) NOT NULL,<br>\n  cname varchar(20) ,<br>\n  credit int(11) ,<br>\n  attribute varchar(10) ,<br>\n  PRIMARY KEY (cno)<br>\n) ;<br>\nCREATE TABLE score (<br>\n  sno varchar(6) NOT NULL,<br>\n  cno varchar(6) NOT NULL,<br>\n  term varchar(15),<br>\n  grade int(11),<br>\n  PRIMARY KEY (sno,cno)<br>\n) ;<br>\n\n### 表样例\n```student```表：<br>\n![student.png](~/fc0ee9a4-816d-418e-a9d0-0e5b88f1c0c3.png)\n\n```course```表：<br>\n![course.png](~/faa091af-6618-44c6-8030-bdb1d7bd0d79.png)\n\n```score```表：<br>\n![score.png](~/48c9b210-cdfd-4afd-9276-bd3c7d0972b4.png)\n\n### 输出样例:\n\n![7-7.png](~/3bc62764-3458-4f72-b4b7-a174045de6cc.png)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "白彦辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1447913922333118464",
+      "description": "### 题干:\n查找所有“大学语文”分数在80以上的学生的姓名，所在院系。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n定义表结构的SQL语句如下：<br>\nCREATE TABLE student (<br>\n  sno varchar(6) NOT NULL ,<br>\n  sname varchar(10) ,<br>\n  sex char(2) ,<br>\n  nation char(2) ,<br>\n  pnum char(18) ,<br>\n  birth date ,<br>\n  phone char(11) ,<br>\n  dept varchar(20) ,<br>\n  PRIMARY KEY (sno)<br>\n) ;<br>\nCREATE TABLE course (<br>\n  cno varchar(6) NOT NULL,<br>\n  cname varchar(20) ,<br>\n  credit int(11) ,<br>\n  attribute varchar(10) ,<br>\n  PRIMARY KEY (cno)<br>\n) ;<br>\nCREATE TABLE score (<br>\n  sno varchar(6) NOT NULL,<br>\n  cno varchar(6) NOT NULL,<br>\n  term varchar(15),<br>\n  grade int(11),<br>\n  PRIMARY KEY (sno,cno)<br>\n) ;<br>\n\n### 表样例\n```student```表：<br>\n![student.png](~/fc0ee9a4-816d-418e-a9d0-0e5b88f1c0c3.png)\n\n```course```表：<br>\n![course.png](~/faa091af-6618-44c6-8030-bdb1d7bd0d79.png)\n\n```score```表：<br>\n![score.png](~/48c9b210-cdfd-4afd-9276-bd3c7d0972b4.png)\n\n### 输出样例:\n\n![7-7.png](~/3bc62764-3458-4f72-b4b7-a174045de6cc.png)\n\n",
+      "problemPoolIndex": 22,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "975756327607476224"
+    },
+    "organization": {
+      "id": "975756327607476224",
+      "name": "赤峰学院",
+      "code": "cfxy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/cfxy.png"
+    },
+    "examLabel": "10-22"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430678",
+      "label": "10-23",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE  emp(\nempno INT(4) ,\nename VARCHAR(20),\njob VARCHAR(9),\nmgr INT(4),\nhiredate DATE,\nsal FLOAT(7, 2),\ncomm FLOAT(7, 2),\ndeptno INT(2),\nPRIMARY KEY(empno)\n);\nCREATE TABLE salgrade (  \ngrade  int, \nlosal  int,  \nhisal  int,\nPRIMARY KEY (grade)\n) ;",
+          "cases": {
+            "8-4": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE  emp(\nempno INT(4) ,\nename VARCHAR(20),\nsal FLOAT(7, 2),\ngrade  int\n)",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "显示每位员工的编号，姓名，工资及工资级别。",
+      "content": "### 题干:\n显示每位员工的编号，姓名，工资及工资级别。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE  emp(<br>\nempno INT(4) ,<br>\nename VARCHAR(20),<br>\njob VARCHAR(9),<br>\nmgr INT(4),<br>\nhiredate DATE,<br>\nsal FLOAT(7, 2),<br>\ncomm FLOAT(7, 2),<br>\ndeptno INT(2),<br>\nPRIMARY KEY(empno)<br>\n);<br>\nCREATE TABLE salgrade (  <br>\ngrade  int, <br>\nlosal  int,  <br>\nhisal  int,<br>\nPRIMARY KEY (grade)<br>\n) ;\n\n### 表样例\n```emp```表：<br>\n![emp.png](~/e05e97b7-8dd8-4958-a317-b217b2df0970.png)\n\n```salgrade```表：<br>\n![salgrade.png](~/e62d06dd-2441-43b3-8a2a-4c9bbad025d6.png)\n\n\n### 输出样例:\n![8-4.png](~/852c8085-c27b-4117-b77a-eb39da10f533.png)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "白彦辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1449763980561932288",
+      "description": "### 题干:\n显示每位员工的编号，姓名，工资及工资级别。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE  emp(<br>\nempno INT(4) ,<br>\nename VARCHAR(20),<br>\njob VARCHAR(9),<br>\nmgr INT(4),<br>\nhiredate DATE,<br>\nsal FLOAT(7, 2),<br>\ncomm FLOAT(7, 2),<br>\ndeptno INT(2),<br>\nPRIMARY KEY(empno)<br>\n);<br>\nCREATE TABLE salgrade (  <br>\ngrade  int, <br>\nlosal  int,  <br>\nhisal  int,<br>\nPRIMARY KEY (grade)<br>\n) ;\n\n### 表样例\n```emp```表：<br>\n![emp.png](~/e05e97b7-8dd8-4958-a317-b217b2df0970.png)\n\n```salgrade```表：<br>\n![salgrade.png](~/e62d06dd-2441-43b3-8a2a-4c9bbad025d6.png)\n\n\n### 输出样例:\n![8-4.png](~/852c8085-c27b-4117-b77a-eb39da10f533.png)\n\n",
+      "problemPoolIndex": 23,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "975756327607476224"
+    },
+    "organization": {
+      "id": "975756327607476224",
+      "name": "赤峰学院",
+      "code": "cfxy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/cfxy.png"
+    },
+    "examLabel": "10-23"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430679",
+      "label": "10-24",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE  emp(\nempno INT(4) ,\nename VARCHAR(20),\njob VARCHAR(9),\nmgr INT(4),\nhiredate DATE,\nsal FLOAT(7, 2),\ncomm FLOAT(7, 2),\ndeptno INT(2),\nPRIMARY KEY(empno)\n);",
+          "cases": {
+            "8-5": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE  emp(\n员工编号 INT(4) ,\n员工姓名 VARCHAR(20),\n上司编号 INT(4) ,\n上司姓名 VARCHAR(20)\n)",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "显示每位员工的编号，姓名及其上级领导的编号和姓名（要求显示出所有的员工）。",
+      "content": "### 题干:\n显示每位员工的编号，姓名及其上级领导的编号和姓名（要求显示出所有的员工）。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE  emp(<br>\nempno INT(4) ,<br>\nename VARCHAR(20),<br>\njob VARCHAR(9),<br>\nmgr INT(4),<br>\nhiredate DATE,<br>\nsal FLOAT(7, 2),<br>\ncomm FLOAT(7, 2),<br>\ndeptno INT(2),<br>\nPRIMARY KEY(empno)<br>\n);<br>\n\n### 表样例\n```emp```表：<br>\n![emp.png](~/bf5a793e-60e9-439a-8da8-0b2699cfc205.png)\n\n### 输出样例:\n![8-5.png](~/1e576503-deca-492c-bad7-4f5e1333a4f7.png)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "白彦辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1449768396941746176",
+      "description": "### 题干:\n显示每位员工的编号，姓名及其上级领导的编号和姓名（要求显示出所有的员工）。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE  emp(<br>\nempno INT(4) ,<br>\nename VARCHAR(20),<br>\njob VARCHAR(9),<br>\nmgr INT(4),<br>\nhiredate DATE,<br>\nsal FLOAT(7, 2),<br>\ncomm FLOAT(7, 2),<br>\ndeptno INT(2),<br>\nPRIMARY KEY(empno)<br>\n);<br>\n\n### 表样例\n```emp```表：<br>\n![emp.png](~/bf5a793e-60e9-439a-8da8-0b2699cfc205.png)\n\n### 输出样例:\n![8-5.png](~/1e576503-deca-492c-bad7-4f5e1333a4f7.png)\n\n",
+      "problemPoolIndex": 24,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "975756327607476224"
+    },
+    "organization": {
+      "id": "975756327607476224",
+      "name": "赤峰学院",
+      "code": "cfxy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/cfxy.png"
+    },
+    "examLabel": "10-24"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430680",
+      "label": "10-25",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "Create table Teacher(\nTeacherID   char(8) primary key,     --教师编号\nTeachername char(12) not null,       --教师姓名\nSex  char(2) not null check(sex in('男','女')),  --教师性别\nBrith datetime ,                                 --出生日期\nProfession char(8) check(profession in('教授','副教授','讲师','助教')),  --职称\nTelephone varchar(20),                          --联系电话\nHomeAddr varchar(50),                           --家庭地址\nDepartmentID char(4)                            --系部编号\n);\n\n\nCreate table Department(\nDepartmentID char(4) primary key,           -- 系部编号\nDepartmentName varchar(20) NOT NULL unique, -- 系部名称\nDepartmentHeader varchar(8) NOT NULL,       -- 系主任\nTeacherNum int                              -- 教师数量\n);",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "Create table Department(\nDepartmentHeader varchar(8)        -- 系主任\n);",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询编号‘dep01001’教师的系主任名称",
+      "content": "本题目要求编写SQL语句，\n基于`Teacher表`和`Department`表，查询编号‘dep01001’教师的系主任名称。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n```\nCreate table Teacher(\nTeacherID   char(8) primary key,     --教师编号\nTeachername char(12) not null,       --教师姓名\nSex  char(2) not null check(sex in('男','女')),  --教师性别\nBrith datetime ,                                 --出生日期\nProfession char(8) check(profession in('教授','副教授','讲师','助教')),  --职称\nTelephone varchar(20),                          --联系电话\nHomeAddr varchar(50),                           --家庭地址\nDepartmentID char(4)                            --系部编号\n);\n\n```\n\n\n```\nCreate table Department(\nDepartmentID char(4) primary key,           -- 系部编号\nDepartmentName varchar(20) NOT NULL unique, -- 系部名称\nDepartmentHeader varchar(8) NOT NULL,       -- 系主任\nTeacherNum int                              -- 教师数量\n);\n```\n\n### 表样例\n\n\n```Teacher```表：\n\n![Teacher表.PNG](~/876ad264-49b5-49a6-8253-c68d8b823d6f.PNG)\n\n\n`Department`表：\n\n\n![Department表.PNG](~/d39fcc00-2b13-4f1c-8efd-e3bf9093b872.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/e4e80c0a-c7cc-4aef-89a3-0e45f1162fff.PNG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1453551893082152960",
+      "description": "本题目要求编写SQL语句，\n基于`Teacher表`和`Department`表，查询编号‘dep01001’教师的系主任名称。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n```\nCreate table Teacher(\nTeacherID   char(8) primary key,     --教师编号\nTeachername char(12) not null,       --教师姓名\nSex  char(2) not null check(sex in('男','女')),  --教师性别\nBrith datetime ,                                 --出生日期\nProfession char(8) check(profession in('教授','副教授','讲师','助教')),  --职称\nTelephone varchar(20),                          --联系电话\nHomeAddr varchar(50),                           --家庭地址\nDepartmentID char(4)                            --系部编号\n);\n\n```\n\n\n```\nCreate table Department(\nDepartmentID char(4) primary key,           -- 系部编号\nDepartmentName varchar(20) NOT NULL unique, -- 系部名称\nDepartmentHeader varchar(8) NOT NULL,       -- 系主任\nTeacherNum int                              -- 教师数量\n);\n```\n\n### 表样例\n\n\n```Teacher```表：\n\n![Teacher表.PNG](~/876ad264-49b5-49a6-8253-c68d8b823d6f.PNG)\n\n\n`Department`表：\n\n\n![Department表.PNG](~/d39fcc00-2b13-4f1c-8efd-e3bf9093b872.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/e4e80c0a-c7cc-4aef-89a3-0e45f1162fff.PNG)\n\n",
+      "problemPoolIndex": 25,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    "organization": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "examLabel": "10-25"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430681",
+      "label": "10-26",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "Create table Student(\nStudentID   char(12) primary key,\nStudentName char(8) not null,\nSex  char(2) not null ,\nBirth  datetime not null,\nHomeAddr varchar(80),\nEntranceTime datetime default getdate(),\nClassID char(8) \n);\n\n\nCreate table Grade(\nCourseID   char(8) ,    --班级编号\nStudentID char(12) ,    --学号\nSemester  int not null, --学期\nSchoolYear int ,        --学年\nGrade numeric(5,1),     --成绩\nprimary key(CourseID,StudentID)  \n);",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "Create table Student(\nStudentID   char(12) primary key,\nStudentName char(8) not null,\nSex  char(2) not null \n);",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询没有课程成绩的学生学号、姓名、性别。",
+      "content": "本题目要求编写SQL语句，\n基于`Student`表和`Grade`表，查询没有课程成绩的学生对应的学号、姓名、性别。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n```\nCreate table Student(\nStudentID   char(12) primary key,\nStudentName char(8) not null,\nSex  char(2) not null ,\nBirth  datetime not null,\nHomeAddr varchar(80),\nEntranceTime datetime default getdate(),\nClassID char(8) \n);\n```\n\n\n```\nCreate table Grade(\nCourseID   char(8) ,    --班级编号\nStudentID char(12) ,    --学号\nSemester  int not null, --学期\nSchoolYear int ,        --学年\nGrade numeric(5,1),     --成绩\nprimary key(CourseID,StudentID)  \n);\n```\n\n### 表样例\n\n```Student```表：\n\n![Student表.PNG](~/d25c480d-1311-4cd6-9d73-3b2e1984a38a.PNG)\n\n\n`Grade`表\n\n\n![Grade表第1部分.PNG](~/70b044bb-ac37-4560-bd28-387711ecb378.PNG)\n\n![Grade表第2部分.PNG](~/2219a912-6d08-481f-a001-bb72c6f4d1c2.PNG)\n\n![Grade表第3部分.PNG](~/24e83f48-1899-4f61-a003-45ec1ad3416c.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/37eaf0e5-de28-4a97-aa70-f9e9f5944f06.PNG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1453586013397065728",
+      "description": "本题目要求编写SQL语句，\n基于`Student`表和`Grade`表，查询没有课程成绩的学生对应的学号、姓名、性别。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n```\nCreate table Student(\nStudentID   char(12) primary key,\nStudentName char(8) not null,\nSex  char(2) not null ,\nBirth  datetime not null,\nHomeAddr varchar(80),\nEntranceTime datetime default getdate(),\nClassID char(8) \n);\n```\n\n\n```\nCreate table Grade(\nCourseID   char(8) ,    --班级编号\nStudentID char(12) ,    --学号\nSemester  int not null, --学期\nSchoolYear int ,        --学年\nGrade numeric(5,1),     --成绩\nprimary key(CourseID,StudentID)  \n);\n```\n\n### 表样例\n\n```Student```表：\n\n![Student表.PNG](~/d25c480d-1311-4cd6-9d73-3b2e1984a38a.PNG)\n\n\n`Grade`表\n\n\n![Grade表第1部分.PNG](~/70b044bb-ac37-4560-bd28-387711ecb378.PNG)\n\n![Grade表第2部分.PNG](~/2219a912-6d08-481f-a001-bb72c6f4d1c2.PNG)\n\n![Grade表第3部分.PNG](~/24e83f48-1899-4f61-a003-45ec1ad3416c.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/37eaf0e5-de28-4a97-aa70-f9e9f5944f06.PNG)\n\n",
+      "problemPoolIndex": 26,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    "organization": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "examLabel": "10-26"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430682",
+      "label": "10-27",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE student (\n  sno varchar(6) NOT NULL ,\n  sname varchar(10) ,\n  sex char(2) ,\n  nation char(2) ,\n  pnum char(18) ,\n  birth date ,\n  phone char(11) ,\n  dept varchar(20) ,\n  PRIMARY KEY (sno)\n) ;\nCREATE TABLE course (\n  cno varchar(6) NOT NULL,\n  cname varchar(20) ,\n  credit int(11) ,\n  attribute varchar(10) ,\n  PRIMARY KEY (cno)\n) ;\nCREATE TABLE score (\n  sno varchar(6) NOT NULL,\n  cno varchar(6) NOT NULL,\n  term varchar(15),\n  grade int(11),\n  PRIMARY KEY (sno,cno)\n) ;",
+          "cases": {
+            "8-3": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE score (\n  sno varchar(6) NOT NULL ,\n  sname varchar(10) ,\n  cno varchar(6) NOT NULL,\n  cname varchar(20) ,\n  term varchar(15),\n  grade int(11)\n) ;\n",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询出学生的选课情况，结果集包括学号、姓名、课号、课名、开设学期和成绩。",
+      "content": "### 题干:\n查询出学生的选课情况，结果集包括学号、姓名、课号、课名、开设学期和成绩。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE student (<br>\n  sno varchar(6) NOT NULL ,<br>\n  sname varchar(10) ,<br>\n  sex char(2) ,<br>\n  nation char(2) ,<br>\n  pnum char(18) ,<br>\n  birth date ,<br>\n  phone char(11) ,<br>\n  dept varchar(20) ,<br>\n  PRIMARY KEY (sno)<br>\n) ;<br>\nCREATE TABLE course (<br>\n  cno varchar(6) NOT NULL,<br>\n  cname varchar(20) ,<br>\n  credit int(11) ,<br>\n  attribute varchar(10) ,<br>\n  PRIMARY KEY (cno)<br>\n) ;<br>\nCREATE TABLE score (<br>\n  sno varchar(6) NOT NULL,<br>\n  cno varchar(6) NOT NULL,<br>\n  term varchar(15),<br>\n  grade int(11),<br>\n  PRIMARY KEY (sno,cno)<br>\n) ;<br>\n\n### 表样例\n```student```表：<br>\n![student.png](~/b8ba91ec-53bf-43ea-8438-24c3495a5ff1.png)\n\n```course```表：<br>\n![course.png](~/9e62794e-c903-4bb1-ac3b-6e8ad2f7ceaf.png)\n\n```score```表：<br>\n![score.png](~/93058cac-ae56-41d0-95e8-64c62995a472.png)\n\n\n### 输出样例(部分数据):\n\n![8-3.png](~/dd3b6d49-ef81-4a77-a187-691ae942ccd7.png)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "白彦辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1449760573838962688",
+      "description": "### 题干:\n查询出学生的选课情况，结果集包括学号、姓名、课号、课名、开设学期和成绩。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE student (<br>\n  sno varchar(6) NOT NULL ,<br>\n  sname varchar(10) ,<br>\n  sex char(2) ,<br>\n  nation char(2) ,<br>\n  pnum char(18) ,<br>\n  birth date ,<br>\n  phone char(11) ,<br>\n  dept varchar(20) ,<br>\n  PRIMARY KEY (sno)<br>\n) ;<br>\nCREATE TABLE course (<br>\n  cno varchar(6) NOT NULL,<br>\n  cname varchar(20) ,<br>\n  credit int(11) ,<br>\n  attribute varchar(10) ,<br>\n  PRIMARY KEY (cno)<br>\n) ;<br>\nCREATE TABLE score (<br>\n  sno varchar(6) NOT NULL,<br>\n  cno varchar(6) NOT NULL,<br>\n  term varchar(15),<br>\n  grade int(11),<br>\n  PRIMARY KEY (sno,cno)<br>\n) ;<br>\n\n### 表样例\n```student```表：<br>\n![student.png](~/b8ba91ec-53bf-43ea-8438-24c3495a5ff1.png)\n\n```course```表：<br>\n![course.png](~/9e62794e-c903-4bb1-ac3b-6e8ad2f7ceaf.png)\n\n```score```表：<br>\n![score.png](~/93058cac-ae56-41d0-95e8-64c62995a472.png)\n\n\n### 输出样例(部分数据):\n\n![8-3.png](~/dd3b6d49-ef81-4a77-a187-691ae942ccd7.png)\n\n",
+      "problemPoolIndex": 27,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "975756327607476224"
+    },
+    "organization": {
+      "id": "975756327607476224",
+      "name": "赤峰学院",
+      "code": "cfxy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/cfxy.png"
+    },
+    "examLabel": "10-27"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430683",
+      "label": "10-28",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE `cou` (\n  `cno` char(4) NOT NULL,\n  `cname` varchar(30) NOT NULL,\n  `credit` smallint(6) DEFAULT NULL,\n  `ptime` char(5) DEFAULT NULL,\n  `teacher` char(10) DEFAULT NULL,\n  PRIMARY KEY (`cno`)\n);\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_cno` FOREIGN KEY (`cno`) REFERENCES `cou` (`CNO`)\n);",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE `l220` (\n  `学号` char(4) NOT NULL,\n  `课程名` varchar(30) NOT NULL,\n  `成绩` decimal(6,1) DEFAULT NULL\n)",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询平均成绩以上的课程",
+      "content": "本题目要求编写SQL语句，\n查询每个同学超过他选修的平均成绩的课程。\n\n请使用：\n1）用相关子查询实现\n2）使用派生表实现。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `cou` (\n  `cno` char(4) NOT NULL,\n  `cname` varchar(30) NOT NULL,\n  `credit` smallint(6) DEFAULT NULL,\n  `ptime` char(5) DEFAULT NULL,\n  `teacher` char(10) DEFAULT NULL,\n  PRIMARY KEY (`cno`)\n)\n\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_cno` FOREIGN KEY (`cno`) REFERENCES `cou` (`CNO`),\n);\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n``` cou```表：\n\n\n![cou.JPG](~/df90a6cc-4834-40ac-a471-7801804310bc.JPG)\n\n``` sc```表：\n\n\n![sc.JPG](~/3d6f8240-9eb5-4184-86a0-8fdaf69c77ec.JPG)\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n \n\n![l220.JPG](~/3d792c3b-2c9f-4c0b-94e0-fe2c36bd90b2.JPG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "张庆",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1236635157524676608",
+      "description": "本题目要求编写SQL语句，\n查询每个同学超过他选修的平均成绩的课程。\n\n请使用：\n1）用相关子查询实现\n2）使用派生表实现。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `cou` (\n  `cno` char(4) NOT NULL,\n  `cname` varchar(30) NOT NULL,\n  `credit` smallint(6) DEFAULT NULL,\n  `ptime` char(5) DEFAULT NULL,\n  `teacher` char(10) DEFAULT NULL,\n  PRIMARY KEY (`cno`)\n)\n\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_cno` FOREIGN KEY (`cno`) REFERENCES `cou` (`CNO`),\n);\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n``` cou```表：\n\n\n![cou.JPG](~/df90a6cc-4834-40ac-a471-7801804310bc.JPG)\n\n``` sc```表：\n\n\n![sc.JPG](~/3d6f8240-9eb5-4184-86a0-8fdaf69c77ec.JPG)\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n \n\n![l220.JPG](~/3d792c3b-2c9f-4c0b-94e0-fe2c36bd90b2.JPG)\n\n",
+      "problemPoolIndex": 28,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "10-28"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430684",
+      "label": "10-29",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`)\n);\nCREATE TABLE `cou` (\n  `cno` char(4) NOT NULL,\n  `cname` varchar(30) NOT NULL,\n  `credit` smallint(6) DEFAULT NULL,\n  `ptime` char(5) DEFAULT NULL,\n  `teacher` char(10) DEFAULT NULL,\n  PRIMARY KEY (`cno`)\n);\n\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_cno` FOREIGN KEY (`cno`) REFERENCES `cou` (`CNO`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n);",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE `l226` (\n  `sname` char(8) NOT NULL\n);\n",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询选修张老师讲授所有课程的学生",
+      "content": "本题目要求编写SQL语句，\n查询选修了张老师所讲授的所有课程的学生。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`)\n);\nCREATE TABLE `cou` (\n  `cno` char(4) NOT NULL,\n  `cname` varchar(30) NOT NULL,\n  `credit` smallint(6) DEFAULT NULL,\n  `ptime` char(5) DEFAULT NULL,\n  `teacher` char(10) DEFAULT NULL,\n  PRIMARY KEY (`cno`)\n);\n\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_cno` FOREIGN KEY (`cno`) REFERENCES `cou` (`CNO`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n);\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```stu```表：\n\n![stu.JPG](~/aa2d96b0-a8da-4250-892b-fa817eb7b9da.JPG)\n\n```cou```表：\n\n\n![cou.JPG](~/eb717bfc-e2e7-4336-bd2d-cf406c775497.JPG)\n\n```sc```表：\n\n\n![sc.JPG](~/624a7728-e0dd-4937-b611-a3bb192f82b8.JPG)\n\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n![l226.JPG](~/3cf414af-387b-418a-b85c-fcc2c9efd6a9.JPG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "张庆",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1236663985852678144",
+      "description": "本题目要求编写SQL语句，\n查询选修了张老师所讲授的所有课程的学生。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE `stu` (\n  `sno` char(4) NOT NULL,\n  `sname` char(8) NOT NULL,\n  `sex` tinyint(1) DEFAULT NULL,\n  `mno` char(2) DEFAULT NULL,\n  `birdate` datetime DEFAULT NULL,\n  `memo` text,\n  PRIMARY KEY (`sno`)\n);\nCREATE TABLE `cou` (\n  `cno` char(4) NOT NULL,\n  `cname` varchar(30) NOT NULL,\n  `credit` smallint(6) DEFAULT NULL,\n  `ptime` char(5) DEFAULT NULL,\n  `teacher` char(10) DEFAULT NULL,\n  PRIMARY KEY (`cno`)\n);\n\nCREATE TABLE `sc` (\n  `sno` char(4) NOT NULL,\n  `cno` char(4) NOT NULL,\n  `grade` decimal(6,1) DEFAULT NULL,\n  PRIMARY KEY (`sno`,`cno`),\n  CONSTRAINT `fk_sc_cno` FOREIGN KEY (`cno`) REFERENCES `cou` (`CNO`),\n  CONSTRAINT `fk_sc_sno` FOREIGN KEY (`sno`) REFERENCES `stu` (`sno`)\n);\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```stu```表：\n\n![stu.JPG](~/aa2d96b0-a8da-4250-892b-fa817eb7b9da.JPG)\n\n```cou```表：\n\n\n![cou.JPG](~/eb717bfc-e2e7-4336-bd2d-cf406c775497.JPG)\n\n```sc```表：\n\n\n![sc.JPG](~/624a7728-e0dd-4937-b611-a3bb192f82b8.JPG)\n\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n![l226.JPG](~/3cf414af-387b-418a-b85c-fcc2c9efd6a9.JPG)\n\n",
+      "problemPoolIndex": 29,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "10-29"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430685",
+      "label": "10-30",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE course (\n  cno varchar(6) NOT NULL,\n  cname varchar(20) ,\n  credit int(11) ,\n  attribute varchar(10) ,\n  PRIMARY KEY (cno)\n) ;\n\nCREATE TABLE score (\n  sno varchar(6) NOT NULL,\n  cno varchar(6) NOT NULL,\n  term varchar(15),\n  grade int(11),\n  PRIMARY KEY (sno,cno)\n) ;",
+          "cases": {
+            "7-3": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE course (\n  cno varchar(6) NOT NULL,\n  cname varchar(20) \n) ;",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "检索没被学生选修的课程编号和课程名称。",
+      "content": "### 题干:\n检索没被学生选修的课程编号和课程名称。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE student (<br>\n  sno varchar(6) NOT NULL ,<br>\n  sname varchar(10) ,<br>\n  sex char(2) ,<br>\n  nation char(2) ,<br>\n  pnum char(18) ,<br>\n  birth date ,<br>\n  phone char(11) ,<br>\n  dept varchar(20) ,<br>\n  PRIMARY KEY (sno)<br>\n) ;<br>\nCREATE TABLE course (<br>\n  cno varchar(6) NOT NULL,<br>\n  cname varchar(20) ,<br>\n  credit int(11) ,<br>\n  attribute varchar(10) ,<br>\n  PRIMARY KEY (cno)<br>\n) ;<br>\nCREATE TABLE score (<br>\n  sno varchar(6) NOT NULL,<br>\n  cno varchar(6) NOT NULL,<br>\n  term varchar(15),<br>\n  grade int(11),<br>\n  PRIMARY KEY (sno,cno)<br>\n) ;<br>\n\n### 表样例\n\n```student```表：<br>\n![student.png](~/fc0ee9a4-816d-418e-a9d0-0e5b88f1c0c3.png)\n\n```course```表：<br>\n![course.png](~/faa091af-6618-44c6-8030-bdb1d7bd0d79.png)\n\n```score```表：<br>\n![score.png](~/48c9b210-cdfd-4afd-9276-bd3c7d0972b4.png)\n\n### 输出样例:\n\n![7-3.png](~/6b265bf6-c48d-4779-9b7a-76a5a4e9f1b7.png)\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "白彦辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1447910367949987840",
+      "description": "### 题干:\n检索没被学生选修的课程编号和课程名称。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE student (<br>\n  sno varchar(6) NOT NULL ,<br>\n  sname varchar(10) ,<br>\n  sex char(2) ,<br>\n  nation char(2) ,<br>\n  pnum char(18) ,<br>\n  birth date ,<br>\n  phone char(11) ,<br>\n  dept varchar(20) ,<br>\n  PRIMARY KEY (sno)<br>\n) ;<br>\nCREATE TABLE course (<br>\n  cno varchar(6) NOT NULL,<br>\n  cname varchar(20) ,<br>\n  credit int(11) ,<br>\n  attribute varchar(10) ,<br>\n  PRIMARY KEY (cno)<br>\n) ;<br>\nCREATE TABLE score (<br>\n  sno varchar(6) NOT NULL,<br>\n  cno varchar(6) NOT NULL,<br>\n  term varchar(15),<br>\n  grade int(11),<br>\n  PRIMARY KEY (sno,cno)<br>\n) ;<br>\n\n### 表样例\n\n```student```表：<br>\n![student.png](~/fc0ee9a4-816d-418e-a9d0-0e5b88f1c0c3.png)\n\n```course```表：<br>\n![course.png](~/faa091af-6618-44c6-8030-bdb1d7bd0d79.png)\n\n```score```表：<br>\n![score.png](~/48c9b210-cdfd-4afd-9276-bd3c7d0972b4.png)\n\n### 输出样例:\n\n![7-3.png](~/6b265bf6-c48d-4779-9b7a-76a5a4e9f1b7.png)\n",
+      "problemPoolIndex": 30,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "975756327607476224"
+    },
+    "organization": {
+      "id": "975756327607476224",
+      "name": "赤峰学院",
+      "code": "cfxy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/cfxy.png"
+    },
+    "examLabel": "10-30"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430686",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE score (\n  sno varchar(6) NOT NULL,\n  cno varchar(6) NOT NULL,\n  term varchar(15),\n  grade int(11),\n  PRIMARY KEY (sno,cno)\n) ;",
+          "cases": {
+            "2-3": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE score (\n  学号 varchar(6) NOT NULL,\n  平均成绩 float(4,1)\n) ;",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询选修了2门以上课程的学生学号和平均成绩。",
+      "content": "### 题干:\n查询选修了2门以上课程的学生学号和平均成绩。<br>\n提示：请使用SELECT语句作答，平均成绩四舍五入，保留1位有效数字。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE score (<br>\n  sno varchar(6) NOT NULL,<br>\n  cno varchar(6) NOT NULL,<br>\n  term varchar(15),<br>\n  grade int(11),<br>\n  PRIMARY KEY (sno,cno)<br>\n) ;\n\n### 表样例\n上述表结构对应的表样例，部分数据如下：\n\n```score```表：\n\n![score.png](~/636db679-91b8-4842-a248-beca695aea5c.png)\n\n### 输出样例:\n输出样例：\n\n![2-3.png](~/288b54a8-d3c1-4716-b104-2a06a4202ef5.png)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "白彦辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1325464204405334016",
+      "description": "### 题干:\n查询选修了2门以上课程的学生学号和平均成绩。<br>\n提示：请使用SELECT语句作答，平均成绩四舍五入，保留1位有效数字。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE score (<br>\n  sno varchar(6) NOT NULL,<br>\n  cno varchar(6) NOT NULL,<br>\n  term varchar(15),<br>\n  grade int(11),<br>\n  PRIMARY KEY (sno,cno)<br>\n) ;\n\n### 表样例\n上述表结构对应的表样例，部分数据如下：\n\n```score```表：\n\n![score.png](~/636db679-91b8-4842-a248-beca695aea5c.png)\n\n### 输出样例:\n输出样例：\n\n![2-3.png](~/288b54a8-d3c1-4716-b104-2a06a4202ef5.png)\n\n",
+      "problemPoolIndex": 31,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "975756327607476224"
+    },
+    "organization": {
+      "id": "975756327607476224",
+      "name": "赤峰学院",
+      "code": "cfxy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/cfxy.png"
+    },
+    "examLabel": "10-31"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430687",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE recorder(\nid INT PRIMARY KEY  AUTO_INCREMENT,\ncid CHAR(4),\ngid CHAR(4),\nquantity INT NOT NULL,\nsale_date DATETIME\n);",
+          "cases": {
+            "4-4": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE recorder(\n商品编号 CHAR(4),\n销售总数量 DECIMAL NOT NULL\n);",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "统计每种商品的销售数量。",
+      "content": "### 题干:\n统计每种商品的销售数量。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE recorder(<br>\nid INT PRIMARY KEY  AUTO_INCREMENT,<br>\ncid CHAR(4),<br>\ngid CHAR(4),<br>\nquantity INT NOT NULL,<br>\nsale_date DATETIME,<br>\nCONSTRAINT salrecorder_cid_fk FOREIGN KEY (cid) REFERENCES customer(cid),<br>\nCONSTRAINT salrecorder_gid_fk FOREIGN KEY (gid) REFERENCES good(gid)<br>\n);<br>\n### 表样例\n上述表结构对应的表样例：\n\n```recorder```表：\n\n![recorder.png](~/12197a3e-1964-4ad0-b5e1-383ace95b6a2.png)\n\n### 输出样例:\n输出样例：\n\n![4-4.png](~/873f25be-5526-4997-8659-4b417f3efb66.png)\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "白彦辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1329804611883421696",
+      "description": "### 题干:\n统计每种商品的销售数量。<br>\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n定义表结构的SQL语句如下：<br>\nCREATE TABLE recorder(<br>\nid INT PRIMARY KEY  AUTO_INCREMENT,<br>\ncid CHAR(4),<br>\ngid CHAR(4),<br>\nquantity INT NOT NULL,<br>\nsale_date DATETIME,<br>\nCONSTRAINT salrecorder_cid_fk FOREIGN KEY (cid) REFERENCES customer(cid),<br>\nCONSTRAINT salrecorder_gid_fk FOREIGN KEY (gid) REFERENCES good(gid)<br>\n);<br>\n### 表样例\n上述表结构对应的表样例：\n\n```recorder```表：\n\n![recorder.png](~/12197a3e-1964-4ad0-b5e1-383ace95b6a2.png)\n\n### 输出样例:\n输出样例：\n\n![4-4.png](~/873f25be-5526-4997-8659-4b417f3efb66.png)\n",
+      "problemPoolIndex": 32,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "975756327607476224"
+    },
+    "organization": {
+      "id": "975756327607476224",
+      "name": "赤峰学院",
+      "code": "cfxy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/cfxy.png"
+    },
+    "examLabel": "10-32"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430688",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE sc (\n sno char(7) ,\n cno char(7) ,\n score decimal(4,1),\n point decimal(2,1),\n PRIMARY KEY (sno,cno)\n);",
+          "cases": {
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE sc (\n 平均分 decimal(8,5),\n 最高分 decimal(4,1),\n 最低分 decimal(4,1)\n);",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算“0000001”课程的平均分、最高分和最低分",
+      "content": "本题目要求编写SQL语句，\n计算``sc```表中“0000001”课程的平均分、最高分和最低分，要求结果中列名分别显示“平均分”、“最高分”、“最低分”。\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE sc (\n sno char(7) ,\n cno char(7) ,\n  score decimal(4,1),\n\tpoint decimal(2,1),\n  PRIMARY KEY (sno,cno)\n) ;\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```sc```表：\n\n|sno|cno|score|point|\n|----|----|------|------|\n|1711202|0000001|53.0|0.0|\n|1711202|0000027|80.0|1.0|\n|1911201|0000001|84.0|1.0|\n|1911201|0000052|71.0|2.0|\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n|平均分|最高分|最低分|\n|-------|-------|-------|\n|68.50000|84.0|53.0|",
+      "type": "SQL_PROGRAMMING",
+      "author": "sy",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1378679190095454208",
+      "description": "本题目要求编写SQL语句，\n计算``sc```表中“0000001”课程的平均分、最高分和最低分，要求结果中列名分别显示“平均分”、“最高分”、“最低分”。\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE sc (\n sno char(7) ,\n cno char(7) ,\n  score decimal(4,1),\n\tpoint decimal(2,1),\n  PRIMARY KEY (sno,cno)\n) ;\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```sc```表：\n\n|sno|cno|score|point|\n|----|----|------|------|\n|1711202|0000001|53.0|0.0|\n|1711202|0000027|80.0|1.0|\n|1911201|0000001|84.0|1.0|\n|1911201|0000052|71.0|2.0|\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n|平均分|最高分|最低分|\n|-------|-------|-------|\n|68.50000|84.0|53.0|",
+      "problemPoolIndex": 33,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "146"
+    },
+    "organization": {
+      "id": "146",
+      "name": "宁波财经学院",
+      "code": "dhy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/dhy.png"
+    },
+    "examLabel": "10-33"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430689",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE sc (\n sno char(7) ,\n cno char(7) ,\n score decimal(4,1),\n point decimal(2,1),\n PRIMARY KEY (sno,cno)\n);",
+          "cases": {
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE sc (\n 学号 char(7),\n 选课门数 int,\n 考试总成绩 decimal(4,1)\n);",
+          "dialect": "MYSQL",
+          "ignoreResultSetOrder": true,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "统计每个学生的选课门数和考试总成绩，并按选课门数升序排列",
+      "content": "本题目要求编写SQL语句，\\\n统计\\`\\`sc\\`\\`表中，每个学生的选课门数和考试总成绩，并按选课门数升序排列，要求结果中列名分别显示“学号”、“选课门数”、“考试总成绩”。\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE sc (\n sno char(7) ,\n cno char(7) ,\n  score decimal(4,1),\n    point decimal(2,1),\n  PRIMARY KEY (sno,cno)\n) ;\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n`sc`表：\n\n| sno | cno | score | point |\n| ----- | ----- | ----- | ----- |\n| 1711202 | 0000011 | 53\\.0 | 0\\.0 |\n| 1711202 | 0000027 | 80\\.0 | 1\\.0 |\n| 1711202 | 0000052 | 77\\.0 | 1\\.0 |\n| 1911201 | 0000027 | 84\\.0 | 1\\.0 |\n| 1911201 | 0000052 | 71\\.0 | 2\\.0 |\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n<br>\n\n| 学号 | 选课门数 | 考试总成绩 |\n| ----- | ----- | ----- |\n| 1411101 | 1 |  |\n| 1401102 | 3 | 156\\.0 |\n| 1811102 | 4 | 296\\.8 |\n| 1411201 | 7 | 501\\.6 |\n| 1511211 | 7 | 487\\.0 |\n| 1711101 | 7 | 525\\.6 |\n| 1711202 | 7 | 510\\.0 |\n| 1911201 | 7 | 532\\.2 |\n| 1701102 | 8 | 635\\.7 |\n| 1701101 | 8 | 704\\.1 |\n| 1711102 | 9 | 705\\.7 |\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "sy",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1378952364544598016",
+      "description": "本题目要求编写SQL语句，\\\n统计\\`\\`sc\\`\\`表中，每个学生的选课门数和考试总成绩，并按选课门数升序排列，要求结果中列名分别显示“学号”、“选课门数”、“考试总成绩”。\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE sc (\n sno char(7) ,\n cno char(7) ,\n  score decimal(4,1),\n    point decimal(2,1),\n  PRIMARY KEY (sno,cno)\n) ;\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n`sc`表：\n\n| sno | cno | score | point |\n| ----- | ----- | ----- | ----- |\n| 1711202 | 0000011 | 53\\.0 | 0\\.0 |\n| 1711202 | 0000027 | 80\\.0 | 1\\.0 |\n| 1711202 | 0000052 | 77\\.0 | 1\\.0 |\n| 1911201 | 0000027 | 84\\.0 | 1\\.0 |\n| 1911201 | 0000052 | 71\\.0 | 2\\.0 |\n\n### 输出样例:\n\n请在这里给出输出样例。例如：\n\n<br>\n\n| 学号 | 选课门数 | 考试总成绩 |\n| ----- | ----- | ----- |\n| 1411101 | 1 |  |\n| 1401102 | 3 | 156\\.0 |\n| 1811102 | 4 | 296\\.8 |\n| 1411201 | 7 | 501\\.6 |\n| 1511211 | 7 | 487\\.0 |\n| 1711101 | 7 | 525\\.6 |\n| 1711202 | 7 | 510\\.0 |\n| 1911201 | 7 | 532\\.2 |\n| 1701102 | 8 | 635\\.7 |\n| 1701101 | 8 | 704\\.1 |\n| 1711102 | 9 | 705\\.7 |\n",
+      "problemPoolIndex": 34,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "146"
+    },
+    "organization": {
+      "id": "146",
+      "name": "宁波财经学院",
+      "code": "dhy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/dhy.png"
+    },
+    "examLabel": "10-34"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430690",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE sh_goods (\n  keyword VARCHAR(255) NOT NULL,      -- 关键词编号\n  goodscount INT NOT NULL,               -- 商品数量\n) ;",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": true,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询商品表中每项关键词对应的商品数量",
+      "content": "本题目要求编写SQL语句，\n检索出`sh_goods`表中每项`keyword`对应的商品数量，查询结果显示字段依据输出样例设置。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n### 表样例\n\n`sh_goods`表：\n\n![sh_goods表数据.PNG](~/2ff8eac2-7c7b-4476-b5ec-eb26c0fc0584.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/e7c1c6e1-6ef8-40f7-80f7-e881862092ca.PNG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1444582425703911424",
+      "description": "本题目要求编写SQL语句，\n检索出`sh_goods`表中每项`keyword`对应的商品数量，查询结果显示字段依据输出样例设置。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n### 表样例\n\n`sh_goods`表：\n\n![sh_goods表数据.PNG](~/2ff8eac2-7c7b-4476-b5ec-eb26c0fc0584.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/e7c1c6e1-6ef8-40f7-80f7-e881862092ca.PNG)\n\n",
+      "problemPoolIndex": 35,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    "organization": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "examLabel": "10-35"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430691",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE sh_goods (\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  max_price DECIMAL(10, 2)                     --最高价格\n) ;",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": true,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "获取每个分类下商品的最高价格",
+      "content": "本题目要求编写SQL语句，\n获取`sh_goods`表中每个分类下商品的最高价格。查询结果显示字段依据输出样例设置。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n### 表样例\n\n`sh_goods`表：\n\n\n![sh_goods表数据.PNG](~/96eb7e48-6573-4004-99de-4ee42dc6df0c.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/ef8652a3-51b5-4e9f-85e7-4cb89d2843a6.PNG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1444675109265412096",
+      "description": "本题目要求编写SQL语句，\n获取`sh_goods`表中每个分类下商品的最高价格。查询结果显示字段依据输出样例设置。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n### 表样例\n\n`sh_goods`表：\n\n\n![sh_goods表数据.PNG](~/96eb7e48-6573-4004-99de-4ee42dc6df0c.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/ef8652a3-51b5-4e9f-85e7-4cb89d2843a6.PNG)\n\n",
+      "problemPoolIndex": 36,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    "organization": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "examLabel": "10-36"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430692",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE sh_goods (\n  stock1 INT  ,       --最大值                  \n  stock2 INT          --最小值 \n) ;",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": true,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询商品表中商品库存的最高和最低值",
+      "content": "本题目要求编写SQL语句，\n查询`sh_goods`表中商品库存`stock`的最高和最低值。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n### 表样例\n\n`sh_goods`表：\n\n![sh_goods表数据.PNG](~/09c2a1d6-1f93-4ca3-8c5e-bbb854b0b9c6.PNG)\n\n\n\n### 输出样例:\n\n\n![答案.PNG](~/a77370ac-c68b-4504-bac1-346f6a4b95ee.PNG)\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1444849954598850560",
+      "description": "本题目要求编写SQL语句，\n查询`sh_goods`表中商品库存`stock`的最高和最低值。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n### 表样例\n\n`sh_goods`表：\n\n![sh_goods表数据.PNG](~/09c2a1d6-1f93-4ca3-8c5e-bbb854b0b9c6.PNG)\n\n\n\n### 输出样例:\n\n\n![答案.PNG](~/a77370ac-c68b-4504-bac1-346f6a4b95ee.PNG)\n",
+      "problemPoolIndex": 37,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    "organization": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "examLabel": "10-37"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430693",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "CREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "CREATE TABLE sh_goods (\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  average DECIMAL(10, 2)                       --平均价格\n) ;",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "获取指定条件商品的平均价格",
+      "content": "本题目要求编写SQL语句，\n在`sh_goods`表中查询不同商品分类（`category_id`）下商品数量大于2的商品的平均价格。查询结果显示字段依据输出样例设置。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n### 表样例\n\n`sh_goods`表：\n\n\n![sh_goods表数据.PNG](~/7dd0ff9a-0621-4670-8ee0-814e943673d7.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/aebd22da-0b3b-4a63-b75d-e25abab04dc2.PNG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1444853889929949184",
+      "description": "本题目要求编写SQL语句，\n在`sh_goods`表中查询不同商品分类（`category_id`）下商品数量大于2的商品的平均价格。查询结果显示字段依据输出样例设置。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n请在这里写定义表结构的SQL语句。例如：\n\n```\nCREATE TABLE sh_goods (\n  id INT  PRIMARY KEY,                         --商品id\n  category_id INT  NOT NULL DEFAULT 0 ,        -- 商品分类id\n  name VARCHAR(120) NOT NULL,                  --商品名称\n  keyword VARCHAR(255) NOT NULL,               -- 关键词编号\n  content TEXT NOT NULL ,                      --商品详情\n  price DECIMAL(10, 2)  NOT NULL DEFAULT 0 ,   --价格\n  stock INT  NOT NULL DEFAULT 0,               -- 库存\n  score DECIMAL(3, 2)  NOT NULL DEFAULT 0 ,    -- 用户评分\n  comment_count INT  NOT NULL DEFAULT 0        -- 评论数量\n) ;\n```\n\n### 表样例\n\n`sh_goods`表：\n\n\n![sh_goods表数据.PNG](~/7dd0ff9a-0621-4670-8ee0-814e943673d7.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/aebd22da-0b3b-4a63-b75d-e25abab04dc2.PNG)\n\n",
+      "problemPoolIndex": 38,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    "organization": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "examLabel": "10-38"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430694",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "Create table Student(\nStudentID   char(12) primary key,\nStudentName char(8) not null,\nSex  char(2) not null ,\nBirth  datetime not null,\nHomeAddr varchar(80),\nEntranceTime datetime default getdate(),\nClassID char(8) \n);",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "Create table Student(\nStudentName char(8) not null,\nBirth  datetime not null\n);\n",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询出出生日期最大（即年龄最小）的学生姓名及出生日期。",
+      "content": "这是一个SQL编程题模板。本题目要求编写SQL语句，\n查询`Student`表中出出生日期最大（即年龄最小）的学生姓名及出生日期。。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n\n```\nCreate table Student(\nStudentID   char(12) primary key,\nStudentName char(8) not null,\nSex  char(2) not null ,\nBirth  datetime not null,\nHomeAddr varchar(80),\nEntranceTime datetime default getdate(),\nClassID char(8) \n);\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```Student```表：\n\n\n![Student表.PNG](~/6ab3de80-02b1-49d1-875d-07f12ebc8c49.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/b2569ed7-ccee-4736-8e42-b78673900b7b.PNG)\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1449360517835317248",
+      "description": "这是一个SQL编程题模板。本题目要求编写SQL语句，\n查询`Student`表中出出生日期最大（即年龄最小）的学生姓名及出生日期。。\n\n提示：请使用`SELECT`语句作答。\n\n### 表结构:\n\n\n```\nCreate table Student(\nStudentID   char(12) primary key,\nStudentName char(8) not null,\nSex  char(2) not null ,\nBirth  datetime not null,\nHomeAddr varchar(80),\nEntranceTime datetime default getdate(),\nClassID char(8) \n);\n```\n\n### 表样例\n\n请在这里给出上述表结构对应的表样例。例如\n\n```Student```表：\n\n\n![Student表.PNG](~/6ab3de80-02b1-49d1-875d-07f12ebc8c49.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/b2569ed7-ccee-4736-8e42-b78673900b7b.PNG)\n",
+      "problemPoolIndex": 39,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    "organization": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "examLabel": "10-39"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1986663807999430695",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "solutionVisible": false,
+        "sqlProgrammingProblemConfig": {
+          "createTableStatements": "Create table Class(\nClassID   char(8) primary key,    --班级编号\nClassName varchar(20) not null,   --班级名称\nMonitor  char(8),                 --班长姓名\nStudentNum int ,     -- 学生人数\nDepartmentID char(4)                    -- 系部编号\n);",
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "timeLimit": 400,
+          "codeSizeLimit": 16,
+          "resultTableDefinition": "Create table Class(\nClassID   char(8) primary key    --班级编号\n);",
+          "dialect": "SQLSERVER",
+          "ignoreResultSetOrder": false,
+          "showDiff": false,
+          "sqlProblemType": "QUERY",
+          "permissions": ["SELECT"]
+        },
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "查询学生人数大于5人的班级编号",
+      "content": "这是一个SQL编程题模板。本题目要求编写SQL语句，查询`Class`表中学生人数大于5人的班级编号。\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n```\nCreate table Class(\nClassID   char(8) primary key,    --班级编号\nClassName varchar(20) not null,   --班级名称\nMonitor  char(8),                 --班长姓名\nStudentNum int ,                  -- 学生人数\nDepartmentID char(4)              -- 系部编号\n);\n```\n\n### 表样例\n\n\n```Class```表：\n\n\n![Class表.PNG](~/a691ba1c-ed20-4445-8970-0d108c8a73ae.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/8d8e524d-a674-421b-834b-f97a064b1961.PNG)\n\n",
+      "type": "SQL_PROGRAMMING",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1986663807957487616",
+      "problemId": "1449365969767546880",
+      "description": "这是一个SQL编程题模板。本题目要求编写SQL语句，查询`Class`表中学生人数大于5人的班级编号。\n\n提示：请使用SELECT语句作答。\n\n### 表结构:\n\n```\nCreate table Class(\nClassID   char(8) primary key,    --班级编号\nClassName varchar(20) not null,   --班级名称\nMonitor  char(8),                 --班长姓名\nStudentNum int ,                  -- 学生人数\nDepartmentID char(4)              -- 系部编号\n);\n```\n\n### 表样例\n\n\n```Class```表：\n\n\n![Class表.PNG](~/a691ba1c-ed20-4445-8970-0d108c8a73ae.PNG)\n\n\n### 输出样例:\n\n\n![答案.PNG](~/8d8e524d-a674-421b-834b-f97a064b1961.PNG)\n\n",
+      "problemPoolIndex": 40,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    "organization": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "examLabel": "10-40"
+  }
+]

@@ -1,0 +1,190 @@
+{
+  "organizationById": {
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1983003941989945354",
+      "label": "3-1",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "TestA.a\u003d100;",
+            "testA1.a\u003d100; ",
+            "testA2.a\u003d100;",
+            "以上都不对"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "有如下TestA类的定义：",
+      "content": "有如下TestA类的定义：\n```\npublic class TestA {\n    static int a\u003d10;\n}\n```\n用该类创建2个对象：testA1和testA2，现将类变量（静态变量）a的数值变为100，则正确的方式是：（    ）。\n\n*@[](2)\n\nA. TestA.a\u003d100;\nB. testA1.a\u003d100; \nC. testA2.a\u003d100;\nD. 以上都不对",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1366703432059420672",
+      "description": "有如下TestA类的定义：\n```\npublic class TestA {\n    static int a\u003d10;\n}\n```\n用该类创建2个对象：testA1和testA2，现将类变量（静态变量）a的数值变为100，则正确的方式是：（    ）。\n",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983003941989945355",
+      "label": "3-2",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "方法名必须和类名相同\n",
+            "在方法中不能return语句返回一个值\n",
+            "\n方法名的前面有返回值类型的声明",
+            "当定义了带参数的构造方法，系统默认的不带参数的构造方法依然存在"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面关于构造方法的描述，正确的有哪些？（    ）   (2.0分)",
+      "content": "下面关于构造方法的描述，正确的有哪些？（    ）   (2.0分)\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1407944003036155904",
+      "description": "下面关于构造方法的描述，正确的有哪些？（    ）   (2.0分)\n",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983003941989945356",
+      "label": "3-3",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "实例变量是类的成员变量\n",
+            "实例变量用关键字static声明",
+            "在方法中定义的局部变量，在该方法被执行时创建",
+            "局部变量在使用前必须被初始化"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面关于变量及其作用域范围的陈述哪些是正确的（    ）。",
+      "content": "下面关于变量及其作用域范围的陈述哪些是正确的（    ）。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1412050135989342208",
+      "description": "下面关于变量及其作用域范围的陈述哪些是正确的（    ）。",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983003941989945357",
+      "label": "3-4",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "```\nimport cn.sdut.A;\nimport cn.sdut.B;\nimport cn.sdut.cs.C;\nimport cn.sdut.cs.D;\n```\n",
+            "```\nimport cn.sdut.*;\n\n```\n",
+            "```\nimport cn.sdut.*;\nimport cn.sdut.cs.*;\n```\n",
+            "```\nimport cn.sdut.cs.*;\n```\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "import--若在cn.sdut包中有A、B类，在cn.sdut.cs包中有C、D",
+      "content": "若在cn.sdut包中有A、B类，在cn.sdut.cs包中有C、D类，在default package中如果要使用到A、B、C、D 4个类时，引入方式为：(    )。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1424204875780259840",
+      "description": "若在cn.sdut包中有A、B类，在cn.sdut.cs包中有C、D类，在default package中如果要使用到A、B、C、D 4个类时，引入方式为：(    )。",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983003941989945358",
+      "label": "3-5",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": ["private\n", "默认\n", "protected\n", "public\n"],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "访问权限--位于不同包但具有父子类关系，父类中哪些访问权限修饰的成员，在子类访问时不受限制?（     ）",
+      "content": "类中哪些访问权限修饰的成员，在子类访问时不受限制?（     ）",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983003941901864960",
+      "problemId": "1424211352247070720",
+      "description": "类中哪些访问权限修饰的成员，在子类访问时不受限制?（     ）",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1983003941989945354": "3-1",
+    "1983003941989945355": "3-2",
+    "1983003941989945356": "3-3",
+    "1983003941989945357": "3-4",
+    "1983003941989945358": "3-5"
+  }
+}

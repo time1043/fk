@@ -1,0 +1,196 @@
+{
+  "organizationById": {
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1983701703734988806",
+      "label": "3-1",
+      "score": 4,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "数组元素未人为赋值之前不能进行访问\n",
+            "数组元素都有默认值\n",
+            "基本数据类型中数值类型数组，元素默认值为0；布尔类型数组，元素默认值为false。\n",
+            "引用数据类型的数组，其数组元素默认值为null\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java中的数组在声明并分配了空间之后，关于其数组元素，哪些说法是正确的？（     ）",
+      "content": "Java中的数组在声明并分配了空间之后，关于其数组元素，哪些说法是正确的？（     ）\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1407342868360781824",
+      "description": "Java中的数组在声明并分配了空间之后，关于其数组元素，哪些说法是正确的？（     ）\n",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983701703734988807",
+      "label": "3-2",
+      "score": 4,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "```\nSystem.out.println(list.toString());\n\n```\n",
+            "```\nfor (int i \u003d 0; i \u003c list.size(); i++)\n{\n    System.out.println(list.get(i));  \n}\n```\n",
+            "```\nfor (Object obj : list)\n{\n    System.out.println(obj);  \n}\n```\n",
+            "```\nIterator it \u003d list.iterator();   \nwhile (it.hasNext())\n{ \n     System.out.println(it.next());  \n}\n```\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "List遍历--List类型的对象list，可以以几种形式输出其内容（    ）？",
+      "content": "List类型的对象list可以以几种形式输出其内容（    ）？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1424622659513466880",
+      "description": "List类型的对象list可以以几种形式输出其内容（    ）？",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983701703734988808",
+      "label": "3-3",
+      "score": 4,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "hasNext()\n",
+            "next()\n",
+            "remove()\n",
+            "nextElement()\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Iterator方法--迭代器接口（Iterator）所定义的方法有（     ）。 ",
+      "content": "迭代器接口（Iterator）所定义的方法有（     ）。 ",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1424624665166704640",
+      "description": "迭代器接口（Iterator）所定义的方法有（     ）。 ",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983701703734988809",
+      "label": "3-4",
+      "score": 4,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "```\nSystem.out.println(set.toString());\n```\n",
+            "```\nfor (int i \u003d 0; i \u003c set.size(); i++)\n{ \n    System.out.println(set.get(i)); \n}\n```\n",
+            "```\nfor (Object obj : set) \n{\n    System.out.println(obj);\n}\n```\n",
+            "```\nIterator it \u003d set.iterator();  \nwhile (it.hasNext()) \n{  \n    System.out.println(it.next());\n}\n```\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Set遍历--Set类型的对象set可以以几种形式输出其内容（ ）？",
+      "content": "对于Set类型的对象set，可以以几种形式输出其内容（ ）？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1424629931027296256",
+      "description": "对于Set类型的对象set，可以以几种形式输出其内容（ ）？",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1983701703734988810",
+      "label": "3-5",
+      "score": 4,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 5,
+          "choices": [
+            "HashMap\n",
+            "HashSet\n",
+            "TreeMap\n",
+            "LinkedList\n",
+            "LinkedHashMap"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "有序集合--在JAVA集合框架中，下面哪些类型所表示的对象是有序的？（       ）",
+      "content": "在JAVA集合框架中，下面哪些类型所表示的对象是有序的？（       ）",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1983701703705628672",
+      "problemId": "1424636625547522048",
+      "description": "在JAVA集合框架中，下面哪些类型所表示的对象是有序的？（       ）",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1983701703734988806": "3-1",
+    "1983701703734988807": "3-2",
+    "1983701703734988808": "3-3",
+    "1983701703734988809": "3-4",
+    "1983701703734988810": "3-5"
+  }
+}

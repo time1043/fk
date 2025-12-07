@@ -1,0 +1,452 @@
+[
+  {
+    "questionId": "143303",
+    "level": "中",
+    "questionName": "<p>压力的中介系统有：</p>",
+    "answerList": [
+      {
+        "answerId": "551351",
+        "quizQuestionId": "143303",
+        "comments": "",
+        "text": "<p>认知</p>"
+      },
+      {
+        "answerId": "551352",
+        "quizQuestionId": "143303",
+        "comments": "",
+        "text": "<p>社会支持</p>"
+      },
+      {
+        "answerId": "551353",
+        "quizQuestionId": "143303",
+        "comments": "",
+        "text": "<p>自身免疫</p>"
+      },
+      {
+        "answerId": "551354",
+        "quizQuestionId": "143303",
+        "comments": "",
+        "text": "<p>情绪</p>"
+      }
+    ],
+    "name": "<p>压力的中介系统有：</p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143304",
+    "level": "中",
+    "questionName": "压力是由主观认知引起的身、心负性体验。",
+    "answerList": [
+      {
+        "answerId": "551355",
+        "quizQuestionId": "143304",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551356",
+        "quizQuestionId": "143304",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "压力是由主观认知引起的身、心负性体验。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143305",
+    "level": "中",
+    "questionName": "<p>压力事件引起个体对环境的不适应，导致身、心、行为都会发生变化。</p>",
+    "answerList": [
+      {
+        "answerId": "551357",
+        "quizQuestionId": "143305",
+        "comments": "",
+        "text": "<p>正确</p>"
+      },
+      {
+        "answerId": "551358",
+        "quizQuestionId": "143305",
+        "comments": "",
+        "text": "<p>错误</p>"
+      }
+    ],
+    "name": "<p>压力事件引起个体对环境的不适应，导致身、心、行为都会发生变化。</p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143306",
+    "level": "中",
+    "questionName": "苛勒提出了学习迁移论。",
+    "answerList": [
+      {
+        "answerId": "551359",
+        "quizQuestionId": "143306",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551360",
+        "quizQuestionId": "143306",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "苛勒提出了学习迁移论。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143307",
+    "level": "中",
+    "questionName": "共同要素越多越利于学习迁移。",
+    "answerList": [
+      {
+        "answerId": "551361",
+        "quizQuestionId": "143307",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551362",
+        "quizQuestionId": "143307",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "共同要素越多越利于学习迁移。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143308",
+    "level": "中",
+    "questionName": "压力最重要的中介子系统是自身免疫系统。",
+    "answerList": [
+      {
+        "answerId": "551363",
+        "quizQuestionId": "143308",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551364",
+        "quizQuestionId": "143308",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "压力最重要的中介子系统是自身免疫系统。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143309",
+    "level": "中",
+    "questionName": "压力可以分为：",
+    "answerList": [
+      {
+        "answerId": "551365",
+        "quizQuestionId": "143309",
+        "comments": "",
+        "text": "特质焦虑"
+      },
+      {
+        "answerId": "551366",
+        "quizQuestionId": "143309",
+        "comments": "",
+        "text": "正压力"
+      },
+      {
+        "answerId": "551367",
+        "quizQuestionId": "143309",
+        "comments": "",
+        "text": "负压力"
+      },
+      {
+        "answerId": "551368",
+        "quizQuestionId": "143309",
+        "comments": "",
+        "text": "情景焦虑"
+      }
+    ],
+    "name": "压力可以分为：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143310",
+    "level": "中",
+    "questionName": "压力的来源有：",
+    "answerList": [
+      {
+        "answerId": "551369",
+        "quizQuestionId": "143310",
+        "comments": "",
+        "text": "社会因素"
+      },
+      {
+        "answerId": "551370",
+        "quizQuestionId": "143310",
+        "comments": "",
+        "text": "个人因素"
+      },
+      {
+        "answerId": "551371",
+        "quizQuestionId": "143310",
+        "comments": "",
+        "text": "认知因素"
+      },
+      {
+        "answerId": "551372",
+        "quizQuestionId": "143310",
+        "comments": "",
+        "text": "家庭情况"
+      }
+    ],
+    "name": "压力的来源有：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143311",
+    "level": "中",
+    "questionName": "压力从个性特征来解读有两个因素为：",
+    "answerList": [
+      {
+        "answerId": "551373",
+        "quizQuestionId": "143311",
+        "comments": "",
+        "text": "性格"
+      },
+      {
+        "answerId": "551374",
+        "quizQuestionId": "143311",
+        "comments": "",
+        "text": "自我效能感"
+      },
+      {
+        "answerId": "551375",
+        "quizQuestionId": "143311",
+        "comments": "",
+        "text": "外向"
+      },
+      {
+        "answerId": "551376",
+        "quizQuestionId": "143311",
+        "comments": "",
+        "text": "内向"
+      }
+    ],
+    "name": "压力从个性特征来解读有两个因素为：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143312",
+    "level": "中",
+    "questionName": "压力的危害有：",
+    "answerList": [
+      {
+        "answerId": "551377",
+        "quizQuestionId": "143312",
+        "comments": "",
+        "text": "降低学习效率"
+      },
+      {
+        "answerId": "551378",
+        "quizQuestionId": "143312",
+        "comments": "",
+        "text": "损害身心健康"
+      },
+      {
+        "answerId": "551379",
+        "quizQuestionId": "143312",
+        "comments": "",
+        "text": "消耗精力"
+      },
+      {
+        "answerId": "551380",
+        "quizQuestionId": "143312",
+        "comments": "",
+        "text": "破坏人际关系"
+      }
+    ],
+    "name": "压力的危害有：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143313",
+    "level": "中",
+    "questionName": "防御机制不包括：",
+    "answerList": [
+      {
+        "answerId": "551381",
+        "quizQuestionId": "143313",
+        "comments": "",
+        "text": "压抑"
+      },
+      {
+        "answerId": "551382",
+        "quizQuestionId": "143313",
+        "comments": "",
+        "text": "合理化"
+      },
+      {
+        "answerId": "551383",
+        "quizQuestionId": "143313",
+        "comments": "",
+        "text": "否认"
+      },
+      {
+        "answerId": "551384",
+        "quizQuestionId": "143313",
+        "comments": "",
+        "text": "说谎"
+      }
+    ],
+    "name": "防御机制不包括：",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143314",
+    "level": "中",
+    "questionName": "中线疗法包括:",
+    "answerList": [
+      {
+        "answerId": "551385",
+        "quizQuestionId": "143314",
+        "comments": "",
+        "text": "锁骨间"
+      },
+      {
+        "answerId": "551386",
+        "quizQuestionId": "143314",
+        "comments": "",
+        "text": "两乳间"
+      },
+      {
+        "answerId": "551387",
+        "quizQuestionId": "143314",
+        "comments": "",
+        "text": "人中穴"
+      },
+      {
+        "answerId": "551388",
+        "quizQuestionId": "143314",
+        "comments": "",
+        "text": "印堂穴"
+      }
+    ],
+    "name": "中线疗法包括:",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143315",
+    "level": "中",
+    "questionName": "SODAS方法包括:",
+    "answerList": [
+      {
+        "answerId": "551389",
+        "quizQuestionId": "143315",
+        "comments": "",
+        "text": "选择"
+      },
+      {
+        "answerId": "551390",
+        "quizQuestionId": "143315",
+        "comments": "",
+        "text": "决定"
+      },
+      {
+        "answerId": "551391",
+        "quizQuestionId": "143315",
+        "comments": "",
+        "text": "自我表扬"
+      },
+      {
+        "answerId": "551392",
+        "quizQuestionId": "143315",
+        "comments": "",
+        "text": "行动"
+      }
+    ],
+    "name": "SODAS方法包括:",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143316",
+    "level": "中",
+    "questionName": "建设性填充时间是指（ ）。",
+    "answerList": [
+      {
+        "answerId": "551393",
+        "quizQuestionId": "143316",
+        "comments": "",
+        "text": "认知重组"
+      },
+      {
+        "answerId": "551394",
+        "quizQuestionId": "143316",
+        "comments": "",
+        "text": "建设性填充时间"
+      },
+      {
+        "answerId": "551395",
+        "quizQuestionId": "143316",
+        "comments": "",
+        "text": "坚定立场"
+      },
+      {
+        "answerId": "551396",
+        "quizQuestionId": "143316",
+        "comments": "",
+        "text": "交流"
+      }
+    ],
+    "name": "建设性填充时间是指（ ）。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143317",
+    "level": "中",
+    "questionName": "管理压力要养成一个好习惯为：",
+    "answerList": [
+      {
+        "answerId": "551397",
+        "quizQuestionId": "143317",
+        "comments": "",
+        "text": "劳逸结合"
+      },
+      {
+        "answerId": "551398",
+        "quizQuestionId": "143317",
+        "comments": "",
+        "text": "冥想"
+      },
+      {
+        "answerId": "551399",
+        "quizQuestionId": "143317",
+        "comments": "",
+        "text": "认知重组"
+      },
+      {
+        "answerId": "551400",
+        "quizQuestionId": "143317",
+        "comments": "",
+        "text": "SODAS"
+      }
+    ],
+    "name": "管理压力要养成一个好习惯为：",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  }
+]

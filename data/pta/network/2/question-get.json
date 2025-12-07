@@ -1,0 +1,1645 @@
+{
+  "organizationById": {
+    "4": {
+      "id": "4",
+      "name": "Google",
+      "code": "gg",
+      "type": "COMPANY",
+      "logo": ""
+    },
+    "934999411146211328": {
+      "id": "934999411146211328",
+      "name": "互联网",
+      "code": "www",
+      "type": "SCHOOL",
+      "logo": ""
+    },
+    "1": {
+      "id": "1",
+      "name": "浙江大学",
+      "code": "zju",
+      "type": "SCHOOL",
+      "logo": "ffecf2a6-4935-4344-b640-35360f3c1f88.png"
+    },
+    "99": {
+      "id": "99",
+      "name": "临沂大学",
+      "code": "lyu",
+      "type": "SCHOOL",
+      "logo": "4e903005-390a-48f1-a5fe-7a04350f0277.png"
+    },
+    "8": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "130": {
+      "id": "130",
+      "name": "陕西理工大学",
+      "code": "snut",
+      "type": "SCHOOL",
+      "logo": "66a77766-c931-45cb-88a2-5013fac5341f.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1980428005813243904",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["14.4", "28.8", "57.6", "116"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "假设普通音频电话线路支持的频率范围为300Hz～3300Hz，信噪比为30dB，根据信息论原理，工作在该线路上的调制解调器最高速",
+      "content": "假设普通音频电话线路支持的频率范围为300Hz～3300Hz，信噪比为30dB，根据信息论原理，工作在该线路上的调制解调器最高速率V约为（      ）kbps。（注：V\u003dB*log （1+S/N），S是信号强度，N是噪声强度）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "ZXD",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1717350318528933888",
+      "description": "假设普通音频电话线路支持的频率范围为300Hz～3300Hz，信噪比为30dB，根据信息论原理，工作在该线路上的调制解调器最高速率V约为（      ）kbps。（注：V\u003dB*log （1+S/N），S是信号强度，N是噪声强度）",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005813243905",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["3MHZ", "11 MHz", "22MH2", "25MHz"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "当使用多个无线AP设备时，为了防止信号覆盖形成相互间的干扰，要求两个频道的中心频率间隔不低于 ____",
+      "content": "当使用多个无线AP设备时，为了防止信号覆盖形成相互间的干扰，要求两个频道的中心频率间隔不低于(   )",
+      "type": "MULTIPLE_CHOICE",
+      "author": "ZXD",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1717377736945836032",
+      "description": "当使用多个无线AP设备时，为了防止信号覆盖形成相互间的干扰，要求两个频道的中心频率间隔不低于(   )",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005813243906",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["FDM", "TDM", "CDM", "STDM"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在 HFC(Hybrid Fiber-Coaxial)混合光纤同轴电缆网络中，Internet 接入采用的复用技术是 ____",
+      "content": "在 HFC(Hybrid Fiber-Coaxial)混合光纤同轴电缆网络中，Internet 接入采用的复用技术是（ ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "ZXD",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1717444929662365696",
+      "description": "在 HFC(Hybrid Fiber-Coaxial)混合光纤同轴电缆网络中，Internet 接入采用的复用技术是（ ）。",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005813243907",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["时隙请求", "时隙授权", "电视信号数据", "应用数据"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在 HFC(Hybrid Fiber-Coaxial)混合光纤同轴电缆网络中，其中下行信道不包括 ____ 。",
+      "content": "在 HFC(Hybrid Fiber-Coaxial)混合光纤同轴电缆网络中，其中下行信道不包括（ ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "ZXD",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1717444929674948608",
+      "description": "在 HFC(Hybrid Fiber-Coaxial)混合光纤同轴电缆网络中，其中下行信道不包括（ ）。",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005817438208",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["总线结构", "环型结构", "星型结构", "网状结构"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在计算机网络中，所有的计算机均连接到一条通信传输线路上，在线路两端连有防止信号反射的装置。 这种连接结构被称为（   ）。",
+      "content": "在计算机网络中，所有的计算机均连接到一条通信传输线路上，在线路两端连有防止信号反射的装置。 这种连接结构被称为（   ）。@[](2)\nA. 总线结构　\nB. 环型结构\nC. 星型结构\nD. 网状结构   ",
+      "type": "MULTIPLE_CHOICE",
+      "author": "佚名",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1055374870546837504",
+      "description": "在计算机网络中，所有的计算机均连接到一条通信传输线路上，在线路两端连有防止信号反射的装置。 这种连接结构被称为（   ）。",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "934999411146211328"
+    },
+    {
+      "id": "1980428005817438209",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["比特", "帧", "分段", "字符"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "TCP的协议数据单元被称为（   ）。",
+      "content": "TCP的协议数据单元被称为（   ）。@[](2)\nA. 比特　　\nB. 帧　　\nC. 分段　\nD. 字符   ",
+      "type": "MULTIPLE_CHOICE",
+      "author": "佚名",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1055375185908166656",
+      "description": "TCP的协议数据单元被称为（   ）。",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "934999411146211328"
+    },
+    {
+      "id": "1980428005817438210",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "局域网/广域网",
+            "对等网/城域网",
+            "环型网/星型网",
+            "有线网/无线网"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "以下的网络分类方法中，哪一组分类方法有误（    ）。",
+      "content": "以下的网络分类方法中，哪一组分类方法有误（    ）。@[](2)\nA. 局域网/广域网   \nB. 对等网/城域网\nC. 环型网/星型网   \nD. 有线网/无线网  ",
+      "type": "MULTIPLE_CHOICE",
+      "author": "佚名",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1055375866333331456",
+      "description": "以下的网络分类方法中，哪一组分类方法有误（    ）。",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "934999411146211328"
+    },
+    {
+      "id": "1980428005817438211",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["ARPANET", "ChinaNet", "Internet", "CERNET"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "世界上第一个计算机网络是 （   ）。",
+      "content": "世界上第一个计算机网络是 （   ）。@[](2)\nA. ARPANET\nB. ChinaNet\nC. Internet\nD. CERNET  ",
+      "type": "MULTIPLE_CHOICE",
+      "author": "佚名",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1055376441296908288",
+      "description": "世界上第一个计算机网络是 （   ）。",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "934999411146211328"
+    },
+    {
+      "id": "1980428005817438212",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["254", "1024", "65534", "65536"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "网段地址154.27.0.0的网络，若不做子网划分，能支持（ ）台主机",
+      "content": "网段地址154.27.0.0的网络，若不做子网划分，能支持（ ）台主机 \n@[](2)\n\nA. 254\nB. 1024\nC. 65534\nD. 65536",
+      "type": "MULTIPLE_CHOICE",
+      "author": "王",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1339542308255252480",
+      "description": "网段地址154.27.0.0的网络，若不做子网划分，能支持（ ）台主机 ",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1"
+    },
+    {
+      "id": "1980428005817438213",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "255.254.255.240",
+            "255.255.255.240",
+            "255.254.255.128",
+            "255.255.255.192"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "某公司申请到一个C类IP地址，但要连接9个的子公司，最大的一个子公司有12台计算机，每个子公司在一个网段中，则子网掩码应设为（ ",
+      "content": "某公司申请到一个C类IP地址，但要连接9个的子公司，最大的一个子公司有12台计算机，每个子公司在一个网段中，则子网掩码应设为（ ）。\n@[](2)\n\nA. 255.254.255.240\nB. 255.255.255.240\nC. 255.254.255.128\nD. 255.255.255.192",
+      "type": "MULTIPLE_CHOICE",
+      "author": "王",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1339543027322220544",
+      "description": "某公司申请到一个C类IP地址，但要连接9个的子公司，最大的一个子公司有12台计算机，每个子公司在一个网段中，则子网掩码应设为（ ）。",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1"
+    },
+    {
+      "id": "1980428005817438214",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["6", "5", "7", "14"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "C类地址最大可能子网位数是（ ）",
+      "content": "C类地址最大可能子网位数是（ ）\n@[](2)\n\nA. 6\nB. 5\nC. 7\nD. 14",
+      "type": "MULTIPLE_CHOICE",
+      "author": "王",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1339543636750397440",
+      "description": "C类地址最大可能子网位数是（ ）",
+      "problemPoolIndex": 11,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "99"
+    },
+    {
+      "id": "1980428005817438215",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["3，14，30", "2，2，62", "3，8，30 ", "3，14，32"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "如果C类子网的掩码为255.255.255.224，则包含的子网位数、子网数目、每个子网中主机数目正确的是（ ）",
+      "content": "如果C类子网的掩码为255.255.255.224，则包含的子网位数、子网数目、每个子网中主机数目正确的是（ ）\n@[](2)\n\nA. 3，14，30\nB. 2，2，62\nC. 3，8，30 \nD. 3，14，32",
+      "type": "MULTIPLE_CHOICE",
+      "author": "王",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1339544466446643200",
+      "description": "如果C类子网的掩码为255.255.255.224，则包含的子网位数、子网数目、每个子网中主机数目正确的是（ ）",
+      "problemPoolIndex": 12,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "99"
+    },
+    {
+      "id": "1980428005817438216",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "202.196.200.172、202.196.200.255",
+            "202.196.200.160、202.196.200.192",
+            "202.196.200.128、202.196.200.191",
+            "202.196.200.0、202.196.200.255"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "IP为202.196.200.173，掩码为255.255.255.192，求其子网网络ID以及该IP所在子网的广播地址（）",
+      "content": "IP为202.196.200.173，掩码为255.255.255.192，求其子网网络ID以及该IP所在子网的广播地址（）\n@[](2)\n\nA. 202.196.200.172、202.196.200.255\nB. 202.196.200.160、202.196.200.192\nC. 202.196.200.128、202.196.200.191\nD. 202.196.200.0、202.196.200.255",
+      "type": "MULTIPLE_CHOICE",
+      "author": "王",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1339545264819826688",
+      "description": "IP为202.196.200.173，掩码为255.255.255.192，求其子网网络ID以及该IP所在子网的广播地址（）",
+      "problemPoolIndex": 13,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "99"
+    },
+    {
+      "id": "1980428005817438217",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["8", "16", "14", "21"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "一个B类IP地址最多可用（ ）位来划分子网",
+      "content": "一个B类IP地址最多可用（ ）位来划分子网\n@[](2)\n\nA. 8\nB. 16\nC. 14\nD. 21",
+      "type": "MULTIPLE_CHOICE",
+      "author": "王",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1339545562929983488",
+      "description": "一个B类IP地址最多可用（ ）位来划分子网",
+      "problemPoolIndex": 14,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "99"
+    },
+    {
+      "id": "1980428005817438218",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["10", "8", "6", "4"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "B 类地址子网掩码为 255.255.255.248 ，则每个子网内可用主机地址数为（）",
+      "content": "B 类地址子网掩码为 255.255.255.248 ，则每个子网内可用主机地址数为（）\n@[](2)\n\nA. 10\nB. 8\nC. 6\nD. 4",
+      "type": "MULTIPLE_CHOICE",
+      "author": "王",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1339546043634970624",
+      "description": "B 类地址子网掩码为 255.255.255.248 ，则每个子网内可用主机地址数为（）",
+      "problemPoolIndex": 15,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "99"
+    },
+    {
+      "id": "1980428005821632512",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "255.255.255.0",
+            "255.255.255.128",
+            "255.255.255.224",
+            "255.255.255.192"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "某公司申请到一个C 类IP 地址，但要连接6 个的子公司，最大的一个子公司有26 台计算机，每个子公司在一个网段中，则子网掩码应",
+      "content": "某公司申请到一个C 类IP 地址，但要连接6 个的子公司，最大的一个子公司有26 台计算机，每个子公司在一个网段中，则子网掩码应设为(  )\n@[](2)\n\nA. 255.255.255.0\nB. 255.255.255.128\nC. 255.255.255.224\nD. 255.255.255.192",
+      "type": "MULTIPLE_CHOICE",
+      "author": "王",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1339546520669941760",
+      "description": "某公司申请到一个C 类IP 地址，但要连接6 个的子公司，最大的一个子公司有26 台计算机，每个子公司在一个网段中，则子网掩码应设为(  )",
+      "problemPoolIndex": 16,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "99"
+    },
+    {
+      "id": "1980428005821632513",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["物理层", "数据链路层", "网络层", "传输层"],
+          "maxDisplayChoicesPerLine": 4
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在ISO/OSI参考模型中，实现两个相邻结点间流量控制功能的是",
+      "content": "在 ISO/OSI 参考模型中，实现两个相邻结点间流量控制功能的是",
+      "type": "MULTIPLE_CHOICE",
+      "author": "考研真题",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1484002051498184704",
+      "description": "在 ISO/OSI 参考模型中，实现两个相邻结点间流量控制功能的是",
+      "problemPoolIndex": 17,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1"
+    },
+    {
+      "id": "1980428005821632514",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["东向接口", "南向接口", "西向接口", "北向接口"],
+          "maxDisplayChoicesPerLine": 4
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在SDN网络体系结构中，SDN控制器向数据平面的SDN交换机下发流表时所使用的接口是",
+      "content": "在 SDN 网络体系结构中，SDN 控制器向数据平面的 SDN 交换机下发流表时所使用的接口是",
+      "type": "MULTIPLE_CHOICE",
+      "author": "考研真题",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1484005380959260672",
+      "description": "在 SDN 网络体系结构中，SDN 控制器向数据平面的 SDN 交换机下发流表时所使用的接口是",
+      "problemPoolIndex": 18,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1"
+    },
+    {
+      "id": "1980428005821632515",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "在 P2P 模型中，节点之间具有对等关系",
+            "在客户/服务器（C/S）模型中，客户与客户之间可以直接通信",
+            "在 C/S 模型中，主动发起通信的是客户，被动通信的是服务器",
+            "在向多用户分发一个文件时，P2P 模型通常比 C/S 模型所需时间短"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "【2019 年 题 40】下列关于网络应用模型的叙述中，错误的是 ____ 。",
+      "content": "【2019 年 题 40】下列关于网络应用模型的叙述中，错误的是（\t）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "yyq",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1768526608548433921",
+      "description": "【2019 年 题 40】下列关于网络应用模型的叙述中，错误的是（\t）。",
+      "problemPoolIndex": 19,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "1980428005821632516",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["令牌环", "FDDI", "ETHERNET", "NOVELL"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面哪种LAN 是应用CSMA/CD协议的 （    ）。",
+      "content": "下面哪种LAN 是应用CSMA/CD协议的 （    ）。@[](2)\nA. 令牌环\nB. FDDI\nC. ETHERNET\nD. NOVELL   ",
+      "type": "MULTIPLE_CHOICE",
+      "author": "佚名",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1055340249985679360",
+      "description": "下面哪种LAN 是应用CSMA/CD协议的 （    ）。",
+      "problemPoolIndex": 20,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "934999411146211328"
+    },
+    {
+      "id": "1980428005821632517",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["单工", "半双工", "全双工", "上述三种均不是"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在同一个信道上的同一时刻，能够进行双向数据传送的通信方式是（   ）。",
+      "content": "在同一个信道上的同一时刻，能够进行双向数据传送的通信方式是（   ）。@[](2)\nA. 单工\nB. 半双工\nC. 全双工\nD. 上述三种均不是   ",
+      "type": "MULTIPLE_CHOICE",
+      "author": "佚名",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1055375351398629376",
+      "description": "在同一个信道上的同一时刻，能够进行双向数据传送的通信方式是（   ）。",
+      "problemPoolIndex": 21,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "934999411146211328"
+    },
+    {
+      "id": "1980428005821632518",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "争用带宽",
+            "预约带宽",
+            "循环使用带宽",
+            "按优先级分配带宽"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "以太网媒体访问控制技术CSMA/CD的机制是（    ）。 ",
+      "content": "以太网媒体访问控制技术CSMA/CD的机制是（    ）。 @[](2)\nA. 争用带宽    \nB. 预约带宽\nC. 循环使用带宽\nD. 按优先级分配带宽  ",
+      "type": "MULTIPLE_CHOICE",
+      "author": "佚名",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1055376779668189184",
+      "description": "以太网媒体访问控制技术CSMA/CD的机制是（    ）。",
+      "problemPoolIndex": 22,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "934999411146211328"
+    },
+    {
+      "id": "1980428005821632519",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["物理", "数据链路", "网络", "传输"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "0SI模型中(        )层将位组织成称为帧的逻辑数据单元。",
+      "content": " 0SI模型中($\\qquad$)层将位组织成称为帧的逻辑数据单元。\n\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "李军",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1528859130218336256",
+      "description": " 0SI模型中($\\qquad$)层将位组织成称为帧的逻辑数据单元。\n\n",
+      "problemPoolIndex": 23,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "130"
+    },
+    {
+      "id": "1980428005821632520",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["F1, F3", "F1, F4", "F3, F1", "F4, F1"],
+          "maxDisplayChoicesPerLine": 4
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "主机甲通过选择重传（SR）滑动窗口协议向主机乙发送帧的部分过程如下图所示，F$x$ 为数据帧，ACK$x$ 为确认帧，$x$ 是",
+      "content": "主机甲通过选择重传（SR）滑动窗口协议向主机乙发送帧的部分过程如下图所示，F$x$ 为数据帧，ACK$x$ 为确认帧，$x$ 是位数为 3 比特的序号。乙只对正确接收的数据帧进行独立确认，发送窗口与接收窗口大小相同且均为最大值。甲在 $t_1$ 时刻和 $t_2$ 时刻发送的数据帧分别是\n![插图37.jpg](~/0de0945f-ad61-4315-b2ec-7b51f2b8db0a.jpg)",
+      "type": "MULTIPLE_CHOICE",
+      "author": "考研真题",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1749070084624252928",
+      "description": "主机甲通过选择重传（SR）滑动窗口协议向主机乙发送帧的部分过程如下图所示，F$x$ 为数据帧，ACK$x$ 为确认帧，$x$ 是位数为 3 比特的序号。乙只对正确接收的数据帧进行独立确认，发送窗口与接收窗口大小相同且均为最大值。甲在 $t_1$ 时刻和 $t_2$ 时刻发送的数据帧分别是\n![插图37.jpg](~/0de0945f-ad61-4315-b2ec-7b51f2b8db0a.jpg)",
+      "problemPoolIndex": 24,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1"
+    },
+    {
+      "id": "1980428005821632521",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "网络体系结构是网络层次结构模型与各层协议的集合",
+            "所有的计算机网络都必须遵循 OSI 体系结构",
+            "网络体系结构是抽象的,而实现网络协议的技术是具体的",
+            "网络体系结构对计算机网络应该实现的功能进行精确定义"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "以下关于网络体系结构概念的描述中错误的是（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976209899520",
+      "description": "以下关于网络体系结构概念的描述中错误的是（    ）。",
+      "problemPoolIndex": 25,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005821632522",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "OSI 环境虚线所示对的主机中从应用层到物理层的 7 层以及通信子网",
+            "连接主机的物理传输介质包括在 OSI 环境中",
+            "主机不连入计算机网络中可以不需要有实现从物理层到应用层功能的硬件与软件",
+            "主机的进程分别处于本地操作系统控制，不属于 OSI 环境"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "以下关于 OSI 环境基本概念的描述中错误的是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976218288128",
+      "description": "以下关于 OSI 环境基本概念的描述中错误的是（    ）",
+      "problemPoolIndex": 26,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005821632523",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["数据链路层", "传输层", "会话层", "应用层"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "在OSI参考模型中，自下而上第一个提供端到端服务的层次是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976218288129",
+      "description": "在OSI参考模型中，自下而上第一个提供端到端服务的层次是（    ）",
+      "problemPoolIndex": 27,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005825826816",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "无连接不可靠的数据包服务",
+            "无连接可靠的数据包服务",
+            "面向连接不可靠的虚电路服务",
+            "面向连接可靠的虚电路服务"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "TCP/IP 体系中的网络层协议提供的是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976218288130",
+      "description": "TCP/IP 体系中的网络层协议提供的是（    ）",
+      "problemPoolIndex": 28,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005825826817",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "OSI 参考模型的最底层",
+            "为通信的主机之间建立,管理和释放物理连接",
+            "实现比特流的透明传输",
+            "数据传输单元是字节"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "以下关于物理层基本概念的描述中错误的是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976218288131",
+      "description": "以下关于物理层基本概念的描述中错误的是（    ）",
+      "problemPoolIndex": 29,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005825826818",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["64516", "254", "64518", "256"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "在实际使用的IP地址中，主机号不能为全“0”和全“1”，那么一个C类IP地址，最多能容纳的主机数目为（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976218288132",
+      "description": "在实际使用的IP地址中，主机号不能为全“0”和全“1”，那么一个C类IP地址，最多能容纳的主机数目为（    ）。",
+      "problemPoolIndex": 30,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005825826819",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["20Kbps", "80Kbps", "35Kbps", "40Kbps"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "已知：S/N\u003d30db，宽带 B\u003d4000Hz，根据香农定理，求：有限宽带，有热噪声信道的最大数据传 输速率为多少（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976218288133",
+      "description": "已知：S/N\u003d30db，宽带 B\u003d4000Hz，根据香农定理，求：有限宽带，有热噪声信道的最大数据传 输速率为多少（    ）。",
+      "problemPoolIndex": 31,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005825826820",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["12kbps", "24 kbps", "48 kbps", "96 kbps"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "在无噪声情况下,若某通信链路的带宽为3kHz，采用4个相位，每个相位具有4种振幅的QAM 调制技术,则该通信链路的最大数据传输速率是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976222482432",
+      "description": "在无噪声情况下,若某通信链路的带宽为3kHz，采用4个相位，每个相位具有4种振幅的QAM 调制技术,则该通信链路的最大数据传输速率是（    ）",
+      "problemPoolIndex": 32,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005825826821",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["500", "700", "800", "1000"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "主机甲和主机乙间已建立一个TCP连接,主机甲向主机乙发送了两个连续的TCP段,分别包含300字节和500字节的有效载荷,第一个段的序列号为200，主机乙正确接收到两个段后，发送给主机甲的确认序列号是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976222482433",
+      "description": "主机甲和主机乙间已建立一个TCP连接,主机甲向主机乙发送了两个连续的TCP段,分别包含300字节和500字节的有效载荷,第一个段的序列号为200，主机乙正确接收到两个段后，发送给主机甲的确认序列号是（    ）",
+      "problemPoolIndex": 33,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005825826822",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["站点一", "站点二", "站点三", "站点四"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "在 CDMA 系统中，4 个站的码片序列分别为：\n站点一{-1+1 -1 -1 -1 -1+1 -1}\n站点二{-1 -1+1 -1+1+1+1 -1}\n站点三{-1 -1 -1+1+1 -1+1+1}\n站点四{-1+1 -1+1+1+1 -1 -1}\n现在接受到码片序列为 S:{-1+1-3+1-1-3+1+1}，请判断哪个站没有发送数据（  ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976222482434",
+      "description": "在 CDMA 系统中，4 个站的码片序列分别为：\n站点一{-1+1 -1 -1 -1 -1+1 -1}\n站点二{-1 -1+1 -1+1+1+1 -1}\n站点三{-1 -1 -1+1+1 -1+1+1}\n站点四{-1+1 -1+1+1+1 -1 -1}\n现在接受到码片序列为 S:{-1+1-3+1-1-3+1+1}，请判断哪个站没有发送数据（  ）。",
+      "problemPoolIndex": 34,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005825826823",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "子节点能识别父节点的IP地址",
+            "DNS采用客户服务器工作模式",
+            "域名的命名原则是采用层次结构的命名树",
+            "域名不能反映计算机所在的物理地址"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "关于DNS下列叙述错误的是（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976222482435",
+      "description": "关于DNS下列叙述错误的是（    ）。",
+      "problemPoolIndex": 35,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005825826824",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "2、7",
+            "2、4、7",
+            "2、3、4、5、6、7",
+            "1、2、3、4、5、6、7"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "在回退重传GBN方式中，发送方已经发送了编号为0—7帧。当计算器超时只收到编号为0、1、3、5、6的帧，那么发送方需要重发哪个帧（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976222482436",
+      "description": "在回退重传GBN方式中，发送方已经发送了编号为0—7帧。当计算器超时只收到编号为0、1、3、5、6的帧，那么发送方需要重发哪个帧（    ）。",
+      "problemPoolIndex": 36,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005825826825",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "是压缩的文字和图像信息",
+            "只能是文本格式的文件",
+            "是标准ASCII字符",
+            "是文字，声音和图形图像信息"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "电子邮件能传送的信息（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976222482437",
+      "description": "电子邮件能传送的信息（    ）。",
+      "problemPoolIndex": 37,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005830021120",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["7KB", "8KB", "9KB", "16KB"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "一个TCP连接总是以1KB的最大段发送TCP段，发送方有足够多的数据要发送。当拥塞窗口为16KB时发生了超时，如果接下来的4个RTT（往返时间）时间内的TCP段的传输都是成功的，那么当第4个RTT时间内发送的所有TCP段都得到肯定应答时，拥塞窗口大小是（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976222482438",
+      "description": "一个TCP连接总是以1KB的最大段发送TCP段，发送方有足够多的数据要发送。当拥塞窗口为16KB时发生了超时，如果接下来的4个RTT（往返时间）时间内的TCP段的传输都是成功的，那么当第4个RTT时间内发送的所有TCP段都得到肯定应答时，拥塞窗口大小是（    ）。",
+      "problemPoolIndex": 38,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005830021121",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "发送电子邮件的软件",
+            "浏览网页的工具",
+            "用来传送文件的一种服务",
+            "一种聊天工具"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "FTP是互联网中（    ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976222482439",
+      "description": "FTP是互联网中（    ）。",
+      "problemPoolIndex": 39,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005830021122",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "为一个单位所拥有，且地理范围和站点数目均有限",
+            "所有的站共享较高的总带宽",
+            "较低的时延和较低的误码率",
+            "各站为主从关系"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "下列那个不是局域网的特点（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976222482440",
+      "description": "下列那个不是局域网的特点（    ）",
+      "problemPoolIndex": 40,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005830021123",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "时分多路复用将线路使用的时间分成多个时间片",
+            "时分多路复用分为同步时分多路复用与统计时分多路复用",
+            "统计时分多路复用将时间片预先分配给各个信道",
+            "时分多路复用使用“帧”与数据链路层“帧”的概念、作用是不同的"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "以下关于时分多路复用概念的描述中，错误的是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976222482441",
+      "description": "以下关于时分多路复用概念的描述中，错误的是（    ）",
+      "problemPoolIndex": 41,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005830021124",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["方便迅捷", "时实性强", "费用低廉", "传输信息量大"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "下列哪个不是电子邮件服务的优点（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976226676736",
+      "description": "下列哪个不是电子邮件服务的优点（    ）",
+      "problemPoolIndex": 42,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005830021125",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "inhe.net@wangxing",
+            "wangxing.inhe.net",
+            "inhe.net.wangxing",
+            "wangxing@inhe.net"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "下列哪个是正确的电子邮件地址：（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976226676737",
+      "description": "下列哪个是正确的电子邮件地址：（    ）",
+      "problemPoolIndex": 43,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005830021126",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "35.230.0.0/19",
+            "35.230.0.0/20",
+            "35.230.32.0/19",
+            "35.230.32.0/20"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "某路由表中有转发接口相同的 4 条路由表项，其目的网络地址分别为 35.230.32.0/21、35.230.40.0/21、35.230.48.0/21 和 35.230.56.0/21，将该 4 条路由聚合后的目的网络地址为（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976226676738",
+      "description": "某路由表中有转发接口相同的 4 条路由表项，其目的网络地址分别为 35.230.32.0/21、35.230.40.0/21、35.230.48.0/21 和 35.230.56.0/21，将该 4 条路由聚合后的目的网络地址为（    ）",
+      "problemPoolIndex": 44,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005830021127",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["SMTP", "FTP", "SNMP", "TELNET"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "完成远程登录的TCP/IP协议是：（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976226676739",
+      "description": "完成远程登录的TCP/IP协议是：（    ）",
+      "problemPoolIndex": 45,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005830021128",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["1000", "2000", "3000", "4000"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "主机甲和主机乙之间已建立一个TCP连接，TCP最大段长度为1000字节，若主机甲的当前拥塞窗口为4000字节，在主机甲向主机乙连接发送2个最大段后，成功收到主机乙发送的第一段的确认段，确认段中通告的接收窗口大小为2000字节，则此时主机甲还可以向主机乙发送的最大字节数是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976226676740",
+      "description": "主机甲和主机乙之间已建立一个TCP连接，TCP最大段长度为1000字节，若主机甲的当前拥塞窗口为4000字节，在主机甲向主机乙连接发送2个最大段后，成功收到主机乙发送的第一段的确认段，确认段中通告的接收窗口大小为2000字节，则此时主机甲还可以向主机乙发送的最大字节数是（    ）",
+      "problemPoolIndex": 46,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005834215424",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["IP地址", "子网掩码", "默认网关", "DNS"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "如果访问Internet时只能使用IP地址，是因为没有配置TCP/IP的（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976226676741",
+      "description": "如果访问Internet时只能使用IP地址，是因为没有配置TCP/IP的（    ）",
+      "problemPoolIndex": 47,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005834215425",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["“存储--转发”式", "广播式", "电路交换式", "分散控制式"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "局域网LAN所采用的传输方式为（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976226676742",
+      "description": "局域网LAN所采用的传输方式为（    ）",
+      "problemPoolIndex": 48,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005834215426",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "201.12.77.0/2",
+            "201.12.77.48/25",
+            "201.12.77.64/25",
+            "201.12.77.128/25"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "计算机网络 习题1",
+      "content": "某公司拥有 IP 地址 201.12.77.0/24，其中 201.12.77.16/28 与 201.12.77.32/28 已经分配给人事部门和财政部们，现在技术部门有需要 100 个 IP 地址，可分配的地址是（    ）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "zxd",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1665885976226676743",
+      "description": "某公司拥有 IP 地址 201.12.77.0/24，其中 201.12.77.16/28 与 201.12.77.32/28 已经分配给人事部门和财政部们，现在技术部门有需要 100 个 IP 地址，可分配的地址是（    ）",
+      "problemPoolIndex": 49,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    {
+      "id": "1980428005834215427",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["中继器", "以太网交换机", "桥", "网关"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "以下属于物理层的设备是（   ）。",
+      "content": "以下属于物理层的设备是（   ）。@[](2)\nA. 中继器   \nB. 以太网交换机 \nC. 桥 \nD. 网关",
+      "type": "MULTIPLE_CHOICE",
+      "author": "佚名",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428005779689472",
+      "problemId": "1055336283554021376",
+      "description": "以下属于物理层的设备是（   ）。",
+      "problemPoolIndex": 50,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "934999411146211328"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1980428005813243904": "1-1",
+    "1980428005813243905": "1-2",
+    "1980428005813243906": "1-3",
+    "1980428005813243907": "1-4",
+    "1980428005817438208": "1-5",
+    "1980428005817438209": "1-6",
+    "1980428005817438210": "1-7",
+    "1980428005817438211": "1-8",
+    "1980428005817438212": "1-9",
+    "1980428005817438213": "1-10",
+    "1980428005817438214": "1-11",
+    "1980428005817438215": "1-12",
+    "1980428005817438216": "1-13",
+    "1980428005817438217": "1-14",
+    "1980428005817438218": "1-15",
+    "1980428005821632512": "1-16",
+    "1980428005821632513": "1-17",
+    "1980428005821632514": "1-18",
+    "1980428005821632515": "1-19",
+    "1980428005821632516": "1-20",
+    "1980428005821632517": "1-21",
+    "1980428005821632518": "1-22",
+    "1980428005821632519": "1-23",
+    "1980428005821632520": "1-24",
+    "1980428005821632521": "1-25",
+    "1980428005821632522": "1-26",
+    "1980428005821632523": "1-27",
+    "1980428005825826816": "1-28",
+    "1980428005825826817": "1-29",
+    "1980428005825826818": "1-30",
+    "1980428005825826819": "1-31",
+    "1980428005825826820": "1-32",
+    "1980428005825826821": "1-33",
+    "1980428005825826822": "1-34",
+    "1980428005825826823": "1-35",
+    "1980428005825826824": "1-36",
+    "1980428005825826825": "1-37",
+    "1980428005830021120": "1-38",
+    "1980428005830021121": "1-39",
+    "1980428005830021122": "1-40",
+    "1980428005830021123": "1-41",
+    "1980428005830021124": "1-42",
+    "1980428005830021125": "1-43",
+    "1980428005830021126": "1-44",
+    "1980428005830021127": "1-45",
+    "1980428005830021128": "1-46",
+    "1980428005834215424": "1-47",
+    "1980428005834215425": "1-48",
+    "1980428005834215426": "1-49",
+    "1980428005834215427": "1-50"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "problemType": "PROGRAMMING",
+  "details": [
+    {
+      "problemId": "0",
+      "problemSetProblemId": "1983003941989945359",
+      "programmingSubmissionDetail": {
+        "program": "import java.util.ArrayList;\nimport java.util.List;\nimport java.util.Scanner;\n\npublic class Main {\n    static class Person {\n        private String name;\n        private boolean gender;\n        private int age;\n        private int id;\n        private static int count = 0;\n\n        static {\n            System.out.println(\"This is static initialization block\");\n        }\n\n        {\n            id = count;\n            System.out.println(\"This is initialization block, id is \" + id);\n            count++;\n        }\n\n        public Person() {\n            System.out.println(\"This is constructor\");\n        }\n\n        public Person(String name, boolean gender, int age) {\n            this.name = name;\n            this.gender = gender;\n            this.age = age;\n        }\n\n        @Override\n        public String toString() {\n            return \"Person [name=\" + name + \", age=\" + age + \", gender=\" + gender + \", id=\" + id + \"]\";\n        }\n\n        // 添加getter方法用于访问私有属性\n        public String getName() { return name; }\n        public int getAge() { return age; }\n        public boolean isGender() { return gender; }\n        public int getId() { return id; }\n    }\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int n = scanner.nextInt();\n        scanner.nextLine();\n\n        List<Person> persons = new ArrayList<>();\n        for (int i = 0; i < n; i++) {\n            String[] parts = scanner.nextLine().split(\" \");\n            String name = parts[0];\n            int age = Integer.parseInt(parts[1]);\n            boolean gender = Boolean.parseBoolean(parts[2]);\n            persons.add(new Person(name, gender, age));\n        }\n\n        // 逆序输出\n        for (int i = persons.size() - 1; i >= 0; i--) {\n            System.out.println(persons.get(i));\n        }\n\n        // 无参构造函数创建对象\n        Person p = new Person();\n        // 使用getter方法访问私有属性\n        System.out.println(p.getName() + \",\" + p.getAge() + \",\" + p.isGender() + \",\" + p.getId());\n        System.out.println(p);\n\n        scanner.close();\n    }\n}",
+        "compiler": "JAVAC"
+      }
+    }
+  ]
+}

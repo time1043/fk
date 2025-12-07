@@ -1,0 +1,58 @@
+{
+  "total": 3,
+  "problemSetProblems": [
+    {
+      "id": "1983003941989945359",
+      "label": "",
+      "score": 15,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 23,
+      "submitCount": 117,
+      "title": "jmu-Java-03面向对象基础-02-构造方法与初始化块",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1983003941901864960",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1983003941994139648",
+      "label": "",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 25,
+      "submitCount": 30,
+      "title": "sdut-谁是最强的女汉子",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1983003941901864960",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1983003941994139649",
+      "label": "",
+      "score": 15,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 26,
+      "submitCount": 29,
+      "title": "jmu-Java-02基本语法-03-身份证排序",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1983003941901864960",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1983003941989945359": "7-1",
+    "1983003941994139648": "7-2",
+    "1983003941994139649": "7-3"
+  }
+}

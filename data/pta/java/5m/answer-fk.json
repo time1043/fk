@@ -1,0 +1,40 @@
+{
+  "problemType": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+  "details": [
+    {
+      "problemSetProblemId": "1983003941989945354",
+      "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+        "answers": ["A", "B", "C"]
+      },
+      "problemId": "0"
+    },
+    {
+      "problemSetProblemId": "1983003941989945355",
+      "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+        "answers": ["A", "B"]
+      },
+      "problemId": "0"
+    },
+    {
+      "problemSetProblemId": "1983003941989945356",
+      "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+        "answers": ["A", "C", "D"]
+      },
+      "problemId": "0"
+    },
+    {
+      "problemSetProblemId": "1983003941989945357",
+      "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+        "answers": ["A", "C"]
+      },
+      "problemId": "0"
+    },
+    {
+      "problemSetProblemId": "1983003941989945358",
+      "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+        "answers": ["C", "D"]
+      },
+      "problemId": "0"
+    }
+  ]
+}

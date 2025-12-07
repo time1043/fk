@@ -1,0 +1,302 @@
+[
+  {
+    "questionId": "143275",
+    "level": "中",
+    "questionName": "单选 催眠就是进行意识转换。        ",
+    "answerList": [
+      {
+        "answerId": "551265",
+        "quizQuestionId": "143275",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551266",
+        "quizQuestionId": "143275",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "单选 催眠就是进行意识转换。        ",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143276",
+    "level": "中",
+    "questionName": "快速眼动阶段也被称为梦的阶段。",
+    "answerList": [
+      {
+        "answerId": "551267",
+        "quizQuestionId": "143276",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551268",
+        "quizQuestionId": "143276",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "快速眼动阶段也被称为梦的阶段。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143277",
+    "level": "中",
+    "questionName": "麦斯麦提出了眼神经疲劳学说。     ",
+    "answerList": [
+      {
+        "answerId": "551269",
+        "quizQuestionId": "143277",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551270",
+        "quizQuestionId": "143277",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "麦斯麦提出了眼神经疲劳学说。     ",
+    "comment": "由布雷德提出",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143278",
+    "level": "中",
+    "questionName": "弗洛伊德认为潜意识有生物性。",
+    "answerList": [
+      {
+        "answerId": "551271",
+        "quizQuestionId": "143278",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551272",
+        "quizQuestionId": "143278",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "弗洛伊德认为潜意识有生物性。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143279",
+    "level": "中",
+    "questionName": "大脑两半球解剖结构对称，功能不对称。",
+    "answerList": [
+      {
+        "answerId": "551273",
+        "quizQuestionId": "143279",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551274",
+        "quizQuestionId": "143279",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "大脑两半球解剖结构对称，功能不对称。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143280",
+    "level": "中",
+    "questionName": "催眠能使大脑接受暗示和建议。",
+    "answerList": [
+      {
+        "answerId": "551275",
+        "quizQuestionId": "143280",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551276",
+        "quizQuestionId": "143280",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "催眠能使大脑接受暗示和建议。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143281",
+    "level": "中",
+    "questionName": "意识的觉知包含着:   ",
+    "answerList": [
+      {
+        "answerId": "551277",
+        "quizQuestionId": "143281",
+        "comments": "",
+        "text": "对他人的觉知"
+      },
+      {
+        "answerId": "551278",
+        "quizQuestionId": "143281",
+        "comments": "",
+        "text": "对感觉的觉知"
+      },
+      {
+        "answerId": "551279",
+        "quizQuestionId": "143281",
+        "comments": "",
+        "text": "对外界事物的觉知"
+      },
+      {
+        "answerId": "551280",
+        "quizQuestionId": "143281",
+        "comments": "",
+        "text": "对自身内部状态的觉知"
+      }
+    ],
+    "name": "意识的觉知包含着:   ",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143282",
+    "level": "中",
+    "questionName": "通过暗示影响行为改变就是催眠。",
+    "answerList": [
+      {
+        "answerId": "551281",
+        "quizQuestionId": "143282",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551282",
+        "quizQuestionId": "143282",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "通过暗示影响行为改变就是催眠。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143283",
+    "level": "中",
+    "questionName": "信念是他人催眠。",
+    "answerList": [
+      {
+        "answerId": "551283",
+        "quizQuestionId": "143283",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551284",
+        "quizQuestionId": "143283",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "信念是他人催眠。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "143284",
+    "level": "中",
+    "questionName": " 自我暗示疗法可以应用于：",
+    "answerList": [
+      {
+        "answerId": "551285",
+        "quizQuestionId": "143284",
+        "comments": "",
+        "text": "减除心理应激"
+      },
+      {
+        "answerId": "551286",
+        "quizQuestionId": "143284",
+        "comments": "",
+        "text": "增强注意力"
+      },
+      {
+        "answerId": "551287",
+        "quizQuestionId": "143284",
+        "comments": "",
+        "text": "提高成绩"
+      },
+      {
+        "answerId": "551288",
+        "quizQuestionId": "143284",
+        "comments": "",
+        "text": "改变行为习惯"
+      }
+    ],
+    "name": " 自我暗示疗法可以应用于：",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143285",
+    "level": "中",
+    "questionName": "观察学习包括以下（ ）过程。 ",
+    "answerList": [
+      {
+        "answerId": "551289",
+        "quizQuestionId": "143285",
+        "comments": "",
+        "text": "注意过程"
+      },
+      {
+        "answerId": "551290",
+        "quizQuestionId": "143285",
+        "comments": "",
+        "text": "动机过程"
+      },
+      {
+        "answerId": "551291",
+        "quizQuestionId": "143285",
+        "comments": "",
+        "text": "行为过程"
+      },
+      {
+        "answerId": "551292",
+        "quizQuestionId": "143285",
+        "comments": "",
+        "text": "选择过程"
+      }
+    ],
+    "name": "观察学习包括以下（ ）过程。 ",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "143286",
+    "level": "中",
+    "questionName": "想象是过去感知过的事物在头脑中的再现。",
+    "answerList": [
+      {
+        "answerId": "551293",
+        "quizQuestionId": "143286",
+        "comments": "",
+        "text": "正确"
+      },
+      {
+        "answerId": "551294",
+        "quizQuestionId": "143286",
+        "comments": "",
+        "text": "错误"
+      }
+    ],
+    "name": "想象是过去感知过的事物在头脑中的再现。",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  }
+]

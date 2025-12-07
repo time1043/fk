@@ -1,0 +1,62 @@
+[
+  {
+    "problemSetProblemId": "1991745600767283200",
+    "fkans": "SELECT DISTINCT pno FROM spj WHERE qty > (SELECT MAX(qty) FROM spj WHERE pno = 'p6')"
+  },
+  {
+    "problemSetProblemId": "1991745600767283201",
+    "fkans": "SELECT maker FROM product, pc WHERE product.model = pc.model GROUP BY maker HAVING COUNT(*) = 3"
+  },
+  {
+    "problemSetProblemId": "1991745600767283202",
+    "fkans": "SELECT students.sno, students.sname, sc.cno, sc.score FROM students LEFT JOIN sc ON students.sno = sc.sno"
+  },
+  {
+    "problemSetProblemId": "1991745600767283203",
+    "fkans": "SELECT COUNT(*) FROM product WHERE PName LIKE '%螺母%'"
+  },
+  {
+    "problemSetProblemId": "1991745600767283204",
+    "fkans": "SELECT MAX(Salary) AS max_Salary, MIN(Salary) AS min_Salary FROM employee"
+  },
+  {
+    "problemSetProblemId": "1991745600767283205",
+    "fkans": "SELECT Wno, COUNT(Eid) AS Count_Eid FROM employee GROUP BY Wno"
+  },
+  {
+    "problemSetProblemId": "1991745600767283206",
+    "fkans": "SELECT Eid, EName FROM employee WHERE Wno = 'A01' AND Salary > (SELECT MAX(Salary) FROM employee WHERE Wno = 'A02')"
+  },
+  {
+    "problemSetProblemId": "1991745600767283207",
+    "fkans": "SELECT Sid FROM orders GROUP BY Sid HAVING SUM(QTY) = (SELECT MAX(total_qty) FROM (SELECT SUM(QTY) AS total_qty FROM orders GROUP BY Sid) AS temp)"
+  },
+  {
+    "problemSetProblemId": "1991745600767283208",
+    "fkans": "SELECT DISTINCT e.Eid, e.EName FROM employee e, orders o WHERE e.Eid = o.Eid AND o.Pid IN (SELECT Pid FROM orders WHERE Eid = '0011') AND o.Eid != '0011'"
+  },
+  {
+    "problemSetProblemId": "1991745600767283209",
+    "fkans": "SELECT p.maker FROM product p, pc c WHERE p.model = c.model AND c.ram = (SELECT MIN(ram) FROM pc) AND c.speed = (SELECT MAX(speed) FROM pc WHERE ram = (SELECT MIN(ram) FROM pc))"
+  },
+  {
+    "problemSetProblemId": "1991745600767283210",
+    "fkans": "SELECT maker FROM (SELECT maker, type, COUNT(model) as model_count FROM product WHERE type IN ('PC', '便携式电脑') GROUP BY maker, type HAVING AVG((SELECT speed FROM pc WHERE pc.model = product.model)) >= 133 OR AVG((SELECT speed FROM laptop WHERE laptop.model = product.model)) >= 133) AS subquery GROUP BY maker HAVING SUM(model_count) >= 2 ORDER BY maker"
+  },
+  {
+    "problemSetProblemId": "1991745600767283211",
+    "fkans": "SELECT Eid, EName FROM employee WHERE Wno = 'A01' AND Salary < (SELECT MAX(Salary) FROM employee WHERE Wno = 'A02')"
+  },
+  {
+    "problemSetProblemId": "1991745600767283212",
+    "fkans": "SELECT dept, COUNT(*) AS student_count FROM student GROUP BY dept ORDER BY student_count DESC"
+  },
+  {
+    "problemSetProblemId": "1991745600767283213",
+    "fkans": "SELECT sno, AVG(grade) FROM score GROUP BY sno HAVING COUNT(cno) >= 2"
+  },
+  {
+    "problemSetProblemId": "1991745600767283214",
+    "fkans": "DELETE FROM sc WHERE final < 60"
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "total": 5,
+  "problemSetProblems": [
+    {
+      "id": "1980428028242960399",
+      "label": "7-15",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 208,
+      "submitCount": 376,
+      "title": "消失的车",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1980428028221988864",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1980428028242960400",
+      "label": "7-16",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 198,
+      "submitCount": 371,
+      "title": "判断回文",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1980428028221988864",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1980428028242960401",
+      "label": "7-17",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 183,
+      "submitCount": 241,
+      "title": "我是升旗手",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1980428028221988864",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1980428028242960402",
+      "label": "7-4",
+      "score": 15,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 176,
+      "submitCount": 263,
+      "title": "兔子繁殖问题",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1980428028221988864",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1980428028242960403",
+      "label": "7-5",
+      "score": 15,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 195,
+      "submitCount": 354,
+      "title": "西安距离",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1980428028221988864",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1980428028242960399": "7-15",
+    "1980428028242960400": "7-16",
+    "1980428028242960401": "7-17",
+    "1980428028242960402": "7-4",
+    "1980428028242960403": "7-5"
+  }
+}

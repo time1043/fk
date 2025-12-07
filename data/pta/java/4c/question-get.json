@@ -1,0 +1,404 @@
+[
+  {
+    "problemSetProblem": {
+      "id": "1980428028242960399",
+      "label": "7-15",
+      "score": 10,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "\n\n",
+              "output": "车牌号码是7744\n"
+            },
+            {
+              "name": "",
+              "input": "\n\n",
+              "output": "车牌号码是7744\n"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "消失的车",
+      "content": "飞驰而过的车，它的车牌是由一个四位数构成的，只有3个路人看到它\n\n甲说：它的前两位是一样的\n\n乙说：它的后两位是一样的，但是和它的前两位不一样\n\n丙说：它是一个数的平方\n\n请你根据路人甲乙丙的叙述，写一个程序，算出该车牌号\n\n### 输入格式:\n\n无 \n\n### 输出格式:\n\n车牌号码是7744\n\n### 输入样例:\n\n\n\n```in\n\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n车牌号码是7744\n```\n",
+      "type": "PROGRAMMING",
+      "author": "朱薇",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "985677419366506496",
+      "description": "飞驰而过的车，它的车牌是由一个四位数构成的，只有3个路人看到它\n\n甲说：它的前两位是一样的\n\n乙说：它的后两位是一样的，但是和它的前两位不一样\n\n丙说：它是一个数的平方\n\n请你根据路人甲乙丙的叙述，写一个程序，算出该车牌号\n\n### 输入格式:\n\n无 \n\n### 输出格式:\n\n车牌号码是7744\n\n### 输入样例:\n\n\n\n```in\n\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n车牌号码是7744\n```\n",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "191"
+    },
+    "organization": {
+      "id": "191",
+      "name": "厦门理工学院",
+      "code": "xmut",
+      "type": "SCHOOL",
+      "logo": ""
+    },
+    "examLabel": "7-15"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1980428028242960400",
+      "label": "7-16",
+      "score": 10,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "判断回文",
+      "content": "输入一个以回车符为结束标志的字符串（少于80个字符），判断该字符串是否为回文。\n回文就是字符串中心对称，如“abcba”、“abccba”是回文，“abcdba”不是回文。\n\n### 输入格式:\n\n输入一个以回车符为结束标志的字符串（少于80个字符）\n\n### 输出格式:\n\n为回文，输出yes; 非回文，输出no，注意输出的结果后面有回车符\n\n### 输入样例:\n```in\nabccba\n\n```\n\n### 输出样例:\n```out\nyes\n\n```",
+      "type": "PROGRAMMING",
+      "author": "张墨逸",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "2618",
+      "description": "输入一个以回车符为结束标志的字符串（少于80个字符），判断该字符串是否为回文。\n回文就是字符串中心对称，如“abcba”、“abccba”是回文，“abcdba”不是回文。\n\n### 输入格式:\n\n输入一个以回车符为结束标志的字符串（少于80个字符）\n\n### 输出格式:\n\n为回文，输出yes; 非回文，输出no，注意输出的结果后面有回车符\n\n### 输入样例:\n```in\nabccba\n\n```\n\n### 输出样例:\n```out\nyes\n\n```",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "53"
+    },
+    "organization": {
+      "id": "53",
+      "name": "兰州理工大学",
+      "code": "lut",
+      "type": "SCHOOL",
+      "logo": "5549cdd0-8cac-4277-8e94-4e7b56b7fbec.png"
+    },
+    "examLabel": "7-16"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1980428028242960401",
+      "label": "7-17",
+      "score": 10,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 2,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 2,
+              "isPublic": false
+            },
+            "2": {
+              "hint": "",
+              "showHint": false,
+              "score": 2,
+              "isPublic": false
+            },
+            "3": {
+              "hint": "",
+              "showHint": false,
+              "score": 2,
+              "isPublic": false
+            },
+            "4": {
+              "hint": "",
+              "showHint": false,
+              "score": 2,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "4\n130 125 129 140\n",
+              "output": "140\n"
+            },
+            {
+              "name": "",
+              "input": "4\n130 125 129 140\n",
+              "output": "140\n"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "我是升旗手",
+      "content": "一年一度的升旗手选拔又要到了，学校要求每个班级选出一位同学做升旗手的候选人。因\n为升旗手对身高有严格的要求，所以班主任决定选班级里个子最高的同学(如果两位同学\n一样高，则选任意一位)。你能很快地给老师答案么?\n\n### 输入格式:\n\n输入包括两行。 第一行:包括一个整数n，表示班级里共有n位同学。 第二行:包含n个三位数，表示每一位同学的身高。\n\n### 输出格式:\n\n输出身高最高的同学的身高。\n\n### 输入样例:\n\n\n```in\n4\n130 125 129 140\n```\n\n### 输出样例:\n\n\n```out\n140\n```\n",
+      "type": "PROGRAMMING",
+      "author": "翁恺",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "924958995431641088",
+      "description": "一年一度的升旗手选拔又要到了，学校要求每个班级选出一位同学做升旗手的候选人。因\n为升旗手对身高有严格的要求，所以班主任决定选班级里个子最高的同学(如果两位同学\n一样高，则选任意一位)。你能很快地给老师答案么?\n\n### 输入格式:\n\n输入包括两行。 第一行:包括一个整数n，表示班级里共有n位同学。 第二行:包含n个三位数，表示每一位同学的身高。\n\n### 输出格式:\n\n输出身高最高的同学的身高。\n\n### 输入样例:\n\n\n```in\n4\n130 125 129 140\n```\n\n### 输出样例:\n\n\n```out\n140\n```\n",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1"
+    },
+    "organization": {
+      "id": "1",
+      "name": "浙江大学",
+      "code": "zju",
+      "type": "SCHOOL",
+      "logo": "ffecf2a6-4935-4344-b640-35360f3c1f88.png"
+    },
+    "examLabel": "7-17"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1980428028242960402",
+      "label": "7-4",
+      "score": 15,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 3,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 3,
+              "isPublic": false
+            },
+            "2": {
+              "hint": "",
+              "showHint": false,
+              "score": 3,
+              "isPublic": false
+            },
+            "3": {
+              "hint": "",
+              "showHint": false,
+              "score": 3,
+              "isPublic": false
+            },
+            "4": {
+              "hint": "",
+              "showHint": false,
+              "score": 3,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "4\n",
+              "output": "5\n"
+            },
+            {
+              "name": "",
+              "input": "4\n",
+              "output": "5\n"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "兔子繁殖问题",
+      "content": "已知有一对兔子，每个月可以生一对兔子，而小兔子一个月后又可以生一对小兔子(比如:2月份出生的小兔子4月份可以生育)。也就是说，兔子的对数为：第一个月1对，第二个月2对，第三个月3对，第四个月5对.....假设兔子的生育期为两年，且不死。那么问题来了，你能说出每个月的兔子数么?\n\n### 输入格式:\n\n输入一个数n，表示第n个月，1<=n<=24。\n\n### 输出格式:\n\n输出这个月兔子的数目。\n\n### 输入样例:\n\n```in\n4\n```\n\n### 输出样例:\n\n```out\n5\n```\n",
+      "type": "PROGRAMMING",
+      "author": "翁恺",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "925189511263154176",
+      "description": "已知有一对兔子，每个月可以生一对兔子，而小兔子一个月后又可以生一对小兔子(比如:2月份出生的小兔子4月份可以生育)。也就是说，兔子的对数为：第一个月1对，第二个月2对，第三个月3对，第四个月5对.....假设兔子的生育期为两年，且不死。那么问题来了，你能说出每个月的兔子数么?\n\n### 输入格式:\n\n输入一个数n，表示第n个月，1<=n<=24。\n\n### 输出格式:\n\n输出这个月兔子的数目。\n\n### 输入样例:\n\n```in\n4\n```\n\n### 输出样例:\n\n```out\n5\n```\n",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1"
+    },
+    "organization": {
+      "id": "1",
+      "name": "浙江大学",
+      "code": "zju",
+      "type": "SCHOOL",
+      "logo": "ffecf2a6-4935-4344-b640-35360f3c1f88.png"
+    },
+    "examLabel": "7-4"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1980428028242960403",
+      "label": "7-5",
+      "score": 15,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 200,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 1,
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 3,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 3,
+              "isPublic": false
+            },
+            "2": {
+              "hint": "",
+              "showHint": false,
+              "score": 3,
+              "isPublic": false
+            },
+            "3": {
+              "hint": "",
+              "showHint": false,
+              "score": 3,
+              "isPublic": false
+            },
+            "4": {
+              "hint": "",
+              "showHint": false,
+              "score": 3,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "0 0 3 4\n",
+              "output": "7\n"
+            },
+            {
+              "name": "",
+              "input": "0 0 3 4\n",
+              "output": "7\n"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "西安距离",
+      "content": "小明来到了古都西安，想去参观大唐西市！\n\n西安的道路可以看做是与x轴或y轴垂直的直线，小明位于(a,b)，而目的地位于(c,d)，问最少几步可以到达。\n\n### 输入格式:\n\n一行中四个整数，a,b,c,d，表示坐标为(a,b)与(c,d)，这里0<=a,b,c,d<=1000\n\n### 输出格式:\n\n输出这两个点的西安距离。\n\n### 输入样例:\n\n```in\n0 0 3 4\n```\n\n### 输出样例:\n\n```out\n7\n```",
+      "type": "PROGRAMMING",
+      "author": "翁恺",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1980428028221988864",
+      "problemId": "1290575573688696832",
+      "description": "小明来到了古都西安，想去参观大唐西市！\n\n西安的道路可以看做是与x轴或y轴垂直的直线，小明位于(a,b)，而目的地位于(c,d)，问最少几步可以到达。\n\n### 输入格式:\n\n一行中四个整数，a,b,c,d，表示坐标为(a,b)与(c,d)，这里0<=a,b,c,d<=1000\n\n### 输出格式:\n\n输出这两个点的西安距离。\n\n### 输入样例:\n\n```in\n0 0 3 4\n```\n\n### 输出样例:\n\n```out\n7\n```",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1"
+    },
+    "organization": {
+      "id": "1",
+      "name": "浙江大学",
+      "code": "zju",
+      "type": "SCHOOL",
+      "logo": "ffecf2a6-4935-4344-b640-35360f3c1f88.png"
+    },
+    "examLabel": "7-5"
+  }
+]

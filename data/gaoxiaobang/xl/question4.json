@@ -1,0 +1,172 @@
+[
+  {
+    "questionId": "143287",
+    "level": "中",
+    "questionName": "生涯发展建构八大块不包括什么？",
+    "answerList": [
+      {
+        "answerId": "551295",
+        "quizQuestionId": "143287",
+        "comments": "",
+        "text": "自我觉察"
+      },
+      {
+        "answerId": "551296",
+        "quizQuestionId": "143287",
+        "comments": "",
+        "text": "教育的认知"
+      },
+      {
+        "answerId": "551297",
+        "quizQuestionId": "143287",
+        "comments": "",
+        "text": "生涯认知"
+      },
+      {
+        "answerId": "551298",
+        "quizQuestionId": "143287",
+        "comments": "",
+        "text": "雇工的技能"
+      }
+    ],
+    "name": "生涯发展建构八大块不包括什么？",
+    "comment": "无",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "145805",
+    "level": "易",
+    "questionName": "适应大学生活有什么方法？",
+    "answerList": [
+      {
+        "answerId": "560999",
+        "quizQuestionId": "145805",
+        "comments": "",
+        "text": "封闭自我"
+      },
+      {
+        "answerId": "561000",
+        "quizQuestionId": "145805",
+        "comments": "",
+        "text": "确立独立意识"
+      },
+      {
+        "answerId": "561001",
+        "quizQuestionId": "145805",
+        "comments": "",
+        "text": "虚心求救，细心体察"
+      },
+      {
+        "answerId": "561002",
+        "quizQuestionId": "145805",
+        "comments": "",
+        "text": "大胆实践，积累生活经验"
+      }
+    ],
+    "name": "适应大学生活有什么方法？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "145806",
+    "level": "易",
+    "questionName": "大学生需要培养哪方面的能力？",
+    "answerList": [
+      {
+        "answerId": "561003",
+        "quizQuestionId": "145806",
+        "comments": "",
+        "text": "自控力"
+      },
+      {
+        "answerId": "561004",
+        "quizQuestionId": "145806",
+        "comments": "",
+        "text": "沟通能力"
+      },
+      {
+        "answerId": "561005",
+        "quizQuestionId": "145806",
+        "comments": "",
+        "text": "时间管理能力"
+      },
+      {
+        "answerId": "561006",
+        "quizQuestionId": "145806",
+        "comments": "",
+        "text": "情绪和压力管理"
+      }
+    ],
+    "name": "大学生需要培养哪方面的能力？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "145808",
+    "level": "中",
+    "questionName": "以下哪些是时间管理的误区？",
+    "answerList": [
+      {
+        "answerId": "561011",
+        "quizQuestionId": "145808",
+        "comments": "",
+        "text": "合理分配时间"
+      },
+      {
+        "answerId": "561012",
+        "quizQuestionId": "145808",
+        "comments": "",
+        "text": "面面俱到"
+      },
+      {
+        "answerId": "561013",
+        "quizQuestionId": "145808",
+        "comments": "",
+        "text": "犹豫不决"
+      },
+      {
+        "answerId": "561014",
+        "quizQuestionId": "145808",
+        "comments": "",
+        "text": "拖拉"
+      }
+    ],
+    "name": "以下哪些是时间管理的误区？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  },
+  {
+    "questionId": "145807",
+    "level": "中",
+    "questionName": "大学期间可以从哪三方面来制定生涯规划？",
+    "answerList": [
+      {
+        "answerId": "561007",
+        "quizQuestionId": "145807",
+        "comments": "",
+        "text": "做好学业规划"
+      },
+      {
+        "answerId": "561008",
+        "quizQuestionId": "145807",
+        "comments": "",
+        "text": "做好作息规划"
+      },
+      {
+        "answerId": "561009",
+        "quizQuestionId": "145807",
+        "comments": "",
+        "text": "做好人脉规划"
+      },
+      {
+        "answerId": "561010",
+        "quizQuestionId": "145807",
+        "comments": "",
+        "text": "做好职业规划"
+      }
+    ],
+    "name": "大学期间可以从哪三方面来制定生涯规划？",
+    "comment": "无",
+    "questionType": "multiple_answers"
+  }
+]

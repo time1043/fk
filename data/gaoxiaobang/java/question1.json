@@ -1,0 +1,268 @@
+[
+  {
+    "questionId": "297116",
+    "level": "中",
+    "questionName": "Java JDK中反编译工具是以下哪一个",
+    "answerList": [
+      {
+        "answerId": "1092874",
+        "quizQuestionId": "297116",
+        "comments": "",
+        "text": "javac",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092875",
+        "quizQuestionId": "297116",
+        "comments": "",
+        "text": "java",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092876",
+        "quizQuestionId": "297116",
+        "comments": "",
+        "text": "jdb",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092877",
+        "quizQuestionId": "297116",
+        "comments": "",
+        "text": "javap",
+        "correct": "1"
+      }
+    ],
+    "name": "Java JDK中反编译工具是以下哪一个",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297117",
+    "level": "中",
+    "questionName": "public static void main方法的参数描述是",
+    "answerList": [
+      {
+        "answerId": "1092878",
+        "quizQuestionId": "297117",
+        "comments": "",
+        "text": "string args[] ",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092879",
+        "quizQuestionId": "297117",
+        "comments": "",
+        "text": "String[] args",
+        "correct": "1"
+      },
+      {
+        "answerId": "1092880",
+        "quizQuestionId": "297117",
+        "comments": "",
+        "text": "Strings args[]",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092881",
+        "quizQuestionId": "297117",
+        "comments": "",
+        "text": "String args",
+        "correct": "0"
+      }
+    ],
+    "name": "public static void main方法的参数描述是",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297118",
+    "level": "中",
+    "questionName": "<p>在Java中，关于PATH环境变量的说法正确的是</p>",
+    "answerList": [
+      {
+        "answerId": "1092882",
+        "quizQuestionId": "297118",
+        "comments": "",
+        "text": "<p>PATH一旦设置之后不可修改</p>",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092883",
+        "quizQuestionId": "297118",
+        "comments": "",
+        "text": "<p>在 PATH 中添加 JDK 工具程序时，应添加相关路径而不是覆盖原 PATH 内</p>",
+        "correct": "1"
+      },
+      {
+        "answerId": "1092884",
+        "quizQuestionId": "297118",
+        "comments": "",
+        "text": "<p>其作用是在编译和运行 Java 程序时，指明类的路径</p>",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092885",
+        "quizQuestionId": "297118",
+        "comments": "",
+        "text": "<p>可有可无</p>",
+        "correct": "0"
+      }
+    ],
+    "name": "<p>在Java中，关于PATH环境变量的说法正确的是</p>",
+    "comment": "<p>无</p>",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297119",
+    "level": "中",
+    "questionName": "编译Java Application源文件将产生相应的字节码文件，扩展名为",
+    "answerList": [
+      {
+        "answerId": "1092886",
+        "quizQuestionId": "297119",
+        "comments": "",
+        "text": ".java",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092887",
+        "quizQuestionId": "297119",
+        "comments": "",
+        "text": ".class",
+        "correct": "1"
+      },
+      {
+        "answerId": "1092888",
+        "quizQuestionId": "297119",
+        "comments": "",
+        "text": ".html",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092889",
+        "quizQuestionId": "297119",
+        "comments": "",
+        "text": ".exe",
+        "correct": "0"
+      }
+    ],
+    "name": "编译Java Application源文件将产生相应的字节码文件，扩展名为",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297120",
+    "level": "中",
+    "questionName": "Java程序的最终执行需经过两个步骤，它们是",
+    "answerList": [
+      {
+        "answerId": "1092890",
+        "quizQuestionId": "297120",
+        "comments": "",
+        "text": "编辑和解释",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092891",
+        "quizQuestionId": "297120",
+        "comments": "",
+        "text": "编辑和编译",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092892",
+        "quizQuestionId": "297120",
+        "comments": "",
+        "text": "编译和解释",
+        "correct": "1"
+      },
+      {
+        "answerId": "1092893",
+        "quizQuestionId": "297120",
+        "comments": "",
+        "text": "以上都不对",
+        "correct": "0"
+      }
+    ],
+    "name": "Java程序的最终执行需经过两个步骤，它们是",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297121",
+    "level": "中",
+    "questionName": "下面说法错误的是",
+    "answerList": [
+      {
+        "answerId": "1092894",
+        "quizQuestionId": "297121",
+        "comments": "",
+        "text": "字节码的装入由类装载器完成",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092895",
+        "quizQuestionId": "297121",
+        "comments": "",
+        "text": "字节码校验器对字节码进行安全性校验",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092896",
+        "quizQuestionId": "297121",
+        "comments": "",
+        "text": "通过javac编译器生成字节码文件",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092897",
+        "quizQuestionId": "297121",
+        "comments": "",
+        "text": "通过java解释器解释的内容为*.java",
+        "correct": "1"
+      }
+    ],
+    "name": "下面说法错误的是",
+    "comment": "",
+    "questionType": "multiple_choice"
+  },
+  {
+    "questionId": "297115",
+    "level": "中",
+    "questionName": "Java 语言具有许多特点，下列选项中，哪一个不属于这些特性",
+    "answerList": [
+      {
+        "answerId": "1092870",
+        "quizQuestionId": "297115",
+        "comments": "",
+        "text": "复杂性",
+        "correct": "1"
+      },
+      {
+        "answerId": "1092871",
+        "quizQuestionId": "297115",
+        "comments": "",
+        "text": "安全性",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092872",
+        "quizQuestionId": "297115",
+        "comments": "",
+        "text": "面向对象",
+        "correct": "0"
+      },
+      {
+        "answerId": "1092873",
+        "quizQuestionId": "297115",
+        "comments": "",
+        "text": "可移植性",
+        "correct": "0"
+      }
+    ],
+    "name": "Java 语言具有许多特点，下列选项中，哪一个不属于这些特性",
+    "comment": "",
+    "questionType": "multiple_choice"
+  }
+]
