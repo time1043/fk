@@ -1,9 +1,9 @@
 // import { HumanMessage, SystemMessage } from "@langchain/core/messages";
 import { HumanMessage, SystemMessage } from "langchain";
-import questionList from "../data/pta/mysql/6c/question-get.json" with { type: "json" };
+import questionList from "../data/pta/mysql/6-coder/question-get.json" with { type: "json" };
 import { llmDeepseek, llmGoogle } from "./lib/llm.js";
 import { systemPrompt } from "./module/pta/prompt/coder.js";
-import { submitFetch } from "./module/pta/coder/submit.js";
+import { submitFetch } from "./utils/submit.js";
 
 export const transformImageUrls = (text) => {
   // `![filename.png](~/uuid.png)
