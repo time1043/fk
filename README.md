@@ -35,12 +35,12 @@ fk/
 
 ### src/ Directory
 
-| Directory | Description |
-|-----------|-------------|
-| `lib/` | Core libraries (LLM, prompts) - imported by other code |
-| `utils/` | Shared utility functions - imported by other code |
+| Directory | Description                                                |
+| --------- | ---------------------------------------------------------- |
+| `lib/`    | Core libraries (LLM, prompts) - imported by other code     |
+| `utils/`  | Shared utility functions - imported by other code          |
 | `module/` | Modular business logic - integrated into the module system |
-| `script/` | Standalone scripts - executed independently |
+| `script/` | Standalone scripts - executed independently                |
 
 ## Naming Conventions
 
@@ -51,32 +51,34 @@ data/{platform}/{subject}/{chapter}-{question_type}/
 ```
 
 Question types (full name, no abbreviation):
+
 - `single` - Single choice questions
 - `multiple` - Multiple choice questions
 - `coder` - Programming questions
 
 ### Data Files
 
-| File | Description |
-|------|-------------|
-| `url-list.json` | Question URL list |
-| `question-get.json` | Raw questions from browser |
-| `question-get-clean.json` | Cleaned questions |
-| `answer-ai.json` | AI-generated answers |
-| `answer-ai-clean.json` | Cleaned AI answers |
-| `answer-get.json` | Raw answers from browser |
-| `answer-get-clean.json` | Cleaned fetched answers |
-| `submit-data.json` | Data for browser submission |
+| File                      | Description                 |
+| ------------------------- | --------------------------- |
+| `url-list.json`           | Question URL list           |
+| `question-get.json`       | Raw questions from browser  |
+| `question-get-clean.json` | Cleaned questions           |
+| `answer-ai.json`          | AI-generated answers        |
+| `answer-ai-clean.json`    | Cleaned AI answers          |
+| `answer-get.json`         | Raw answers from browser    |
+| `answer-get-clean.json`   | Cleaned fetched answers     |
+| `submit-data.json`        | Data for browser submission |
 
 ### Script Files
 
-| Prefix | Execution Environment |
-|--------|----------------------|
-| `__` (double underscore) | Browser console |
-| `_` (single underscore) | Local Node.js |
-| No prefix | Utility modules |
+| Prefix                   | Execution Environment |
+| ------------------------ | --------------------- |
+| `__` (double underscore) | Browser console       |
+| `_` (single underscore)  | Local Node.js         |
+| No prefix                | Utility modules       |
 
 Script naming examples:
+
 - `__question-get.js` - Fetch questions in browser
 - `__answer-get.js` - Fetch answers in browser
 - `__submit.js` - Submit answers in browser

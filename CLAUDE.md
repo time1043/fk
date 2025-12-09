@@ -14,26 +14,28 @@ data/{platform}/{subject}/{chapter}-{question_type}/
 ```
 
 Question types must use full names (no abbreviation):
+
 - `single` - Single choice questions
 - `multiple` - Multiple choice questions
 - `coder` - Programming questions
 
 ### Data Files
 
-| File | Description |
-|------|-------------|
-| `url-list.json` | Question URL list |
-| `question-get.json` | Raw questions from browser |
-| `question-get-clean.json` | Cleaned questions |
-| `answer-ai.json` | AI-generated answers |
-| `answer-ai-clean.json` | Cleaned AI answers |
-| `answer-get.json` | Raw answers from browser |
-| `answer-get-clean.json` | Cleaned fetched answers |
-| `submit-data.json` | Data for browser submission |
+| File                      | Description                 |
+| ------------------------- | --------------------------- |
+| `url-list.json`           | Question URL list           |
+| `question-get.json`       | Raw questions from browser  |
+| `question-get-clean.json` | Cleaned questions           |
+| `answer-ai.json`          | AI-generated answers        |
+| `answer-ai-clean.json`    | Cleaned AI answers          |
+| `answer-get.json`         | Raw answers from browser    |
+| `answer-get-clean.json`   | Cleaned fetched answers     |
+| `submit-data.json`        | Data for browser submission |
 
 ### File Variants
 
 Use dot notation for language/type variants (not hyphen):
+
 - `question-get-clean.sql.js` (correct)
 - `question-get-clean-sql.js` (incorrect)
 - `question-get-clean.java.js` (correct)
@@ -41,13 +43,14 @@ Use dot notation for language/type variants (not hyphen):
 
 ### Script Files
 
-| Prefix | Environment | Description |
-|--------|-------------|-------------|
-| `__` (double underscore) | Browser console | Scripts executed in browser DevTools |
-| `_` (single underscore) | Local Node.js | Standalone local scripts |
-| No prefix | Module | Utility functions serving the project |
+| Prefix                   | Environment     | Description                           |
+| ------------------------ | --------------- | ------------------------------------- |
+| `__` (double underscore) | Browser console | Scripts executed in browser DevTools  |
+| `_` (single underscore)  | Local Node.js   | Standalone local scripts              |
+| No prefix                | Module          | Utility functions serving the project |
 
 Script naming pattern:
+
 - `__question-get.js` - Fetch questions in browser
 - `__answer-get.js` - Fetch answers in browser
 - `__submit.js` - Submit answers in browser
@@ -70,12 +73,12 @@ src/
     │   └── {question_type}/   # Scripts with _ or __ prefix
 ```
 
-| Directory | Purpose |
-|-----------|---------|
-| `lib/` | Core libraries - imported by other code |
-| `utils/` | Shared utilities - imported by other code |
+| Directory | Purpose                                                          |
+| --------- | ---------------------------------------------------------------- |
+| `lib/`    | Core libraries - imported by other code                          |
+| `utils/`  | Shared utilities - imported by other code                        |
 | `module/` | Business modules - integrated into the module system, importable |
-| `script/` | Standalone scripts - executed independently, not imported |
+| `script/` | Standalone scripts - executed independently, not imported        |
 
 ## Code Style
 
