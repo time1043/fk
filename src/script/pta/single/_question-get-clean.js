@@ -1,4 +1,4 @@
-import questionList from "../../../../data/pta/network/7/question-get.json" with { type: "json" };
+import questionList from "../../../../data/pta/network/8-single/question-get.json" with { type: "json" };
 
 // clean data
 const { problemSetProblems } = questionList;

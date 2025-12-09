@@ -1,4 +1,4 @@
-import answerList from "../../../../data/pta/network/7/answer-ai.json" with { type: "json" };
+import answerList from "../../../../data/pta/network/8-single/answer-ai.json" with { type: "json" };
 
 const answerListPz = answerList.map((answer) => {
   return { ...answer, problemId: "0" };
