@@ -1,0 +1,195 @@
+{
+  "organizationById": {
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1993122880337539082",
+      "label": "3-1",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "throw代表动作，表示抛出一个异常的动作；throws代表一种状态，代表方法可能有异常抛出\n",
+            "throw用在方法实现中，而throws用在方法声明中\n",
+            "throw只能用于抛出一种异常，而throws可以抛出多个异常\n",
+            "当调用抛出异常的方法时，需要进行捕获处理或者继续利用thows向上抛出。\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在程序中利用throw或throws抛出异常，下列说法正确的是：（    ）。",
+      "content": "在程序中利用throw或throws抛出异常，下列说法正确的是：（    ）。\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1408047118305492992",
+      "description": "在程序中利用throw或throws抛出异常，下列说法正确的是：（    ）。\n",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993122880341733376",
+      "label": "3-2",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "异常是程序中出现的不正常情况，而不是指Java虚拟机本身比较严重的错误。\n",
+            "程序中出现异常不进行处理，则程序中断执行。\n",
+            "Java程序利用try-catch或者try-catch-finally结构处理异常。\n",
+            "Java程序利用throw和throws来处理异常。\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "异常处理机制--关于Java中的异常的概念及处理机制，哪些说法是正确的？（     ）",
+      "content": "这是一个多选题的样例。答案为AC，分值为2分。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1424348424010137600",
+      "description": "这是一个多选题的样例。答案为AC，分值为2分。",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993122880341733377",
+      "label": "3-3",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "catch语句块可以有一个，也可以有多个\n",
+            "多个catch语句块所捕获的异常类型如果有父子类关系，则父类在前，子类在后\n",
+            "多个catch语句块可能有0个或1个执行到\n",
+            "catch语句块必须和try语句块配合使用，不能独立存在\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "catch--关于Java异常的处理的catch语句块，哪些说法是正确的？（     ）",
+      "content": "关于Java异常的处理的catch语句块，哪些说法是正确的？（     ）",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1424375399684763648",
+      "description": "关于Java异常的处理的catch语句块，哪些说法是正确的？（     ）",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993122880341733378",
+      "label": "3-4",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "finally语句块可有可无。\n",
+            "如果finally语句块存在，它一定会执行。\n",
+            "finally语句块通常用于一些收尾性的工作，如数据库断开连接、关闭系统资源等等。\n",
+            "finally语句块必须和try-catch结构一起配合来进行处理异常\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "finally--关于Java异常的处理的finally语句块，哪些说法是正确的？（     ）",
+      "content": "关于Java异常的处理的finally语句块，哪些说法是正确的？（     ）\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1424375706359627776",
+      "description": "关于Java异常的处理的finally语句块，哪些说法是正确的？（     ）\n",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993122880341733379",
+      "label": "3-5",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "程序将输出第15行的异常信息\n",
+            "程序第10行出错",
+            "程序将输出b\u003d42\n",
+            "程序将输出第15和18行的异常信息\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "异常案例分析--利用命令：java MultiCatch 执行下面的程序，说法错误的是 ( )。",
+      "content": "利用命令：`java MultiCatch`  执行下面的程序，说法**错误**的是 (      )。\n\n```\npublic class MultiCatch\n\t{\n\t      public static void main(String args[])\n\t     {\n\t           try\n\t           {\n\t               int a\u003dargs.length;\n\t               int b\u003d42/a;\n\t               int c[]\u003d{1};\n\t               c[42]\u003d99;     //第10行\n\t               System.out.println(“b\u003d”+b);\n\t            }\n\t           catch(ArithmeticException e)\n\t           {\n\t                 System.out.println(“除0异常：”+e);       //第15行\n\t           }\n\t           catch(ArrayIndexOutOfBoundsException e) {\n\t                System.out.println(“数组超越边界异常：”+e);     //第18行\n\t           }\n\t     }\n\t}\n```\n\n \n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1424378864167284736",
+      "description": "利用命令：`java MultiCatch`  执行下面的程序，说法**错误**的是 (      )。\n\n```\npublic class MultiCatch\n\t{\n\t      public static void main(String args[])\n\t     {\n\t           try\n\t           {\n\t               int a\u003dargs.length;\n\t               int b\u003d42/a;\n\t               int c[]\u003d{1};\n\t               c[42]\u003d99;     //第10行\n\t               System.out.println(“b\u003d”+b);\n\t            }\n\t           catch(ArithmeticException e)\n\t           {\n\t                 System.out.println(“除0异常：”+e);       //第15行\n\t           }\n\t           catch(ArrayIndexOutOfBoundsException e) {\n\t                System.out.println(“数组超越边界异常：”+e);     //第18行\n\t           }\n\t     }\n\t}\n```\n\n \n",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1993122880337539082": "3-1",
+    "1993122880341733376": "3-2",
+    "1993122880341733377": "3-3",
+    "1993122880341733378": "3-4",
+    "1993122880341733379": "3-5"
+  }
+}

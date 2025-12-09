@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1990595265448071168",
+    "content": "有如下程序代码： \n```\nclass Dog{ }\nclass Cat { }\npublic class Test{\n public static void main(String[] args) {\n  Dog dog=new Dog();\n  Cat cat=new Cat();\n  System.out.println(cat instanceof Dog);    //A\n  System.out.println(dog instanceof Dog);   //B\n }  \n }\n```\n关于A、B两段代码，下列哪种说法是正确的？（     ）\n",
+    "choices": [
+      "输出：\n```\nfalse\ntrue\n```\n",
+      "输出：\n```\ntrue\ntrue\n```",
+      "输出：\n```\nfalse\nfalse\n```",
+      "出现语法编译错误，程序不能执行\n"
+    ]
+  },
+  {
+    "id": "1990595265448071169",
+    "content": "有如下程序代码，执行的结果是（      ）。\n```\nclass Father {\n\tint a = 100;\n\tint b = 200;\n\n\tpublic void print() {\n\t\tSystem.out.println(a + \" \" + b);\n\t}\n}\n\nclass Child extends Father {\n\tint b = 300;\n\tint c = 400;\n\n\tpublic void print() {\n\t\tSystem.out.println(a + \" \" + b + \" \" + c);\n\t}\n\n\tpublic void printExtend() {\n\t\tSystem.out.println(c);\n\t}\n\n}\n\npublic class Main {\n\tpublic static void main(String[] a) {\n\t\t  Father obj=new Child();\n\t\t  System.out.println(obj.a+\" \"+obj.b);   \n\t\t  obj.print();  \n\t}\n}\n```",
+    "choices": [
+      "```\n100 200\n100 200 400\n```\n",
+      "```\n100 300\n100 300 400\n```\n",
+      "```\n100 300\n100 200 400\n```\n",
+      "```\n100 200\n100 300 400\n```\n"
+    ]
+  },
+  {
+    "id": "1990595265448071170",
+    "content": "有如下父类、子类及测试类的定义，程序执行结果是：（     ）。\n```\nclass Father {\n int a =100;\n public void print() {\n  System.out.println(a);\n }\n}\nclass Child1 extends Father {\n int a =200;\n public void print() {\n  System.out.println(a);\n }\n}\nclass Child2 extends Father {\n int a =300;\n public void print() {\n  System.out.println(a);\n }\n}\npublic class Main {\n\tpublic static void main(String[] a) {\n\t\tFather obj1;\n\t\t  obj1=new Child1();\n\t\t  System.out.println(obj1.a);\n\t\t  obj1.print(); \n\t\t  \n\t\t  obj1=new Child2();\n\t\t  System.out.println(obj1.a);\n\t\t  obj1.print(); \n\t}\n}\n```",
+    "choices": [
+      "```\n200\n200\n300\n300\n```\n",
+      "\n```\n100\n200\n300\n300\n```\n",
+      "```\n200\n200\n100\n300\n```\n",
+      "```\n100\n200\n100\n300\n```"
+    ]
+  },
+  {
+    "id": "1990595265448071171",
+    "content": "有如下代码，程序执行结果是：（       ）。\n```\nabstract class Person {\n public abstract void eat();\n}\npublic class Main {\n\tpublic static void main(String[] a) {\n\n\t\t  Person p = new Person() {\n\t\t   public void eat() {\n\t\t    System.out.println(\"eat something\");\n\t\t   }\n\t\t  };\n\t\t  p.eat();\n\t}\n}\n```",
+    "choices": [
+      "空字符串\n",
+      "编译错误\n",
+      "eat something\n",
+      "运行错误"
+    ]
+  },
+  {
+    "id": "1990595265448071172",
+    "content": "有如下代码，程序的执行结果是（     ）。  \n```\ninterface Person {\n public void eat();\n}\n\npublic class Main {\n\tpublic static void main(String[] a) {\n\n\t\t  Person p = new Person() {\n\t\t   public void eat() {\n\t\t    System.out.println(\"eat something\");\n\t\t   }\n\t\t  };\n\t\t  p.eat();\n\t}\n}\n```",
+    "choices": [
+      "空字符串\n",
+      "编译错误\n",
+      "eat something\n",
+      "运行时错误"
+    ]
+  },
+  {
+    "id": "1990595265448071173",
+    "content": "下面关于JAVA面向对象的理解，说法中不正确的是：（     ）。",
+    "choices": [
+      "Java中，一个类只允许实现一个接口\n",
+      "抽象类中允许有非抽象方法的存在\n",
+      "静态的成员变量可以直接用类名调用\n",
+      "通过super可以调用父类的构造函数\n"
+    ]
+  },
+  {
+    "id": "1990595265448071174",
+    "content": "以下关于继承的叙述正确的是（      ）。",
+    "choices": [
+      "在Java中类只允许单一继承\n",
+      "在Java中,一个类只能实现一个接口\n",
+      "在Java中，一个类不能同时继承一个类和实现一个接口\n",
+      "在Java中，接口也具有单继承性\n"
+    ]
+  },
+  {
+    "id": "1990595265448071175",
+    "content": "以下对接口描述错误的有   @[](1)\n\nA. 接口没有提供构造方法\nB. 接口中的方法默认使用public、abstract修饰\nC. 接口中的属性默认使用public、static、final修饰\nD. 接口不允许多继承\n",
+    "choices": [
+      "接口没有提供构造方法",
+      "接口中的方法默认使用public、abstract修饰",
+      "接口中的属性默认使用public、static、final修饰",
+      "接口不允许多继承"
+    ]
+  },
+  {
+    "id": "1990595265448071176",
+    "content": "以下描述错误的有   @[](1)\n\nA. abstract 可以修饰类、接口、方法\nB. abstract修饰的类主要用于被继承\nC. abstract 可以修饰变量\nD. abstract修饰的类，其子类也可以是abstract修饰的\n",
+    "choices": [
+      "abstract 可以修饰类、接口、方法",
+      "abstract修饰的类主要用于被继承",
+      "abstract 可以修饰变量",
+      "abstract修饰的类，其子类也可以是abstract修饰的"
+    ]
+  },
+  {
+    "id": "1990595265448071177",
+    "content": "下列选项中关于java中super关键字的说法错误的是  @[](1)\n\nA. super关键字是在子类对象内部指代其父类对象的引用\nB. super关键字不仅可以指代子类的直接父类，还可以指代父类的父类\nC. 子类可以通过super关键字调用父类的方法\nD. 子类可以通过super关键字调用父类的属性\n",
+    "choices": [
+      "super关键字是在子类对象内部指代其父类对象的引用",
+      "super关键字不仅可以指代子类的直接父类，还可以指代父类的父类",
+      "子类可以通过super关键字调用父类的方法",
+      "子类可以通过super关键字调用父类的属性"
+    ]
+  },
+  {
+    "id": "1990595265452265472",
+    "content": "已知类的继承关系如下：\n```\nclass Employee{}\nclass Manager extends Employee{}\nclass Director extends Employee{}\n```\n则下列语句通过编译的有哪些？（    ）\n\n\n",
+    "choices": [
+      "Employee e=new Manager();\t\n",
+      "Director d= new Manager();\t\n",
+      "Director d= new Employee();\t\n",
+      "Manager m=new Director();"
+    ]
+  },
+  {
+    "id": "1990595265452265473",
+    "content": "在Java中，要想让一个类继承另一个类，可以使用以下哪个关键字？（    ）\n",
+    "choices": [
+      "inherits\n",
+      "implements\n",
+      "extends\n",
+      "modifies\n"
+    ]
+  },
+  {
+    "id": "1990595265452265474",
+    "content": "如下代码，程序的输出结果将是：（      ）。\n\n```\nclass A {\n\tint a = 11;\n\tint b = 12;\n\n\tpublic void print() {\n\t\tSystem.out.println(a + \" \" + b);\n\t}\n}\n\nclass B extends A {\n\tint a = 20;\n\n\tpublic void print() {\n\t\tSystem.out.println(a + \" \" + b);\n\t}\n}\n\npublic class Main {\n\tpublic static void main(String[] args) {\n\t\tA aObj = new A();\n\t\taObj.print();\n\t\tB bObj = new B();\n\t\tbObj.print();\n\t}\n}\n```\n",
+    "choices": [
+      "```\n11 12\n20 0\n```",
+      "```\n20 12\n20 12\n```",
+      "```\n11 12\n11 12\n```\n",
+      "```\n11 12\n20 12\n```\n"
+    ]
+  },
+  {
+    "id": "1990595265452265475",
+    "content": "关于抽象类，下面叙述错误的是（） 。  @[](1)\nA. 包含抽象方法的类必须是抽象类\nB. 抽象方法只需要声明，不需要实现\nC. 抽象类可以实例化\nD. 抽象类中可以没有抽象方法\n  \n\n\n",
+    "choices": [
+      "包含抽象方法的类必须是抽象类",
+      "抽象方法只需要声明，不需要实现",
+      "抽象类可以实例化",
+      "抽象类中可以没有抽象方法"
+    ]
+  },
+  {
+    "id": "1990595265452265476",
+    "content": "关于接口的声明，错误的是(  ) 。   @[](1)\nA. 接口中所有的成员属性都是public static final修订的常量\nB. 接口中的成员属性在声明时可以省略修订关键字\nC. 接口中所有的方法都是public abstract final修订的\nD. 接口中所有的方法都是public abstract修订的\n\n\n",
+    "choices": [
+      "接口中所有的成员属性都是public static final修订的常量",
+      "接口中的成员属性在声明时可以省略修订关键字",
+      "接口中所有的方法都是public abstract final修订的",
+      "接口中所有的方法都是public abstract修订的"
+    ]
+  },
+  {
+    "id": "1990595265452265477",
+    "content": "关于接口，下面的叙述错误的是（）。   @[](1)\nA. 一个接口可以多继承多个接口\nB. 一个类可以实现多个接口\nC. 抽象类在实现接口时，可以不实现该接口中声明的所有方法\nD. 抽象类在实现接口时，必须实现该接口中声明的所有方法\n\n\n",
+    "choices": [
+      "一个接口可以多继承多个接口",
+      "一个类可以实现多个接口",
+      "抽象类在实现接口时，可以不实现该接口中声明的所有方法",
+      "抽象类在实现接口时，必须实现该接口中声明的所有方法"
+    ]
+  },
+  {
+    "id": "1990595265452265478",
+    "content": "以下代码运行输出是。   @[](2)\n```\npublic class Person{\n    private String name=”Person”;\n    int age=0;\n}\npublic class Child extends Person{\n    public String grade;\n\n    public static void main(String[] args){\n        Person p = new Child();\n        System.out.println(p.name);\n    }\n}\n```\nA. 输出：Person\nB. 没有输出\nC. 编译出错\nD. 运行出错\n",
+    "choices": [
+      "输出：Person",
+      "没有输出",
+      "编译出错",
+      "运行出错"
+    ]
+  },
+  {
+    "id": "1990595265452265479",
+    "content": "在使用super 和this关键字时，以下描述正确的是   @[](1)\n\nA. 在子类构造方法中使用super（）显示调用父类的构造方法，super（）必须写在子类构造方法的第一行，否则编译不通过\nB. this（）和super（）可以同时出现在一个构造函数中\nC. super（）和this（）不一定要放在构造方法内第一行\nD. this（）和super（）可以在static环境中使用，包括static方法和static语句块\n",
+    "choices": [
+      "在子类构造方法中使用super（）显示调用父类的构造方法，super（）必须写在子类构造方法的第一行，否则编译不通过",
+      "this（）和super（）可以同时出现在一个构造函数中",
+      "super（）和this（）不一定要放在构造方法内第一行",
+      "this（）和super（）可以在static环境中使用，包括static方法和static语句块"
+    ]
+  },
+  {
+    "id": "1990595265452265480",
+    "content": "以下对抽象类的描述正确的是   @[](1)\n\nA. 抽象类没有构造方法\nB. 抽象类必须提供抽象方法\nC. 有抽象方法的类一定是抽象类\nD. 抽象类可以通过new关键字直接实例化\n",
+    "choices": [
+      "抽象类没有构造方法",
+      "抽象类必须提供抽象方法",
+      "有抽象方法的类一定是抽象类",
+      "抽象类可以通过new关键字直接实例化"
+    ]
+  },
+  {
+    "id": "1990595265452265481",
+    "content": "在Java中，以下（）类的对象是以键-值的方式存储对象。   @[](1)\n\nA. List\nB. ArrayList\nC. HashMap\nD. LinkedList\n",
+    "choices": [
+      "List",
+      "ArrayList",
+      "HashMap",
+      "LinkedList"
+    ]
+  }
+]

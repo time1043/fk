@@ -1,0 +1,381 @@
+{
+  "organizationById": {
+    "46": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1990595265452265482",
+      "label": "3-1",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "抽象类没有构造函数",
+            "接口没有构造函数",
+            "抽象类不允许多继承",
+            "接口中的方法可以有方法体"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "接口和抽象类描述正确的有   *",
+      "content": "接口和抽象类描述正确的有   *@[](1)\n\nA. 抽象类没有构造函数\nB. 接口没有构造函数\nC. 抽象类不允许多继承\nD. 接口中的方法可以有方法体\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "郑如滨",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "1205030494683848704",
+      "description": "接口和抽象类描述正确的有",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    {
+      "id": "1990595265452265483",
+      "label": "3-2",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": ["public\n", "static\n", "final\n", "void\n"],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "interface--接口中定义常量（变量）时，默认含有哪些修饰符？",
+      "content": "接口中定义常量（变量）时，默认含有哪些修饰符？(     )\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "1424340425556295680",
+      "description": "接口中定义常量（变量）时，默认含有哪些修饰符？(     )\n",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1990595265452265484",
+      "label": "3-3",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "hasNext()\n",
+            "next()\n",
+            "remove()\n",
+            "nextElement()\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Iterator方法--迭代器接口（Iterator）所定义的方法有（     ）。 ",
+      "content": "迭代器接口（Iterator）所定义的方法有（     ）。 ",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "1424624665166704640",
+      "description": "迭代器接口（Iterator）所定义的方法有（     ）。 ",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1990595265452265485",
+      "label": "3-4",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "利用该类对象调用nextXxxxx()方法来输入相应数据类型的数据",
+            "利用该类对象调用next()和nextLine()方法均可输入字符串，二者功能无差别",
+            "该类构造方法接收一个参数，表示数据的来源",
+            "Scanner类位于java.util包中。"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在Java中，利用java.util.Scanner类输入数据，哪些说法是T的？",
+      "content": "在Java中，利用java.util.Scanner类输入数据，哪些说法是T的？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "1367337685483786240",
+      "description": "在Java中，利用java.util.Scanner类输入数据，哪些说法是T的？",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1990595265452265486",
+      "label": "3-5",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "Float在java.lang包中\n",
+            "Float a\u003d1.0; 是正确的赋值方法\n",
+            "Float是一个类",
+            "Float a\u003d new Float(1.0); 是正确的赋值方法\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于封装类Float，下列说法正确的是（      ）。",
+      "content": "关于封装类Float，下列说法正确的是（      ）。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "1407319484327452672",
+      "description": "关于封装类Float，下列说法正确的是（      ）。",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1990595265456459776",
+      "label": "3-6",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 5,
+          "choices": [
+            "String str1\u003d\"imooc\";\n",
+            "String str2\u003dnew String();\n",
+            "String str3\u003dnew String(\"imooc\");\n",
+            "String str4\u003d\"abc\"+\"123\";\n",
+            "String str5\u003dstr1.toUpperCase();\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串构造方法--String类对象的创建方式包括：（        ）。",
+      "content": "String类对象的创建方式包括：（        ）。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "1424547902356975616",
+      "description": "String类对象的创建方式包括：（        ）。",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1990595265456459777",
+      "label": "3-7",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 7,
+          "choices": [
+            "random()\n",
+            "sqrt()\n",
+            "abs()\n",
+            "pow()\n",
+            "exp()",
+            "ceil()",
+            "floor()"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Math方法--下列哪些方法属于java.lang.Math类（        ）?",
+      "content": "下列哪些方法属于java.lang.Math类（        ）?",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "1424637836296306688",
+      "description": "下列哪些方法属于java.lang.Math类（        ）?",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1990595265456459778",
+      "label": "3-8",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "每种基本数据类型都有对应的封装类类型\n",
+            "封装类对于其基本数据类型，好处是可以提供丰富的信息和更丰富的功能    \n",
+            "从基本数据类型到封装类类型不能自动转换    \n",
+            "从封装类类型到基本数据类型能自动转换，称为自动拆箱"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于基本类型的封装类，下列说法正确的是：(     )。",
+      "content": "关于基本类型的封装类，下列说法正确的是：(     )。\n\n*@[](2)\n\nA. 每种基本数据类型都有对应的封装类类型\n\nB. 封装类对于其基本数据类型，好处是可以提供丰富的信息和更丰富的功能    \n\nC. 从基本数据类型到封装类类型不能自动转换    \n\nD. 从封装类类型到基本数据类型能自动转换，称为自动拆箱",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "1366702908610281472",
+      "description": "关于基本类型的封装类，下列说法正确的是：(     )。\n",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1990595265456459779",
+      "label": "3-9",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "把基本变量赋值给一个类类型的变量，叫做自动装箱\n\n",
+            "把封装类的变量，赋值给基本数据类型，叫做自动拆箱。",
+            "封装类不仅仅可以包含这种类型的数值，还可以提供更多的功能和更多的信息。\n",
+            "自动装箱和自动拆箱是从jdk 1.0开始的。"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java中，关于自动装箱、自动拆箱、封装类，说法正确的是：（    ）",
+      "content": "Java中，关于自动装箱、自动拆箱、封装类，说法正确的是：（    ）\n\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "1407319995537784832",
+      "description": "Java中，关于自动装箱、自动拆箱、封装类，说法正确的是：（    ）\n\n",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1990595265456459780",
+      "label": "3-10",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "String str1\u003di+\"\";",
+            " String str2\u003dString.valueOf(i);\n",
+            " String str3\u003dInteger.toString(i);",
+            "String str4\u003dString.format(\"%d\", i);"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "基本类型转String--JAVA中如何将基本数据类型的数据转换成字符串?",
+      "content": "JAVA中如何将基本数据类型的数据转换成字符串? 以整型数据为例，现有一个整数： `int i\u003d100;` 下面哪种方式能够得到字符串`“123”`?\n\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1990595265414516736",
+      "problemId": "1424932853447487488",
+      "description": "JAVA中如何将基本数据类型的数据转换成字符串? 以整型数据为例，现有一个整数： `int i\u003d100;` 下面哪种方式能够得到字符串`“123”`?\n\n",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1990595265452265482": "3-1",
+    "1990595265452265483": "3-2",
+    "1990595265452265484": "3-3",
+    "1990595265452265485": "3-4",
+    "1990595265452265486": "3-5",
+    "1990595265456459776": "3-6",
+    "1990595265456459777": "3-7",
+    "1990595265456459778": "3-8",
+    "1990595265456459779": "3-9",
+    "1990595265456459780": "3-10"
+  }
+}

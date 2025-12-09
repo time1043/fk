@@ -1,6 +1,6 @@
 /* chrome console */
 // const urlListPz =
-const xLollipop =  "<X_LOLLIPOP>"
+const xLollipop = "<X_LOLLIPOP>";
 
 async function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));

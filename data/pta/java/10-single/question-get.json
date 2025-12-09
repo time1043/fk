@@ -1,0 +1,708 @@
+{
+  "organizationById": {
+    "17": {
+      "id": "17",
+      "name": "浙江传媒学院",
+      "code": "zumc",
+      "type": "SCHOOL",
+      "logo": "1adfb2e4-2999-43e0-a4e3-e0b71fce6ec0.png"
+    },
+    "263": {
+      "id": "263",
+      "name": "沈阳师范大学",
+      "code": "synu",
+      "type": "SCHOOL",
+      "logo": ""
+    },
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    },
+    "46": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "100": {
+      "id": "100",
+      "name": "西安邮电大学",
+      "code": "xiyou",
+      "type": "SCHOOL",
+      "logo": "3c7ba336-1d93-436b-ac4e-7668905dcd52.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1993122880329150464",
+      "label": "2-1",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "try块后至少应有一个catch 块",
+            "try块后必须有finally块",
+            "可能抛出异常的语句应放在try块中",
+            "对抛出的异常的处理应放在try块中"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面关于try块的说法正确的是?",
+      "content": "下面关于try块的说法正确的是?@[](2)\n\nA. try块后至少应有一个catch 块\nB. try块后必须有finally块\nC. 可能抛出异常的语句应放在try块中\nD. 对抛出的异常的处理应放在try块中\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1248215865863585792",
+      "description": "下面关于try块的说法正确的是?\n\n",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1993122880333344768",
+      "label": "2-2",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["RuntimeException", "Exception", "Error", "Throwable"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java异常类（Exception）是（      ）的子类。",
+      "content": "Java异常类（Exception）是（      ）的子类。    \n\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1258548665116610560",
+      "description": "Java异常类（Exception）是（      ）的子类。    \n\n",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1993122880333344769",
+      "label": "2-3",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "Welcome to Java, 然后是错误信息",
+            "Welcome to Java，下一行是 The finally clause is executed , 然后是错误信息.",
+            "替换为正确项",
+            "替换为错误项"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列程序的运行结果是（   ）。   ```public class Test {  public static void ma",
+      "content": "下列程序的运行结果是（   ）。   \n```\npublic class Test {\n  public static void main(String[] args) {\n    try {\n      System.out.println(\"Welcome to Java\");\n      int i \u003d 0;\n      int y \u003d 2 / i;\n      System.out.println(\"Welcome to HTML\");\n    }\n    finally {\n      System.out.println(\"The finally clause is executed\");\n    }\n  }\n}\n\n```\n\n\n@[](2)\n\nA. Welcome to Java, 然后是错误信息\nB. Welcome to Java，下一行是 The finally clause is executed , 然后是错误信息.\nC. 替换为正确项\nD. 替换为错误项",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1260109519738089472",
+      "description": "下列程序的运行结果是（   ）。   \n```\npublic class Test {\n  public static void main(String[] args) {\n    try {\n      System.out.println(\"Welcome to Java\");\n      int i \u003d 0;\n      int y \u003d 2 / i;\n      System.out.println(\"Welcome to HTML\");\n    }\n    finally {\n      System.out.println(\"The finally clause is executed\");\n    }\n  }\n}\n\n```\n\n",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1993122880333344770",
+      "label": "2-4",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "public void MyMethod()",
+            "public void MyMethod() throws TimedOutException",
+            "public void MyMethod() throw TimeOutException",
+            "public throws TimedOutException void MyMethod()"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "给定一个未完成的方法 ，代码如下：```//此处添加方法的声明{   int success\u003dconnect();   if(s",
+      "content": "给定一个未完成的方法 ，代码如下：\n```\n//此处添加方法的声明\n{\n   int success\u003dconnect();\n   if(success\u003d\u003d-1)\n      throw new TimedOutException();\n}\n```\n已知TimedOutException不属于RuntimeException，那么在第一行注释位置上填写哪段代码能够正确完成该方法的声明？\n@[](2)\n\nA. public void MyMethod()\nB. public void MyMethod() throws TimedOutException\nC. public void MyMethod() throw TimeOutException\nD. public throws TimedOutException void MyMethod()",
+      "type": "MULTIPLE_CHOICE",
+      "author": "李妙妍",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1336162235497869312",
+      "description": "给定一个未完成的方法 ，代码如下：\n```\n//此处添加方法的声明\n{\n   int success\u003dconnect();\n   if(success\u003d\u003d-1)\n      throw new TimedOutException();\n}\n```\n已知TimedOutException不属于RuntimeException，那么在第一行注释位置上填写哪段代码能够正确完成该方法的声明？",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "1993122880333344771",
+      "label": "2-5",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["Test 4", "Test 3", "Test 2", "Test 1"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "已知方法test()定义如下，在方法unsafe()运行正常的情况下哪条语句将肯定不会被输出？```public void te",
+      "content": "已知方法test()定义如下，在方法unsafe()运行正常的情况下哪条语句将肯定不会被输出？\n```\npublic void test( ){\ntry {\n   unsafe();\n   System.out.println(\"Test 4\");\n} catch(SafeException e) {\n   System.out.println(\"Test 3\");\n}finally{\n   System.out.println(\"Test 2\"); \n}\n   System.out.println(\"Test 1\"); \n}\n\n```\n@[](2)\n\nA. Test 4\nB. Test 3\nC. Test 2\nD. Test 1",
+      "type": "MULTIPLE_CHOICE",
+      "author": "李妙妍",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1336163275525877760",
+      "description": "已知方法test()定义如下，在方法unsafe()运行正常的情况下哪条语句将肯定不会被输出？\n```\npublic void test( ){\ntry {\n   unsafe();\n   System.out.println(\"Test 4\");\n} catch(SafeException e) {\n   System.out.println(\"Test 3\");\n}finally{\n   System.out.println(\"Test 2\"); \n}\n   System.out.println(\"Test 1\"); \n}\n\n```",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "1993122880333344772",
+      "label": "2-6",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["condition1", "condition2", "condition3", "condition4"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "已知下列代码，如果方法oneMethod()运行异常，则下列哪个语句肯定不会被输出？```public void example",
+      "content": "已知下列代码，如果方法oneMethod()运行异常，则下列哪个语句肯定不会被输出？\n```\npublic void example(){\n   try {\n   oneMethod();\n   System.out.println(\"condition1\");\n}catch(ArrayIndexOutOfBoundsException e) {\n   System.out.println(\"condition2\");\n}catch(Exception e) {\n   System.out.println(\"condition3\");\n}finally{\n   System.out.println(\"condition4\"); \n}\n\n```\n@[](2)\n\nA. condition1\nB. condition2\nC. condition3\nD. condition4",
+      "type": "MULTIPLE_CHOICE",
+      "author": "李妙妍",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1336166312222945280",
+      "description": "已知下列代码，如果方法oneMethod()运行异常，则下列哪个语句肯定不会被输出？\n```\npublic void example(){\n   try {\n   oneMethod();\n   System.out.println(\"condition1\");\n}catch(ArrayIndexOutOfBoundsException e) {\n   System.out.println(\"condition2\");\n}catch(Exception e) {\n   System.out.println(\"condition3\");\n}finally{\n   System.out.println(\"condition4\"); \n}\n\n```",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "1993122880333344773",
+      "label": "2-7",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["情况1\n", "情况2\n", "情况2finally", "情况3finally\n"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面程序在fun（ ）方法当出现数组下标超过界限的情况下，被ArrayIndexOutOfBoundsException类型的异",
+      "content": "下面程序在fun（ ）方法当出现数组下标超过界限的情况下，被ArrayIndexOutOfBoundsException类型的异常对象e所捕获。程序输出结果是：（   ）。\n```\npublic void test() {\n    try {\n       fun();\n       System.out.print(\"情况1\");\n     } catch (ArrayIndexOutOfBoundsException e) {\n         System.out.print(\"情况2\");\n     } catch (Exception e) {\n          System.out.print(\"情况3\");\n     } finally {\n         System.out.print(\"finally\");\n     }\n }\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1408045759057416192",
+      "description": "下面程序在fun（ ）方法当出现数组下标超过界限的情况下，被ArrayIndexOutOfBoundsException类型的异常对象e所捕获。程序输出结果是：（   ）。\n```\npublic void test() {\n    try {\n       fun();\n       System.out.print(\"情况1\");\n     } catch (ArrayIndexOutOfBoundsException e) {\n         System.out.print(\"情况2\");\n     } catch (Exception e) {\n          System.out.print(\"情况3\");\n     } finally {\n         System.out.print(\"finally\");\n     }\n }\n```",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993122880333344774",
+      "label": "2-8",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "如果程序错误，就使用try-catch语句处理异常；否则，不必处理\n",
+            "必须进行处理，或使用try-catch语句处理异常，或在调用方法上使用throws将其抛出\n",
+            "只能使用try-catch语句处理\n",
+            "可以置之不理\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "CheckedException--程序代码中包含产生CheckedException受检异常（非运行时异常）的语句时，（         ）。",
+      "content": "程序代码中包含产生CheckedException受检异常（非运行时异常）的语句时，（         ）。\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1424344215827185664",
+      "description": "程序代码中包含产生CheckedException受检异常（非运行时异常）的语句时，（         ）。\n",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993122880333344775",
+      "label": "2-9",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "异常是程序编写过程中代码的语法错误\n",
+            "异常是程序编写过程中代码的逻辑错误\n",
+            "异常出现后程序的运行马上中止\n",
+            "异常是可以捕获和处理的\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "异常的概念--关于Java中异常的叙述正确的是：（     ）。",
+      "content": "关于Java中异常的叙述，正确的是：（     ）。\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1424348906577457152",
+      "description": "关于Java中异常的叙述，正确的是：（     ）。\n",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993122880333344776",
+      "label": "2-10",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "程序运行过程中，若产生异常，它是某种异常类型的对象\n",
+            "一旦程序运行，异常对象将被创建\n",
+            "为了保证程序运行速度，要尽量避免异常控制\n",
+            "以上说法都不对\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "异常概念--关于异常，下列说法正确的是 (        )。",
+      "content": "关于异常，下列说法正确的是 (        )。\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1424349326678945792",
+      "description": "关于异常，下列说法正确的是 (        )。\n",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993122880337539072",
+      "label": "2-11",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["try\n", "catch\n", "throw和throws\n", "finally\n"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "throw和throws--Java中用来抛出异常的关键字是：（     ）。",
+      "content": "Java中用来抛出异常的关键字是：（     ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1424374304442937344",
+      "description": "Java中用来抛出异常的关键字是：（     ）。",
+      "problemPoolIndex": 11,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993122880337539073",
+      "label": "2-12",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "catch、try、finally\n",
+            "try、catch、finally\n",
+            "try、finally、exception\n",
+            "exception、try、finally\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "异常处理--将可能发生异常的代码放在（     ）语句块中，后面紧跟着一个或多个（     ）语句块，还可以再跟零个或一个（     ）语句块。",
+      "content": "在异常处理时，将可能发生异常的代码放在（     ）语句块中，后面紧跟着一个或多个（     ）语句块，还可以再跟零个或一个（     ）语句块。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1424374682806906880",
+      "description": "在异常处理时，将可能发生异常的代码放在（     ）语句块中，后面紧跟着一个或多个（     ）语句块，还可以再跟零个或一个（     ）语句块。",
+      "problemPoolIndex": 12,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993122880337539074",
+      "label": "2-13",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "异常父类在先，异常子类在后\n",
+            "异常子类在先，异常父类在后\n",
+            "有继承关系的异常不能同时出现在同一个try程序段之后\n",
+            "先后顺序无所谓"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "catch--关于try语句对应的多个catch子句中，若捕获的异常类型有父子类关系时，它们的排列下列哪种是正确的(        ) 。",
+      "content": "关于try语句对应的多个catch子句中，若捕获的异常类型有父子类关系时，它们的排列下列哪种是正确的(        ) 。\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1424376085763784704",
+      "description": "关于try语句对应的多个catch子句中，若捕获的异常类型有父子类关系时，它们的排列下列哪种是正确的(        ) 。\n",
+      "problemPoolIndex": 13,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993122880337539075",
+      "label": "2-14",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "try子句\n",
+            "catch子句\n",
+            "finally子句\n",
+            "throw子句\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "finally--在异常处理中，如释放资源、关闭文件、关闭数据库等由（     ）来完成。",
+      "content": "在异常处理中，如释放资源、关闭文件、关闭数据库等由（     ）来完成。\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1424376481219543040",
+      "description": "在异常处理中，如释放资源、关闭文件、关闭数据库等由（     ）来完成。\n",
+      "problemPoolIndex": 14,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993122880337539076",
+      "label": "2-15",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "try块不可以省略",
+            "可以使用多重catch块",
+            "finally块可以省略",
+            "catch块和finally块可以同时省略"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "以下描述不正确的有   ",
+      "content": "以下描述不正确的有   @[](1)\n\nA. try块不可以省略\nB. 可以使用多重catch块\nC. finally块可以省略\nD. catch块和finally块可以同时省略\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "郑如滨",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1205032579471040512",
+      "description": "以下描述不正确的有",
+      "problemPoolIndex": 15,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    {
+      "id": "1993122880337539077",
+      "label": "2-16",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "自定义异常必须继承Exception",
+            "自定义异常可以继承自Error",
+            "自定义异常可以更加明确定位异常出错的位置和给出详细出错信息",
+            "程序中已经提供了丰富的异常类，使用自定义异常没有意义"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "以下对自定义异常描述正确的是   ",
+      "content": "以下对自定义异常描述正确的是   @[](1)\n\nA. 自定义异常必须继承Exception\nB. 自定义异常可以继承自Error\nC. 自定义异常可以更加明确定位异常出错的位置和给出详细出错信息\nD. 程序中已经提供了丰富的异常类，使用自定义异常没有意义\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "郑如滨",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1205032751294906368",
+      "description": "以下对自定义异常描述正确的是",
+      "problemPoolIndex": 16,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    {
+      "id": "1993122880337539078",
+      "label": "2-17",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["GridLayout", "CardLayout", "BorderLayout", "BagLayout"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列哪一项不属于布局管理器? (    )",
+      "content": "下列哪一项不属于布局管理器? (    )   @[](2)\n\nA. GridLayout\nB. CardLayout\nC. BorderLayout\nD. BagLayout",
+      "type": "MULTIPLE_CHOICE",
+      "author": "张德慧",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "4539",
+      "description": "下列哪一项不属于布局管理器? (    )",
+      "problemPoolIndex": 17,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "100"
+    },
+    {
+      "id": "1993122880337539079",
+      "label": "2-18",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "Button b\u003dnew Button( );",
+            "button b\u003dnew button( );",
+            "Button b\u003dnew b( );",
+            "b.setLabel(“确定”);"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "声明并创建一个按钮对象b，应该使用的语句是（     ）",
+      "content": "声明并创建一个按钮对象b，应该使用的语句是（     ）   @[](2)\nA. Button b\u003dnew Button( );\t\nB. button b\u003dnew button( );\nC. Button b\u003dnew b( );\t\nD. b.setLabel(“确定”);",
+      "type": "MULTIPLE_CHOICE",
+      "author": "张德慧",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "4549",
+      "description": "声明并创建一个按钮对象b，应该使用的语句是（     ）",
+      "problemPoolIndex": 18,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "100"
+    },
+    {
+      "id": "1993122880337539080",
+      "label": "2-19",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "true false\n",
+            "true true\n",
+            "false false\n",
+            "false true\n\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "\u003d\u003d与equals--有如下程序代码， 程序运行的结果是（     ）。",
+      "content": "有如下程序代码， 程序运行的结果是（     ）。\n```\nString s1 \u003d \"sdut\";\nString s2 \u003d \"I love \" + s1;\nString s3 \u003d \"I love \" + s1;\nSystem.out.print(s2 \u003d\u003d s3);\nSytem.out.println(\" \"+s2.equals(s3));\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1408044345920421888",
+      "description": "有如下程序代码， 程序运行的结果是（     ）。\n```\nString s1 \u003d \"sdut\";\nString s2 \u003d \"I love \" + s1;\nString s3 \u003d \"I love \" + s1;\nSystem.out.print(s2 \u003d\u003d s3);\nSytem.out.println(\" \"+s2.equals(s3));\n```",
+      "problemPoolIndex": 19,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993122880337539081",
+      "label": "2-20",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["ABC\n", "BCD\n", "AB\n", "BC\n"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串构造方法--关于字符串的构造方法，如下代码执行结果是（     ）。",
+      "content": "关于字符串的构造方法，如下代码执行结果是（     ）。\n```\nString str\u003d\"ABCDEFG\";\nchar[] chars\u003dstr.toCharArray(); \nSystem.out.println(new String(chars,1,3));\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1424532887902089216",
+      "description": "关于字符串的构造方法，如下代码执行结果是（     ）。\n```\nString str\u003d\"ABCDEFG\";\nchar[] chars\u003dstr.toCharArray(); \nSystem.out.println(new String(chars,1,3));\n```",
+      "problemPoolIndex": 20,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1993122880329150464": "2-1",
+    "1993122880333344768": "2-2",
+    "1993122880333344769": "2-3",
+    "1993122880333344770": "2-4",
+    "1993122880333344771": "2-5",
+    "1993122880333344772": "2-6",
+    "1993122880333344773": "2-7",
+    "1993122880333344774": "2-8",
+    "1993122880333344775": "2-9",
+    "1993122880333344776": "2-10",
+    "1993122880337539072": "2-11",
+    "1993122880337539073": "2-12",
+    "1993122880337539074": "2-13",
+    "1993122880337539075": "2-14",
+    "1993122880337539076": "2-15",
+    "1993122880337539077": "2-16",
+    "1993122880337539078": "2-17",
+    "1993122880337539079": "2-18",
+    "1993122880337539080": "2-19",
+    "1993122880337539081": "2-20"
+  }
+}
