@@ -1,6 +1,6 @@
 # FK
 
-在线学习平台（PTA、高校邦）的自动答题工具。
+在线学习平台（PTA）的自动答题工具。
 
 [English](./README.md)
 
@@ -14,33 +14,33 @@ fk/
 │   │   ├── llm.js                 # LLM 集成
 │   │   └── prompt/                # AI 提示词
 │   ├── utils/                     # 通用工具
-│   │   ├── submit.js              # 提交辅助
-│   │   └── json.js                # JSON 工具
-│   ├── module/                    # 模块化业务逻辑（可导入）
-│   └── script/                    # 独立脚本
-│       ├── pta/                   # PTA 平台
-│       │   ├── single/            # 单选题脚本
-│       │   ├── multiple/          # 多选题脚本
-│       │   └── coder/             # 编程题脚本
-│       └── gaoxiaobang/           # 高校邦平台
+│   ├── cli/                       # CLI 入口（面向用户）
+│   │   └── pta/
+│   │       ├── single/            # 单选题 CLI
+│   │       ├── multiple/          # 多选题 CLI
+│   │       └── coder/             # 编程题 CLI
+│   ├── module/                    # 核心解析模块（纯逻辑）
+│   │   └── pta/
+│   │       ├── single/            # 单选题模块
+│   │       ├── multiple/          # 多选题模块
+│   │       └── coder/             # 编程题模块
+│   └── script/                    # 遗留脚本（早期尝试）
 └── data/                          # 数据存储
-    ├── pta/
-    │   ├── java/{章节}-{题型}/
-    │   ├── mysql/{章节}-{题型}/
-    │   └── network/{章节}-{题型}/
-    └── gaoxiaobang/
-        ├── java/{章节}/
-        └── xl/{章节}/
+    └── pta/
+        ├── java/{章节}-{题型}/
+        ├── mysql/{章节}-{题型}/
+        └── network/{章节}-{题型}/
 ```
 
 ### src/ 目录说明
 
-| 目录      | 说明                                  |
-| --------- | ------------------------------------- |
-| `lib/`    | 核心库（LLM、提示词）- 被其他代码导入 |
-| `utils/`  | 通用工具函数 - 被其他代码导入         |
-| `module/` | 模块化业务逻辑 - 融入模块系统         |
-| `script/` | 独立脚本 - 单独执行                   |
+| 目录      | 说明                                           |
+| --------- | ---------------------------------------------- |
+| `lib/`    | 核心库（LLM、提示词）- 被其他代码导入          |
+| `utils/`  | 通用工具函数 - 被其他代码导入                  |
+| `cli/`    | CLI 入口 - 处理参数、文件读写，调用 module     |
+| `module/` | 核心解析模块 - 纯数据转换，不涉及文件读写      |
+| `script/` | 遗留脚本 - 早期尝试，不推荐使用                |
 
 ## 命名规范
 
@@ -77,27 +77,67 @@ data/{平台}/{科目}/{章节}-{题型}/
 | `_`（单下划线）  | 本地 Node.js |
 | 无前缀           | 工具模块     |
 
-脚本命名示例：
-
-- `__question-get.js` - 浏览器获取题目
-- `__answer-get.js` - 浏览器获取答案
-- `__submit.js` - 浏览器提交答案
-- `_question-get-clean.js` - 本地清洗题目
-- `_answer-ai-clean.js` - 本地清洗 AI 答案
-- `_answer-get-clean.js` - 本地清洗获取的答案
-
 ## 使用方法
 
 ```bash
 # 安装依赖
 pnpm install
+```
 
-# 运行主脚本
-pnpm dev
+### 工作流程
 
-# 运行特定脚本（完整命令见 package.json）
-pnpm psqc    # PTA 单选题目清洗
-pnpm psaca   # PTA 单选 AI 答案清洗
+#### 单选题/多选题
+
+```
+1. 浏览器: 获取 url-list.json（题集信息）
+2. 浏览器: 执行 __question-get.js → question-get.json
+3. 本地:   pnpm sqg/mqg → question-get-clean.json
+4. AI:    生成答案 → answer-ai.json
+5. 本地:   pnpm saa/maa → answer-ai-clean.json
+6. 浏览器: 使用 answer-ai-clean.json 执行 __submit.js
+```
+
+#### 编程题
+
+```
+1. 浏览器: 获取 url-list.json（题集信息）
+2. 本地:   pnpm cuq → url-list-question-clean.json（题目 URL 列表）
+3. 浏览器: 使用 URL 列表执行 __question-get.js → question-get.json
+4. 本地:   pnpm cqg:java/sql → question-get-clean.json
+5. AI:    生成答案 → answer-ai.json
+6. 本地:   pnpm caa:java → answer-ai-clean.json
+7. 浏览器: 使用 answer-ai-clean.json 执行 __submit.js
+
+# 或者获取已有答案:
+2. 本地:   pnpm cua → url-list-answer-clean.json（答案 URL 列表）
+3. 浏览器: 使用 URL 列表执行 __answer-get.js → answer-get.json
+4. 本地:   pnpm cag:java → answer-get-clean.json
+```
+
+### 命令
+
+```bash
+# 初始化数据目录
+pnpm s:init <data-dir>   # 单选/多选: 创建 question-get.json, answer-ai.json
+pnpm c:init <data-dir>   # 编程题: 创建 question-get.json, answer-ai.json, answer-get.json, url-list.json
+
+# 单选题
+pnpm sqg <data-dir>     # 清洗题目
+pnpm saa <data-dir>     # 清洗 AI 答案
+
+# 多选题
+pnpm mqg <data-dir>     # 清洗题目
+pnpm maa <data-dir>     # 清洗 AI 答案
+
+# 编程题 (Java)
+pnpm cqg:java <data-dir>    # 清洗题目
+pnpm cag:java <data-dir>    # 清洗获取的答案
+pnpm caa:java <data-dir>    # 清洗 AI 答案
+pnpm cuq <data-dir> <url>   # 生成题目 URL 列表
+pnpm cua <data-dir> <url>   # 生成答案 URL 列表
+
+# 编程题 (SQL)
+pnpm cqg:sql <data-dir>     # 清洗题目
 ```
 
 ## 技术栈

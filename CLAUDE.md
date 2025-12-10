@@ -1,5 +1,9 @@
 # Project Rules
 
+## Important Rules
+
+- **NEVER read the contents of `.json` files in the `data/` directory** - These files are large and not useful for development. You may list the directory structure (`ls`), but do not read file contents.
+
 ## Documentation
 
 - README.md should be written in English by default
@@ -84,3 +88,4 @@ src/
 
 - Use ESM modules (`import`/`export`)
 - Project uses pnpm as package manager
+- **All code comments must be in English** - No Chinese in `.js` files (except `src/lib/prompt/` for AI prompts)

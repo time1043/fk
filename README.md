@@ -1,6 +1,6 @@
 # FK
 
-An automated question-answering tool for online learning platforms (PTA, Gaoxiaobang).
+An automated question-answering tool for online learning platforms (PTA).
 
 [中文文档](./README.zh.md)
 
@@ -14,33 +14,33 @@ fk/
 │   │   ├── llm.js                 # LLM integration
 │   │   └── prompt/                # AI prompts
 │   ├── utils/                     # Shared utilities
-│   │   ├── submit.js              # Submit helper
-│   │   └── json.js                # JSON utilities
-│   ├── module/                    # Modular business logic (importable)
-│   └── script/                    # Standalone scripts
-│       ├── pta/                   # PTA platform
-│       │   ├── single/            # Single choice scripts
-│       │   ├── multiple/          # Multiple choice scripts
-│       │   └── coder/             # Programming scripts
-│       └── gaoxiaobang/           # Gaoxiaobang platform
+│   ├── cli/                       # CLI entry points (user-facing)
+│   │   └── pta/
+│   │       ├── single/            # Single choice CLI
+│   │       ├── multiple/          # Multiple choice CLI
+│   │       └── coder/             # Programming CLI
+│   ├── module/                    # Core parsing modules (pure logic)
+│   │   └── pta/
+│   │       ├── single/            # Single choice modules
+│   │       ├── multiple/          # Multiple choice modules
+│   │       └── coder/             # Programming modules
+│   └── script/                    # Legacy scripts (early experiments)
 └── data/                          # Data storage
-    ├── pta/
-    │   ├── java/{chapter}-{type}/
-    │   ├── mysql/{chapter}-{type}/
-    │   └── network/{chapter}-{type}/
-    └── gaoxiaobang/
-        ├── java/{chapter}/
-        └── xl/{chapter}/
+    └── pta/
+        ├── java/{chapter}-{type}/
+        ├── mysql/{chapter}-{type}/
+        └── network/{chapter}-{type}/
 ```
 
 ### src/ Directory
 
-| Directory | Description                                                |
-| --------- | ---------------------------------------------------------- |
-| `lib/`    | Core libraries (LLM, prompts) - imported by other code     |
-| `utils/`  | Shared utility functions - imported by other code          |
-| `module/` | Modular business logic - integrated into the module system |
-| `script/` | Standalone scripts - executed independently                |
+| Directory | Description                                                      |
+| --------- | ---------------------------------------------------------------- |
+| `lib/`    | Core libraries (LLM, prompts) - imported by other code           |
+| `utils/`  | Shared utility functions - imported by other code                |
+| `cli/`    | CLI entry points - handles args, file I/O, calls module          |
+| `module/` | Core parsing modules - pure data transformation, no file I/O     |
+| `script/` | Legacy scripts - early experiments, not recommended              |
 
 ## Naming Conventions
 
@@ -77,27 +77,67 @@ Question types (full name, no abbreviation):
 | `_` (single underscore)  | Local Node.js         |
 | No prefix                | Utility modules       |
 
-Script naming examples:
-
-- `__question-get.js` - Fetch questions in browser
-- `__answer-get.js` - Fetch answers in browser
-- `__submit.js` - Submit answers in browser
-- `_question-get-clean.js` - Clean questions locally
-- `_answer-ai-clean.js` - Clean AI answers locally
-- `_answer-get-clean.js` - Clean fetched answers locally
-
 ## Usage
 
 ```bash
 # Install dependencies
 pnpm install
+```
 
-# Run main script
-pnpm dev
+### Workflow
 
-# Run specific scripts (see package.json for all commands)
-pnpm psqc    # PTA single question clean
-pnpm psaca   # PTA single answer clean from AI
+#### Single/Multiple Choice
+
+```
+1. Browser: Get url-list.json (problem set info)
+2. Browser: Run __question-get.js → question-get.json
+3. Local:   pnpm sqg/mqg → question-get-clean.json
+4. AI:     Generate answers → answer-ai.json
+5. Local:   pnpm saa/maa → answer-ai-clean.json
+6. Browser: Run __submit.js with answer-ai-clean.json
+```
+
+#### Coder (Programming)
+
+```
+1. Browser: Get url-list.json (problem set info)
+2. Local:   pnpm cuq → url-list-question-clean.json (question URLs)
+3. Browser: Run __question-get.js with URLs → question-get.json
+4. Local:   pnpm cqg:java/sql → question-get-clean.json
+5. AI:     Generate answers → answer-ai.json
+6. Local:   pnpm caa:java → answer-ai-clean.json
+7. Browser: Run __submit.js with answer-ai-clean.json
+
+# Or fetch existing answers:
+2. Local:   pnpm cua → url-list-answer-clean.json (answer URLs)
+3. Browser: Run __answer-get.js with URLs → answer-get.json
+4. Local:   pnpm cag:java → answer-get-clean.json
+```
+
+### Commands
+
+```bash
+# Initialize data directory
+pnpm s:init <data-dir>   # For single/multiple: creates question-get.json, answer-ai.json
+pnpm c:init <data-dir>   # For coder: creates question-get.json, answer-ai.json, answer-get.json, url-list.json
+
+# Single choice
+pnpm sqg <data-dir>     # Clean questions
+pnpm saa <data-dir>     # Clean AI answers
+
+# Multiple choice
+pnpm mqg <data-dir>     # Clean questions
+pnpm maa <data-dir>     # Clean AI answers
+
+# Coder (Java)
+pnpm cqg:java <data-dir>    # Clean questions
+pnpm cag:java <data-dir>    # Clean fetched answers
+pnpm caa:java <data-dir>    # Clean AI answers
+pnpm cuq <data-dir> <url>   # Generate question URLs
+pnpm cua <data-dir> <url>   # Generate answer URLs
+
+# Coder (SQL)
+pnpm cqg:sql <data-dir>     # Clean questions
 ```
 
 ## Tech Stack
