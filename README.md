@@ -1,5 +1,7 @@
 # FK
 
+> **Note**: This documentation is AI-generated and may contain errors.
+
 An automated question-answering tool for online learning platforms (PTA).
 
 [中文文档](./README.zh.md)
@@ -34,13 +36,13 @@ fk/
 
 ### src/ Directory
 
-| Directory | Description                                                      |
-| --------- | ---------------------------------------------------------------- |
-| `lib/`    | Core libraries (LLM, prompts) - imported by other code           |
-| `utils/`  | Shared utility functions - imported by other code                |
-| `cli/`    | CLI entry points - handles args, file I/O, calls module          |
-| `module/` | Core parsing modules - pure data transformation, no file I/O     |
-| `script/` | Legacy scripts - early experiments, not recommended              |
+| Directory | Description                                                  |
+| --------- | ------------------------------------------------------------ |
+| `lib/`    | Core libraries (LLM, prompts) - imported by other code       |
+| `utils/`  | Shared utility functions - imported by other code            |
+| `cli/`    | CLI entry points - handles args, file I/O, calls module      |
+| `module/` | Core parsing modules - pure data transformation, no file I/O |
+| `script/` | Legacy scripts - early experiments, not recommended          |
 
 ## Naming Conventions
 
@@ -89,29 +91,35 @@ pnpm install
 #### Single/Multiple Choice
 
 ```
-1. Browser: Get url-list.json (problem set info)
-2. Browser: Run __question-get.js → question-get.json
-3. Local:   pnpm sqg/mqg → question-get-clean.json
-4. AI:     Generate answers → answer-ai.json
-5. Local:   pnpm saa/maa → answer-ai-clean.json
-6. Browser: Run __submit.js with answer-ai-clean.json
+1. Browser: Refresh page, capture ajax response from Network panel → question-get.json
+2. Local:   pnpm sqg/mqg → question-get-clean.json
+
+3. AI:     Generate answers → answer-ai.json
+4. Local:   pnpm saa/maa → answer-ai-clean.json
+
+5. Browser: Run __submit.js with answer-ai-clean.json
 ```
 
 #### Coder (Programming)
 
 ```
 1. Browser: Get url-list.json (problem set info)
+
 2. Local:   pnpm cuq → url-list-question-clean.json (question URLs)
 3. Browser: Run __question-get.js with URLs → question-get.json
 4. Local:   pnpm cqg:java/sql → question-get-clean.json
+
 5. AI:     Generate answers → answer-ai.json
 6. Local:   pnpm caa:java → answer-ai-clean.json
+
 7. Browser: Run __submit.js with answer-ai-clean.json
 
+
 # Or fetch existing answers:
-2. Local:   pnpm cua → url-list-answer-clean.json (answer URLs)
-3. Browser: Run __answer-get.js with URLs → answer-get.json
-4. Local:   pnpm cag:java → answer-get-clean.json
+4. Local:   pnpm cua → url-list-answer-clean.json (answer URLs)
+
+5. Browser: Run __answer-get.js with URLs → answer-get.json
+6. Local:   pnpm cag:java → answer-get-clean.json
 ```
 
 ### Commands

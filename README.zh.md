@@ -1,5 +1,7 @@
 # FK
 
+> **注意**：本文档由 AI 生成，可能存在错误。
+
 在线学习平台（PTA）的自动答题工具。
 
 [English](./README.md)
@@ -34,13 +36,13 @@ fk/
 
 ### src/ 目录说明
 
-| 目录      | 说明                                           |
-| --------- | ---------------------------------------------- |
-| `lib/`    | 核心库（LLM、提示词）- 被其他代码导入          |
-| `utils/`  | 通用工具函数 - 被其他代码导入                  |
-| `cli/`    | CLI 入口 - 处理参数、文件读写，调用 module     |
-| `module/` | 核心解析模块 - 纯数据转换，不涉及文件读写      |
-| `script/` | 遗留脚本 - 早期尝试，不推荐使用                |
+| 目录      | 说明                                       |
+| --------- | ------------------------------------------ |
+| `lib/`    | 核心库（LLM、提示词）- 被其他代码导入      |
+| `utils/`  | 通用工具函数 - 被其他代码导入              |
+| `cli/`    | CLI 入口 - 处理参数、文件读写，调用 module |
+| `module/` | 核心解析模块 - 纯数据转换，不涉及文件读写  |
+| `script/` | 遗留脚本 - 早期尝试，不推荐使用            |
 
 ## 命名规范
 
@@ -89,29 +91,35 @@ pnpm install
 #### 单选题/多选题
 
 ```
-1. 浏览器: 获取 url-list.json（题集信息）
-2. 浏览器: 执行 __question-get.js → question-get.json
-3. 本地:   pnpm sqg/mqg → question-get-clean.json
-4. AI:    生成答案 → answer-ai.json
-5. 本地:   pnpm saa/maa → answer-ai-clean.json
-6. 浏览器: 使用 answer-ai-clean.json 执行 __submit.js
+1. 浏览器: 刷新页面，从 Network 面板拦截 ajax 响应 → question-get.json
+2. 本地:   pnpm sqg/mqg → question-get-clean.json
+
+3. AI:    生成答案 → answer-ai.json
+4. 本地:   pnpm saa/maa → answer-ai-clean.json
+
+5. 浏览器: 使用 answer-ai-clean.json 执行 __submit.js
 ```
 
 #### 编程题
 
 ```
 1. 浏览器: 获取 url-list.json（题集信息）
+
 2. 本地:   pnpm cuq → url-list-question-clean.json（题目 URL 列表）
 3. 浏览器: 使用 URL 列表执行 __question-get.js → question-get.json
 4. 本地:   pnpm cqg:java/sql → question-get-clean.json
+
 5. AI:    生成答案 → answer-ai.json
 6. 本地:   pnpm caa:java → answer-ai-clean.json
+
 7. 浏览器: 使用 answer-ai-clean.json 执行 __submit.js
+
 
 # 或者获取已有答案:
 2. 本地:   pnpm cua → url-list-answer-clean.json（答案 URL 列表）
-3. 浏览器: 使用 URL 列表执行 __answer-get.js → answer-get.json
-4. 本地:   pnpm cag:java → answer-get-clean.json
+
+5. 浏览器: 使用 URL 列表执行 __answer-get.js → answer-get.json
+6. 本地:   pnpm cag:java → answer-get-clean.json
 ```
 
 ### 命令
