@@ -1,0 +1,1494 @@
+{
+  "organizationById": {
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    },
+    "205": {
+      "id": "205",
+      "name": "兰州大学",
+      "code": "lzu",
+      "type": "SCHOOL",
+      "logo": "ab16eeb2-105d-498b-aa50-8dd591540d99.png"
+    },
+    "262": {
+      "id": "262",
+      "name": "天津仁爱学院",
+      "code": "tjrac",
+      "type": "SCHOOL",
+      "logo": ""
+    },
+    "46": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1993858468363485188",
+      "label": "",
+      "score": 3,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": ["0", "1", "2", "不受限制"],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "一个Java源文件中可以有（     ）个公共类？",
+      "content": "一个Java源文件中可以有（     ）个公共类？\n*@[](2)\n\nA. 0\nB. 1\nC. 2\nD. 不受限制",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1366701816367382528",
+      "description": "一个Java源文件中可以有（     ）个公共类？",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468363485189",
+      "label": "",
+      "score": 3,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "调用print、println都可以输出各种数据类型的数据，二者没有什么差别",
+            "兼容C语言中的printf方法，可以按指定格式的字符串形式输出数据",
+            "如果不进行输出重定向，标准输出意味着输出到屏幕上",
+            "System.out.println();    可以输出一个空行"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在Java中，关于数据的标准输出System.out，哪些说法是正确的?",
+      "content": "在Java中，关于数据的标准输出System.out，哪些说法是正确的?",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1367338226578362368",
+      "description": "在Java中，关于数据的标准输出System.out，哪些说法是正确的?",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468363485190",
+      "label": "",
+      "score": 3,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "单行注释形式为：//****",
+            "多行注释形式为：\n```\n/*\n*****\n*/\n```",
+            "文档注释形式为：\n```\n/**\n*****\n*/\n```",
+            "注释的作用是增加程序的可读性。"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于Java中的注释，哪些说法是正确的？",
+      "content": "关于Java中的注释，哪些说法是正确的？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1367338537418231808",
+      "description": "关于Java中的注释，哪些说法是正确的？",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468363485191",
+      "label": "",
+      "score": 3,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "Java编译器",
+            "Java运行工具",
+            "Java文档生成工具",
+            "Java打包工具"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "以下选项中，哪些属于JDK工具？",
+      "content": "以下选项中，哪些属于JDK工具？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1367338941208072192",
+      "description": "以下选项中，哪些属于JDK工具？",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468363485192",
+      "label": "",
+      "score": 3,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "`//单行注释`",
+            "```\n/* \n多行注释 \n*/\n```",
+            "```\n/** \n文档注释 \n*/\n```",
+            "```\n/** \n多行注释 \n**/\n```"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "JAVA中的注释有几种？",
+      "content": "JAVA中的注释有几种？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1367339070308749312",
+      "description": "JAVA中的注释有几种？",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468363485193",
+      "label": "",
+      "score": 3,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "JDK就是Java Development Kit，Java开发工具，它包含JRE。",
+            "JRE就是Java runtime environment，即：Java运行环境，包括：JVM、类库以及其他环境",
+            "JVM 就是Java virtual machine，即：Java虚拟机，是由软代码组成的一个模拟的计算机，负责程序的执行",
+            "Java是编译型语言\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于JDK、JRE、JVM的含义及其关系，下列哪种说法是正确的？",
+      "content": "关于JDK、JRE、JVM的含义及其关系，下列哪种说法是正确的？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1406598066752110592",
+      "description": "关于JDK、JRE、JVM的含义及其关系，下列哪种说法是正确的？",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468363485194",
+      "label": "",
+      "score": 4,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "Float a\u003d1.0;",
+            "double a\u003d1.0;",
+            "out.println(\"hello\");",
+            "DatagramSocket a \u003d new DatagramSocket()；"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面Java语句错误的有？",
+      "content": "下面Java语句错误的有？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "马俊",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1475293586962628608",
+      "description": "下面Java语句错误的有？",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "205"
+    },
+    {
+      "id": "1993858468363485195",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "String s[]\u003d{\"Zero\",\"One\",\"Two\",\"Three\",\"Four\"};",
+            "String s[5]\u003dnew String[]{\"Zero\",\"One\",\"Two\",\"Three\",\"Four\"};",
+            "String s[]\u003dnew String[]{\"Zero\",\"One\",\"Two\",\"Three\",\"Four\"};",
+            "String s[]\u003dnew String(){\"Zero\",\"One\",\"Two\",\"Three\",\"Four\"};"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java语言中，下列有关使用String类的语句中哪几项是正确的？",
+      "content": "Java语言中，下列有关使用String类的语句中哪几项是正确的？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "马俊",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1403190284989124608",
+      "description": "Java语言中，下列有关使用String类的语句中哪几项是正确的？",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "205"
+    },
+    {
+      "id": "1993858468363485196",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 5,
+          "choices": [
+            "String str1\u003d\"imooc\";\n",
+            "String str2\u003dnew String();\n",
+            "String str3\u003dnew String(\"imooc\");\n",
+            "String str4\u003d\"abc\"+\"123\";\n",
+            "String str5\u003dstr1.toUpperCase();\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串构造方法--String类对象的创建方式包括：（        ）。",
+      "content": "String类对象的创建方式包括：（        ）。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424547902356975616",
+      "description": "String类对象的创建方式包括：（        ）。",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468363485197",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "```java\nString s \u003d \"Gone with the wind\";\nString t \u003d \" good \";\nString k \u003d s + t;\n```\n",
+            "```java\nString s \u003d \"Gone with the wind\";\nString t;\nt \u003d s[3] + \"one\"; \n```\n",
+            "```java\nString s \u003d \"Gone with the wind\";\nString standard \u003d s.toUpperCase();\n```",
+            "```java\nString s \u003d \"home directory\";\nString t \u003d s - \"directory\";\n```"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面的哪些Java程序片断可能导致错误。",
+      "content": "下面的哪些Java程序片断可能导致错误。 ",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "LFL",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1504812088726589440",
+      "description": "下面的哪些Java程序片断可能导致错误。 ",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    },
+    {
+      "id": "1993858468363485198",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": ["基本数据类型", "整数类型", "浮点类型", "引用型数据类型"],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java中的数据类型可以分为两大类，分别是：（    ）和（    ）。",
+      "content": "Java中的数据类型可以分为两大类，分别是：（    ）和（    ）。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1372405005445656576",
+      "description": "Java中的数据类型可以分为两大类，分别是：（    ）和（    ）。",
+      "problemPoolIndex": 11,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468363485199",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "String str\u003d\u00271\u0027;\n",
+            "char ch1\u003d\"a\";",
+            "char ch2\u003d\"abc\".charAt(0);",
+            "String str1\u003d\"a\";"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于String与char类型，下列哪种赋值合法？",
+      "content": "关于String与char类型，下列哪种赋值合法？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1372410354525392896",
+      "description": "关于String与char类型，下列哪种赋值合法？",
+      "problemPoolIndex": 12,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468363485200",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "int a\u003d20;a++;\n\na的值是21。\n",
+            "int a\u003d20;int b\u003da++;\n\nb的值是21。\n",
+            "int a\u003d20;int b\u003d++a;\n\nb的值是21。\n",
+            "int a\u003d3++; \n\na的值是3。\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java中,以下表达式说法正确的是：（     ）。",
+      "content": "Java中,以下表达式说法正确的是：（     ）。\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1407335179186667520",
+      "description": "Java中,以下表达式说法正确的是：（     ）。\n",
+      "problemPoolIndex": 13,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468363485201",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "byte b\u003d340;",
+            " Boolean b\u003d1;",
+            "long l\u003d-2;",
+            "double d\u003d0.9239d;"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在Java中，下列赋值语句哪些是正确的：",
+      "content": "在Java中，下列赋值语句哪些是正确的：\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "马俊",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1475289942602088448",
+      "description": "在Java中，下列赋值语句哪些是正确的：\n",
+      "problemPoolIndex": 14,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "205"
+    },
+    {
+      "id": "1993858468363485202",
+      "label": "3-2",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 6,
+          "choices": [
+            "float f\u003d12.34;",
+            "byte b\u003d23;",
+            "float f1\u003d100;",
+            "long l\u003d23.3;",
+            "float f2\u003d100L;",
+            "char ch\u003d100;"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列赋值哪项赋值是不正确的？",
+      "content": "下列赋值哪项赋值是不正确的？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1372407841097109504",
+      "description": "下列赋值哪项赋值是不正确的？",
+      "problemPoolIndex": 15,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468363485203",
+      "label": "3-3",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "所有switch-case语句都可以用if语句进行改写\n",
+            "所有if语句都可以用switch-case语句进行改写\n",
+            "switch-case语句用于等值判断\n",
+            "if语句可用于等值判断，也可用于区间判断，有时要用结构比较复杂的嵌套\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "switch-case语句与if语句相比，说法正确的是：",
+      "content": "switch-case语句与if语句相比，说法正确的是：\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1407339882985394176",
+      "description": "switch-case语句与if语句相比，说法正确的是：\n",
+      "problemPoolIndex": 16,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679488",
+      "label": "3-4",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": ["0", "1", "true\n", "false"],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在Java语言的if结构中，是否执行该分支结构的判断条件表达式的运算结果可能是：（     ）。",
+      "content": "在Java语言的if结构中，是否执行该分支结构的判断条件表达式的运算结果可能是：（     ）。\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1407341927364661248",
+      "description": "在Java语言的if结构中，是否执行该分支结构的判断条件表达式的运算结果可能是：（     ）。\n",
+      "problemPoolIndex": 17,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679489",
+      "label": "3-5",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "```\nif(  )\n{    } \n```",
+            "```\nif(  )\n{  }\nelse\n{  }\n```",
+            "```\nif(  )\n{   }\nelse if(  )\n{  }\nelse if(  )\n{  }\n```",
+            "```\nif(  )\n{  }\nelse if(  )\n{  }\nelse if(  )\n{  }\nelse\n{  }\t\n```\n\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面关于Java中的if结构形式，哪些是合法的? ",
+      "content": "下面关于Java中的if结构形式，哪些是合法的?\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424178205149036544",
+      "description": "下面关于Java中的if结构形式，哪些是合法的?\n",
+      "problemPoolIndex": 18,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679490",
+      "label": "3-1",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "TestA.a\u003d100;",
+            "testA1.a\u003d100; ",
+            "testA2.a\u003d100;",
+            "以上都不对"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "有如下TestA类的定义：",
+      "content": "有如下TestA类的定义：\n```\npublic class TestA {\n    static int a\u003d10;\n}\n```\n用该类创建2个对象：testA1和testA2，现将类变量（静态变量）a的数值变为100，则正确的方式是：（    ）。\n\n*@[](2)\n\nA. TestA.a\u003d100;\nB. testA1.a\u003d100; \nC. testA2.a\u003d100;\nD. 以上都不对",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1366703432059420672",
+      "description": "有如下TestA类的定义：\n```\npublic class TestA {\n    static int a\u003d10;\n}\n```\n用该类创建2个对象：testA1和testA2，现将类变量（静态变量）a的数值变为100，则正确的方式是：（    ）。\n",
+      "problemPoolIndex": 19,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679491",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "方法名必须和类名相同\n",
+            "在方法中不能return语句返回一个值\n",
+            "\n方法名的前面有返回值类型的声明",
+            "当定义了带参数的构造方法，系统默认的不带参数的构造方法依然存在"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面关于构造方法的描述，正确的有哪些？（    ）   (2.0分)",
+      "content": "下面关于构造方法的描述，正确的有哪些？（    ）   (2.0分)\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1407944003036155904",
+      "description": "下面关于构造方法的描述，正确的有哪些？（    ）   (2.0分)\n",
+      "problemPoolIndex": 20,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679492",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "实例变量是类的成员变量\n",
+            "实例变量用关键字static声明",
+            "在方法中定义的局部变量，在该方法被执行时创建",
+            "局部变量在使用前必须被初始化"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面关于变量及其作用域范围的陈述哪些是正确的（    ）。",
+      "content": "下面关于变量及其作用域范围的陈述哪些是正确的（    ）。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1412050135989342208",
+      "description": "下面关于变量及其作用域范围的陈述哪些是正确的（    ）。",
+      "problemPoolIndex": 21,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679493",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "```\nimport cn.sdut.A;\nimport cn.sdut.B;\nimport cn.sdut.cs.C;\nimport cn.sdut.cs.D;\n```\n",
+            "```\nimport cn.sdut.*;\n\n```\n",
+            "```\nimport cn.sdut.*;\nimport cn.sdut.cs.*;\n```\n",
+            "```\nimport cn.sdut.cs.*;\n```\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "import--若在cn.sdut包中有A、B类，在cn.sdut.cs包中有C、D",
+      "content": "若在cn.sdut包中有A、B类，在cn.sdut.cs包中有C、D类，在default package中如果要使用到A、B、C、D 4个类时，引入方式为：(    )。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424204875780259840",
+      "description": "若在cn.sdut包中有A、B类，在cn.sdut.cs包中有C、D类，在default package中如果要使用到A、B、C、D 4个类时，引入方式为：(    )。",
+      "problemPoolIndex": 22,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679494",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": ["private\n", "默认\n", "protected\n", "public\n"],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "访问权限--位于不同包但具有父子类关系，父类中哪些访问权限修饰的成员，在子类访问时不受限制?（     ）",
+      "content": "类中哪些访问权限修饰的成员，在子类访问时不受限制?（     ）",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424211352247070720",
+      "description": "类中哪些访问权限修饰的成员，在子类访问时不受限制?（     ）",
+      "problemPoolIndex": 23,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679495",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "数组元素未人为赋值之前不能进行访问\n",
+            "数组元素都有默认值\n",
+            "基本数据类型中数值类型数组，元素默认值为0；布尔类型数组，元素默认值为false。\n",
+            "引用数据类型的数组，其数组元素默认值为null\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java中的数组在声明并分配了空间之后，关于其数组元素，哪些说法是正确的？（     ）",
+      "content": "Java中的数组在声明并分配了空间之后，关于其数组元素，哪些说法是正确的？（     ）\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1407342868360781824",
+      "description": "Java中的数组在声明并分配了空间之后，关于其数组元素，哪些说法是正确的？（     ）\n",
+      "problemPoolIndex": 24,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679496",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "```\nSystem.out.println(list.toString());\n\n```\n",
+            "```\nfor (int i \u003d 0; i \u003c list.size(); i++)\n{\n    System.out.println(list.get(i));  \n}\n```\n",
+            "```\nfor (Object obj : list)\n{\n    System.out.println(obj);  \n}\n```\n",
+            "```\nIterator it \u003d list.iterator();   \nwhile (it.hasNext())\n{ \n     System.out.println(it.next());  \n}\n```\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "List遍历--List类型的对象list，可以以几种形式输出其内容（    ）？",
+      "content": "List类型的对象list可以以几种形式输出其内容（    ）？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424622659513466880",
+      "description": "List类型的对象list可以以几种形式输出其内容（    ）？",
+      "problemPoolIndex": 25,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679497",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "hasNext()\n",
+            "next()\n",
+            "remove()\n",
+            "nextElement()\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Iterator方法--迭代器接口（Iterator）所定义的方法有（     ）。 ",
+      "content": "迭代器接口（Iterator）所定义的方法有（     ）。 ",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424624665166704640",
+      "description": "迭代器接口（Iterator）所定义的方法有（     ）。 ",
+      "problemPoolIndex": 26,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679498",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "```\nSystem.out.println(set.toString());\n```\n",
+            "```\nfor (int i \u003d 0; i \u003c set.size(); i++)\n{ \n    System.out.println(set.get(i)); \n}\n```\n",
+            "```\nfor (Object obj : set) \n{\n    System.out.println(obj);\n}\n```\n",
+            "```\nIterator it \u003d set.iterator();  \nwhile (it.hasNext()) \n{  \n    System.out.println(it.next());\n}\n```\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Set遍历--Set类型的对象set可以以几种形式输出其内容（ ）？",
+      "content": "对于Set类型的对象set，可以以几种形式输出其内容（ ）？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424629931027296256",
+      "description": "对于Set类型的对象set，可以以几种形式输出其内容（ ）？",
+      "problemPoolIndex": 27,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679499",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 5,
+          "choices": [
+            "HashMap\n",
+            "HashSet\n",
+            "TreeMap\n",
+            "LinkedList\n",
+            "LinkedHashMap"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "有序集合--在JAVA集合框架中，下面哪些类型所表示的对象是有序的？（       ）",
+      "content": "在JAVA集合框架中，下面哪些类型所表示的对象是有序的？（       ）",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424636625547522048",
+      "description": "在JAVA集合框架中，下面哪些类型所表示的对象是有序的？（       ）",
+      "problemPoolIndex": 28,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679500",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "抽象类没有构造函数",
+            "接口没有构造函数",
+            "抽象类不允许多继承",
+            "接口中的方法可以有方法体"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "接口和抽象类描述正确的有   *",
+      "content": "接口和抽象类描述正确的有   *@[](1)\n\nA. 抽象类没有构造函数\nB. 接口没有构造函数\nC. 抽象类不允许多继承\nD. 接口中的方法可以有方法体\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "郑如滨",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1205030494683848704",
+      "description": "接口和抽象类描述正确的有",
+      "problemPoolIndex": 29,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    {
+      "id": "1993858468367679501",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": ["public\n", "static\n", "final\n", "void\n"],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "interface--接口中定义常量（变量）时，默认含有哪些修饰符？",
+      "content": "接口中定义常量（变量）时，默认含有哪些修饰符？(     )\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424340425556295680",
+      "description": "接口中定义常量（变量）时，默认含有哪些修饰符？(     )\n",
+      "problemPoolIndex": 30,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679502",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "利用该类对象调用nextXxxxx()方法来输入相应数据类型的数据",
+            "利用该类对象调用next()和nextLine()方法均可输入字符串，二者功能无差别",
+            "该类构造方法接收一个参数，表示数据的来源",
+            "Scanner类位于java.util包中。"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在Java中，利用java.util.Scanner类输入数据，哪些说法是T的？",
+      "content": "在Java中，利用java.util.Scanner类输入数据，哪些说法是T的？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1367337685483786240",
+      "description": "在Java中，利用java.util.Scanner类输入数据，哪些说法是T的？",
+      "problemPoolIndex": 31,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679503",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "Float在java.lang包中\n",
+            "Float a\u003d1.0; 是正确的赋值方法\n",
+            "Float是一个类",
+            "Float a\u003d new Float(1.0); 是正确的赋值方法\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于封装类Float，下列说法正确的是（      ）。",
+      "content": "关于封装类Float，下列说法正确的是（      ）。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1407319484327452672",
+      "description": "关于封装类Float，下列说法正确的是（      ）。",
+      "problemPoolIndex": 32,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679504",
+      "label": "3-7",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 7,
+          "choices": [
+            "random()\n",
+            "sqrt()\n",
+            "abs()\n",
+            "pow()\n",
+            "exp()",
+            "ceil()",
+            "floor()"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Math方法--下列哪些方法属于java.lang.Math类（        ）?",
+      "content": "下列哪些方法属于java.lang.Math类（        ）?",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424637836296306688",
+      "description": "下列哪些方法属于java.lang.Math类（        ）?",
+      "problemPoolIndex": 33,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679505",
+      "label": "3-8",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "每种基本数据类型都有对应的封装类类型\n",
+            "封装类对于其基本数据类型，好处是可以提供丰富的信息和更丰富的功能    \n",
+            "从基本数据类型到封装类类型不能自动转换    \n",
+            "从封装类类型到基本数据类型能自动转换，称为自动拆箱"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于基本类型的封装类，下列说法正确的是：(     )。",
+      "content": "关于基本类型的封装类，下列说法正确的是：(     )。\n\n*@[](2)\n\nA. 每种基本数据类型都有对应的封装类类型\n\nB. 封装类对于其基本数据类型，好处是可以提供丰富的信息和更丰富的功能    \n\nC. 从基本数据类型到封装类类型不能自动转换    \n\nD. 从封装类类型到基本数据类型能自动转换，称为自动拆箱",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1366702908610281472",
+      "description": "关于基本类型的封装类，下列说法正确的是：(     )。\n",
+      "problemPoolIndex": 34,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679506",
+      "label": "3-9",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "把基本变量赋值给一个类类型的变量，叫做自动装箱\n\n",
+            "把封装类的变量，赋值给基本数据类型，叫做自动拆箱。",
+            "封装类不仅仅可以包含这种类型的数值，还可以提供更多的功能和更多的信息。\n",
+            "自动装箱和自动拆箱是从jdk 1.0开始的。"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java中，关于自动装箱、自动拆箱、封装类，说法正确的是：（    ）",
+      "content": "Java中，关于自动装箱、自动拆箱、封装类，说法正确的是：（    ）\n\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1407319995537784832",
+      "description": "Java中，关于自动装箱、自动拆箱、封装类，说法正确的是：（    ）\n\n",
+      "problemPoolIndex": 35,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679507",
+      "label": "3-10",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "String str1\u003di+\"\";",
+            " String str2\u003dString.valueOf(i);\n",
+            " String str3\u003dInteger.toString(i);",
+            "String str4\u003dString.format(\"%d\", i);"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "基本类型转String--JAVA中如何将基本数据类型的数据转换成字符串?",
+      "content": "JAVA中如何将基本数据类型的数据转换成字符串? 以整型数据为例，现有一个整数： `int i\u003d100;` 下面哪种方式能够得到字符串`“123”`?\n\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424932853447487488",
+      "description": "JAVA中如何将基本数据类型的数据转换成字符串? 以整型数据为例，现有一个整数： `int i\u003d100;` 下面哪种方式能够得到字符串`“123”`?\n\n",
+      "problemPoolIndex": 36,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679508",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "throw代表动作，表示抛出一个异常的动作；throws代表一种状态，代表方法可能有异常抛出\n",
+            "throw用在方法实现中，而throws用在方法声明中\n",
+            "throw只能用于抛出一种异常，而throws可以抛出多个异常\n",
+            "当调用抛出异常的方法时，需要进行捕获处理或者继续利用thows向上抛出。\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在程序中利用throw或throws抛出异常，下列说法正确的是：（    ）。",
+      "content": "在程序中利用throw或throws抛出异常，下列说法正确的是：（    ）。\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1408047118305492992",
+      "description": "在程序中利用throw或throws抛出异常，下列说法正确的是：（    ）。\n",
+      "problemPoolIndex": 37,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679509",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "异常是程序中出现的不正常情况，而不是指Java虚拟机本身比较严重的错误。\n",
+            "程序中出现异常不进行处理，则程序中断执行。\n",
+            "Java程序利用try-catch或者try-catch-finally结构处理异常。\n",
+            "Java程序利用throw和throws来处理异常。\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "异常处理机制--关于Java中的异常的概念及处理机制，哪些说法是正确的？（     ）",
+      "content": "这是一个多选题的样例。答案为AC，分值为2分。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424348424010137600",
+      "description": "这是一个多选题的样例。答案为AC，分值为2分。",
+      "problemPoolIndex": 38,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468367679510",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "catch语句块可以有一个，也可以有多个\n",
+            "多个catch语句块所捕获的异常类型如果有父子类关系，则父类在前，子类在后\n",
+            "多个catch语句块可能有0个或1个执行到\n",
+            "catch语句块必须和try语句块配合使用，不能独立存在\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "catch--关于Java异常的处理的catch语句块，哪些说法是正确的？（     ）",
+      "content": "关于Java异常的处理的catch语句块，哪些说法是正确的？（     ）",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424375399684763648",
+      "description": "关于Java异常的处理的catch语句块，哪些说法是正确的？（     ）",
+      "problemPoolIndex": 39,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468371873792",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "finally语句块可有可无。\n",
+            "如果finally语句块存在，它一定会执行。\n",
+            "finally语句块通常用于一些收尾性的工作，如数据库断开连接、关闭系统资源等等。\n",
+            "finally语句块必须和try-catch结构一起配合来进行处理异常\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "finally--关于Java异常的处理的finally语句块，哪些说法是正确的？（     ）",
+      "content": "关于Java异常的处理的finally语句块，哪些说法是正确的？（     ）\n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424375706359627776",
+      "description": "关于Java异常的处理的finally语句块，哪些说法是正确的？（     ）\n",
+      "problemPoolIndex": 40,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1993858468371873793",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "程序将输出第15行的异常信息\n",
+            "程序第10行出错",
+            "程序将输出b\u003d42\n",
+            "程序将输出第15和18行的异常信息\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "异常案例分析--利用命令：java MultiCatch 执行下面的程序，说法错误的是 ( )。",
+      "content": "利用命令：`java MultiCatch`  执行下面的程序，说法**错误**的是 (      )。\n\n```\npublic class MultiCatch\n\t{\n\t      public static void main(String args[])\n\t     {\n\t           try\n\t           {\n\t               int a\u003dargs.length;\n\t               int b\u003d42/a;\n\t               int c[]\u003d{1};\n\t               c[42]\u003d99;     //第10行\n\t               System.out.println(“b\u003d”+b);\n\t            }\n\t           catch(ArithmeticException e)\n\t           {\n\t                 System.out.println(“除0异常：”+e);       //第15行\n\t           }\n\t           catch(ArrayIndexOutOfBoundsException e) {\n\t                System.out.println(“数组超越边界异常：”+e);     //第18行\n\t           }\n\t     }\n\t}\n```\n\n \n",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993858468149575680",
+      "problemId": "1424378864167284736",
+      "description": "利用命令：`java MultiCatch`  执行下面的程序，说法**错误**的是 (      )。\n\n```\npublic class MultiCatch\n\t{\n\t      public static void main(String args[])\n\t     {\n\t           try\n\t           {\n\t               int a\u003dargs.length;\n\t               int b\u003d42/a;\n\t               int c[]\u003d{1};\n\t               c[42]\u003d99;     //第10行\n\t               System.out.println(“b\u003d”+b);\n\t            }\n\t           catch(ArithmeticException e)\n\t           {\n\t                 System.out.println(“除0异常：”+e);       //第15行\n\t           }\n\t           catch(ArrayIndexOutOfBoundsException e) {\n\t                System.out.println(“数组超越边界异常：”+e);     //第18行\n\t           }\n\t     }\n\t}\n```\n\n \n",
+      "problemPoolIndex": 41,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1993858468363485188": "3-1",
+    "1993858468363485189": "3-2",
+    "1993858468363485190": "3-3",
+    "1993858468363485191": "3-4",
+    "1993858468363485192": "3-5",
+    "1993858468363485193": "3-6",
+    "1993858468363485194": "3-7",
+    "1993858468363485195": "3-8",
+    "1993858468363485196": "3-9",
+    "1993858468363485197": "3-10",
+    "1993858468363485198": "3-11",
+    "1993858468363485199": "3-12",
+    "1993858468363485200": "3-13",
+    "1993858468363485201": "3-14",
+    "1993858468363485202": "3-2",
+    "1993858468363485203": "3-3",
+    "1993858468367679488": "3-4",
+    "1993858468367679489": "3-5",
+    "1993858468367679490": "3-1",
+    "1993858468367679491": "3-20",
+    "1993858468367679492": "3-21",
+    "1993858468367679493": "3-22",
+    "1993858468367679494": "3-23",
+    "1993858468367679495": "3-24",
+    "1993858468367679496": "3-25",
+    "1993858468367679497": "3-26",
+    "1993858468367679498": "3-27",
+    "1993858468367679499": "3-28",
+    "1993858468367679500": "3-29",
+    "1993858468367679501": "3-30",
+    "1993858468367679502": "3-31",
+    "1993858468367679503": "3-32",
+    "1993858468367679504": "3-7",
+    "1993858468367679505": "3-8",
+    "1993858468367679506": "3-9",
+    "1993858468367679507": "3-10",
+    "1993858468367679508": "3-37",
+    "1993858468367679509": "3-38",
+    "1993858468367679510": "3-39",
+    "1993858468371873792": "3-40",
+    "1993858468371873793": "3-41"
+  }
+}

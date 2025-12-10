@@ -1,0 +1,1729 @@
+[
+  {
+    "id": "1993858468371873794",
+    "content": "本题目要求读入若干对整数a和b，然后输出它们的和。\n### 输入格式:\n在一行中给出一对整数a和b。\n以下输入样例只有两对，实际测试数据可能有多对值。\n\n### 输出格式:\n对每一组输入，如果a的绝对值>1000，输出`|a|>1000`，否则输出`a+b`的值。  \n\n### 输入样例:\n```in\n18 -299\n1001 -9\n-1001 8\n\n```\n\n### 输出样例:\n```out\n-281\n|a|>1000\n|a|>1000\n\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "18 -299\n1001 -9\n-1001 8\n",
+            "output": "-281\n|a|>1000\n|a|>1000\n"
+          },
+          {
+            "name": "",
+            "input": "18 -299\n1001 -9\n-1001 8\n",
+            "output": "-281\n|a|>1000\n|a|>1000\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873795",
+    "content": "金字塔是继99乘法表决之后的一个经典图形排列题\n\n题目要求：\n\n要求用户可以自主控制塔身的层数， 完成如下金字体样式;\n\n### 输入格式:\n\n4\n\n### 输出格式:\n       *\n      ***\n     *****\n    *******\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n5\n8\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n    *\n   ***\n  *****\n *******\n*********\n\n\n       *\n      ***\n     *****\n    *******\n   *********\n  ***********\n *************\n***************\n\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 4000,
+        "memoryLimit": 24576,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 10,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "5\n8",
+            "output": "    *\n   ***\n  *****\n *******\n*********\n\n\n       *\n      ***\n     *****\n    *******\n   *********\n  ***********\n *************\n***************\n"
+          },
+          {
+            "name": "",
+            "input": "5\n8",
+            "output": "    *\n   ***\n  *****\n *******\n*********\n\n\n       *\n      ***\n     *****\n    *******\n   *********\n  ***********\n *************\n***************\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873796",
+    "content": "输入若干行字符串，判断每行字符串是否可以作为JAVA语法的合法标识符。 \n\n判断合法标识符的规则：由字母、数字、下划线“_”、美元符号“$”组成，并且首字母不能是数字。\n\n### 输入格式:\n\n 输入有多行。\n \n 每行一个字符串，字符串长度不超过10个字符。\n\n### 输出格式:\n\n若该行字符串可以作为JAVA标识符，则输出“true”;否则，输出“false”。\n\n### 输入样例:\n\n```in\nabc\n_test\n$test\na 1\na+b+c\na’b\n123\n变量\n```\n\n### 输出样例:\n\n\n```out\ntrue\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\ntrue\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "abc\n_test\n$test\na 1\na+b+c\na’b\n123\n变量",
+            "output": "true\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\ntrue"
+          },
+          {
+            "name": "",
+            "input": "abc\n_test\n$test\na 1\na+b+c\na’b\n123\n变量",
+            "output": "true\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\ntrue"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873797",
+    "content": "背景简介：\n\n“蛟龙号”载人深潜器是我国**首台自主设计**、**自主集成研制**的作业型深海载人潜水器，设计最大下潜深度为7000米级，也是**目前世界上下潜能力最强的作业型载人潜水器。**“蛟龙号”**可在占世界海洋面积99.8%的广阔海域中**使用，对于我国开发利用深海的资源有着重要的意义。\n\n中国是继美、法、俄、日之后**世界上第五个掌握大深度载人深潜技术**的国家。在全球载人潜水器中，**“蛟龙号”属于第一梯队**。目前全世界投入使用的各类载人潜水器约90艘，其中下潜深度超过1000米的仅有12艘，更深的潜水器数量更少，目前拥有6000米以上深度载人潜水器的国家包括中国、美国、日本、法国和俄罗斯。除中国外，其他4国的作业型载人潜水器最大工作深度为日本深潜器的6527米，因此“蛟龙号”载人潜水器在西太平洋的马里亚纳海沟海试成功到达**7020米**海底，创造了**作业类载人潜水器新的世界纪录**。\n \n  从2009年至2012年，蛟龙号接连取得1000米级、3000米级、5000米级和7000米级海试成功。**下潜至7000米**，**说明蛟龙号载人潜水器集成技术的成熟**，**标志着我国深海潜水器成为海洋科学考察的前沿与制高点之一**。\n\n2012年6月27日11时47分，中国“蛟龙”再次刷新“中国深度”——下潜7062米。6月3日，“蛟龙”出征以来，已经连续书写了5个“中国深度”新纪录：6月15日，6671米；6月19日，6965米；6月22日，6963米；6月24日，7020米；6月27日，7062米。**下潜至7000米，标志着我国具备了载人到达全球99%以上海洋深处进行作业的能力，标志着“蛟龙”载人潜水器集成技术的成熟，标志着我国深海潜水器成为海洋科学考察的前沿与制高点之一，标志着中国海底载人科学研究和资源勘探能力达到国际领先水平**。\n\n‘蛟龙’号是我国载人深潜发展历程中的一个重要里程碑。它不只是一个深海装备，更代表了一种精神，一种不畏艰险、赶超世界的精神，它是中华民族进军深海的号角。\n\n了解蛟龙号”载人深潜器“的骄人业绩，为我国海底载人科学研究和资源勘探能力达到国际领先水平而自豪，小伙伴们与祖国同呼吸、共命运，一定要学好科学文化知识、提高个人能力，增强创新意识，做事精益求精，立科技报国之志！\n\n请编写程序，实现如下功能：读入关于蛟龙号载人潜水器探测数据的多行字符串，从给定的信息找出数字字符，输出每行的数字之和。\n\n**提示**  若输入为“2012年2月”，则该行的输出为：7。每个数字字符单独相加。\n\n### 输入格式:\n\n读入关于蛟龙号载人潜水器探测数据的多行字符串，**每行字符不超过100个字符。**\n\n以\"end\"结束。\n\n### 输出格式:\n\n与输入行相对应的各个数字之和。\n\n### 输入样例1:\n\n```in\n2012年6月27日11时47分，中国“蛟龙”再次刷新“中国深度”——下潜7062米\n6月15日，6671米\n6月19日，6965米\n6月22日，6963米\n6月24日，7020米\n6月27日，7062米\n下潜至7000米，标志着我国具备了载人到达全球99%以上海洋深处进行作业的能力\nend\n```\n\n### 输出样例1:\n\n```out\n48\n32\n42\n34\n21\n30\n25\n```\n### 输入样例2:\n\n```in\n全世界投入使用的各类载人潜水器约90艘，下潜深度超过1000米的仅有12艘，更深的潜水器数量更少\n6000米以上深度载人潜水器的国家包括中国、美国、日本、法国和俄罗斯\n日本深潜器下潜6527米，蛟龙号在马里亚纳海沟海试成功到达7020米海底，创造了新的世界纪录\n从2009年至2012年，蛟龙号接连取得1000米级、3000米级、5000米级和7000米级海试成功\n下潜至7000米，说明蛟龙号载人潜水器集成技术的成熟\nend\n```\n\n### 输出样例2:\n\n```out\n13\n6\n29\n32\n7\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 4,
+            "isPublic": false
+          },
+          "3": {
+            "hint": "",
+            "showHint": false,
+            "score": 4,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "2012年6月27日11时47分，中国“蛟龙”再次刷新“中国深度”——下潜7062米\n6月15日，6671米\n6月19日，6965米\n6月22日，6963米\n6月24日，7020米\n6月27日，7062米\n下潜至7000米，标志着我国具备了载人到达全球99%以上海洋深处进行作业的能力\nend",
+            "output": "48\n32\n42\n34\n21\n30\n25"
+          },
+          {
+            "name": "",
+            "input": "全世界投入使用的各类载人潜水器约90艘，下潜深度超过1000米的仅有12艘，更深的潜水器数量更少\n6000米以上深度载人潜水器的国家包括中国、美国、日本、法国和俄罗斯\n日本深潜器下潜6527米，蛟龙号在马里亚纳海沟海试成功到达7020米海底，创造了新的世界纪录\n从2009年至2012年，蛟龙号接连取得1000米级、3000米级、5000米级和7000米级海试成功\n下潜至7000米，说明蛟龙号载人潜水器集成技术的成熟\nend",
+            "output": "13\n6\n29\n32\n7"
+          },
+          {
+            "name": "",
+            "input": "2012年6月27日11时47分，中国“蛟龙”再次刷新“中国深度”——下潜7062米\n6月15日，6671米\n6月19日，6965米\n6月22日，6963米\n6月24日，7020米\n6月27日，7062米\n下潜至7000米，标志着我国具备了载人到达全球99%以上海洋深处进行作业的能力\nend",
+            "output": "48\n32\n42\n34\n21\n30\n25"
+          },
+          {
+            "name": "",
+            "input": "全世界投入使用的各类载人潜水器约90艘，下潜深度超过1000米的仅有12艘，更深的潜水器数量更少\n6000米以上深度载人潜水器的国家包括中国、美国、日本、法国和俄罗斯\n日本深潜器下潜6527米，蛟龙号在马里亚纳海沟海试成功到达7020米海底，创造了新的世界纪录\n从2009年至2012年，蛟龙号接连取得1000米级、3000米级、5000米级和7000米级海试成功\n下潜至7000米，说明蛟龙号载人潜水器集成技术的成熟\nend",
+            "output": "13\n6\n29\n32\n7"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873798",
+    "content": "输入若干对浮点数，对每对浮点数输出其精确的和与乘积。  \n以下输入样例为两对浮点数输入，实际上有可能有不定对数的浮点数需要输入计算。\n\n注1：直接使用**double**类型数据进行运算，无法得到精确值。  \n注2：输出时直接调用BigDecimal的toString方法。\n\n### 输入样例:\n```in\n69.1 0.02\n1.99 2.01\n\n```\n\n### 输出样例:\n```out\n69.12\n1.382\n4.00\n3.9999\n\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 10,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "69.1 0.02\n1.99 2.01\n",
+            "output": "69.12\n1.382\n4.00\n3.9999\n"
+          },
+          {
+            "name": "",
+            "input": "69.1 0.02\n1.99 2.01\n",
+            "output": "69.12\n1.382\n4.00\n3.9999\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873799",
+    "content": "小白学习了一些复利投资知识，想比较一下复利能多赚多少钱（所谓复利投资，是指每年投资的本金是上一年的本金加收益。而非复利投资是指每年投资金额不包含上一年的收益，即固定投资额）。假设他每年固定投资M元（整数），每年的年收益达到P（0<P<1，double)，那么经过N（整数）年后，复利投资比非复利投资多收入多赚多少钱呢？计算过程使用双精度浮点数，最后结果四舍五入输出整数（Math的round函数）。\n\n\n### 输入格式:\n\nM P N\n\n### 输出格式:\n\n复利收入（含本金），非复利收入（含本金），复利比非复利收入多的部分（全部取整，四舍五入）\n\n### 输入样例:\n\n\n```in\n10000 0.2 3\n```\n\n### 输出样例:\n\n\n```out\n17280 16000 1280\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 4,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "10000 0.2 3\n",
+            "output": "17280 16000 1280\n"
+          },
+          {
+            "name": "",
+            "input": "10000 0.2 3\n",
+            "output": "17280 16000 1280\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873800",
+    "content": "**意义**：勾股定理是历史上第一个把数与形联系起来的定理，导致了无理数的发现，引起第一次数学危机，大大加深了人们对数的理解。勾股定理是欧氏几何的基础定理，不仅在几何学中是一颗光彩夺目的明珠，被誉为“几何学的基石”，而且在高等数学和其他科学领域也有着广泛的应用。1971年5月15日，尼加拉瓜发行了一套题为“改变世界面貌的十个数学公式”邮票，这十个数学公式由著名数学家选出的，勾股定理是其中之首。\n\n**简史：**在中国，公元前十一世纪，数学家商高（西周初年人）就提出“勾三、股四、弦五”。编写于公元前一世纪以前的《周髀算经》中记录着商高与周公的一段对话。商高说：“……故折矩，勾广三，股修四，经隅五。”意为：当直角三角形的两条直角边分别为3（勾）和4（股）时，径隅（弦）则为5。以后人们就简单地把这个事实说成“勾三股四弦五”，根据该典故称勾股定理为商高定理。\n公元三世纪，三国时代的赵爽对《周髀算经》内的勾股定理作出了详细注释，记录于《九章算术》中“勾股各自乘，并而开方除之，即弦”，赵爽创制了一幅“勾股圆方图”，用数形结合得到方法，给出了勾股定理的详细证明。后刘徽在刘徽注中亦证明了勾股定理。\n在中国清朝末年，数学家华蘅芳提出了二十多种对于勾股定理证法。 \n\n在国外，远在公元前约三千年的古巴比伦人就知道和应用勾股定理，他们还知道许多勾股数组。美国哥伦比亚大学图书馆内收藏着一块编号为“普林顿322”的古巴比伦泥板，上面就记载了很多勾股数。古埃及人在建筑宏伟的金字塔和测量尼罗河泛滥后的土地时，也应用过勾股定理。\n公元前六世纪，希腊数学家毕达哥拉斯证明了勾股定理，因而西方人都习惯地称这个定理为毕达哥拉斯定理。\n公元前4世纪，希腊数学家欧几里得在《几何原本》中给出一个证明。\n1940年《毕达哥拉斯命题》出版，收集了367种不同的证法。 \n\n**定义**：在平面上的一个直角三角形中，两个直角边边长的平方加起来等于斜边长的平方。如果设直角三角形的两条直角边长度分别是和，斜边长度是，那么可以用数学语言表达：**a$$^{2}$$+b$$^{2}$$=c$$^{2}$$**\n\n请编程程序，实现如下功能：输入直接三角形的两个直角边的边长，求它们的斜边边长，结果保留2位小数。\n\n\n提示：在Java中利用Math类的方法——**Math.sqrt()**求平方根。\n\n***java.lang.Math.sqrt(double a) 返回一个double值的正平方根。***\n\n### 输入格式:\n\n输入有若干行，每行有2个数值，分别表示直角三角形的两个直角边长度，用空格分隔。\n\n### 输出格式:\n\n对应每行输入数据，输出直角三角形的斜边长度，结果保留2位小数。\n\n### 输入样例：\n\n```in\n 3 4\n 2.3 3\n 5 6\n 10 12\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n5.00\n3.78\n7.81\n15.62\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": " 3 4\n 2.3 3\n 5 6\n 10 12",
+            "output": "5.00\n3.78\n7.81\n15.62"
+          },
+          {
+            "name": "",
+            "input": " 3 4\n 2.3 3\n 5 6\n 10 12",
+            "output": "5.00\n3.78\n7.81\n15.62"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873801",
+    "content": "当飞机上的仪器出故障时，飞行员常常得估计他们到最近机场的距离。他们的方法是利用他们的高度和他们和机场之间的角度的估计。编写一个程序，帮助飞行员进行计算。\n\n程序应以高度和角度作为输入，输出估计距离。公式为：距离distance=高度hight/ tan(degree)。 \n\n说明：tan(degree)为角度为degree的正切值。\n\n提示：在JAVA中，Math类的静态方法tan(double degree)，用于计算弧度为degree的角度的正切值。\n\n在C语言中，函数名: tan， 头文件：<math.h>， 函数原型: double tan(double x);    功能: 正切函数，参 数：double x  为要操作的弧度，返回值：返回x弧度的正切值。\n\n### 输入格式:\n\n输入数据有多行。\n\n每行为一组输入，分别是高度、角度。角度介于（0，PI/2）区间。\n\n### 输出格式:\n\n对应每行输入，求飞行员到机场的距离，保持2位小数。\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n1033102 0.15\n10210 0.8\n104320 0.7\n13200  1.524\n84535300 0.523\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n6835613.92\n9916.10\n123853.07\n618.16\n146622115.56\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "1033102 0.15\n10210 0.8\n104320 0.7\n13200  1.524\n84535300 0.523",
+            "output": "6835613.92\n9916.10\n123853.07\n618.16\n146622115.56"
+          },
+          {
+            "name": "",
+            "input": "1033102 0.15\n10210 0.8\n104320 0.7\n13200  1.524\n84535300 0.523",
+            "output": "6835613.92\n9916.10\n123853.07\n618.16\n146622115.56"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873802",
+    "content": "**背景：**\n海伦公式又译作希伦公式、海龙公式、希罗公式、海伦—秦九韶公式。它是利用三角形的三条边的边长直接求三角形面积的公式。它的特点是形式漂亮，便于记忆。\n相传这个公式最早是由古希腊数学家阿基米德得出的，而因为这个公式最早出现在海伦的著作《测地术》中，所以被称为海伦公式。\n\n中国秦九韶也得出了类似的公式，称三斜求积术。\n\n**海伦公式的表示：**\n假设在平面内，有一个三角形，边长分别为a、b、c，三角形的面积S可由以下公式求得：\n\n![0.jpg](https://images.ptausercontent.com/e8fb7546-1fb6-401b-b8c5-19b4058a871e.jpg)\n\n其中，p为半周长（即：周长的一半）：\n\n![1.jpg](https://images.ptausercontent.com/e29644fb-40f0-459e-abe8-df904e7bfea6.jpg)\n\n**提示：**  平方根的求解方式：\n\n（1）在Java语言中，调用Math类的静态方法sqrt(double d)，返回一个double数据类型的值；\n\n（2）在C语言中， 头文件：#include <math.h> ，sqrt() 函数用来求给定值的平方根，其原型为：  double sqrt(double x);\n\n（3）在Python语言中，导入 math 模块：import math，通过静态对象调用方法sqrt()，形式为：math.sqrt( x )。\n\n### 输入格式:\n\n输入若干行。每行有3个数值。\n\n### 输出格式:\n\n对于每一行输入，有一行输出。\n\n若三个数值能够构成三角形的边，则计算它的面积，保留2位小数；如果不能构造三角形，则输出“Input Error!\"。\n\n### 输入样例:\n\n```in\n3  4  5.0\n1  2  3.0\n-3 0 -2\n```\n\n### 输出样例:\n\n```out\n6.00\nInput Error!\nInput Error!\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "3  4  5.0\n1  2  3.0\n-3 0 -2",
+            "output": "6.00\nInput Error!\nInput Error!"
+          },
+          {
+            "name": "",
+            "input": "3  4  5.0\n1  2  3.0\n-3 0 -2",
+            "output": "6.00\nInput Error!\nInput Error!"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873803",
+    "content": "体重是反映和衡量一个人健康状况的重要标志之一，过胖和过瘦都不利于健康，BMI（身体质量指数）计算方法：体重（以千克为单位）除以身高（以米为单位）的平方。中国成人正常的BMI应在18.5-24之间，如果小于18.5为体重不足，如果大于等于24为超重，大于等于28为肥胖。请编写程序，测算身体状态。\n\n### 输入格式:\n\n两个数值：体重（以千克为单位），身高(以米为单位），数值间以空格分隔。例如：65.5 1.75。\n注意：体重的世界纪录是727公斤，身高的世界纪录是2.72米。输入数据上限不得超过纪录，下限不得小于等于0；\n\n\n### 输出格式:\n\n输入数值超出范围            ：输出“input out of range”。例如：-2 3或者125 5。\nBMI小于18.5                   ：输出“thin”。\nBMI大于等于18.5小于24 ：输出“fit”。\nBMI大于等于24小于28    ：输出“overweight”。\nBMII大于等于28              ：输出“fat”。\n\n### 输入样例0:\n\n在这里给出一组输入。例如：\n\n```in\n-2  8\n```\n\n### 输出样例0:\n\n在这里给出相应的输出。例如：\n\n```out\ninput out of range\n```\n\n### 输入样例1:\n\n在这里给出一组输入。例如：\n\n```in\n70 1.75\n```\n\n### 输出样例1:\n\n在这里给出相应的输出。例如：\n\n```out\nfit\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 20,
+        "cases": {
+          "case0": {
+            "hint": "",
+            "showHint": false,
+            "score": 1,
+            "isPublic": false
+          },
+          "case1": {
+            "hint": "",
+            "showHint": false,
+            "score": 1,
+            "isPublic": false
+          },
+          "case2": {
+            "hint": "",
+            "showHint": false,
+            "score": 1,
+            "isPublic": false
+          },
+          "case3": {
+            "hint": "",
+            "showHint": false,
+            "score": 1,
+            "isPublic": false
+          },
+          "case4": {
+            "hint": "",
+            "showHint": false,
+            "score": 1,
+            "isPublic": false
+          },
+          "case5": {
+            "hint": "",
+            "showHint": false,
+            "score": 1,
+            "isPublic": false
+          },
+          "case6": {
+            "hint": "",
+            "showHint": false,
+            "score": 1,
+            "isPublic": false
+          },
+          "case7": {
+            "hint": "",
+            "showHint": false,
+            "score": 1,
+            "isPublic": false
+          },
+          "case9": {
+            "hint": "",
+            "showHint": false,
+            "score": 1,
+            "isPublic": false
+          },
+          "case10": {
+            "hint": "",
+            "showHint": false,
+            "score": 1,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "-2  8",
+            "output": "input out of range"
+          },
+          {
+            "name": "",
+            "input": "70 1.75",
+            "output": "fit"
+          },
+          {
+            "name": "",
+            "input": "-2  8",
+            "output": "input out of range"
+          },
+          {
+            "name": "",
+            "input": "70 1.75",
+            "output": "fit"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873804",
+    "content": "飞驰而过的车，它的车牌是由一个四位数构成的，只有3个路人看到它\n\n甲说：它的前两位是一样的\n\n乙说：它的后两位是一样的，但是和它的前两位不一样\n\n丙说：它是一个数的平方\n\n请你根据路人甲乙丙的叙述，写一个程序，算出该车牌号\n\n### 输入格式:\n\n无 \n\n### 输出格式:\n\n车牌号码是7744\n\n### 输入样例:\n\n\n\n```in\n\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n车牌号码是7744\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 10,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "\n\n",
+            "output": "车牌号码是7744\n"
+          },
+          {
+            "name": "",
+            "input": "\n\n",
+            "output": "车牌号码是7744\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873805",
+    "content": "输入一个以回车符为结束标志的字符串（少于80个字符），判断该字符串是否为回文。\n回文就是字符串中心对称，如“abcba”、“abccba”是回文，“abcdba”不是回文。\n\n### 输入格式:\n\n输入一个以回车符为结束标志的字符串（少于80个字符）\n\n### 输出格式:\n\n为回文，输出yes; 非回文，输出no，注意输出的结果后面有回车符\n\n### 输入样例:\n```in\nabccba\n\n```\n\n### 输出样例:\n```out\nyes\n\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873806",
+    "content": "一年一度的升旗手选拔又要到了，学校要求每个班级选出一位同学做升旗手的候选人。因\n为升旗手对身高有严格的要求，所以班主任决定选班级里个子最高的同学(如果两位同学\n一样高，则选任意一位)。你能很快地给老师答案么?\n\n### 输入格式:\n\n输入包括两行。 第一行:包括一个整数n，表示班级里共有n位同学。 第二行:包含n个三位数，表示每一位同学的身高。\n\n### 输出格式:\n\n输出身高最高的同学的身高。\n\n### 输入样例:\n\n\n```in\n4\n130 125 129 140\n```\n\n### 输出样例:\n\n\n```out\n140\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "3": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "4": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "4\n130 125 129 140\n",
+            "output": "140\n"
+          },
+          {
+            "name": "",
+            "input": "4\n130 125 129 140\n",
+            "output": "140\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873807",
+    "content": "已知有一对兔子，每个月可以生一对兔子，而小兔子一个月后又可以生一对小兔子(比如:2月份出生的小兔子4月份可以生育)。也就是说，兔子的对数为：第一个月1对，第二个月2对，第三个月3对，第四个月5对.....假设兔子的生育期为两年，且不死。那么问题来了，你能说出每个月的兔子数么?\n\n### 输入格式:\n\n输入一个数n，表示第n个月，1<=n<=24。\n\n### 输出格式:\n\n输出这个月兔子的数目。\n\n### 输入样例:\n\n```in\n4\n```\n\n### 输出样例:\n\n```out\n5\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "3": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "4": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "4\n",
+            "output": "5\n"
+          },
+          {
+            "name": "",
+            "input": "4\n",
+            "output": "5\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873808",
+    "content": "小明来到了古都西安，想去参观大唐西市！\n\n西安的道路可以看做是与x轴或y轴垂直的直线，小明位于(a,b)，而目的地位于(c,d)，问最少几步可以到达。\n\n### 输入格式:\n\n一行中四个整数，a,b,c,d，表示坐标为(a,b)与(c,d)，这里0<=a,b,c,d<=1000\n\n### 输出格式:\n\n输出这两个点的西安距离。\n\n### 输入样例:\n\n```in\n0 0 3 4\n```\n\n### 输出样例:\n\n```out\n7\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 200,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 1,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "3": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "4": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "0 0 3 4\n",
+            "output": "7\n"
+          },
+          {
+            "name": "",
+            "input": "0 0 3 4\n",
+            "output": "7\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873809",
+    "content": "## 1.定义一个Person类\n**属性：**`String name`, `boolean gender`, `int age`, `int id` ,所有的变量必须为私有(private)。  \n**无参构造函数:**`Person()`, **功能：**打印**This is constructor**  。  \n**有参构造函数:**`Person(name, gender, age) `  ，**功能：**给属性赋值。  \n建议：使用Eclipse自动生成toString方法  \n \n## 2.定义类的初始化块\n为Person类加入**初始化块**，在初始化块中对`id`属性赋值，并且要保证每次的值比上次创建的对象的值`+1`。然后在下一行打印`This is initialization block, id is ...`  其中`...`是id的值。  \n**提示：**可为`Person`类定义一个`static`属性来记录所创建的对象个数。\n\n## 3.编写静态初始化块\n打印`This is static initialization block`\n\n## 4.编写main方法  \n- 首先输入n，代表要创建的对象数量。  \n- 然后从控制台分别读取n行的`name age gender`, 并调用有参构造函数`Person(name, age, gender)`新建对象 。\n- 将创建好的n个对象逆序输出(即输出`toString()`方法)。\n- 使用无参构造函数新建一个Person对象，然后直接打印该对象。\n\n## 思考\n初始化类与对象有几种方法，构造函数、初始化块、静态初始化块。这三种方法执行的先后顺序是什么？各执行几次。\n\n### 输入样例:\n```in\n3\na 11 false\nb 12 true\nc 10 false\n\n```\n### 输出样例:\n```out\nThis is static initialization block\nThis is initialization block, id is 0\nThis is initialization block, id is 1\nThis is initialization block, id is 2\nPerson [name=c, age=10, gender=false, id=2]\nPerson [name=b, age=12, gender=true, id=1]\nPerson [name=a, age=11, gender=false, id=0]\nThis is initialization block, id is 3\nThis is constructor\nnull,0,false,3\nPerson [name=null, age=0, gender=false, id=3]\n\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 11,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "3\na 11 false\nb 12 true\nc 10 false\n",
+            "output": "This is static initialization block\nThis is initialization block, id is 0\nThis is initialization block, id is 1\nThis is initialization block, id is 2\nPerson [name=c, age=10, gender=false, id=2]\nPerson [name=b, age=12, gender=true, id=1]\nPerson [name=a, age=11, gender=false, id=0]\nThis is initialization block, id is 3\nThis is constructor\nnull,0,false,3\nPerson [name=null, age=0, gender=false, id=3]\n"
+          },
+          {
+            "name": "",
+            "input": "3\na 11 false\nb 12 true\nc 10 false\n",
+            "output": "This is static initialization block\nThis is initialization block, id is 0\nThis is initialization block, id is 1\nThis is initialization block, id is 2\nPerson [name=c, age=10, gender=false, id=2]\nPerson [name=b, age=12, gender=true, id=1]\nPerson [name=a, age=11, gender=false, id=0]\nThis is initialization block, id is 3\nThis is constructor\nnull,0,false,3\nPerson [name=null, age=0, gender=false, id=3]\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468371873810",
+    "content": "利用模板方法来构造相关类实现下述过程：\n各种球类的玩法虽然不同，但是球类比赛的过程是类似的，都包含如下几个步骤：\n1球员报道-->2比赛开始-->3比赛-->4比赛结束-->5公布比赛成绩，且其中1 2 4步相同 第3步根据球类不同，玩法不同，第5步根据得分不同，公布方式结果不同\n构造类BallMatch表示球类比赛，包含方法compete表示真个比赛过程\n构造各个比赛过程的函数checkin,start,play,end,annouceResult\n打印信息如下：\nnow checking in\nnow starting\nnow playing football\nnow ending\nnow annoucing result: 2-3\n构造类FootballMatch和BasketBallMatch，实现具体的比赛过程。\n\n在main函数中，读入整数i，如果为1，则构造一个足球比赛过程，如果为2则构造一个篮球比赛过程\n打印比赛过程\n\n### 输入格式:\n\n比赛类型 比分\n\n### 输出格式:\n\n比赛过程信息\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n1 2-3\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\nnow checking in\nnow starting\nnow playing football\nnow ending\nnow annoucing result: 2-3\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 6,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 6,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "1 2-3\n",
+            "output": "now checking in\nnow starting\nnow playing football\nnow ending\nnow annoucing result: 2-3\n"
+          },
+          {
+            "name": "",
+            "input": "1 2-3\n",
+            "output": "now checking in\nnow starting\nnow playing football\nnow ending\nnow annoucing result: 2-3\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068096",
+    "content": "众所周知，一年一度的女汉子大赛又来啦。由于最近女汉子比较流行，所以参加女汉子比赛的人数变得很多很多。所以赛事组找来了你，让你写一个程序找出谁是最强的女汉子。\n\n大家都知道，越是不漂亮的女生就越容易成为女汉子（漂亮的怎么会成为汉子？）,而越是力量大的女生也越成为女汉子（毕竟女汉子还是比较有力量的）。\n\n所以，就给女汉子两个属性，一个是漂亮值x，一个是力量值y。当然x的值越大，就代表这个女生就越漂亮。现在想让你求出来最不漂亮的女生有多少个，她们的力量和是多少。\n### 输入格式:\n\n先输入一个T，代表有T个人（T<10000）。\n\n接下来T行，每行有两个数字x,y，分别代表这个女汉子的漂亮值和力量值（x,y<2*$$10^{9}$$) 。中间有1个空格分隔。\n\n### 输出格式:\n\n输出一行，有两个数字，分别代表最强的女汉子的数量，和她们的力量和。中间用1个空格分隔。\n\n### 输入样例:\n\n```in\n5\n1 1\n2 2\n1 4\n2 10\n10 100\n```\n\n### 输出样例:\n\n```out\n2 5\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "5\n1 1\n2 2\n1 4\n2 10\n10 100",
+            "output": "2 5"
+          },
+          {
+            "name": "",
+            "input": "5\n1 1\n2 2\n1 4\n2 10\n10 100",
+            "output": "2 5"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068097",
+    "content": "1. 输入n，然后连续输入n个身份证号。  \n2. 然后根据输入的是**sort1**还是**sort2**，执行不同的功能。输入的不是sort1或sort2，则输出`exit`并退出。    \n    输入**sort1**，将每个身份证的年月日抽取出来，按**年-月-日**格式组装，然后对组装后的**年-月-日**升序输出。  \n    输入**sort2**，将所有身份证按照里面的年月日升序输出。\n\n**注意：**处理输入的时候，全部使用`Scanner`的`nextLine()`方法，以免出错。\n\n### 输入样例:\n```in\n6\n410425198309308225\n320203197206115011\n431227196108033146\n330226196605054190\n34080019810819327X\n320111197112301539\nsort1\nsort2\ne\n\n```\n\n### 输出样例:\n```out\n1961-08-03\n1966-05-05\n1971-12-30\n1972-06-11\n1981-08-19\n1983-09-30\n431227196108033146\n330226196605054190\n320111197112301539\n320203197206115011\n34080019810819327X\n410425198309308225\nexit\n\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 10,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "6\n410425198309308225\n320203197206115011\n431227196108033146\n330226196605054190\n34080019810819327X\n320111197112301539\nsort1\nsort2\ne\n",
+            "output": "1961-08-03\n1966-05-05\n1971-12-30\n1972-06-11\n1981-08-19\n1983-09-30\n431227196108033146\n330226196605054190\n320111197112301539\n320203197206115011\n34080019810819327X\n410425198309308225\nexit\n"
+          },
+          {
+            "name": "",
+            "input": "6\n410425198309308225\n320203197206115011\n431227196108033146\n330226196605054190\n34080019810819327X\n320111197112301539\nsort1\nsort2\ne\n",
+            "output": "1961-08-03\n1966-05-05\n1971-12-30\n1972-06-11\n1981-08-19\n1983-09-30\n431227196108033146\n330226196605054190\n320111197112301539\n320203197206115011\n34080019810819327X\n410425198309308225\nexit\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068098",
+    "content": "找出长度最长的单词（不同长度的单词只出现一次）。\n\n### 输入格式:\n\n输入格式为单行形式，单词之间使用空格分割。\n\n### 输出格式:\n\n输出格式为长度最长的一个单词。\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\nan not need happy suggest\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\nsuggest\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "3": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "an not need happy suggest",
+            "output": "suggest"
+          },
+          {
+            "name": "",
+            "input": "an not need happy suggest",
+            "output": "suggest"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068099",
+    "content": "现需要统计若干段文字(英文)中的不同单词数量。  \n如果不同的单词数量不超过10个，则将所有单词输出(按字母顺序)，否则输出前10个单词。  \n\n\n**注1：**单词之间以空格(1个或多个空格)为间隔。  \n**注2：**忽略空行或者空格行。  \n**注3：**单词大小写敏感，即'word'与'WORD'是两个不同的单词 。 \n\n### 输入说明\n若干行英文，最后以`!!!!!`为结束。\n\n### 输出说明\n不同单词数量。\n然后输出前10个单词（按字母顺序），如果所有单词不超过10个，则将所有的单词输出。\n\n### 输入样例\n```in\nFailure is probably the fortification in your pole\nIt is like a peek your wallet as the thief when you\nare thinking how to spend several hard-won lepta\nwhen you Are wondering whether new money it has laid\nbackground Because of you, then at the heart of the\nmost lax alert and most low awareness and left it\ngodsend failed\n!!!!!\n\n```\n### 输出样例\n```out\n49\nAre\nBecause\nFailure\nIt\na\nalert\nand\nare\nas\nat\n\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 6,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 6,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "Failure is probably the fortification in your pole\nIt is like a peek your wallet as the thief when you\nare thinking how to spend several hard-won lepta\nwhen you Are wondering whether new money it has laid\nbackground Because of you, then at the heart of the\nmost lax alert and most low awareness and left it\ngodsend failed\n!!!!!\n",
+            "output": "49\nAre\nBecause\nFailure\nIt\na\nalert\nand\nare\nas\nat\n"
+          },
+          {
+            "name": "",
+            "input": "Failure is probably the fortification in your pole\nIt is like a peek your wallet as the thief when you\nare thinking how to spend several hard-won lepta\nwhen you Are wondering whether new money it has laid\nbackground Because of you, then at the heart of the\nmost lax alert and most low awareness and left it\ngodsend failed\n!!!!!\n",
+            "output": "49\nAre\nBecause\nFailure\nIt\na\nalert\nand\nare\nas\nat\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068100",
+    "content": "输入一篇英文文章，碰到\"!!!!!\"的时候停止，输出文章中出现的不重复单词的个数(注意：单词不区分大小写，如：The和the为一个单词)\n\n### 输入格式:\n\n一篇英文文章，以\"!!!!!\"结尾\n\n### 输出格式:\n\n不重复单词的个数\n\n### 输入样例:\n\n\n```in\nUnmanned aerial vehicles have been adopted in the inspection of violations Procurators will file public interest litigations against perpetrators who will need to replant trees take down illegal buildings control pollution and compensate environment-related losses  \nThe Yellow River is the second longest river in China It originates in the northwestern province of Qinghai and runs through nine provinces and autonomous regions in western central north and eastern China  \n!!!!!\n\n```\n\n### 输出样例:\n\n\n```out\n55\n\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 800,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 12,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "Unmanned aerial vehicles have been adopted in the inspection of violations Procurators will file public interest litigations against perpetrators who will need to replant trees take down illegal buildings control pollution and compensate environment-related losses  \nThe Yellow River is the second longest river in China It originates in the northwestern province of Qinghai and runs through nine provinces and autonomous regions in western central north and eastern China  \n!!!!!\n",
+            "output": "55\n"
+          },
+          {
+            "name": "",
+            "input": "Unmanned aerial vehicles have been adopted in the inspection of violations Procurators will file public interest litigations against perpetrators who will need to replant trees take down illegal buildings control pollution and compensate environment-related losses  \nThe Yellow River is the second longest river in China It originates in the northwestern province of Qinghai and runs through nine provinces and autonomous regions in western central north and eastern China  \n!!!!!\n",
+            "output": "55\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068101",
+    "content": "**背景介绍：** 北宋人贾宪约1050年首先使用“贾宪三角”进行高次开方运算。\n\n南宋数学家杨辉在《详解九章算法》（1261年）记载并保存了“贾宪三角”，故称杨辉三角。杨辉三角是中国数学史上的一个伟大成就。\n杨辉三角，是中国古代数学的杰出研究成果之一，它把二项式系数图形化，把组合数内在的一些代数性质直观地从图形中体现出来，是一种离散型的数与形的结合。\n\n中国南宋数学家杨辉1261年所著的《详解九章算法》一书中出现。在欧洲，帕斯卡（1623----1662）在1654年发现这一规律，所以这个表又叫做帕斯卡三角形。帕斯卡的发现比杨辉要迟393年，比贾宪迟600年。\n\n**杨辉三角数字的特点为：**\n\n（1）在三角形的首列和对角线上，数值均为1；\n\n（2）其余数据为：每个数字等于上一行的左右两个数字之和，第n+1行的第i个数等于第n行的第i-1个数和第i个数之和，用公式表示为： C(n+1,i)=C(n,i)+C(n,i-1)。\n\n图示为：\n\n![1.jpg](https://images.ptausercontent.com/833618de-783c-4825-b8c5-d826b7844768.jpg)\n\n**杨辉三角的应用：**(a+b)的n次方，展开式中的各项系数依次对应杨辉三角的第(n+1)行中的每一项。\n\n### 输入格式:\n欲打印杨辉三角的行数n（1<=n<=13)。\n\n### 输出格式:\n每个数字占据4个字符的位置，数字左对齐，数字不足4位的右边留出空格。\n\n### 输入样例:\n\n```in\n13\n```\n\n### 输出样例:\n\n```out\n1   \n1   1   \n1   2   1   \n1   3   3   1   \n1   4   6   4   1   \n1   5   10  10  5   1   \n1   6   15  20  15  6   1   \n1   7   21  35  35  21  7   1   \n1   8   28  56  70  56  28  8   1   \n1   9   36  84  126 126 84  36  9   1   \n1   10  45  120 210 252 210 120 45  10  1   \n1   11  55  165 330 462 462 330 165 55  11  1   \n1   12  66  220 495 792 924 792 495 220 66  12  1   \n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "3": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "4": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "5": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "13",
+            "output": "1   \n1   1   \n1   2   1   \n1   3   3   1   \n1   4   6   4   1   \n1   5   10  10  5   1   \n1   6   15  20  15  6   1   \n1   7   21  35  35  21  7   1   \n1   8   28  56  70  56  28  8   1   \n1   9   36  84  126 126 84  36  9   1   \n1   10  45  120 210 252 210 120 45  10  1   \n1   11  55  165 330 462 462 330 165 55  11  1   \n1   12  66  220 495 792 924 792 495 220 66  12  1   "
+          },
+          {
+            "name": "",
+            "input": "13",
+            "output": "1   \n1   1   \n1   2   1   \n1   3   3   1   \n1   4   6   4   1   \n1   5   10  10  5   1   \n1   6   15  20  15  6   1   \n1   7   21  35  35  21  7   1   \n1   8   28  56  70  56  28  8   1   \n1   9   36  84  126 126 84  36  9   1   \n1   10  45  120 210 252 210 120 45  10  1   \n1   11  55  165 330 462 462 330 165 55  11  1   \n1   12  66  220 495 792 924 792 495 220 66  12  1   "
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068102",
+    "content": "根据教师的花名册，找到出勤最多的人。\n\n### 输入格式:\n\n出勤记录单行给出，数据直接使用空格分割。\n\n### 输出格式:\n\n单行输出（若有多人，人名直接使用空格分割，结尾处没有空格）。\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\nzs ls ww ml zs ls ml zs ww\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\nzs\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "3": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "zs ls ww ml zs ls ml zs ww",
+            "output": "zs"
+          },
+          {
+            "name": "",
+            "input": "zs ls ww ml zs ls ml zs ww",
+            "output": "zs"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068103",
+    "content": "编写实现**Comparable**接口的`PersonSortable`类，使其按name以及age排序\n\n## 1.编写PersonSortable类\n属性：`private name(String)`、`private age(int)`  \n有参构造函数：参数为name,age  \ntoString函数：返回格式为：name-age  \n实现**Comparable**接口：实现先对name升序排序，如果name相同则对age进行升序排序\n\n## 2.main方法中\n1. 首先输入n  \n2. 输入n行name age，并创建n个对象放入数组\n3. 对数组进行排序后输出。\n4. 最后一行使用`System.out.println(Arrays.toString(PersonSortable.class.getInterfaces()));`输出PersonSortable所实现的所有接口\n\n### 输入样例:\n```in\n5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n\n```\n### 输出样例:\n```out\nWang-17\nli-17\nwang-14\nzhang-12\nzhang-15\n//这行是标识信息\n\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 10,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n",
+            "output": "Wang-17\nli-17\nwang-14\nzhang-12\nzhang-15\n// 这行是标识信息，应替换为**2.main方法中**中的第4点要求。\n"
+          },
+          {
+            "name": "",
+            "input": "5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n",
+            "output": "Wang-17\nli-17\nwang-14\nzhang-12\nzhang-15\n// 这行是标识信息，应替换为**2.main方法中**中的第4点要求。\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068104",
+    "content": "Arrays.sort可以对所有实现Comparable的对象进行排序。但如果有多种排序需求，如有时候需对name进行降序排序，有时候只需要对年龄进行排序。使用Comparable无法满足这样的需求。可以编写不同的`Comparator`来满足多样的排序需求。\n\n## 1.编写PersonSortable2类\n属性：`private name(String)`、`private age(int)`  \n有参构造函数：参数为name,age  \ntoString方法：返回格式`name-age`\n\n## 2 编写Comparator类\n1. 编写`NameComparator`类，实现对name进行**升序排序**\n2. 编写`AgeComparator`类，对age进行**升序排序**\n\n## 3.main方法中\n1. 输入n\n2. 输入n行name age，并创建n个对象放入数组\n3. 对数组按照name进行升序排序后输出。\n4. 在3的基础上对数组按照age进行升序排序后输出。\n5. 最后最后两行使用如下代码输出NameComparator与AgeComparator所实现的所有接口。\n\n```\nSystem.out.println(Arrays.toString(NameComparator.class.getInterfaces()));\nSystem.out.println(Arrays.toString(AgeComparator.class.getInterfaces()));\n\n```\n  \n\n### 输入样例:\n```in\n5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n\n\n```\n### 输出样例:\n```out\nNameComparator:sort\nWang-17\nli-17\nwang-14\nzhang-15\nzhang-12\nAgeComparator:sort\nzhang-12\nwang-14\nzhang-15\nWang-17\nli-17\n//最后两行是标识信息\n\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 10,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n\n",
+            "output": "NameComparator:sort\nWang-17\nli-17\nwang-14\nzhang-15\nzhang-12\nAgeComparator:sort\nzhang-12\nwang-14\nzhang-15\nWang-17\nli-17\n//最后两行是标识信息\n"
+          },
+          {
+            "name": "",
+            "input": "5\nzhang 15\nzhang 12\nwang 14\nWang 17\nli 17\n\n",
+            "output": "NameComparator:sort\nWang-17\nli-17\nwang-14\nzhang-15\nzhang-12\nAgeComparator:sort\nzhang-12\nwang-14\nzhang-15\nWang-17\nli-17\n//最后两行是标识信息\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068105",
+    "content": "使用异常处理输入机制，让程序变得更健壮。\n\n## main方法：\n1. 输入n，创建大小为n的int数组。\n2. 输入n个整数，放入数组。输入时，有可能输入的是非整型字符串，这时候需要输出异常信息，然后重新输入。\n3. 使用`Arrays.toString`输出数组中的内容。\n\n\n## 输入样例：\n```in\n5\n1\n2\na\nb\n4\n5\n3\n\n```\n## 输出样例：\n```out\njava.lang.NumberFormatException: For input string: \"a\"\njava.lang.NumberFormatException: For input string: \"b\"\n[1, 2, 4, 5, 3]\n\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 7,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "5\n1\n2\na\nb\n4\n5\n3\n",
+            "output": "java.lang.NumberFormatException: For input string: \"a\"\njava.lang.NumberFormatException: For input string: \"b\"\n[1, 2, 4, 5, 3]\n"
+          },
+          {
+            "name": "",
+            "input": "5\n1\n2\na\nb\n4\n5\n3\n",
+            "output": "java.lang.NumberFormatException: For input string: \"a\"\njava.lang.NumberFormatException: For input string: \"b\"\n[1, 2, 4, 5, 3]\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068106",
+    "content": "编写一个程序进行一个班某门课程成绩的录入，能够控制录入成绩总人数，对录入成绩统计其及格人数和不及格人数。设计一个异常类，当输入的成绩小0分或大于100分时，抛出该异常类对象，程序将捕捉这个异常对象，并调用执行该异常类对象的toString（）方法，该方法获取当前无效分数值，并返回一个此分数无效的字符串。\n\n### 输入格式:\n\n从键盘中输入学生人数n\n\n从键盘中输入第1个学生的成绩\n\n从键盘中输入第2个学生的成绩\n\n...\n\n从键盘中输入第n个学生的成绩\n\n（注：当输入的成绩无效时（即分数为小于0或大于100）可重新输入，且输出端会输出此分数无效的提醒。）\n\n### 输出格式:\n\n显示及格总人数\n\n显示不及格总人数\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n3\n100\n30\n60\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n2\n1\n```\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n2\n200\n69\n30\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n200invalid!\n1\n1\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 6000,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "3\n100\n30\n60\n",
+            "output": "2\n1\n"
+          },
+          {
+            "name": "",
+            "input": "2\n200\n69\n30\n",
+            "output": "200invalid!\n1\n1\n"
+          },
+          {
+            "name": "",
+            "input": "3\n100\n30\n60\n",
+            "output": "2\n1\n"
+          },
+          {
+            "name": "",
+            "input": "2\n200\n69\n30\n",
+            "output": "200invalid!\n1\n1\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068107",
+    "content": "现需要编写一个简易快递计价程序。具体来说：\n\n1、**抽象**快递类`Express`，其包含一个属性`int weight`表示快递重量（单位为kg），一个方法`getWeight()`用于返回快递重量和一个**抽象方法**`getTotal()`用于计算快递运费。\n\n2、两个类继承`Express`，分别是：\n（a）顺路快递`SLExpress`：计价规则为首重(1kg)12元，每增加1kg费用加2元。\n（b）地地快递`DDExpress`：计价规则为首重(1kg)5元，每增加1kg费用加1元。\n\n3、Main：\n接收用户通过控制台输入的N行信息，自动计算所有快递的运费总和。\n\n\n### 输入样例:\n\n```in\n6\nSL 2\nDD 2\nSL 1\nSL 1\nSL 1\nDD 3\n```\n\n### 输入解释:\n\n第1行n表示需要计算的快递件数\n第2至n+1表示每个快递信息，即选哪家快递公司 以及快递的重量（单位kg）\n\n### 输出样例:\n\n```out\n63\n\n```\n\n### 输出解释:\n\n所有快递总运费。\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "DD3": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "SL2": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "ALL10": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "6\nSL 2\nDD 2\nSL 1\nSL 1\nSL 1\nDD 3",
+            "output": "63\n"
+          },
+          {
+            "name": "",
+            "input": "6\nSL 2\nDD 2\nSL 1\nSL 1\nSL 1\nDD 3",
+            "output": "63\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068108",
+    "content": "各位面向对象的小伙伴们，在学习了面向对象的核心概念——类的封装、继承、多态之后，答答租车系统开始营运了。\n\n请你充分利用面向对象思想，为公司解决智能租车问题，根据客户选定的车型和租车天数，来计算租车费用，最大载客人数，最大载载重量。\n\n公司现有三种车型（客车、皮卡车、货车），每种车都有名称和租金的属性；其中：客车只能载人，货车只能载货，皮卡车是客货两用车，即可以载人，也可以载货。\n\n下面是答答租车公司的可用车型、容量及价目表：\n\n![007.jpg](https://images.ptausercontent.com/d462b296-09af-4762-b762-28fb5bb2a05b.jpg)\n\n要求：根据客户输入的所租车型的序号及天数，计算所能乘载的总人数、货物总数量及租车费用总金额。\n\n### 输入格式:\n首行是一个整数：代表要不要租车 1——要租车（程序继续），0——不租车（程序结束）；\n\n第二行是一个整数，代表要租车的数量N；\n\n接下来是N行数据，每行2个整数m和n，其中：m表示要租车的编号，n表示租用该车型的天数。\n\n\n### 输出格式:\n若成功租车，则输出一行数据，数据间有一个空格，含义为：\n    载客总人数 载货总重量（保留2位小数） 租车金额（整数）\n若不租车，则输出： \n    0 0.00 0（含义同上）\n\n\n### 输入样例:\n\n```in\n1\n2\n1 1\n2 2\n\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n15 0.00 1600\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 4,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "3": {
+            "hint": "",
+            "showHint": false,
+            "score": 4,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "1\n2\n1 1\n2 2\n",
+            "output": "15 0.00 1600"
+          },
+          {
+            "name": "",
+            "input": "1\n2\n1 1\n2 2\n",
+            "output": "15 0.00 1600"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068109",
+    "content": "1986年，中国实施“863”计划，航天技术列入其中。以载人飞船开始起步，最终建成我国的空间站。 \n1992年9月21日，中国实施载人航天工程，并确定了三步走的发展战略：第一步，发射载人飞船，建成初步配套的试验性载人飞船工程。第二步，突破载人飞船和空间飞行器的交会对接技术，利用载人飞船技术改装、发射一个空间实验室。第三步，建造载人空间站。\n\n在长期的奋斗中，我国航天工作者不仅创造了非凡的业绩，而且铸就了特别能吃苦、特别能战斗、特别能攻关、特别能奉献的载人航天精神。载人航天精神，是“两弹一星”精神在新时期的发扬光大，是我们伟大民族精神的生动体现，永远值得全党、全军和全国人民学习。\n```\n\n截至2021年4月，历任航天英雄名字如下：\n杨利伟（神舟五号）\n费俊龙、聂海胜（神舟六号）\n翟志刚、景海鹏、刘伯明（神舟七号）\n景海鹏、刘旺、刘洋（神舟九号）\n聂海胜、张晓光、王亚平（神舟十号）\n景海鹏、陈东（神舟十一号）\n```\n\n会编程的小伙伴们，请以他们出征太空的先后顺序，统计一下航天英雄们出征太空的次数，以实际行动向航天员们致敬！\n### 输入格式:\n\n```\n每次航天飞船的编号为一行读入数据，分别读入每次飞上太空的航天英雄的姓名，名字中间有一个空格分隔。\n最后一行为“end“，表示输入结束。\n\n提示：目前，中国航天员的数量小于20。\n```\n\n\n### 输出格式:\n\n```\n以出征太空的先后顺序，统计航天英雄们出征太空的次数。\n每位航天员占一行，航天员姓名与出征次数中间有一个空格。\n```\n\n### 输入样例:\n\n```in\n杨利伟\n费俊龙 聂海胜\n翟志刚 景海鹏 刘伯明\n景海鹏 刘旺 刘洋\n聂海胜 张晓光 王亚平\n景海鹏 陈东\nend\n```\n\n### 输出样例:\n\n```out\n杨利伟 1\n费俊龙 1\n聂海胜 2\n翟志刚 1\n景海鹏 3\n刘伯明 1\n刘旺 1\n刘洋 1\n张晓光 1\n王亚平 1\n陈东 1\n```\n提示：\n* 对于Java语言，此题有两种解决方案：\n  * （1）使用数组来解决；\n  * （2）使用java.util.Map接口的实现类LinkedMap来解决。\n    * LinkedHashMap是HashMap的子类，保证在遍历map元素时，可以按照添加的顺序实现遍历，对于频繁的遍历操作，它的执 行效率高于HashMap.\n * 对于Python语言，。。。。\n * 对于C语言，。。。。。。。",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 10,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "杨利伟\n费俊龙 聂海胜\n翟志刚 景海鹏 刘伯明\n景海鹏 刘旺 刘洋\n聂海胜 张晓光 王亚平\n景海鹏 陈东\nend",
+            "output": "杨利伟 1\n费俊龙 1\n聂海胜 2\n翟志刚 1\n景海鹏 3\n刘伯明 1\n刘旺 1\n刘洋 1\n张晓光 1\n王亚平 1\n陈东 1"
+          },
+          {
+            "name": "",
+            "input": "杨利伟\n费俊龙 聂海胜\n翟志刚 景海鹏 刘伯明\n景海鹏 刘旺 刘洋\n聂海胜 张晓光 王亚平\n景海鹏 陈东\nend",
+            "output": "杨利伟 1\n费俊龙 1\n聂海胜 2\n翟志刚 1\n景海鹏 3\n刘伯明 1\n刘旺 1\n刘洋 1\n张晓光 1\n王亚平 1\n陈东 1"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068110",
+    "content": "自定义一个异常类`ScoreException`，继承自Exception类。有一个私有的成员变量`message`（异常提示信息，String类型）；一个公有的无参数的构造方法，在方法中将message的值确定为“`您输入的成绩异常，请核实！`”；一个公有的方法`show()`，该方法的功能是输出message的值。\n\n定义一个学生类`Student`，有一个私有成员变量`score`（成绩，double类型）；一个带参数的公有方法`setScore()`用于设置学生的成绩，该方法声明可能抛出异常ScoreException，当设置的成绩为负数或超过100时，会抛出一个异常对象；一个公有方法`getScore()`用于获取学生的成绩。\n\n在测试类`Main`中，创建一个Student类的对象zhangsan，尝试调用setScore()方法来设置他的成绩（成绩从键盘输入，double类型），然后调用getScore()方法获取到该成绩后再将其输出。因用户的输入存在不确定性，以上操作有可能捕捉到异常ScoreException，一旦捕捉到该异常，则调用show()方法输出异常提示。不管是否有异常，最终输出“程序结束”。使用try...catch...finally语句实现上述功能。\n\n### 输入格式:\n\n输入一个小数或整数。\n\n### 输出格式:\n\n可能输出：\n成绩为XXX\n程序结束\n也可能输出：\n您输入的成绩异常，请核实！\n程序结束\n\n### 输入样例1:\n\n```in\n-20\n```\n\n### 输出样例1:\n\n```out\n您输入的成绩异常，请核实！\n程序结束\n```\n\n### 输入样例2:\n\n```in\n90\n```\n\n### 输出样例2:\n\n```out\n成绩为90.0\n程序结束\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "test1": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "test2": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "-20",
+            "output": "您输入的成绩异常，请核实！\n程序结束"
+          },
+          {
+            "name": "",
+            "input": "90",
+            "output": "成绩为90.0\n程序结束"
+          },
+          {
+            "name": "",
+            "input": "-20",
+            "output": "您输入的成绩异常，请核实！\n程序结束"
+          },
+          {
+            "name": "",
+            "input": "90",
+            "output": "成绩为90.0\n程序结束"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068111",
+    "content": "自定义一个异常类`OverLoadException`（超载异常），它是Exception的子类，有一个成员变量`message`（消息，String类型），有一个带参数的构造方法`public OverLoadException(double n)`，使得message的值为“`无法再装载重量是XXX吨的集装箱`”，其中XXX为参数n的值。有一个公有的成员方法`showMessage()`，功能为输出message的值。\n\n定义一个类`CargoShip`（货船），有成员变量`actualWeight`（实际装载量，double类型，初始值为0）、`maxWeight`（最大装载量，double类型）；有公有的成员方法`setMaxWeight()`用于设置maxWeight的值；公有的成员方法`void loading(double weight)`的功能是给货船加载weight吨的集装箱。但是根据参数weight的值，该方法可能会抛出超载异常，如果装载后实际重量没有超过最大装载量，则实际装载量增加，并输出“`目前共装载了XXX吨货物`”，其中XXX为actualWeight的值，否则抛出一个OverLoadException异常对象。\n\n在测试类`Main`中，定义一个CargoShip类的对象myship，从键盘输入一个数，用于设置其最大装载量。从键盘再输入两个数，作为两个集装箱的重量，尝试将这两个集装箱按输入时的顺序先后装上货船，该操作有可能捕捉到超载异常，一旦捕捉到该异常，则调用showMessage()方法输出异常提示。不管是否有异常，最终输出“货船将正点起航”。使用try...catch...finally语句实现上述功能。\n\n### 输入格式:\n\n第一行输入一个大于零的整数或小数，当作货船的最大装载量maxWeight。\n第二行输入两个大于零的整数或小数，当作尝试装载上货船的两个集装箱的重量，中间以空格隔开。\n\n### 输出格式:\n\n根据输入的值，可能输出以下两种情况之一：\n目前共装载了XXX吨货物\n无法再装载重量是XXX吨的集装箱\n最后输出：货船将正点起航\n\n\n### 输入样例1:\n\n```in\n500\n200 380\n```\n\n### 输出样例1:\n\n```out\n目前共装载了200.0吨货物\n无法再装载重量是380.0吨的集装箱\n货船将正点起航\n```\n\n### 输入样例2:\n\n```in\n1000\n300 500\n```\n\n### 输出样例2:\n\n```out\n目前共装载了300.0吨货物\n目前共装载了800.0吨货物\n货船将正点起航\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "test1": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "test2": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "500\n200 380",
+            "output": "目前共装载了200.0吨货物\n无法再装载重量是380.0吨的集装箱\n货船将正点起航"
+          },
+          {
+            "name": "",
+            "input": "1000\n300 500",
+            "output": "目前共装载了300.0吨货物\n目前共装载了800.0吨货物\n货船将正点起航"
+          },
+          {
+            "name": "",
+            "input": "500\n200 380",
+            "output": "目前共装载了200.0吨货物\n无法再装载重量是380.0吨的集装箱\n货船将正点起航"
+          },
+          {
+            "name": "",
+            "input": "1000\n300 500",
+            "output": "目前共装载了300.0吨货物\n目前共装载了800.0吨货物\n货船将正点起航"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1993858468376068112",
+    "content": "从键盘输入一个整形数n，如果输入正确的话，输出10-n后的值，如果输入错误的话输出“not int”最后输出end。\n\n### 输入格式:\n\n输入一个整数n。\n\n### 输出格式:\n\n根据情况输出结果。\n\n<br>\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n5\n```\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n5\nend\n```\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\na\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\nnot int\nend\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "5\n",
+            "output": "5\nend"
+          },
+          {
+            "name": "",
+            "input": "a\n",
+            "output": "not int\nend"
+          },
+          {
+            "name": "",
+            "input": "5\n",
+            "output": "5\nend"
+          },
+          {
+            "name": "",
+            "input": "a\n",
+            "output": "not int\nend"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  }
+]

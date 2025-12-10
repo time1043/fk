@@ -1,0 +1,1119 @@
+[
+  {
+    "id": "1993858468325736448",
+    "content": "一个计算机上安装JDK后，该计算机不包含的是（）。   @[](2)\n\nA. JRE\nB. JVM\nC. Eclipse\nD. javac.exe\n",
+    "choices": ["JRE", "JVM", "Eclipse", "javac.exe"]
+  },
+  {
+    "id": "1993858468325736449",
+    "content": "关于Java语言的描述，错误的是（）。   @[](1)\n\nA. 每一个.java文件编译后对应一个.class文件。\nB. .java文件编译后，每一个class对应一个.class文件\nC. Java源代码编译后产生的.class是字节码文件\nD. .class文件在JVM上运行\n",
+    "choices": [
+      "每一个.java文件编译后对应一个.class文件。",
+      ".java文件编译后，每一个class对应一个.class文件",
+      "Java源代码编译后产生的.class是字节码文件",
+      ".class文件在JVM上运行"
+    ]
+  },
+  {
+    "id": "1993858468325736450",
+    "content": "下面哪个标识符不符合Java定义要求？",
+    "choices": ["String", "_Name", "Name123", "100Book"]
+  },
+  {
+    "id": "1993858468325736451",
+    "content": "下列哪个叙述是正确的？",
+    "choices": [
+      "Java应用程序由若干个类所构成，这些类必须在一个源文件中",
+      "Java源文件必须含有主类",
+      "Java源文件的文件名必须与public类名完全相同",
+      "Java应用程序由若干个类所构成，这些类可以在一个源文件中，也可以分布在若干个源文件中，其中每个源文件必须含有主类。"
+    ]
+  },
+  {
+    "id": "1993858468325736452",
+    "content": "以下哪个标识符不合法？@[](2)\n\nA. _sys1_lll\nB. 2mail\nC. $change\nD. Class\n",
+    "choices": ["_sys1_lll", "2mail", "$change", "Class"]
+  },
+  {
+    "id": "1993858468325736453",
+    "content": " Java应用程序源文件的扩展名为(  )。 @[](2)\n\nA. java\nB. class\nC. exe\nD. html\n",
+    "choices": ["java", "class", "exe", "html"]
+  },
+  {
+    "id": "1993858468325736454",
+    "content": " Java应用程序经过编译后会产生一个以（   ）为扩展名的字节码文件 @[](2)\n\nA. java\nB. class\nC. exe\nD. html\n",
+    "choices": ["java", "class", "exe", "html"]
+  },
+  {
+    "id": "1993858468325736455",
+    "content": "哪一种类型的代码被JVM解释成本地代码？\n@[](2)\n\nA. 源代码\nB. 处理器代码\nC. 字节码\nD. .exe可执行代码",
+    "choices": ["源代码", "处理器代码", "字节码", ".exe可执行代码"]
+  },
+  {
+    "id": "1993858468325736456",
+    "content": "编译Java源文件和解释执行Java字节码文件的指令分别是什么？\n@[](2)\n\nA. javac.exe和javadoc.exe\nB. java.exe和jdb.exe\nC. jad.exe和java.exe\nD. javac.exe和java.exe",
+    "choices": [
+      "javac.exe和javadoc.exe",
+      "java.exe和jdb.exe",
+      "jad.exe和java.exe",
+      "javac.exe和java.exe"
+    ]
+  },
+  {
+    "id": "1993858468329930752",
+    "content": "在Java类的定义中，程序执行入口声明如下，哪一个是错误的程序代码？\n@[](2)\n\nA. public static void main(String args){ }\nB. public static void main(String[ ] args){ }\nC. public static void main(String args[ ]){ }\nD. public static void main(String message[ ]){ }",
+    "choices": [
+      "public static void main(String args){ }",
+      "public static void main(String[ ] args){ }",
+      "public static void main(String args[ ]){ }",
+      "public static void main(String message[ ]){ }"
+    ]
+  },
+  {
+    "id": "1993858468329930753",
+    "content": "一个Java源文件中最多可以包含（       ）个主类？",
+    "choices": ["0", "1", "2", "不受限制"]
+  },
+  {
+    "id": "1993858468329930754",
+    "content": "下列说法中，不正确的是(         )。",
+    "choices": [
+      "一个java源程序经过编译后，得到的文件的扩展名一定是.class。",
+      "一个java源程序编译通过后，得到的结果文件数也只有一个。",
+      "一个java源程序只能有一个public class类定义，且源文件的名字与public class的类名相同，扩展名必须是.java。",
+      "一个java源程序可以编译成多个class文件。"
+    ]
+  },
+  {
+    "id": "1993858468329930755",
+    "content": "某Java源文件代码如下，该源文件应如何命名？\n```{Java}\npublic class A {\n int a;\n}\nclass B {\n int b;\n}\nclass C {\n public static void main(String[] args) {\n  System.out.print(\"HELLO!\");\n }\n}\n```",
+    "choices": ["一定是A.java", "一定是B.java", "一定是C.java", "不确定"]
+  },
+  {
+    "id": "1993858468329930756",
+    "content": "某Java源文件代码如下，该源文件应如何命名？\n```\nclass A {\n  int a;\n}\nclass B {\n  int b;\n}\nclass C {\n   public static void main(String[] args) {\n       System.out.print(\"HELLO!\");\n   } \n}\n```",
+    "choices": [
+      "一定是A.java",
+      "一定是B.java",
+      "一定是C.java",
+      "后缀是.java，文件名可以任意取，符合标识符规范即可。"
+    ]
+  },
+  {
+    "id": "1993858468329930757",
+    "content": "（       ）方法是Java程序执行的入口，含有该方法的类叫做（      ）。",
+    "choices": ["main  主类\n", "Main  主类", "main  公共类", "Main  公共类"]
+  },
+  {
+    "id": "1993858468329930758",
+    "content": "下面哪种类型的文件可以在Java虚拟机中运行？",
+    "choices": [".java\n", ".jre", ".exe", ".class"]
+  },
+  {
+    "id": "1993858468329930759",
+    "content": "Java属于以下哪种语言？\n",
+    "choices": ["机器语言\n", "汇编语言", "高级语言", "以上都不对"]
+  },
+  {
+    "id": "1993858468329930760",
+    "content": "对JDK描述错误的是（     ）。",
+    "choices": [
+      "运行Java程序只要有JRE环境就可以，不一定需要全部JDK的功能\n",
+      "JDK中包括JVM、核心类库、Java开发工具（java，javac）等",
+      "JDK本身也是平台无关的，不同的操作系统安装的JDK是一样的\t",
+      "JDK的全称是 Java Development Kit"
+    ]
+  },
+  {
+    "id": "1993858468329930761",
+    "content": "正确配置path环境变量的方式是：（    ）。\n\n",
+    "choices": [
+      "在系统环境变量path原有的字符串基础上，加上分号“;”，然后再加上JDK安装路径下的bin目录\n",
+      "新建系统环境变量path，其值为：分号“;”，然后再连上JDK安装路径下的bin目录\n",
+      "在系统环境变量path原有的字符串基础上，加上分号“;”，然后再加上JDK安装路径下的lib目录\n",
+      "新建系统环境变量path，其值为：分号“;”，然后再连上JDK安装路径下的lib目录"
+    ]
+  },
+  {
+    "id": "1993858468329930762",
+    "content": "下面关于main方法声明正确的是（    ）。\n\n",
+    "choices": [
+      "public main(String args[ ])\t",
+      "public static void main(String args[ ])\t",
+      "private static void main(String args[ ])\t\n",
+      "void main()"
+    ]
+  },
+  {
+    "id": "1993858468329930763",
+    "content": "下列选项中，哪一个是多行注释符号（）",
+    "choices": ["//**//", "/*/*", "//", "/**/"]
+  },
+  {
+    "id": "1993858468329930764",
+    "content": "以下（  ）字符串是 Java 中合法的标识符。",
+    "choices": ["super", "3number", "#number", "$number"]
+  },
+  {
+    "id": "1993858468329930765",
+    "content": "属于 main() 方法的返回类型是（）。",
+    "choices": ["public", "static", "void", "main"]
+  },
+  {
+    "id": "1993858468329930766",
+    "content": "请问，为了使一个名为MyClass的public类成功编译，需要满足以下哪些条件？",
+    "choices": [
+      "MyClass必须定义一个正确的main()方法",
+      "MyClass必须定义在MyClass.java源文件中",
+      "MyClass必须定义在MyClass包中",
+      "MyClass类必须被导入"
+    ]
+  },
+  {
+    "id": "1993858468334125056",
+    "content": "以下哪个标识符不是Java语言的合法用户标识符（   ）。",
+    "choices": ["_double", "$123", "Main", "class"]
+  },
+  {
+    "id": "1993858468334125057",
+    "content": "编译Java Application源程序文件将产生相应的字节码文件，这些字节码文件的扩展名是（）。",
+    "choices": [".java", ".class", ".html", ".exe"]
+  },
+  {
+    "id": "1993858468334125058",
+    "content": "下面（ ）是 main()方法的合法参数。",
+    "choices": ["char args[]", "char args[][]", "String args[]", "String args"]
+  },
+  {
+    "id": "1993858468334125059",
+    "content": "下面概念中，不属于面向对象编程范畴的是（ ）。",
+    "choices": ["对象", "继承", "类", "过程调用"]
+  },
+  {
+    "id": "1993858468338319360",
+    "content": "Given the following code:\n```\npublic class TestClass {\n    public static void main(String args[]) {\n        String str = new String(\"World\");\n        char[] ch = { 'H', 'e', 'l', 'l', 'o' };\n        change(str, ch);\n        System.out.println(str + \" and \" + new String(ch));\n    }\n\n    public static void change(String str, char ch[])\n    {\n\t\t    str=\"Changed\"; ch[0]='C';\n    }\n}\n```\nWhat is the result after execution?  @[](2)\nA. World and Hello\nB. World and Cello\nC. Changed and Hello\nD. Changed and Cello",
+    "choices": [
+      "World and Hello",
+      "World and Cello",
+      "Changed and Hello",
+      "Changed and Cello"
+    ]
+  },
+  {
+    "id": "1993858468338319361",
+    "content": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString fileName = \"sdut@sdut.edu.cn\"; \nSystem.out.println(fileName.lastIndexOf(\".\"));\n```",
+    "choices": ["9\n", "10\n", "13", "12"]
+  },
+  {
+    "id": "1993858468338319362",
+    "content": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString fileName = \"中国China\"; \nSystem.out.println(fileName.indexOf(\"国\"));\n```",
+    "choices": ["0", "1", "2", "3"]
+  },
+  {
+    "id": "1993858468338319363",
+    "content": "关于字符串的构造方法，如下代码执行结果是（     ）。\n```\nString str=\"ABCDEFG\";\nchar[] chars=str.toCharArray(); \nSystem.out.println(new String(chars,1,3));\n```",
+    "choices": ["ABC\n", "BCD\n", "AB\n", "BC\n"]
+  },
+  {
+    "id": "1993858468338319364",
+    "content": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str1 = \"sdut@sdut.edu.cn\";\nString str2 = str1.toLowerCase();\nSystem.out.println(str2);\nSystem.out.println(str1);\nSystem.out.println(str1 == str2);\n```",
+    "choices": [
+      "```\nsdut@sdut.edu.cn\nsdut@sdut.edu.cn\ntrue\n```",
+      "```\nsdut@sdut.edu.cn\nsdut@sdut.edu.cn\nfalse\n```",
+      "```\nsdut@sdut.edu.cn\nSDUT@SDUT.EDU.CN\ntrue\n```",
+      "```\nsdut@sdut.edu.cn\nSDUT@SDUT.EDU.CN\nfalse\n```"
+    ]
+  },
+  {
+    "id": "1993858468338319365",
+    "content": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str1 = \"abcd\"; \nString str2=\"sdut\";\nSystem.out.println(str1.compareTo(str2)>0);\n```",
+    "choices": ["true\n", "false", "1", "-1"]
+  },
+  {
+    "id": "1993858468338319366",
+    "content": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str1 = \"sdut12\"; \nString str2=\"sDut12\";\nSystem.out.println(str1.equalsIgnoreCase(str2));\n```",
+    "choices": ["true\n", "false", "0", "1"]
+  },
+  {
+    "id": "1993858468338319367",
+    "content": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str = \"    abcd123\";\n  str.toUpperCase();\n  str.trim();\n  System.out.println(str);\n```",
+    "choices": [
+      "\t\tabcd123\n\n",
+      "abcd123\n",
+      "  \t ABCD123\n\n",
+      "`ABCD123`\n"
+    ]
+  },
+  {
+    "id": "1993858468338319368",
+    "content": "关于字符串的相关操作，如下代码执行后输出的结果是：（     ）。\n```\nString str1=\"abc\";\nString str2=str1.toUpperCase();\nString str3=str1.toLowerCase();\nSystem.out.println(str1==str2);\n System.out.println(str1==str3);\n```",
+    "choices": [
+      "```\nfalse\ntrue\n```",
+      "```\nfalse\nfalse\n```",
+      "```\ntrue\ntrue\n```",
+      "```\ntrue\nfalse\n```"
+    ]
+  },
+  {
+    "id": "1993858468338319369",
+    "content": "关于字符串对象的比较，==用于比较字符串对象的（      ）是否相同；equals()方法用于比较字符串对象的（      ）是否相同。",
+    "choices": [
+      "存储地址    字符序列",
+      "存储地址   存储地址",
+      "字符序列  存储地址",
+      "字符序列   字符序列"
+    ]
+  },
+  {
+    "id": "1993858468338319370",
+    "content": "执行如下两行代码之后，则内存中存在几个字符串对象?（    ）\n```\nString str=\"abc\"; \nstr+=\"def\";\n```",
+    "choices": ["1", "2", "3", "4"]
+  },
+  {
+    "id": "1993858468338319371",
+    "content": "Given code below:\n```\nString s1 = \"Hello\";\nString s2 = \"Hell\"+\"o\";\nString s3 = \"Hell\";\ns3 = s3+\"o\";\n```\nWhich one below is correct? @[](2)\nA. `s1 == s2` is true, `s1 == s3` is true\nB. `s1 == s2` is true, `s1 == s3` is false\nC. `s1 == s2` is false, `s1 == s3` is false\nD. `s1 == s2` is false, `s1 == s3` is true",
+    "choices": [
+      "`s1 == s2` is true, `s1 == s3` is true",
+      "`s1 == s2` is true, `s1 == s3` is false",
+      "`s1 == s2` is false, `s1 == s3` is false",
+      "`s1 == s2` is false, `s1 == s3` is true"
+    ]
+  },
+  {
+    "id": "1993858468338319372",
+    "content": "阅读下面的程序段，以下表达式的值为true的是哪个?（     ）\n```\n\t\tString str1=new String(\"java\");\n\t\tString str2=new String(\"java\");\n\t\tStringBuffer str3=new StringBuffer(\"java\");\n\t\tStringBuffer str4=new StringBuffer(\"java\");\n```",
+    "choices": [
+      "str1==str2\n",
+      "str1.equals(str2)\n",
+      "str3==str4",
+      "str3.equals(str4)",
+      "str1==str3",
+      "str1.equals(str4)"
+    ]
+  },
+  {
+    "id": "1993858468342513664",
+    "content": "对String类型的字符串  `String str=\"abcdefg\";`   调用str对象的(       )方法，得到byte类型的数组`[97, 98, 99, 100, 101, 102, 103]`?\n",
+    "choices": ["getBytes()", "getChars()", "toBytes()", "toChars()"]
+  },
+  {
+    "id": "1993858468342513665",
+    "content": "对String类型的字符串`String str=\"abcd\"`，调用str对象的(      )方法，得到char类型的数组`['a','b','c','d'] `?",
+    "choices": ["toCharArray()", "toChars()", "getChars()", "getBytes()"]
+  },
+  {
+    "id": "1993858468342513666",
+    "content": "执行以下语句后，str2的值是（  ）。\n```\nString str1 = \"abc\";\nString str2 = str1.concat(\"cde\");\n\n```",
+    "choices": ["abcde", "abccde", "cdeabc", "edccba"]
+  },
+  {
+    "id": "1993858468342513667",
+    "content": "下列选项中，可以正确实现String初始化的是（    ）2分。",
+    "choices": [
+      "String str=abcd;",
+      "String str=\"hello\";",
+      "String str=1234;",
+      "String str='good';"
+    ]
+  },
+  {
+    "id": "1993858468342513668",
+    "content": "有如下程序代码， 程序运行的结果是（ ）。\nString s1 = \"中国\";\nString s2 = \"我爱 \" + s1;\nString s3 = \"我爱 \" + s1;\nSystem.out.print(s2 == s3);\nSystem.out.println(\" \"+s2.equals(s3));\n",
+    "choices": ["true false", "true true", "false false", "false true"]
+  },
+  {
+    "id": "1993858468342513669",
+    "content": "如下代码输出（ ）。\n```\npublic class TestStringBuilder {\n\tpublic static void main(String[] args) {\n\t\tString s = \"Hello\";\n\t    StringBuilder buffer = new StringBuilder(s);\n\t    buffer.append(\" World!\");\n\t    System.out.println(buffer);\t    \n\t  }\n}\n```",
+    "choices": ["Hello", "World!", "Hello World!", "无输出"]
+  },
+  {
+    "id": "1993858468342513670",
+    "content": "以下代码段将创建几个对象?@[](2)\n<pre>\nString s1=\"bc\";\nString s2=\"bc\";   \n</pre>\nA. 2\nB. 3\nC. 0\nD. 1",
+    "choices": ["2", "3", "0", "1"]
+  },
+  {
+    "id": "1993858468342513671",
+    "content": "Given code below:\n```Java\nString s1 = \"Hello\";\nString s2 = \"Hell\"+\"o\";\nString s3 = \"Hell\";\ns3 = s3+\"o\";\n```\nWhich one below is correct?  @[](2)\n\nA. s1 == s2 is true, s1 == s3 is true\nB. s1 == s2 is true, s1 == s3 is false\nC. s1 == s2 is false, s1 == s3 is false\nD. s1 == s2 is false, s1 == s3 is true\n\n",
+    "choices": [
+      "s1 == s2 is true, s1 == s3 is true",
+      "s1 == s2 is true, s1 == s3 is false",
+      "s1 == s2 is false, s1 == s3 is false",
+      "s1 == s2 is false, s1 == s3 is true"
+    ]
+  },
+  {
+    "id": "1993858468342513672",
+    "content": "请选择下面程序正确的输出结果（\t）   \n```\npublic class Main{\n\t\tpublic static void main(String args[ ]){\n\t\t\tString a = new String(\"A\");\n\t\t\tString b = new String(\"B\");\n\t\t\tmb_operate(a,b);\n\t\t\tSystem.out.println(a + \".\" + b);\n}\nstatic void mb_operate(String x,String y){\n\tx.concat(y);\n\ty=x;\n}\n}\n```\n",
+    "choices": ["A.B\t", "A.A", "AB.AB", "AB.B"]
+  },
+  {
+    "id": "1993858468342513673",
+    "content": "如下程序输出（   ）   @[](2)\n```\npublic class Test {  \n  public static void main(String[] args) {\n    String s = \"Java\";\n    StringBuilder buffer = new StringBuilder(s);\n    change(s);\n    System.out.println(s);\n  }\n  \n  private static void change(String s) {\n    s = s + \" and HTML\";\n  }\n}\n```\nA. Java\nB. Java and HTML\nC. and HTML\nD. 什么都不显示\n",
+    "choices": ["Java", "Java and HTML", "and HTML", "什么都不显示"]
+  },
+  {
+    "id": "1993858468342513674",
+    "content": "关于以下程序段，正确的说法是（   ）。   @[](2)\n```\n1. String s1 = \"abc\"+\"def\";\n2. String s2 = new String(s1);\n3. if (s1==s2) {\n4.    System.out.println(\"==succeeded\");\n5. }\n6. if (s1.equals(s2)) {\n7.    System.out.println(\".equals() succeeded\");\n8. }\n```\n\nA. 行4与行7都将执行\nB. 行4执行，行7不执行\nC. 行7执行，行4不执行\nD. 行4、行7都不执行\n",
+    "choices": [
+      "行4与行7都将执行",
+      "行4执行，行7不执行",
+      "行7执行，行4不执行",
+      "行4、行7都不执行"
+    ]
+  },
+  {
+    "id": "1993858468342513675",
+    "content": "有如下程序代码， 程序运行的结果是（     ）。\n```\nString s1 = \"sdut\";\nString s2 = \"I love \" + s1;\nString s3 = \"I love \" + s1;\nSystem.out.print(s2 == s3);\nSytem.out.println(\" \"+s2.equals(s3));\n```",
+    "choices": [
+      "true false\n",
+      "true true\n",
+      "false false\n",
+      "false true\n\n"
+    ]
+  },
+  {
+    "id": "1993858468342513676",
+    "content": "有如下代码，程序执行的结果是（      ）。\n```\nString str1 = \"sdut@sdut.edu.cn\";\nString[] strings = str1.split(\"u\");\nSystem.out.println(Arrays.toString(strings));\n```\n\n",
+    "choices": [
+      "`sd, t@sd, t.ed, .cn`\n",
+      "\n`[sd, t@sd, t.ed, .cn]`\n\n",
+      "\n`[sdu, t@sdu, t.edu, .cn]`\n",
+      "`sdu, t@sdu, t.edu, .cn`\n"
+    ]
+  },
+  {
+    "id": "1993858468342513677",
+    "content": "有如下程序代码，程序执行的结果是（     ）。\n```\nString str1 = \"\\t sdut@sdut.edu.cn \\t \";\nSystem.out.println(str1.trim());\n```\n\n",
+    "choices": [
+      "sdut@sdut.edu.cn\n",
+      " \\tsdut@sdut.edu.cn",
+      "替换为正确项",
+      "替换为错误项"
+    ]
+  },
+  {
+    "id": "1993858468342513678",
+    "content": "有如下程序代码，程序执行的结果是（ ）。\n```\nint i= 110; \nString str2=i+2+\"lucky\";\nSystem.out.println(str2);\n```",
+    "choices": ["1102lucky\n", "112lucky", "lucky1102", "lucky112"]
+  },
+  {
+    "id": "1993858468342513679",
+    "content": "有如下代码，程序执行的结果是（      ）。\n```\nint i= 110;\t\nString str2=\"lucky\"+i+2;\t\nSystem.out.println(str2);\t\n```",
+    "choices": ["lucky1102\n", "lucky112", "1102lucky", "112lucky"]
+  },
+  {
+    "id": "1993858468342513680",
+    "content": "在下面的代码中，程序执行的结果将是：（     ）。\n```\npublic class Test {\n  public static void main(String[] args) {\n         String str = \"123\";\n         System.out.println(str);\n         change(str);\n         System.out.println(str);\n     }\n    public static void change(String str){\n      str = \"456\";\n    }\n}\n```",
+    "choices": [
+      "```\n456\n123\n```",
+      "```\n456\n456\n```",
+      "```\n123\n456\n```",
+      "```\n123\n123\n```"
+    ]
+  },
+  {
+    "id": "1993858468342513681",
+    "content": "Which one below is NOT a valid Java identifier?   @[](2)\n\nA. Int\t\nB. goto\t\nC. 变量\t\nD. $0",
+    "choices": ["Int", "goto", "变量", "$0"]
+  },
+  {
+    "id": "1993858468342513682",
+    "content": "在Java中，以下程序段的输出结果是。@[](1)\n\n![222.png](~/e1c0eb9a-f221-43ae-8a94-14f42cb1f52b.png)\nA. 1,2,3\nB. 2,3,4\nC. 2,2,3\nD. 2,3,3",
+    "choices": ["1,2,3", "2,3,4", "2,2,3", "2,3,3"]
+  },
+  {
+    "id": "1993858468342513683",
+    "content": "若有定义:int x=3,y=2;float a=2.5,b=4.5;则下面表达式的值为（）。\n\n(x+y)%2+(int)a/(int)b。@[](1)\n\nA. 1.0\nB. 1\nC. 1.5\nD. 2\n",
+    "choices": ["1.0", "1", "1.5", "2"]
+  },
+  {
+    "id": "1993858468342513684",
+    "content": "下面那种类型不属于Java的基本数据类型？ @[](2)\n\nA. byte\nB. int\nC. boolean\nD. String\n",
+    "choices": ["byte", "int", "boolean", "String"]
+  },
+  {
+    "id": "1993858468342513685",
+    "content": "假设有如下程序：\n```\npublic class Demo {\n        public static void main(String args[]) {\n                int num = 68 ;\n                char c = (char) num ;\n                System.out.println(c) ;\n        }\n}\n```\n最终的执行结果是什么？ @[](2)\n\nA. B\nB. C\nC. D\nD. a\n",
+    "choices": ["B", "C", "D", "a"]
+  },
+  {
+    "id": "1993858468346707968",
+    "content": "以下语句输出的结果是?@[](2)\n```\n String str=\"123\"; \n int x=4,y=5; \n str = str + (x + y); \n System.out.println(str);\n```\nA. 1239\nB. 12345\nC. 会产生编译错误\nD. 123+4+5 \n",
+    "choices": ["1239", "12345", "会产生编译错误", "123+4+5"]
+  },
+  {
+    "id": "1993858468346707969",
+    "content": "一个表达式中有int、byte、long、double型的数据相加，其结果是（  ）类型的值 @[](2)\n\nA. int\nB.  long\nC. byte\nD. double\n",
+    "choices": ["int", "long", "byte", "double"]
+  },
+  {
+    "id": "1993858468346707970",
+    "content": " 45 / 4的结果是（  ）?  @[](2)\n\nA. 11\nB. 12\nC. 10\nD. 11.25\n",
+    "choices": ["11", "12", "10", "11.25"]
+  },
+  {
+    "id": "1993858468346707971",
+    "content": "-1作为int数据类型出现，在内存中的存储形式是：（      ）。",
+    "choices": [
+      "11111111",
+      "11111111 11111111",
+      "11111111 11111111 11111111 11111111",
+      "11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111111"
+    ]
+  },
+  {
+    "id": "1993858468346707972",
+    "content": "在JAVA中，按精度从小到大的顺序排列，各种基本数据类型自动转换的顺序是：（         ）。",
+    "choices": [
+      "byte-short(char)- int-long-float-double\t",
+      "byte-short(char)- int-float-long-double\t",
+      "byte-short- int(char)-long-float-double\t",
+      "byte(char)-short- int-long-float-double"
+    ]
+  },
+  {
+    "id": "1993858468346707973",
+    "content": "下列（       ）是合法标识符。",
+    "choices": ["rwkj@163", "Java程序设计\n", "8a", "e-mail"]
+  },
+  {
+    "id": "1993858468346707974",
+    "content": "下面哪些元素不能作为Java标识符的首字符？（   ）",
+    "choices": ["字母", "数字\n", "下划线_", "$"]
+  },
+  {
+    "id": "1993858468346707975",
+    "content": "JAVA中，下面哪个赋值表达式正确：（      ）",
+    "choices": [
+      "float  f=1.3;\n",
+      "char  c=\"a\";\n",
+      "byte  b=257;\n",
+      "int  i=10;\n"
+    ]
+  },
+  {
+    "id": "1993858468346707976",
+    "content": "判断两个对象的引用是否相同，使用（       ）方式进行判断。\n",
+    "choices": ["equals()\n", "hashcode()\n", "toString()\n", "==\n"]
+  },
+  {
+    "id": "1993858468346707977",
+    "content": "在控制台显示消息的语句正确的是（  ）",
+    "choices": [
+      "System.out.println(我是一个Java程序员了！);",
+      "System.Out.println(\"我是一个Java程序员了！\");",
+      "System.out.println(\"我是一个Java程序员了！\");",
+      "System.Out.Println(\"我是一个Java程序员了！\");"
+    ]
+  },
+  {
+    "id": "1993858468346707978",
+    "content": "下面选项中不是开发Java程序的步骤（  ）",
+    "choices": ["编译", "编写源代码", "运行", "发布"]
+  },
+  {
+    "id": "1993858468346707979",
+    "content": "下列关于变量作用域的说法中，正确的是（）",
+    "choices": [
+      "在main()方法中任何位置定义的变量，其作用域为整个main()方法。",
+      "代码块中定义的变量，在代码块外也是可以使用的。",
+      "变量的作用域为：从定义处开始，到变量所在代码块结束的位置。",
+      "变量的作用域不受代码块的限制。"
+    ]
+  },
+  {
+    "id": "1993858468346707980",
+    "content": "以下标识符中，不合法的是（ ）",
+    "choices": ["user", "$inner", "class", "login_1"]
+  },
+  {
+    "id": "1993858468346707981",
+    "content": "下列选项中，不属于Java中关键字的是（）",
+    "choices": ["if", "float", "Final", "try"]
+  },
+  {
+    "id": "1993858468346707982",
+    "content": "下列选项中，属于布尔常量的是（）",
+    "choices": ["198", "2e3f", "true", "null"]
+  },
+  {
+    "id": "1993858468346707983",
+    "content": "下列选项中，哪一个不能通过编译（ ）",
+    "choices": [
+      "byte a=1;",
+      "short b=100;",
+      "int c='a';",
+      "long d=8888888888888888;"
+    ]
+  },
+  {
+    "id": "1993858468346707984",
+    "content": "下列浮点数的定义中，正确的是（ ）",
+    "choices": [
+      "float f = 1F;",
+      "float f = 1.0;",
+      "float f = '1';",
+      "float f = \"1\";"
+    ]
+  },
+  {
+    "id": "1993858468346707985",
+    "content": "若int a = 7;a %= 2;则执行后，变量a的值是（）",
+    "choices": ["7", "1", "2", "3"]
+  },
+  {
+    "id": "1993858468346707986",
+    "content": "下列选项中，不属于比较运算符的是（ ）",
+    "choices": ["=", "==", "<", "<="]
+  },
+  {
+    "id": "1993858468346707987",
+    "content": "执行下列程序后，输出的正确结果是（）。\n```\npublic class Test {\n    public static void main(String[] args) {\n        System.out.print(100%3);\n        System.out.print(\",\");\n        System.out.println(100%3.0);\n    }\n}\n```",
+    "choices": ["1,1", "1,1.0", "1.0,1", "1.0,1.0"]
+  },
+  {
+    "id": "1993858468346707988",
+    "content": "假设有以下整型变量赋初值语句：int i=1+1/2+1/4；请问该语句执行后变量i的值为：\n",
+    "choices": ["1", "1.75", "2.5", "3"]
+  },
+  {
+    "id": "1993858468346707989",
+    "content": "下面程序段：\n```{JAVA}\nboolean a = false;\nboolean b = true;\nboolean c = (a && b) && (!b);\nboolean result = (a & b) & (!b);\n```\n执行完后，正确的结果是（）。",
+    "choices": [
+      "c=false; result=false;",
+      "c=true; result=true;",
+      "c=true; result=false;",
+      "c=false; result=true;"
+    ]
+  },
+  {
+    "id": "1993858468350902272",
+    "content": "已知有如下定义：String s = \"story\";  下面（ ）表达式是合法的。",
+    "choices": [
+      "s += books;",
+      "char c = s[1];",
+      "int len = s.length;",
+      "String t = s.toLowerCase();"
+    ]
+  },
+  {
+    "id": "1993858468350902273",
+    "content": "下列选项中，合法的String型字符串常量是(  ) @[](2)\n\nA. 'M' \nB. How are you\nC. '#apple'\nD. \"apple\"\n",
+    "choices": ["'M' ", "How are you", "'#apple'", "\"apple\""]
+  },
+  {
+    "id": "1993858468350902274",
+    "content": "下面的方法，当输入为2的时候返回值是多少?（     ）\n<pre>\npublic int getValue(int i) {\n         int result = 0;\n         switch (i) {\n            case 1:\n                result = result + i;\n            case 2:\n                result = result + i * 2;\n            case 3:\n                result = result + i * 3;\n        }\n        return result;\n }\n</pre>\n@[](2)\n\nA. 0\nB. 2\nC. 4\nD. 10",
+    "choices": ["0", "2", "4", "10"]
+  },
+  {
+    "id": "1993858468350902275",
+    "content": "在下面的代码段中，下列m的（  ）值将引起“default”的输出。   @[](2)\n```\nimport java.util.Scanner;\npublic class Main {\n    public static void main(String[] args) {\n    \tScanner input = new Scanner(System.in);    \t\n        int m = input.nextInt();\n        switch(m) {\n            case 0: System.out.println(\"case 0\");\n            case 1: System.out.println(\"case 1\");break;\n            case 2:\n            default:System.out.println(\"default\");\n        }\n    }\n}\n\n```\n\nA. 0\nB. 1\nC. 2\nD. 以上答案都不正确\n",
+    "choices": ["0", "1", "2", "以上答案都不正确"]
+  },
+  {
+    "id": "1993858468350902276",
+    "content": "下列语句序列执行后，k 的值是(    )   @[](2)\n```\nint x=6, y=10, k=5;\nswitch( x%y ){ \n        case 0: k=x*y;\n  \tcase 6: k=x/y;\n  \tcase 12: k=x-y;\n  \tdefault: k=x*y-x;\n}\n```\nA. 60 \nB. 5\nC. 0\nD. 54\n",
+    "choices": ["60 ", "5", "0", "54"]
+  },
+  {
+    "id": "1993858468350902277",
+    "content": "以下选项中没有语法错误的是（       ） 。   @[](2)\nA. \n<pre>\nwhile (int  i<7) { \n       i++; \n       System.out.println(“i is “+i);  \n} \n</pre>\nB. \n<pre>\nint  j=3; while(j) {   \n       System.out.println(“ j  is “+j); \n} \n</pre>\nC. \n<pre>\nint  j=0; \nfor(int  k=0; j + k !=10; j++,k++) {     \n        System.out.println(“ j  is “+ j + “k  is”+ k); \n} \n</pre>\nD.  \n<pre>\nint  j=0; \ndo{ \n      System.out.println( “j  is “+j++);       \n     if (j == 3) {\n        continue  loop;\n     }  \n}while  (j<10);\n</pre>",
+    "choices": [
+      "\n<pre>\nwhile (int  i<7) {\n       i++;\n       System.out.println(“i is “+i);\n}\n</pre>",
+      "\n<pre>\nint  j=3; while(j) {\n       System.out.println(“ j  is “+j);\n}\n</pre>",
+      "\n<pre>\nint  j=0;\nfor(int  k=0; j + k !=10; j++,k++) {\n        System.out.println(“ j  is “+ j + “k  is”+ k);\n}\n</pre>",
+      "\n<pre>\nint  j=0;\ndo{\n      System.out.println( “j  is “+j++);\n     if (j == 3) {\n        continue  loop;\n     }\n}while  (j<10);\n</pre>"
+    ]
+  },
+  {
+    "id": "1993858468350902278",
+    "content": "在JAVA中，给定代码片段如下所示，则编译运行后，输出结果是（）。@[](2)\n```\nfor (int i = 0; i < 10; i++) {\n    if (i == 10 - i) {\n        break;\n    }\n    \n    if (i % 3 != 0) {\n        continue;\n    }\n    System.out.print(i + \" \");\n}\n```\n\nA. 0\nB. 0 3\nC. 0 3 6\nD. 0 3 6 9\n",
+    "choices": ["0", "0 3", "0 3 6", "0 3 6 9"]
+  },
+  {
+    "id": "1993858468350902279",
+    "content": "下面代码将输出（    ）行 \"Welcome to Java\"?。   @[](2)\n```\nint count = 0;\ndo {\n     System.out.println(\"Welcome to Java\");\n} while (count++ < 10);\n```\nA. 10\nB. 11\nC. 9\nD. 1\n",
+    "choices": ["10", "11", "9", "1"]
+  },
+  {
+    "id": "1993858468350902280",
+    "content": "分析下列代码的运行结果是什么？\n\nvoid looper(){\n    \n\t\tint x=0;\n\t\tone:\n\t\twhile(x<20) {\n\t\t    two:\n\t\t\t\tSystem.out.print(++x);\n\t\t\t\tif(x>3)\n\t\t\t\t  break two;\n\t\t}\n}\n\t\t\t\n@[](2)\n\nA. 编译错误\nB. 0\nC. 1\nD. 2",
+    "choices": ["编译错误", "0", "1", "2"]
+  },
+  {
+    "id": "1993858468350902281",
+    "content": "当编译并运行下列程序段时，运行结果是什么？\n \n public class Test {\n \n\t\tpublic static void main(String[ ] args) {\n            int i=0;\n            while (i--<0){\n                 System.out.println(\"The value of i is \"+i);\n             }\n             System.out.println(\"The end\");\n\t\t }\n\t}\n\n@[](2)\n\nA. 编译时错误\nB. 运行时错误\nC. The end\nD. The value of i is 0",
+    "choices": ["编译时错误", "运行时错误", "The end", "The value of i is 0"]
+  },
+  {
+    "id": "1993858468350902282",
+    "content": "下列选项中不属于本段代码输出结果的是（      ）\n\n\tpublic class Main{\n\t\tpublic static void main(String args[]) {\n\t\t  one:\n\t\t  two:\n\t\t  for(int i=0; i<3; i++) {\n\t\t      three:\n\t\t      for(int j=10; j<30; j+=10) {\n\t\t         System.out.println(i+j);\n\t\t\t\t if(i>0)\n\t\t\t\t    break one;\n\t\t      }\n\t\t  }\n\t\t}\n\t}\n@[](2)\n\nA. 10\nB. 20\nC. 11\nD. 21",
+    "choices": ["10", "20", "11", "21"]
+  },
+  {
+    "id": "1993858468350902283",
+    "content": "关于类和对象的关系，下列说法哪种说法是错误的？",
+    "choices": [
+      "类和对象都是具体的。\n",
+      "类是抽象的，对象是具体的。\n",
+      "一般情况下，在定义类之后，能创建无数个对象，可以说，类能化身千万。\n",
+      "类是引用型数据类型。\n"
+    ]
+  },
+  {
+    "id": "1993858468350902284",
+    "content": "关于下面的类描述中正确的是：   @[](1)\n```\nclass Test{                                     \n    void test(int i){                             \n        System.out.println(\"I am an int.\");             \n    }                                             \n    void test(String s){                              \n        System.out.println(\"I am a char\");             \n    }                                             \n    public static void main(String args[]){           \n        Test t=new Test();                            \n        t.test('a');                                  \n    }                                         \n}       \n```\nA. 编译出错\nB. 编译通过，运行出错\nC. 编译通过，运行时输出“I am an int”\nD. 编译通过，运行时输出“I am a char\"\n",
+    "choices": [
+      "编译出错",
+      "编译通过，运行出错",
+      "编译通过，运行时输出“I am an int”",
+      "编译通过，运行时输出“I am a char\""
+    ]
+  },
+  {
+    "id": "1993858468350902285",
+    "content": "关于构造方法定义与作用，下列说法**错误**的是：（    ）。",
+    "choices": [
+      "用来创建类的实例时调用的方法\n",
+      "调用该方法时，对实例变量赋值\n",
+      "定义时，方法名称与类名相同，返回值类型可以不写，也可以写成void\n",
+      "一个类的构造方法可以定义多个，多个构造方法的参数有明显区别。\n"
+    ]
+  },
+  {
+    "id": "1993858468350902286",
+    "content": "以下有关构造方法的说法，正确的是： ____。",
+    "choices": [
+      "一个类的构造方法可以有多个\n",
+      "构造方法在类定义时被调用\n",
+      "构造方法只能由对象的其它方法调用\n",
+      "构造方法可以和类同名，也可以和类名不同\n"
+    ]
+  },
+  {
+    "id": "1993858468350902287",
+    "content": "关于以下代码的说明，正确的是（ ）。\n```\nclass Main {\n\tstatic int x = 10;\n\tstatic {\n\t\tx += 5;\n\t\tSystem.out.println(\"x=\" + x);\n\t}\n\tpublic static void main(String args[ ])\n\t{\n\t\tSystem.out.println(\"x=\" + x);\n\t}\n\tstatic {\n\t\tx /= 3;\n\t\tSystem.out.println(\"x=\" + x);\n\t}\n}\n```",
+    "choices": [
+      "不能通过编译，因为缺少方法名和返回类型\n",
+      "不能通过编译，因为只能有一个静态初始化器",
+      "编译通过，执行结果为：\n```\nx=15\nx=5\nx=5\n```\n",
+      "编译通过，执行结果为：\n```\nx=3\nx=8\nx=8\n```"
+    ]
+  },
+  {
+    "id": "1993858468350902288",
+    "content": "在Java中，针对类和成员提供了4种访问级别，以下控制级别由小到大的顺序是：（    ）。\n",
+    "choices": [
+      "private< 默认 < protected < public\n",
+      "默认 < private< protected < public\n",
+      "protected < 默认 < private < public\n",
+      "protected < private< 默认  < public\n"
+    ]
+  },
+  {
+    "id": "1993858468350902289",
+    "content": "在成员方法的访问控制修饰符中，规定访问权限只包含该类自身作用域和同包作用域的修饰符是（       ）。",
+    "choices": ["protected\n", "public\n", "默认\n", "private\n"]
+  },
+  {
+    "id": "1993858468350902290",
+    "content": "下列关于修饰符使用的说法，错误的是（      ）。\n",
+    "choices": [
+      "abstract不能与final并列修饰同一个类\n",
+      "abstract类中可以有private的成员\n",
+      "abstract方法必须在abstract类中\n",
+      "static方法中能访问非static的属性\n"
+    ]
+  },
+  {
+    "id": "1993858468350902291",
+    "content": "在非静态成员方法中，可以使用关键字（    ）指代当前对象，访问类的其他非静态成员。",
+    "choices": ["this\n", "super\n", "static\n", "public\n"]
+  },
+  {
+    "id": "1993858468350902292",
+    "content": "有如下程序代码，哪处出现编译错误？（     ）\n```\nclass Father {\n int a = 100;    // A\n final public void print() { // B\n  System.out.println(a);\n }\n}\n\nclass Child extends Father { \n int a = 200;                // C\n public void print() {       // D\n  System.out.println(a);  \n }\n}\n```\n",
+    "choices": ["A处", "B处", "C处", "D处"]
+  },
+  {
+    "id": "1993858468355096576",
+    "content": "执行完以下代码int[ ] x = new int[25]；后，以下哪项说明是正确的(   ) \n\n",
+    "choices": ["x[24]为0", "x[24]未定义", "x[25]为0", "x[0]没有数值存在"]
+  },
+  {
+    "id": "1993858468355096577",
+    "content": "下列程序代码运行结果是：（    ）。\t\n```\nimport java.util.*;\t\npublic class Test {\t \n    public int hashCode() {\t    \n         return 1;\t \n    }\t \n    public boolean equals(Object b) {\t    \n        return true;\t\n   }\t\n    public static void main(String args[]) {\t    \n        Set set = new HashSet();\t    \n        set.add(new Test());\t    \n        set.add(new String(\"ABC\"));\t    \n        set.add(new Test());\t    \n        System.out.println(set.size());\t \n    }\n}\n```\n",
+    "choices": ["1", "2", "3", "4"]
+  },
+  {
+    "id": "1993858468355096578",
+    "content": "若int a[][]={{123,345,334},{1,2},{3,4}};  则 a[2][1]=（    ）。",
+    "choices": ["1", "3", "2", "4"]
+  },
+  {
+    "id": "1993858468355096579",
+    "content": "如下语句执行结果是：（      ）。\n```\nint[] intArr=new int[10];\nSystem.out.println(intArr[0]);\n```",
+    "choices": ["编译错误\n", "会报运行错误\n", "0", "null"]
+  },
+  {
+    "id": "1993858468355096580",
+    "content": "如下语句执行结果是：（     ）。\n```\nint[] intArr=new int[10];\t\nSystem.out.println(intArr[10]);\t\n```",
+    "choices": ["编译错误\n", "会报运行错误\n", "0", "null\n"]
+  },
+  {
+    "id": "1993858468355096581",
+    "content": "设有数组的定义int[] a = new int[3]，则下面对数组元素的引用错误的是（    ）。\n",
+    "choices": [
+      "a[0]=8;\n",
+      "a[a.length-1]=90;\n",
+      "a[3]=9;\n",
+      "```\nint i=1;\na[i]=0;\n```\n"
+    ]
+  },
+  {
+    "id": "1993858468355096582",
+    "content": "数组的定义为：`int[] arr=new int[10];`\n如何获得数组的长度？\n",
+    "choices": ["arr.length()\n", "arr.size()", "arr.length\n", "arr.size"]
+  },
+  {
+    "id": "1993858468355096583",
+    "content": "执行完以下代码`int[ ] x = new int[25]；`后，以下哪项说明是正确的（      ）。\n",
+    "choices": ["x[24]为0\n", "x[25]为0", "x[0]为空\n", "x[24]未定义"]
+  },
+  {
+    "id": "1993858468355096584",
+    "content": "下列程序代码运行结果是：（ ）。\t\n```\nimport java.util.ArrayList;\n\timport java.util.List;\npublic class Test {\n\t public static void main(String args[]) {\n\t    List list = new ArrayList();\n\t    list.add(new Test());\n\t    list.add(new String(\"\"ABC\"\"));\n\t    list.add(new Test());\n\t    System.out.println(list.size());\n\t }\n\t}\n```\n",
+    "choices": ["1", "2", "3", "4"]
+  },
+  {
+    "id": "1993858468355096585",
+    "content": "欲构造ArrayList类的一个实例，此类实现了List接口，下列哪个写法是正确的 ？",
+    "choices": [
+      "ArrayList myList=new Object()；\n",
+      "List myList=new ArrayList()；",
+      "ArrayList myList=new List()；",
+      "List myList=new List();"
+    ]
+  },
+  {
+    "id": "1993858468355096586",
+    "content": "有如下程序代码： \n```\nclass Dog{ }\nclass Cat { }\npublic class Test{\n public static void main(String[] args) {\n  Dog dog=new Dog();\n  Cat cat=new Cat();\n  System.out.println(cat instanceof Dog);    //A\n  System.out.println(dog instanceof Dog);   //B\n }  \n }\n```\n关于A、B两段代码，下列哪种说法是正确的？（     ）\n",
+    "choices": [
+      "输出：\n```\nfalse\ntrue\n```\n",
+      "输出：\n```\ntrue\ntrue\n```",
+      "输出：\n```\nfalse\nfalse\n```",
+      "出现语法编译错误，程序不能执行\n"
+    ]
+  },
+  {
+    "id": "1993858468355096587",
+    "content": "有如下程序代码，执行的结果是（      ）。\n```\nclass Father {\n\tint a = 100;\n\tint b = 200;\n\n\tpublic void print() {\n\t\tSystem.out.println(a + \" \" + b);\n\t}\n}\n\nclass Child extends Father {\n\tint b = 300;\n\tint c = 400;\n\n\tpublic void print() {\n\t\tSystem.out.println(a + \" \" + b + \" \" + c);\n\t}\n\n\tpublic void printExtend() {\n\t\tSystem.out.println(c);\n\t}\n\n}\n\npublic class Main {\n\tpublic static void main(String[] a) {\n\t\t  Father obj=new Child();\n\t\t  System.out.println(obj.a+\" \"+obj.b);   \n\t\t  obj.print();  \n\t}\n}\n```",
+    "choices": [
+      "```\n100 200\n100 200 400\n```\n",
+      "```\n100 300\n100 300 400\n```\n",
+      "```\n100 300\n100 200 400\n```\n",
+      "```\n100 200\n100 300 400\n```\n"
+    ]
+  },
+  {
+    "id": "1993858468355096588",
+    "content": "有如下父类、子类及测试类的定义，程序执行结果是：（     ）。\n```\nclass Father {\n int a =100;\n public void print() {\n  System.out.println(a);\n }\n}\nclass Child1 extends Father {\n int a =200;\n public void print() {\n  System.out.println(a);\n }\n}\nclass Child2 extends Father {\n int a =300;\n public void print() {\n  System.out.println(a);\n }\n}\npublic class Main {\n\tpublic static void main(String[] a) {\n\t\tFather obj1;\n\t\t  obj1=new Child1();\n\t\t  System.out.println(obj1.a);\n\t\t  obj1.print(); \n\t\t  \n\t\t  obj1=new Child2();\n\t\t  System.out.println(obj1.a);\n\t\t  obj1.print(); \n\t}\n}\n```",
+    "choices": [
+      "```\n200\n200\n300\n300\n```\n",
+      "\n```\n100\n200\n300\n300\n```\n",
+      "```\n200\n200\n100\n300\n```\n",
+      "```\n100\n200\n100\n300\n```"
+    ]
+  },
+  {
+    "id": "1993858468355096589",
+    "content": "有如下代码，程序执行结果是：（       ）。\n```\nabstract class Person {\n public abstract void eat();\n}\npublic class Main {\n\tpublic static void main(String[] a) {\n\n\t\t  Person p = new Person() {\n\t\t   public void eat() {\n\t\t    System.out.println(\"eat something\");\n\t\t   }\n\t\t  };\n\t\t  p.eat();\n\t}\n}\n```",
+    "choices": ["空字符串\n", "编译错误\n", "eat something\n", "运行错误"]
+  },
+  {
+    "id": "1993858468355096590",
+    "content": "有如下代码，程序的执行结果是（     ）。  \n```\ninterface Person {\n public void eat();\n}\n\npublic class Main {\n\tpublic static void main(String[] a) {\n\n\t\t  Person p = new Person() {\n\t\t   public void eat() {\n\t\t    System.out.println(\"eat something\");\n\t\t   }\n\t\t  };\n\t\t  p.eat();\n\t}\n}\n```",
+    "choices": ["空字符串\n", "编译错误\n", "eat something\n", "运行时错误"]
+  },
+  {
+    "id": "1993858468355096591",
+    "content": "下面关于JAVA面向对象的理解，说法中不正确的是：（     ）。",
+    "choices": [
+      "Java中，一个类只允许实现一个接口\n",
+      "抽象类中允许有非抽象方法的存在\n",
+      "静态的成员变量可以直接用类名调用\n",
+      "通过super可以调用父类的构造函数\n"
+    ]
+  },
+  {
+    "id": "1993858468355096592",
+    "content": "以下关于继承的叙述正确的是（      ）。",
+    "choices": [
+      "在Java中类只允许单一继承\n",
+      "在Java中,一个类只能实现一个接口\n",
+      "在Java中，一个类不能同时继承一个类和实现一个接口\n",
+      "在Java中，接口也具有单继承性\n"
+    ]
+  },
+  {
+    "id": "1993858468355096593",
+    "content": "以下对接口描述错误的有   @[](1)\n\nA. 接口没有提供构造方法\nB. 接口中的方法默认使用public、abstract修饰\nC. 接口中的属性默认使用public、static、final修饰\nD. 接口不允许多继承\n",
+    "choices": [
+      "接口没有提供构造方法",
+      "接口中的方法默认使用public、abstract修饰",
+      "接口中的属性默认使用public、static、final修饰",
+      "接口不允许多继承"
+    ]
+  },
+  {
+    "id": "1993858468355096594",
+    "content": "以下描述错误的有   @[](1)\n\nA. abstract 可以修饰类、接口、方法\nB. abstract修饰的类主要用于被继承\nC. abstract 可以修饰变量\nD. abstract修饰的类，其子类也可以是abstract修饰的\n",
+    "choices": [
+      "abstract 可以修饰类、接口、方法",
+      "abstract修饰的类主要用于被继承",
+      "abstract 可以修饰变量",
+      "abstract修饰的类，其子类也可以是abstract修饰的"
+    ]
+  },
+  {
+    "id": "1993858468355096595",
+    "content": "下列选项中关于java中super关键字的说法错误的是  @[](1)\n\nA. super关键字是在子类对象内部指代其父类对象的引用\nB. super关键字不仅可以指代子类的直接父类，还可以指代父类的父类\nC. 子类可以通过super关键字调用父类的方法\nD. 子类可以通过super关键字调用父类的属性\n",
+    "choices": [
+      "super关键字是在子类对象内部指代其父类对象的引用",
+      "super关键字不仅可以指代子类的直接父类，还可以指代父类的父类",
+      "子类可以通过super关键字调用父类的方法",
+      "子类可以通过super关键字调用父类的属性"
+    ]
+  },
+  {
+    "id": "1993858468355096596",
+    "content": "已知类的继承关系如下：\n```\nclass Employee{}\nclass Manager extends Employee{}\nclass Director extends Employee{}\n```\n则下列语句通过编译的有哪些？（    ）\n\n\n",
+    "choices": [
+      "Employee e=new Manager();\t\n",
+      "Director d= new Manager();\t\n",
+      "Director d= new Employee();\t\n",
+      "Manager m=new Director();"
+    ]
+  },
+  {
+    "id": "1993858468355096597",
+    "content": "在Java中，要想让一个类继承另一个类，可以使用以下哪个关键字？（    ）\n",
+    "choices": ["inherits\n", "implements\n", "extends\n", "modifies\n"]
+  },
+  {
+    "id": "1993858468359290880",
+    "content": "如下代码，程序的输出结果将是：（      ）。\n\n```\nclass A {\n\tint a = 11;\n\tint b = 12;\n\n\tpublic void print() {\n\t\tSystem.out.println(a + \" \" + b);\n\t}\n}\n\nclass B extends A {\n\tint a = 20;\n\n\tpublic void print() {\n\t\tSystem.out.println(a + \" \" + b);\n\t}\n}\n\npublic class Main {\n\tpublic static void main(String[] args) {\n\t\tA aObj = new A();\n\t\taObj.print();\n\t\tB bObj = new B();\n\t\tbObj.print();\n\t}\n}\n```\n",
+    "choices": [
+      "```\n11 12\n20 0\n```",
+      "```\n20 12\n20 12\n```",
+      "```\n11 12\n11 12\n```\n",
+      "```\n11 12\n20 12\n```\n"
+    ]
+  },
+  {
+    "id": "1993858468359290881",
+    "content": "关于抽象类，下面叙述错误的是（） 。  @[](1)\nA. 包含抽象方法的类必须是抽象类\nB. 抽象方法只需要声明，不需要实现\nC. 抽象类可以实例化\nD. 抽象类中可以没有抽象方法\n  \n\n\n",
+    "choices": [
+      "包含抽象方法的类必须是抽象类",
+      "抽象方法只需要声明，不需要实现",
+      "抽象类可以实例化",
+      "抽象类中可以没有抽象方法"
+    ]
+  },
+  {
+    "id": "1993858468359290882",
+    "content": "关于接口的声明，错误的是(  ) 。   @[](1)\nA. 接口中所有的成员属性都是public static final修订的常量\nB. 接口中的成员属性在声明时可以省略修订关键字\nC. 接口中所有的方法都是public abstract final修订的\nD. 接口中所有的方法都是public abstract修订的\n\n\n",
+    "choices": [
+      "接口中所有的成员属性都是public static final修订的常量",
+      "接口中的成员属性在声明时可以省略修订关键字",
+      "接口中所有的方法都是public abstract final修订的",
+      "接口中所有的方法都是public abstract修订的"
+    ]
+  },
+  {
+    "id": "1993858468359290883",
+    "content": "关于接口，下面的叙述错误的是（）。   @[](1)\nA. 一个接口可以多继承多个接口\nB. 一个类可以实现多个接口\nC. 抽象类在实现接口时，可以不实现该接口中声明的所有方法\nD. 抽象类在实现接口时，必须实现该接口中声明的所有方法\n\n\n",
+    "choices": [
+      "一个接口可以多继承多个接口",
+      "一个类可以实现多个接口",
+      "抽象类在实现接口时，可以不实现该接口中声明的所有方法",
+      "抽象类在实现接口时，必须实现该接口中声明的所有方法"
+    ]
+  },
+  {
+    "id": "1993858468359290884",
+    "content": "以下代码运行输出是。   @[](2)\n```\npublic class Person{\n    private String name=”Person”;\n    int age=0;\n}\npublic class Child extends Person{\n    public String grade;\n\n    public static void main(String[] args){\n        Person p = new Child();\n        System.out.println(p.name);\n    }\n}\n```\nA. 输出：Person\nB. 没有输出\nC. 编译出错\nD. 运行出错\n",
+    "choices": ["输出：Person", "没有输出", "编译出错", "运行出错"]
+  },
+  {
+    "id": "1993858468359290885",
+    "content": "在使用super 和this关键字时，以下描述正确的是   @[](1)\n\nA. 在子类构造方法中使用super（）显示调用父类的构造方法，super（）必须写在子类构造方法的第一行，否则编译不通过\nB. this（）和super（）可以同时出现在一个构造函数中\nC. super（）和this（）不一定要放在构造方法内第一行\nD. this（）和super（）可以在static环境中使用，包括static方法和static语句块\n",
+    "choices": [
+      "在子类构造方法中使用super（）显示调用父类的构造方法，super（）必须写在子类构造方法的第一行，否则编译不通过",
+      "this（）和super（）可以同时出现在一个构造函数中",
+      "super（）和this（）不一定要放在构造方法内第一行",
+      "this（）和super（）可以在static环境中使用，包括static方法和static语句块"
+    ]
+  },
+  {
+    "id": "1993858468359290886",
+    "content": "以下对抽象类的描述正确的是   @[](1)\n\nA. 抽象类没有构造方法\nB. 抽象类必须提供抽象方法\nC. 有抽象方法的类一定是抽象类\nD. 抽象类可以通过new关键字直接实例化\n",
+    "choices": [
+      "抽象类没有构造方法",
+      "抽象类必须提供抽象方法",
+      "有抽象方法的类一定是抽象类",
+      "抽象类可以通过new关键字直接实例化"
+    ]
+  },
+  {
+    "id": "1993858468359290887",
+    "content": "在Java中，以下（）类的对象是以键-值的方式存储对象。   @[](1)\n\nA. List\nB. ArrayList\nC. HashMap\nD. LinkedList\n",
+    "choices": ["List", "ArrayList", "HashMap", "LinkedList"]
+  },
+  {
+    "id": "1993858468359290888",
+    "content": "下面关于try块的说法正确的是?@[](2)\n\nA. try块后至少应有一个catch 块\nB. try块后必须有finally块\nC. 可能抛出异常的语句应放在try块中\nD. 对抛出的异常的处理应放在try块中\n",
+    "choices": [
+      "try块后至少应有一个catch 块",
+      "try块后必须有finally块",
+      "可能抛出异常的语句应放在try块中",
+      "对抛出的异常的处理应放在try块中"
+    ]
+  },
+  {
+    "id": "1993858468359290889",
+    "content": "Java异常类（Exception）是（      ）的子类。    \n\n",
+    "choices": ["RuntimeException", "Exception", "Error", "Throwable"]
+  },
+  {
+    "id": "1993858468359290890",
+    "content": "下列程序的运行结果是（   ）。   \n```\npublic class Test {\n  public static void main(String[] args) {\n    try {\n      System.out.println(\"Welcome to Java\");\n      int i = 0;\n      int y = 2 / i;\n      System.out.println(\"Welcome to HTML\");\n    }\n    finally {\n      System.out.println(\"The finally clause is executed\");\n    }\n  }\n}\n\n```\n\n\n@[](2)\n\nA. Welcome to Java, 然后是错误信息\nB. Welcome to Java，下一行是 The finally clause is executed , 然后是错误信息.\nC. 替换为正确项\nD. 替换为错误项",
+    "choices": [
+      "Welcome to Java, 然后是错误信息",
+      "Welcome to Java，下一行是 The finally clause is executed , 然后是错误信息.",
+      "替换为正确项",
+      "替换为错误项"
+    ]
+  },
+  {
+    "id": "1993858468359290891",
+    "content": "给定一个未完成的方法 ，代码如下：\n```\n//此处添加方法的声明\n{\n   int success=connect();\n   if(success==-1)\n      throw new TimedOutException();\n}\n```\n已知TimedOutException不属于RuntimeException，那么在第一行注释位置上填写哪段代码能够正确完成该方法的声明？\n@[](2)\n\nA. public void MyMethod()\nB. public void MyMethod() throws TimedOutException\nC. public void MyMethod() throw TimeOutException\nD. public throws TimedOutException void MyMethod()",
+    "choices": [
+      "public void MyMethod()",
+      "public void MyMethod() throws TimedOutException",
+      "public void MyMethod() throw TimeOutException",
+      "public throws TimedOutException void MyMethod()"
+    ]
+  },
+  {
+    "id": "1993858468359290892",
+    "content": "已知方法test()定义如下，在方法unsafe()运行正常的情况下哪条语句将肯定不会被输出？\n```\npublic void test( ){\ntry {\n   unsafe();\n   System.out.println(\"Test 4\");\n} catch(SafeException e) {\n   System.out.println(\"Test 3\");\n}finally{\n   System.out.println(\"Test 2\"); \n}\n   System.out.println(\"Test 1\"); \n}\n\n```\n@[](2)\n\nA. Test 4\nB. Test 3\nC. Test 2\nD. Test 1",
+    "choices": ["Test 4", "Test 3", "Test 2", "Test 1"]
+  },
+  {
+    "id": "1993858468359290893",
+    "content": "已知下列代码，如果方法oneMethod()运行异常，则下列哪个语句肯定不会被输出？\n```\npublic void example(){\n   try {\n   oneMethod();\n   System.out.println(\"condition1\");\n}catch(ArrayIndexOutOfBoundsException e) {\n   System.out.println(\"condition2\");\n}catch(Exception e) {\n   System.out.println(\"condition3\");\n}finally{\n   System.out.println(\"condition4\"); \n}\n\n```\n@[](2)\n\nA. condition1\nB. condition2\nC. condition3\nD. condition4",
+    "choices": ["condition1", "condition2", "condition3", "condition4"]
+  },
+  {
+    "id": "1993858468359290894",
+    "content": "下面程序在fun（ ）方法当出现数组下标超过界限的情况下，被ArrayIndexOutOfBoundsException类型的异常对象e所捕获。程序输出结果是：（   ）。\n```\npublic void test() {\n    try {\n       fun();\n       System.out.print(\"情况1\");\n     } catch (ArrayIndexOutOfBoundsException e) {\n         System.out.print(\"情况2\");\n     } catch (Exception e) {\n          System.out.print(\"情况3\");\n     } finally {\n         System.out.print(\"finally\");\n     }\n }\n```",
+    "choices": ["情况1\n", "情况2\n", "情况2finally", "情况3finally\n"]
+  },
+  {
+    "id": "1993858468359290895",
+    "content": "程序代码中包含产生CheckedException受检异常（非运行时异常）的语句时，（         ）。\n",
+    "choices": [
+      "如果程序错误，就使用try-catch语句处理异常；否则，不必处理\n",
+      "必须进行处理，或使用try-catch语句处理异常，或在调用方法上使用throws将其抛出\n",
+      "只能使用try-catch语句处理\n",
+      "可以置之不理\n"
+    ]
+  },
+  {
+    "id": "1993858468359290896",
+    "content": "关于Java中异常的叙述，正确的是：（     ）。\n",
+    "choices": [
+      "异常是程序编写过程中代码的语法错误\n",
+      "异常是程序编写过程中代码的逻辑错误\n",
+      "异常出现后程序的运行马上中止\n",
+      "异常是可以捕获和处理的\n"
+    ]
+  },
+  {
+    "id": "1993858468359290897",
+    "content": "关于异常，下列说法正确的是 (        )。\n",
+    "choices": [
+      "程序运行过程中，若产生异常，它是某种异常类型的对象\n",
+      "一旦程序运行，异常对象将被创建\n",
+      "为了保证程序运行速度，要尽量避免异常控制\n",
+      "以上说法都不对\n"
+    ]
+  },
+  {
+    "id": "1993858468359290898",
+    "content": "Java中用来抛出异常的关键字是：（     ）。",
+    "choices": ["try\n", "catch\n", "throw和throws\n", "finally\n"]
+  },
+  {
+    "id": "1993858468359290899",
+    "content": "在异常处理时，将可能发生异常的代码放在（     ）语句块中，后面紧跟着一个或多个（     ）语句块，还可以再跟零个或一个（     ）语句块。",
+    "choices": [
+      "catch、try、finally\n",
+      "try、catch、finally\n",
+      "try、finally、exception\n",
+      "exception、try、finally\n"
+    ]
+  },
+  {
+    "id": "1993858468359290900",
+    "content": "关于try语句对应的多个catch子句中，若捕获的异常类型有父子类关系时，它们的排列下列哪种是正确的(        ) 。\n",
+    "choices": [
+      "异常父类在先，异常子类在后\n",
+      "异常子类在先，异常父类在后\n",
+      "有继承关系的异常不能同时出现在同一个try程序段之后\n",
+      "先后顺序无所谓"
+    ]
+  },
+  {
+    "id": "1993858468359290901",
+    "content": "在异常处理中，如释放资源、关闭文件、关闭数据库等由（     ）来完成。\n",
+    "choices": ["try子句\n", "catch子句\n", "finally子句\n", "throw子句\n"]
+  },
+  {
+    "id": "1993858468363485184",
+    "content": "以下描述不正确的有   @[](1)\n\nA. try块不可以省略\nB. 可以使用多重catch块\nC. finally块可以省略\nD. catch块和finally块可以同时省略\n",
+    "choices": [
+      "try块不可以省略",
+      "可以使用多重catch块",
+      "finally块可以省略",
+      "catch块和finally块可以同时省略"
+    ]
+  },
+  {
+    "id": "1993858468363485185",
+    "content": "以下对自定义异常描述正确的是   @[](1)\n\nA. 自定义异常必须继承Exception\nB. 自定义异常可以继承自Error\nC. 自定义异常可以更加明确定位异常出错的位置和给出详细出错信息\nD. 程序中已经提供了丰富的异常类，使用自定义异常没有意义\n",
+    "choices": [
+      "自定义异常必须继承Exception",
+      "自定义异常可以继承自Error",
+      "自定义异常可以更加明确定位异常出错的位置和给出详细出错信息",
+      "程序中已经提供了丰富的异常类，使用自定义异常没有意义"
+    ]
+  },
+  {
+    "id": "1993858468363485186",
+    "content": "下列哪一项不属于布局管理器? (    )   @[](2)\n\nA. GridLayout\nB. CardLayout\nC. BorderLayout\nD. BagLayout",
+    "choices": ["GridLayout", "CardLayout", "BorderLayout", "BagLayout"]
+  },
+  {
+    "id": "1993858468363485187",
+    "content": "声明并创建一个按钮对象b，应该使用的语句是（     ）   @[](2)\nA. Button b=new Button( );\t\nB. button b=new button( );\nC. Button b=new b( );\t\nD. b.setLabel(“确定”);",
+    "choices": [
+      "Button b=new Button( );",
+      "button b=new button( );",
+      "Button b=new b( );",
+      "b.setLabel(“确定”);"
+    ]
+  }
+]
