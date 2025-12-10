@@ -22,4 +22,3 @@ const questionListClean = questionList.map((question) => {
 });
 // console.log(questionListClean);
 console.log(JSON.stringify(questionListClean, null, 2));
-Â;

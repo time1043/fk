@@ -1,5 +1,5 @@
 /* chrome console */
-// const answerListPz =
+// const fkans =
 const submitUrl = `https://pintia.cn/api/exams/<EXAM_ID>/exam-submissions`;
 const xLollipop = `<X_LOLLIPOP>`;
 
@@ -24,16 +24,7 @@ async function submit(submitUrl, submitBody, xLollipop) {
   await sleep(3000);
 }
 
-const submitBodyWrap = (detail) => {
-  return {
-    problemType: "SQL_PROGRAMMING",
-    details: [detail],
-  };
-};
-
-for (const ans of answerListPz) {
-  const submitBody = submitBodyWrap(ans);
-  await submit(submitUrl, submitBody, xLollipop);
+for (const ans of fkans) {
+  await submit(submitUrl, ans, xLollipop);
   await sleep(3000);
-  // break;
 }

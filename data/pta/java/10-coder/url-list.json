@@ -1,0 +1,92 @@
+{
+  "total": 5,
+  "problemSetProblems": [
+    {
+      "id": "1993122880341733380",
+      "label": "7-1",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 76,
+      "submitCount": 126,
+      "title": " jmu-Java-06异常-02-使用异常机制处理异常输入",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1993122880295596032",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1993122880341733381",
+      "label": "7-2",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 71,
+      "submitCount": 101,
+      "title": "成绩录入时的及格与不及格人数统计",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1993122880295596032",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1993122880341733382",
+      "label": "",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 74,
+      "submitCount": 106,
+      "title": "自定义异常类：成绩异常（ScoreException）",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1993122880295596032",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1993122880341733383",
+      "label": "",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 71,
+      "submitCount": 102,
+      "title": "自定义异常：超载异常（OverLoadException）",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1993122880295596032",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1993122880341733384",
+      "label": "",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 78,
+      "submitCount": 94,
+      "title": "异常处理",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1993122880295596032",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1993122880341733380": "7-1",
+    "1993122880341733381": "7-2",
+    "1993122880341733382": "7-3",
+    "1993122880341733383": "7-4",
+    "1993122880341733384": "7-5"
+  }
+}

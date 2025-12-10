@@ -1,6 +1,6 @@
 /* chrome console */
 // const answerListPz =
-const submitUrl = `https://pintia.cn/api/exams/<...>/exam-submissions`;
+const submitUrl = `https://pintia.cn/api/exams/<EXAM_ID>/exam-submissions`;
 const xLollipop = `<X_LOLLIPOP>`;
 
 async function sleep(ms) {

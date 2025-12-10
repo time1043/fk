@@ -1,0 +1,401 @@
+[
+  {
+    "problemSetProblem": {
+      "id": "1993122880341733380",
+      "label": "7-1",
+      "score": 10,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 10,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "5\n1\n2\na\nb\n4\n5\n3\n",
+              "output": "java.lang.NumberFormatException: For input string: \"a\"\njava.lang.NumberFormatException: For input string: \"b\"\n[1, 2, 4, 5, 3]\n"
+            },
+            {
+              "name": "",
+              "input": "5\n1\n2\na\nb\n4\n5\n3\n",
+              "output": "java.lang.NumberFormatException: For input string: \"a\"\njava.lang.NumberFormatException: For input string: \"b\"\n[1, 2, 4, 5, 3]\n"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": " jmu-Java-06异常-02-使用异常机制处理异常输入",
+      "content": "使用异常处理输入机制，让程序变得更健壮。\n\n## main方法：\n1. 输入n，创建大小为n的int数组。\n2. 输入n个整数，放入数组。输入时，有可能输入的是非整型字符串，这时候需要输出异常信息，然后重新输入。\n3. 使用`Arrays.toString`输出数组中的内容。\n\n\n## 输入样例：\n```in\n5\n1\n2\na\nb\n4\n5\n3\n\n```\n## 输出样例：\n```out\njava.lang.NumberFormatException: For input string: \"a\"\njava.lang.NumberFormatException: For input string: \"b\"\n[1, 2, 4, 5, 3]\n\n```",
+      "type": "PROGRAMMING",
+      "author": "郑如滨",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "4995",
+      "description": "使用异常处理输入机制，让程序变得更健壮。\n\n## main方法：\n1. 输入n，创建大小为n的int数组。\n2. 输入n个整数，放入数组。输入时，有可能输入的是非整型字符串，这时候需要输出异常信息，然后重新输入。\n3. 使用`Arrays.toString`输出数组中的内容。\n\n\n## 输入样例：\n```in\n5\n1\n2\na\nb\n4\n5\n3\n\n```\n## 输出样例：\n```out\njava.lang.NumberFormatException: For input string: \"a\"\njava.lang.NumberFormatException: For input string: \"b\"\n[1, 2, 4, 5, 3]\n\n```",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "7-1"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1993122880341733381",
+      "label": "7-2",
+      "score": 10,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 6000,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "3\n100\n30\n60\n",
+              "output": "2\n1\n"
+            },
+            {
+              "name": "",
+              "input": "2\n200\n69\n30\n",
+              "output": "200invalid!\n1\n1\n"
+            },
+            {
+              "name": "",
+              "input": "3\n100\n30\n60\n",
+              "output": "2\n1\n"
+            },
+            {
+              "name": "",
+              "input": "2\n200\n69\n30\n",
+              "output": "200invalid!\n1\n1\n"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "成绩录入时的及格与不及格人数统计",
+      "content": "编写一个程序进行一个班某门课程成绩的录入，能够控制录入成绩总人数，对录入成绩统计其及格人数和不及格人数。设计一个异常类，当输入的成绩小0分或大于100分时，抛出该异常类对象，程序将捕捉这个异常对象，并调用执行该异常类对象的toString（）方法，该方法获取当前无效分数值，并返回一个此分数无效的字符串。\n\n### 输入格式:\n\n从键盘中输入学生人数n\n\n从键盘中输入第1个学生的成绩\n\n从键盘中输入第2个学生的成绩\n\n...\n\n从键盘中输入第n个学生的成绩\n\n（注：当输入的成绩无效时（即分数为小于0或大于100）可重新输入，且输出端会输出此分数无效的提醒。）\n\n### 输出格式:\n\n显示及格总人数\n\n显示不及格总人数\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n3\n100\n30\n60\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n2\n1\n```\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n2\n200\n69\n30\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n200invalid!\n1\n1\n```\n",
+      "type": "PROGRAMMING",
+      "author": "吴恋",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "943071492088131584",
+      "description": "编写一个程序进行一个班某门课程成绩的录入，能够控制录入成绩总人数，对录入成绩统计其及格人数和不及格人数。设计一个异常类，当输入的成绩小0分或大于100分时，抛出该异常类对象，程序将捕捉这个异常对象，并调用执行该异常类对象的toString（）方法，该方法获取当前无效分数值，并返回一个此分数无效的字符串。\n\n### 输入格式:\n\n从键盘中输入学生人数n\n\n从键盘中输入第1个学生的成绩\n\n从键盘中输入第2个学生的成绩\n\n...\n\n从键盘中输入第n个学生的成绩\n\n（注：当输入的成绩无效时（即分数为小于0或大于100）可重新输入，且输出端会输出此分数无效的提醒。）\n\n### 输出格式:\n\n显示及格总人数\n\n显示不及格总人数\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n3\n100\n30\n60\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n2\n1\n```\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n2\n200\n69\n30\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n200invalid!\n1\n1\n```\n",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "73"
+    },
+    "organization": {
+      "id": "73",
+      "name": "贵州师范学院",
+      "code": "gznc",
+      "type": "SCHOOL",
+      "logo": "e194d46f-fe53-4489-9037-17517680840e.png"
+    },
+    "examLabel": "7-2"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1993122880341733382",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "test1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "test2": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "-20",
+              "output": "您输入的成绩异常，请核实！\n程序结束"
+            },
+            {
+              "name": "",
+              "input": "90",
+              "output": "成绩为90.0\n程序结束"
+            },
+            {
+              "name": "",
+              "input": "-20",
+              "output": "您输入的成绩异常，请核实！\n程序结束"
+            },
+            {
+              "name": "",
+              "input": "90",
+              "output": "成绩为90.0\n程序结束"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "自定义异常类：成绩异常（ScoreException）",
+      "content": "自定义一个异常类`ScoreException`，继承自Exception类。有一个私有的成员变量`message`（异常提示信息，String类型）；一个公有的无参数的构造方法，在方法中将message的值确定为“`您输入的成绩异常，请核实！`”；一个公有的方法`show()`，该方法的功能是输出message的值。\n\n定义一个学生类`Student`，有一个私有成员变量`score`（成绩，double类型）；一个带参数的公有方法`setScore()`用于设置学生的成绩，该方法声明可能抛出异常ScoreException，当设置的成绩为负数或超过100时，会抛出一个异常对象；一个公有方法`getScore()`用于获取学生的成绩。\n\n在测试类`Main`中，创建一个Student类的对象zhangsan，尝试调用setScore()方法来设置他的成绩（成绩从键盘输入，double类型），然后调用getScore()方法获取到该成绩后再将其输出。因用户的输入存在不确定性，以上操作有可能捕捉到异常ScoreException，一旦捕捉到该异常，则调用show()方法输出异常提示。不管是否有异常，最终输出“程序结束”。使用try...catch...finally语句实现上述功能。\n\n### 输入格式:\n\n输入一个小数或整数。\n\n### 输出格式:\n\n可能输出：\n成绩为XXX\n程序结束\n也可能输出：\n您输入的成绩异常，请核实！\n程序结束\n\n### 输入样例1:\n\n```in\n-20\n```\n\n### 输出样例1:\n\n```out\n您输入的成绩异常，请核实！\n程序结束\n```\n\n### 输入样例2:\n\n```in\n90\n```\n\n### 输出样例2:\n\n```out\n成绩为90.0\n程序结束\n```\n",
+      "type": "PROGRAMMING",
+      "author": "吴光生",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1524001649121714176",
+      "description": "自定义一个异常类`ScoreException`，继承自Exception类。有一个私有的成员变量`message`（异常提示信息，String类型）；一个公有的无参数的构造方法，在方法中将message的值确定为“`您输入的成绩异常，请核实！`”；一个公有的方法`show()`，该方法的功能是输出message的值。\n\n定义一个学生类`Student`，有一个私有成员变量`score`（成绩，double类型）；一个带参数的公有方法`setScore()`用于设置学生的成绩，该方法声明可能抛出异常ScoreException，当设置的成绩为负数或超过100时，会抛出一个异常对象；一个公有方法`getScore()`用于获取学生的成绩。\n\n在测试类`Main`中，创建一个Student类的对象zhangsan，尝试调用setScore()方法来设置他的成绩（成绩从键盘输入，double类型），然后调用getScore()方法获取到该成绩后再将其输出。因用户的输入存在不确定性，以上操作有可能捕捉到异常ScoreException，一旦捕捉到该异常，则调用show()方法输出异常提示。不管是否有异常，最终输出“程序结束”。使用try...catch...finally语句实现上述功能。\n\n### 输入格式:\n\n输入一个小数或整数。\n\n### 输出格式:\n\n可能输出：\n成绩为XXX\n程序结束\n也可能输出：\n您输入的成绩异常，请核实！\n程序结束\n\n### 输入样例1:\n\n```in\n-20\n```\n\n### 输出样例1:\n\n```out\n您输入的成绩异常，请核实！\n程序结束\n```\n\n### 输入样例2:\n\n```in\n90\n```\n\n### 输出样例2:\n\n```out\n成绩为90.0\n程序结束\n```\n",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "974911818648657920"
+    },
+    "organization": {
+      "id": "974911818648657920",
+      "name": "新余学院",
+      "code": "xyc",
+      "type": "SCHOOL",
+      "logo": "b061f198-0945-40c1-971d-8e4be1d1c431.png"
+    },
+    "examLabel": "7-3"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1993122880341733383",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "test1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "test2": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "500\n200 380",
+              "output": "目前共装载了200.0吨货物\n无法再装载重量是380.0吨的集装箱\n货船将正点起航"
+            },
+            {
+              "name": "",
+              "input": "1000\n300 500",
+              "output": "目前共装载了300.0吨货物\n目前共装载了800.0吨货物\n货船将正点起航"
+            },
+            {
+              "name": "",
+              "input": "500\n200 380",
+              "output": "目前共装载了200.0吨货物\n无法再装载重量是380.0吨的集装箱\n货船将正点起航"
+            },
+            {
+              "name": "",
+              "input": "1000\n300 500",
+              "output": "目前共装载了300.0吨货物\n目前共装载了800.0吨货物\n货船将正点起航"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "自定义异常：超载异常（OverLoadException）",
+      "content": "自定义一个异常类`OverLoadException`（超载异常），它是Exception的子类，有一个成员变量`message`（消息，String类型），有一个带参数的构造方法`public OverLoadException(double n)`，使得message的值为“`无法再装载重量是XXX吨的集装箱`”，其中XXX为参数n的值。有一个公有的成员方法`showMessage()`，功能为输出message的值。\n\n定义一个类`CargoShip`（货船），有成员变量`actualWeight`（实际装载量，double类型，初始值为0）、`maxWeight`（最大装载量，double类型）；有公有的成员方法`setMaxWeight()`用于设置maxWeight的值；公有的成员方法`void loading(double weight)`的功能是给货船加载weight吨的集装箱。但是根据参数weight的值，该方法可能会抛出超载异常，如果装载后实际重量没有超过最大装载量，则实际装载量增加，并输出“`目前共装载了XXX吨货物`”，其中XXX为actualWeight的值，否则抛出一个OverLoadException异常对象。\n\n在测试类`Main`中，定义一个CargoShip类的对象myship，从键盘输入一个数，用于设置其最大装载量。从键盘再输入两个数，作为两个集装箱的重量，尝试将这两个集装箱按输入时的顺序先后装上货船，该操作有可能捕捉到超载异常，一旦捕捉到该异常，则调用showMessage()方法输出异常提示。不管是否有异常，最终输出“货船将正点起航”。使用try...catch...finally语句实现上述功能。\n\n### 输入格式:\n\n第一行输入一个大于零的整数或小数，当作货船的最大装载量maxWeight。\n第二行输入两个大于零的整数或小数，当作尝试装载上货船的两个集装箱的重量，中间以空格隔开。\n\n### 输出格式:\n\n根据输入的值，可能输出以下两种情况之一：\n目前共装载了XXX吨货物\n无法再装载重量是XXX吨的集装箱\n最后输出：货船将正点起航\n\n\n### 输入样例1:\n\n```in\n500\n200 380\n```\n\n### 输出样例1:\n\n```out\n目前共装载了200.0吨货物\n无法再装载重量是380.0吨的集装箱\n货船将正点起航\n```\n\n### 输入样例2:\n\n```in\n1000\n300 500\n```\n\n### 输出样例2:\n\n```out\n目前共装载了300.0吨货物\n目前共装载了800.0吨货物\n货船将正点起航\n```\n",
+      "type": "PROGRAMMING",
+      "author": "吴光生",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1524229156441845760",
+      "description": "自定义一个异常类`OverLoadException`（超载异常），它是Exception的子类，有一个成员变量`message`（消息，String类型），有一个带参数的构造方法`public OverLoadException(double n)`，使得message的值为“`无法再装载重量是XXX吨的集装箱`”，其中XXX为参数n的值。有一个公有的成员方法`showMessage()`，功能为输出message的值。\n\n定义一个类`CargoShip`（货船），有成员变量`actualWeight`（实际装载量，double类型，初始值为0）、`maxWeight`（最大装载量，double类型）；有公有的成员方法`setMaxWeight()`用于设置maxWeight的值；公有的成员方法`void loading(double weight)`的功能是给货船加载weight吨的集装箱。但是根据参数weight的值，该方法可能会抛出超载异常，如果装载后实际重量没有超过最大装载量，则实际装载量增加，并输出“`目前共装载了XXX吨货物`”，其中XXX为actualWeight的值，否则抛出一个OverLoadException异常对象。\n\n在测试类`Main`中，定义一个CargoShip类的对象myship，从键盘输入一个数，用于设置其最大装载量。从键盘再输入两个数，作为两个集装箱的重量，尝试将这两个集装箱按输入时的顺序先后装上货船，该操作有可能捕捉到超载异常，一旦捕捉到该异常，则调用showMessage()方法输出异常提示。不管是否有异常，最终输出“货船将正点起航”。使用try...catch...finally语句实现上述功能。\n\n### 输入格式:\n\n第一行输入一个大于零的整数或小数，当作货船的最大装载量maxWeight。\n第二行输入两个大于零的整数或小数，当作尝试装载上货船的两个集装箱的重量，中间以空格隔开。\n\n### 输出格式:\n\n根据输入的值，可能输出以下两种情况之一：\n目前共装载了XXX吨货物\n无法再装载重量是XXX吨的集装箱\n最后输出：货船将正点起航\n\n\n### 输入样例1:\n\n```in\n500\n200 380\n```\n\n### 输出样例1:\n\n```out\n目前共装载了200.0吨货物\n无法再装载重量是380.0吨的集装箱\n货船将正点起航\n```\n\n### 输入样例2:\n\n```in\n1000\n300 500\n```\n\n### 输出样例2:\n\n```out\n目前共装载了300.0吨货物\n目前共装载了800.0吨货物\n货船将正点起航\n```\n",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "974911818648657920"
+    },
+    "organization": {
+      "id": "974911818648657920",
+      "name": "新余学院",
+      "code": "xyc",
+      "type": "SCHOOL",
+      "logo": "b061f198-0945-40c1-971d-8e4be1d1c431.png"
+    },
+    "examLabel": "7-4"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1993122880341733384",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "5\n",
+              "output": "5\nend"
+            },
+            {
+              "name": "",
+              "input": "a\n",
+              "output": "not int\nend"
+            },
+            {
+              "name": "",
+              "input": "5\n",
+              "output": "5\nend"
+            },
+            {
+              "name": "",
+              "input": "a\n",
+              "output": "not int\nend"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "异常处理",
+      "content": "从键盘输入一个整形数n，如果输入正确的话，输出10-n后的值，如果输入错误的话输出“not int”最后输出end。\n\n### 输入格式:\n\n输入一个整数n。\n\n### 输出格式:\n\n根据情况输出结果。\n\n<br>\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n5\n```\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n5\nend\n```\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\na\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\nnot int\nend\n```",
+      "type": "PROGRAMMING",
+      "author": "gh",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1993122880295596032",
+      "problemId": "1731146052794777600",
+      "description": "从键盘输入一个整形数n，如果输入正确的话，输出10-n后的值，如果输入错误的话输出“not int”最后输出end。\n\n### 输入格式:\n\n输入一个整数n。\n\n### 输出格式:\n\n根据情况输出结果。\n\n<br>\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\n5\n```\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\n5\nend\n```\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\na\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\nnot int\nend\n```",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "10"
+    },
+    "organization": {
+      "id": "10",
+      "name": "内蒙古师范大学",
+      "code": "imnu",
+      "type": "SCHOOL",
+      "logo": "e9a11a15-4403-4d1a-8a57-2695ee5ef995.png"
+    },
+    "examLabel": "7-5"
+  }
+]

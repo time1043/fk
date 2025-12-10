@@ -1,0 +1,67 @@
+[
+  {
+    "problemType": "PROGRAMMING",
+    "details": [
+      {
+        "problemId": "0",
+        "problemSetProblemId": "1990595265456459781",
+        "programmingSubmissionDetail": {
+          "program": "import java.util.Arrays;\nimport java.util.Scanner;\n\nclass PersonSortable implements Comparable<PersonSortable> {\n    private String name;\n    private int age;\n\n    public PersonSortable(String name, int age) {\n        this.name = name;\n        this.age = age;\n    }\n\n    @Override\n    public String toString() {\n        return name + \"-\" + age;\n    }\n\n    @Override\n    public int compareTo(PersonSortable o) {\n        int nameCompare = this.name.compareTo(o.name);\n        if (nameCompare != 0) {\n            return nameCompare;\n        }\n        return Integer.compare(this.age, o.age);\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int n = scanner.nextInt();\n        PersonSortable[] arr = new PersonSortable[n];\n        for (int i = 0; i < n; i++) {\n            String name = scanner.next();\n            int age = scanner.nextInt();\n            arr[i] = new PersonSortable(name, age);\n        }\n        Arrays.sort(arr);\n        for (PersonSortable p : arr) {\n            System.out.println(p);\n        }\n        System.out.println(Arrays.toString(PersonSortable.class.getInterfaces()));\n        scanner.close();\n    }\n}",
+          "compiler": "JAVAC"
+        }
+      }
+    ]
+  },
+  {
+    "problemType": "PROGRAMMING",
+    "details": [
+      {
+        "problemId": "0",
+        "problemSetProblemId": "1990595265456459782",
+        "programmingSubmissionDetail": {
+          "program": "import java.util.*;\n\n// PersonSortable2 类\nclass PersonSortable2 {\n    private String name;\n    private int age;\n\n    // 有参构造函数\n    public PersonSortable2(String name, int age) {\n        this.name = name;\n        this.age = age;\n    }\n\n    // getter 方法\n    public String getName() {\n        return name;\n    }\n\n    public int getAge() {\n        return age;\n    }\n\n    // toString 方法\n    @Override\n    public String toString() {\n        return name + \"-\" + age;\n    }\n}\n\n// 按 name 升序排序的比较器\nclass NameComparator implements Comparator<PersonSortable2> {\n    @Override\n    public int compare(PersonSortable2 o1, PersonSortable2 o2) {\n        return o1.getName().compareTo(o2.getName());\n    }\n}\n\n// 按 age 升序排序的比较器\nclass AgeComparator implements Comparator<PersonSortable2> {\n    @Override\n    public int compare(PersonSortable2 o1, PersonSortable2 o2) {\n        return Integer.compare(o1.getAge(), o2.getAge());\n    }\n}\n\n// 主类\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int n = scanner.nextInt();\n        PersonSortable2[] people = new PersonSortable2[n];\n\n        // 输入 n 行 name age 并创建对象\n        for (int i = 0; i < n; i++) {\n            String name = scanner.next();\n            int age = scanner.nextInt();\n            people[i] = new PersonSortable2(name, age);\n        }\n\n        // 按 name 升序排序并输出\n        System.out.println(\"NameComparator:sort\");\n        Arrays.sort(people, new NameComparator());\n        for (PersonSortable2 person : people) {\n            System.out.println(person);\n        }\n\n        // 按 age 升序排序并输出\n          System.out.println(\"AgeComparator:sort\");\n        Arrays.sort(people, new AgeComparator());\n        for (PersonSortable2 person : people) {\n            System.out.println(person);\n        }\n\n        // 输出实现的接口\n        System.out.println(Arrays.toString(NameComparator.class.getInterfaces()));\n        System.out.println(Arrays.toString(AgeComparator.class.getInterfaces()));\n\n        scanner.close();\n    }\n}",
+          "compiler": "JAVAC"
+        }
+      }
+    ]
+  },
+  {
+    "problemType": "PROGRAMMING",
+    "details": [
+      {
+        "problemId": "0",
+        "problemSetProblemId": "1990595265456459783",
+        "programmingSubmissionDetail": {
+          "program": "import java.util.Scanner;\n\nabstract class BallMatch {\n    protected String result;\n    \n    // 模板方法，定义比赛流程\n    public void compete() {\n        checkin();\n        start();\n        play();\n        end();\n        announceResult();\n    }\n    \n    // 共同步骤\n    private void checkin() {\n        System.out.println(\"now checking in\");\n    }\n    \n    private void start() {\n        System.out.println(\"now starting\");\n    }\n    \n    private void end() {\n        System.out.println(\"now ending\");\n    }\n    \n    // 抽象方法，由子类实现\n    protected abstract void play();\n    \n    // 具体方法，由子类调用\n    protected void announceResult() {\n        System.out.println(\"now annoucing result: \" + result);\n    }\n}\n\nclass FootballMatch extends BallMatch {\n    public FootballMatch(String result) {\n        this.result = result;\n    }\n    \n    @Override\n    protected void play() {\n        System.out.println(\"now playing football\");\n    }\n}\n\nclass BasketBallMatch extends BallMatch {\n    public BasketBallMatch(String result) {\n        this.result = result;\n    }\n    \n    @Override\n    protected void play() {\n        System.out.println(\"now playing basketball\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        // 读取比赛类型和比分\n        int type = scanner.nextInt();\n        String result = scanner.next();\n        \n        // 根据类型创建不同的比赛\n        BallMatch match;\n        if (type == 1) {\n            match = new FootballMatch(result);\n        } else {\n            match = new BasketBallMatch(result);\n        }\n        \n        // 打印比赛过程\n        match.compete();\n        \n        scanner.close();\n    }\n}",
+          "compiler": "JAVAC"
+        }
+      }
+    ]
+  },
+  {
+    "problemType": "PROGRAMMING",
+    "details": [
+      {
+        "problemId": "0",
+        "problemSetProblemId": "1990595265456459784",
+        "programmingSubmissionDetail": {
+          "program": "import java.util.*;\n\n// 抽象车类\nabstract class Car {\n    protected String name;\n    protected double pricePerDay;\n\n    public Car(String name, double pricePerDay) {\n        this.name = name;\n        this.pricePerDay = pricePerDay;\n    }\n\n    public abstract int getPassenger(); // 载客量\n    public abstract double getCargo();   // 载货量(吨)\n    public double getPricePerDay() {\n        return pricePerDay;\n    }\n}\n\n// 客车\nclass Bus extends Car {\n    private int passenger;\n\n    public Bus(String name, int passenger, double pricePerDay) {\n        super(name, pricePerDay);\n        this.passenger = passenger;\n    }\n\n    @Override\n    public int getPassenger() {\n        return passenger;\n    }\n\n    @Override\n    public double getCargo() {\n        return 0.0;\n    }\n}\n\n// 货车\nclass Truck extends Car {\n    private double cargo;\n\n    public Truck(String name, double cargo, double pricePerDay) {\n        super(name, pricePerDay);\n        this.cargo = cargo;\n    }\n\n    @Override\n    public int getPassenger() {\n        return 0;\n    }\n\n    @Override\n    public double getCargo() {\n        return cargo;\n    }\n}\n\n// 皮卡车\nclass Pickup extends Car {\n    private int passenger;\n    private double cargo;\n\n    public Pickup(String name, int passenger, double cargo, double pricePerDay) {\n        super(name, pricePerDay);\n        this.passenger = passenger;\n        this.cargo = cargo;\n    }\n\n    @Override\n    public int getPassenger() {\n        return passenger;\n    }\n\n    @Override\n    public double getCargo() {\n        return cargo;\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // 初始化车辆列表\n        Car[] cars = new Car[11]; // 索引1~10对应车型编号\n        cars[1] = new Bus(\"A\", 5, 800);\n        cars[2] = new Bus(\"B\", 5, 400);\n        cars[3] = new Bus(\"C\", 5, 800);\n        cars[4] = new Bus(\"D\", 51, 1300);\n        cars[5] = new Bus(\"E\", 55, 1500);\n        cars[6] = new Pickup(\"F\", 5, 0.45, 500);\n        cars[7] = new Pickup(\"G\", 5, 2.0, 450);\n        cars[8] = new Truck(\"H\", 3, 200);\n        cars[9] = new Truck(\"I\", 25, 1500);\n        cars[10] = new Truck(\"J\", 35, 2000);\n\n        int flag = sc.nextInt();\n        if (flag == 0) {\n            System.out.println(\"0 0.00 0\");\n            sc.close();\n            return;\n        }\n\n        int N = sc.nextInt();\n        int totalPassenger = 0;\n        double totalCargo = 0.0;\n        int totalCost = 0;\n\n        for (int i = 0; i < N; i++) {\n            int id = sc.nextInt();\n            int days = sc.nextInt();\n            Car c = cars[id];\n            totalPassenger += c.getPassenger() * days;\n            totalCargo += c.getCargo() * days;\n            totalCost += (int)(c.getPricePerDay() * days);\n        }\n\n        System.out.printf(\"%d %.2f %d%n\", totalPassenger, totalCargo, totalCost);\n        sc.close();\n    }\n}",
+          "compiler": "JAVAC"
+        }
+      }
+    ]
+  },
+  {
+    "problemType": "PROGRAMMING",
+    "details": [
+      {
+        "problemId": "0",
+        "problemSetProblemId": "1990595265456459785",
+        "programmingSubmissionDetail": {
+          "program": "import java.util.*;\n\nabstract class Express {  // 去掉 public\n    int weight;\n\n    public Express(int weight) {\n        this.weight = weight;\n    }\n\n    public int getWeight() {\n        return weight;\n    }\n\n    public abstract int getTotal();\n}\n\nclass DDExpress extends Express {  // 去掉 public\n    public DDExpress(int weight) {\n        super(weight);\n    }\n\n    @Override\n    public int getTotal() {\n        int money = 0;\n        if (weight == 1) {\n            money = 5;\n        } else {\n            money = 5 + (weight - 1);\n        }\n        return money;\n    }\n}\n\nclass SLExpress extends Express {  // 去掉 public\n    public SLExpress(int weight) {\n        super(weight);\n    }\n\n    @Override\n    public int getTotal() {\n        int money = 0;\n        if (weight == 1) {\n            money = 12;\n        } else {\n            money = 12 + 2 * (weight - 1);\n        }\n        return money;\n    }\n}\n\npublic class Main {  // 只有这个是 public\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int money = 0;\n        int n = scanner.nextInt(); // 先读次数，避免循环里重复判断\n\n        for (int i = 0; i < n; i++) {\n            String type = scanner.next(); // 建议改名 sre -> type，更清晰\n            int num = scanner.nextInt();\n\n            if (\"SL\".equals(type)) {\n                SLExpress slExpress = new SLExpress(num);\n                money += slExpress.getTotal();\n            } else if (\"DD\".equals(type)) {\n                DDExpress ddExpress = new DDExpress(num);\n                money += ddExpress.getTotal();\n            }\n        }\n        System.out.println(money);\n        scanner.close(); // 建议关闭 Scanner，养成好习惯\n    }\n}",
+          "compiler": "JAVAC"
+        }
+      }
+    ]
+  }
+]

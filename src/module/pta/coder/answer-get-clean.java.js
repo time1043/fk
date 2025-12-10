@@ -1,6 +1,22 @@
 import path from "path";
 import { readJson, writeJson } from "../../../utils/json.js";
 
+const submitBodyWrap = ({ problemSetProblemId, program }) => {
+  return {
+    problemType: "PROGRAMMING",
+    details: [
+      {
+        problemId: "0",
+        problemSetProblemId,
+        programmingSubmissionDetail: {
+          program,
+          compiler: "JAVAC",
+        },
+      },
+    ],
+  };
+};
+
 export const answerGetClean = async (dir) => {
   const inputFile = path.join(dir, "answer-get.json");
   const outputFile = path.join(dir, "answer-get-clean.json");
@@ -9,7 +25,12 @@ export const answerGetClean = async (dir) => {
 
   const answerListClean = answerList.map((answer) => {
     const { submissionDetails } = answer.submission;
-    return submissionDetails[0];
+    const submissionDetail = submissionDetails[0];
+
+    const { problemSetProblemId } = submissionDetail;
+    const { program } = submissionDetail.programmingSubmissionDetail;
+
+    return submitBodyWrap({ problemSetProblemId, program });
   });
 
   await writeJson(outputFile, answerListClean);
