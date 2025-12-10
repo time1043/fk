@@ -1,0 +1,308 @@
+[
+  {
+    "id": "1983701703734988811",
+    "content": "找出长度最长的单词（不同长度的单词只出现一次）。\n\n### 输入格式:\n\n输入格式为单行形式，单词之间使用空格分割。\n\n### 输出格式:\n\n输出格式为长度最长的一个单词。\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\nan not need happy suggest\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\nsuggest\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "3": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "an not need happy suggest",
+            "output": "suggest"
+          },
+          {
+            "name": "",
+            "input": "an not need happy suggest",
+            "output": "suggest"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1983701703734988812",
+    "content": "现需要统计若干段文字(英文)中的不同单词数量。  \n如果不同的单词数量不超过10个，则将所有单词输出(按字母顺序)，否则输出前10个单词。  \n\n\n**注1：**单词之间以空格(1个或多个空格)为间隔。  \n**注2：**忽略空行或者空格行。  \n**注3：**单词大小写敏感，即'word'与'WORD'是两个不同的单词 。 \n\n### 输入说明\n若干行英文，最后以`!!!!!`为结束。\n\n### 输出说明\n不同单词数量。\n然后输出前10个单词（按字母顺序），如果所有单词不超过10个，则将所有的单词输出。\n\n### 输入样例\n```in\nFailure is probably the fortification in your pole\nIt is like a peek your wallet as the thief when you\nare thinking how to spend several hard-won lepta\nwhen you Are wondering whether new money it has laid\nbackground Because of you, then at the heart of the\nmost lax alert and most low awareness and left it\ngodsend failed\n!!!!!\n\n```\n### 输出样例\n```out\n49\nAre\nBecause\nFailure\nIt\na\nalert\nand\nare\nas\nat\n\n```",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 5,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "Failure is probably the fortification in your pole\nIt is like a peek your wallet as the thief when you\nare thinking how to spend several hard-won lepta\nwhen you Are wondering whether new money it has laid\nbackground Because of you, then at the heart of the\nmost lax alert and most low awareness and left it\ngodsend failed\n!!!!!\n",
+            "output": "49\nAre\nBecause\nFailure\nIt\na\nalert\nand\nare\nas\nat\n"
+          },
+          {
+            "name": "",
+            "input": "Failure is probably the fortification in your pole\nIt is like a peek your wallet as the thief when you\nare thinking how to spend several hard-won lepta\nwhen you Are wondering whether new money it has laid\nbackground Because of you, then at the heart of the\nmost lax alert and most low awareness and left it\ngodsend failed\n!!!!!\n",
+            "output": "49\nAre\nBecause\nFailure\nIt\na\nalert\nand\nare\nas\nat\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1983701703734988813",
+    "content": "输入一篇英文文章，碰到\"!!!!!\"的时候停止，输出文章中出现的不重复单词的个数(注意：单词不区分大小写，如：The和the为一个单词)\n\n### 输入格式:\n\n一篇英文文章，以\"!!!!!\"结尾\n\n### 输出格式:\n\n不重复单词的个数\n\n### 输入样例:\n\n\n```in\nUnmanned aerial vehicles have been adopted in the inspection of violations Procurators will file public interest litigations against perpetrators who will need to replant trees take down illegal buildings control pollution and compensate environment-related losses  \nThe Yellow River is the second longest river in China It originates in the northwestern province of Qinghai and runs through nine provinces and autonomous regions in western central north and eastern China  \n!!!!!\n\n```\n\n### 输出样例:\n\n\n```out\n55\n\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 800,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 10,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "Unmanned aerial vehicles have been adopted in the inspection of violations Procurators will file public interest litigations against perpetrators who will need to replant trees take down illegal buildings control pollution and compensate environment-related losses  \nThe Yellow River is the second longest river in China It originates in the northwestern province of Qinghai and runs through nine provinces and autonomous regions in western central north and eastern China  \n!!!!!\n",
+            "output": "55\n"
+          },
+          {
+            "name": "",
+            "input": "Unmanned aerial vehicles have been adopted in the inspection of violations Procurators will file public interest litigations against perpetrators who will need to replant trees take down illegal buildings control pollution and compensate environment-related losses  \nThe Yellow River is the second longest river in China It originates in the northwestern province of Qinghai and runs through nine provinces and autonomous regions in western central north and eastern China  \n!!!!!\n",
+            "output": "55\n"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1983701703734988814",
+    "content": "**背景介绍：** 北宋人贾宪约1050年首先使用“贾宪三角”进行高次开方运算。\n\n南宋数学家杨辉在《详解九章算法》（1261年）记载并保存了“贾宪三角”，故称杨辉三角。杨辉三角是中国数学史上的一个伟大成就。\n杨辉三角，是中国古代数学的杰出研究成果之一，它把二项式系数图形化，把组合数内在的一些代数性质直观地从图形中体现出来，是一种离散型的数与形的结合。\n\n中国南宋数学家杨辉1261年所著的《详解九章算法》一书中出现。在欧洲，帕斯卡（1623----1662）在1654年发现这一规律，所以这个表又叫做帕斯卡三角形。帕斯卡的发现比杨辉要迟393年，比贾宪迟600年。\n\n**杨辉三角数字的特点为：**\n\n（1）在三角形的首列和对角线上，数值均为1；\n\n（2）其余数据为：每个数字等于上一行的左右两个数字之和，第n+1行的第i个数等于第n行的第i-1个数和第i个数之和，用公式表示为： C(n+1,i)=C(n,i)+C(n,i-1)。\n\n图示为：\n\n![1.jpg](~/833618de-783c-4825-b8c5-d826b7844768.jpg)\n\n**杨辉三角的应用：**(a+b)的n次方，展开式中的各项系数依次对应杨辉三角的第(n+1)行中的每一项。\n\n### 输入格式:\n欲打印杨辉三角的行数n（1<=n<=13)。\n\n### 输出格式:\n每个数字占据4个字符的位置，数字左对齐，数字不足4位的右边留出空格。\n\n### 输入样例:\n\n```in\n13\n```\n\n### 输出样例:\n\n```out\n1   \n1   1   \n1   2   1   \n1   3   3   1   \n1   4   6   4   1   \n1   5   10  10  5   1   \n1   6   15  20  15  6   1   \n1   7   21  35  35  21  7   1   \n1   8   28  56  70  56  28  8   1   \n1   9   36  84  126 126 84  36  9   1   \n1   10  45  120 210 252 210 120 45  10  1   \n1   11  55  165 330 462 462 330 165 55  11  1   \n1   12  66  220 495 792 924 792 495 220 66  12  1   \n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "3": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "4": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "5": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "13",
+            "output": "1   \n1   1   \n1   2   1   \n1   3   3   1   \n1   4   6   4   1   \n1   5   10  10  5   1   \n1   6   15  20  15  6   1   \n1   7   21  35  35  21  7   1   \n1   8   28  56  70  56  28  8   1   \n1   9   36  84  126 126 84  36  9   1   \n1   10  45  120 210 252 210 120 45  10  1   \n1   11  55  165 330 462 462 330 165 55  11  1   \n1   12  66  220 495 792 924 792 495 220 66  12  1   "
+          },
+          {
+            "name": "",
+            "input": "13",
+            "output": "1   \n1   1   \n1   2   1   \n1   3   3   1   \n1   4   6   4   1   \n1   5   10  10  5   1   \n1   6   15  20  15  6   1   \n1   7   21  35  35  21  7   1   \n1   8   28  56  70  56  28  8   1   \n1   9   36  84  126 126 84  36  9   1   \n1   10  45  120 210 252 210 120 45  10  1   \n1   11  55  165 330 462 462 330 165 55  11  1   \n1   12  66  220 495 792 924 792 495 220 66  12  1   "
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1983701703734988815",
+    "content": "根据教师的花名册，找到出勤最多的人。\n\n### 输入格式:\n\n出勤记录单行给出，数据直接使用空格分割。\n\n### 输出格式:\n\n单行输出（若有多人，人名直接使用空格分割，结尾处没有空格）。\n\n### 输入样例:\n\n在这里给出一组输入。例如：\n\n```in\nzs ls ww ml zs ls ml zs ww\n```\n\n### 输出样例:\n\n在这里给出相应的输出。例如：\n\n```out\nzs\n```\n",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "0": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 2,
+            "isPublic": false
+          },
+          "2": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          },
+          "3": {
+            "hint": "",
+            "showHint": false,
+            "score": 3,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "zs ls ww ml zs ls ml zs ww",
+            "output": "zs"
+          },
+          {
+            "name": "",
+            "input": "zs ls ww ml zs ls ml zs ww",
+            "output": "zs"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  },
+  {
+    "id": "1983701703734988816",
+    "content": "1986年，中国实施“863”计划，航天技术列入其中。以载人飞船开始起步，最终建成我国的空间站。 \n1992年9月21日，中国实施载人航天工程，并确定了三步走的发展战略：第一步，发射载人飞船，建成初步配套的试验性载人飞船工程。第二步，突破载人飞船和空间飞行器的交会对接技术，利用载人飞船技术改装、发射一个空间实验室。第三步，建造载人空间站。\n\n在长期的奋斗中，我国航天工作者不仅创造了非凡的业绩，而且铸就了特别能吃苦、特别能战斗、特别能攻关、特别能奉献的载人航天精神。载人航天精神，是“两弹一星”精神在新时期的发扬光大，是我们伟大民族精神的生动体现，永远值得全党、全军和全国人民学习。\n```\n\n截至2021年4月，历任航天英雄名字如下：\n杨利伟（神舟五号）\n费俊龙、聂海胜（神舟六号）\n翟志刚、景海鹏、刘伯明（神舟七号）\n景海鹏、刘旺、刘洋（神舟九号）\n聂海胜、张晓光、王亚平（神舟十号）\n景海鹏、陈东（神舟十一号）\n```\n\n会编程的小伙伴们，请以他们出征太空的先后顺序，统计一下航天英雄们出征太空的次数，以实际行动向航天员们致敬！\n### 输入格式:\n\n```\n每次航天飞船的编号为一行读入数据，分别读入每次飞上太空的航天英雄的姓名，名字中间有一个空格分隔。\n最后一行为“end“，表示输入结束。\n\n提示：目前，中国航天员的数量小于20。\n```\n\n\n### 输出格式:\n\n```\n以出征太空的先后顺序，统计航天英雄们出征太空的次数。\n每位航天员占一行，航天员姓名与出征次数中间有一个空格。\n```\n\n### 输入样例:\n\n```in\n杨利伟\n费俊龙 聂海胜\n翟志刚 景海鹏 刘伯明\n景海鹏 刘旺 刘洋\n聂海胜 张晓光 王亚平\n景海鹏 陈东\nend\n```\n\n### 输出样例:\n\n```out\n杨利伟 1\n费俊龙 1\n聂海胜 2\n翟志刚 1\n景海鹏 3\n刘伯明 1\n刘旺 1\n刘洋 1\n张晓光 1\n王亚平 1\n陈东 1\n```\n提示：\n* 对于Java语言，此题有两种解决方案：\n  * （1）使用数组来解决；\n  * （2）使用java.util.Map接口的实现类LinkedMap来解决。\n    * LinkedHashMap是HashMap的子类，保证在遍历map元素时，可以按照添加的顺序实现遍历，对于频繁的遍历操作，它的执 行效率高于HashMap.\n * 对于Python语言，。。。。\n * 对于C语言，。。。。。。。",
+    "problemConfig": {
+      "programmingProblemConfig": {
+        "timeLimit": 400,
+        "memoryLimit": 65536,
+        "codeSizeLimit": 16,
+        "cases": {
+          "1": {
+            "hint": "",
+            "showHint": false,
+            "score": 10,
+            "isPublic": false
+          }
+        },
+        "exampleTestDatas": [
+          {
+            "name": "",
+            "input": "杨利伟\n费俊龙 聂海胜\n翟志刚 景海鹏 刘伯明\n景海鹏 刘旺 刘洋\n聂海胜 张晓光 王亚平\n景海鹏 陈东\nend",
+            "output": "杨利伟 1\n费俊龙 1\n聂海胜 2\n翟志刚 1\n景海鹏 3\n刘伯明 1\n刘旺 1\n刘洋 1\n张晓光 1\n王亚平 1\n陈东 1"
+          },
+          {
+            "name": "",
+            "input": "杨利伟\n费俊龙 聂海胜\n翟志刚 景海鹏 刘伯明\n景海鹏 刘旺 刘洋\n聂海胜 张晓光 王亚平\n景海鹏 陈东\nend",
+            "output": "杨利伟 1\n费俊龙 1\n聂海胜 2\n翟志刚 1\n景海鹏 3\n刘伯明 1\n刘旺 1\n刘洋 1\n张晓光 1\n王亚平 1\n陈东 1"
+          }
+        ],
+        "testdataDescriptionCode": "",
+        "customizeLimits": [],
+        "stackSizeLimit": 8192,
+        "tools": [],
+        "ignorePresentationError": false,
+        "pathAsStdin": "",
+        "pathAsStdout": ""
+      },
+      "solutionVisible": false,
+      "answerVisible": false
+    }
+  }
+]

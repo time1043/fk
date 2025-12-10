@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1983701703734988806",
+    "content": "Java中的数组在声明并分配了空间之后，关于其数组元素，哪些说法是正确的？（     ）\n",
+    "choices": [
+      "数组元素未人为赋值之前不能进行访问\n",
+      "数组元素都有默认值\n",
+      "基本数据类型中数值类型数组，元素默认值为0；布尔类型数组，元素默认值为false。\n",
+      "引用数据类型的数组，其数组元素默认值为null\n"
+    ]
+  },
+  {
+    "id": "1983701703734988807",
+    "content": "List类型的对象list可以以几种形式输出其内容（    ）？",
+    "choices": [
+      "```\nSystem.out.println(list.toString());\n\n```\n",
+      "```\nfor (int i = 0; i < list.size(); i++)\n{\n    System.out.println(list.get(i));  \n}\n```\n",
+      "```\nfor (Object obj : list)\n{\n    System.out.println(obj);  \n}\n```\n",
+      "```\nIterator it = list.iterator();   \nwhile (it.hasNext())\n{ \n     System.out.println(it.next());  \n}\n```\n"
+    ]
+  },
+  {
+    "id": "1983701703734988808",
+    "content": "迭代器接口（Iterator）所定义的方法有（     ）。 ",
+    "choices": ["hasNext()\n", "next()\n", "remove()\n", "nextElement()\n"]
+  },
+  {
+    "id": "1983701703734988809",
+    "content": "对于Set类型的对象set，可以以几种形式输出其内容（ ）？",
+    "choices": [
+      "```\nSystem.out.println(set.toString());\n```\n",
+      "```\nfor (int i = 0; i < set.size(); i++)\n{ \n    System.out.println(set.get(i)); \n}\n```\n",
+      "```\nfor (Object obj : set) \n{\n    System.out.println(obj);\n}\n```\n",
+      "```\nIterator it = set.iterator();  \nwhile (it.hasNext()) \n{  \n    System.out.println(it.next());\n}\n```\n"
+    ]
+  },
+  {
+    "id": "1983701703734988810",
+    "content": "在JAVA集合框架中，下面哪些类型所表示的对象是有序的？（       ）",
+    "choices": [
+      "HashMap\n",
+      "HashSet\n",
+      "TreeMap\n",
+      "LinkedList\n",
+      "LinkedHashMap"
+    ]
+  }
+]

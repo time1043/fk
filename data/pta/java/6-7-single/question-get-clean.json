@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1983701703730794496",
+    "content": "执行完以下代码int[ ] x = new int[25]；后，以下哪项说明是正确的(   ) \n\n",
+    "choices": ["x[24]为0", "x[24]未定义", "x[25]为0", "x[0]没有数值存在"]
+  },
+  {
+    "id": "1983701703730794497",
+    "content": "下列程序代码运行结果是：（    ）。\t\n```\nimport java.util.*;\t\npublic class Test {\t \n    public int hashCode() {\t    \n         return 1;\t \n    }\t \n    public boolean equals(Object b) {\t    \n        return true;\t\n   }\t\n    public static void main(String args[]) {\t    \n        Set set = new HashSet();\t    \n        set.add(new Test());\t    \n        set.add(new String(\"ABC\"));\t    \n        set.add(new Test());\t    \n        System.out.println(set.size());\t \n    }\n}\n```\n",
+    "choices": ["1", "2", "3", "4"]
+  },
+  {
+    "id": "1983701703730794498",
+    "content": "若int a[][]={{123,345,334},{1,2},{3,4}};  则 a[2][1]=（    ）。",
+    "choices": ["1", "3", "2", "4"]
+  },
+  {
+    "id": "1983701703730794499",
+    "content": "如下语句执行结果是：（      ）。\n```\nint[] intArr=new int[10];\nSystem.out.println(intArr[0]);\n```",
+    "choices": ["编译错误\n", "会报运行错误\n", "0", "null"]
+  },
+  {
+    "id": "1983701703734988800",
+    "content": "如下语句执行结果是：（     ）。\n```\nint[] intArr=new int[10];\t\nSystem.out.println(intArr[10]);\t\n```",
+    "choices": ["编译错误\n", "会报运行错误\n", "0", "null\n"]
+  },
+  {
+    "id": "1983701703734988801",
+    "content": "设有数组的定义int[] a = new int[3]，则下面对数组元素的引用错误的是（    ）。\n",
+    "choices": [
+      "a[0]=8;\n",
+      "a[a.length-1]=90;\n",
+      "a[3]=9;\n",
+      "```\nint i=1;\na[i]=0;\n```\n"
+    ]
+  },
+  {
+    "id": "1983701703734988802",
+    "content": "数组的定义为：`int[] arr=new int[10];`\n如何获得数组的长度？\n",
+    "choices": ["arr.length()\n", "arr.size()", "arr.length\n", "arr.size"]
+  },
+  {
+    "id": "1983701703734988803",
+    "content": "执行完以下代码`int[ ] x = new int[25]；`后，以下哪项说明是正确的（      ）。\n",
+    "choices": ["x[24]为0\n", "x[25]为0", "x[0]为空\n", "x[24]未定义"]
+  },
+  {
+    "id": "1983701703734988804",
+    "content": "下列程序代码运行结果是：（ ）。\t\n```\nimport java.util.ArrayList;\n\timport java.util.List;\npublic class Test {\n\t public static void main(String args[]) {\n\t    List list = new ArrayList();\n\t    list.add(new Test());\n\t    list.add(new String(\"\"ABC\"\"));\n\t    list.add(new Test());\n\t    System.out.println(list.size());\n\t }\n\t}\n```\n",
+    "choices": ["1", "2", "3", "4"]
+  },
+  {
+    "id": "1983701703734988805",
+    "content": "欲构造ArrayList类的一个实例，此类实现了List接口，下列哪个写法是正确的 ？",
+    "choices": [
+      "ArrayList myList=new Object()；\n",
+      "List myList=new ArrayList()；",
+      "ArrayList myList=new List()；",
+      "List myList=new List();"
+    ]
+  }
+]

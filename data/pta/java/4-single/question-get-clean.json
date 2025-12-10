@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1980428028242960384",
+    "content": "下面的方法，当输入为2的时候返回值是多少?（     ）\n<pre>\npublic int getValue(int i) {\n         int result = 0;\n         switch (i) {\n            case 1:\n                result = result + i;\n            case 2:\n                result = result + i * 2;\n            case 3:\n                result = result + i * 3;\n        }\n        return result;\n }\n</pre>\n@[](2)\n\nA. 0\nB. 2\nC. 4\nD. 10",
+    "choices": ["0", "2", "4", "10"]
+  },
+  {
+    "id": "1980428028242960385",
+    "content": "在下面的代码段中，下列m的（  ）值将引起“default”的输出。   @[](2)\n```\nimport java.util.Scanner;\npublic class Main {\n    public static void main(String[] args) {\n    \tScanner input = new Scanner(System.in);    \t\n        int m = input.nextInt();\n        switch(m) {\n            case 0: System.out.println(\"case 0\");\n            case 1: System.out.println(\"case 1\");break;\n            case 2:\n            default:System.out.println(\"default\");\n        }\n    }\n}\n\n```\n\nA. 0\nB. 1\nC. 2\nD. 以上答案都不正确\n",
+    "choices": ["0", "1", "2", "以上答案都不正确"]
+  },
+  {
+    "id": "1980428028242960386",
+    "content": "下列语句序列执行后，k 的值是(    )   @[](2)\n```\nint x=6, y=10, k=5;\nswitch( x%y ){ \n        case 0: k=x*y;\n  \tcase 6: k=x/y;\n  \tcase 12: k=x-y;\n  \tdefault: k=x*y-x;\n}\n```\nA. 60 \nB. 5\nC. 0\nD. 54\n",
+    "choices": ["60 ", "5", "0", "54"]
+  },
+  {
+    "id": "1980428028242960387",
+    "content": "以下选项中没有语法错误的是（       ） 。   @[](2)\nA. \n<pre>\nwhile (int  i<7) { \n       i++; \n       System.out.println(“i is “+i);  \n} \n</pre>\nB. \n<pre>\nint  j=3; while(j) {   \n       System.out.println(“ j  is “+j); \n} \n</pre>\nC. \n<pre>\nint  j=0; \nfor(int  k=0; j + k !=10; j++,k++) {     \n        System.out.println(“ j  is “+ j + “k  is”+ k); \n} \n</pre>\nD.  \n<pre>\nint  j=0; \ndo{ \n      System.out.println( “j  is “+j++);       \n     if (j == 3) {\n        continue  loop;\n     }  \n}while  (j<10);\n</pre>",
+    "choices": [
+      "\n<pre>\nwhile (int  i<7) {\n       i++;\n       System.out.println(“i is “+i);\n}\n</pre>",
+      "\n<pre>\nint  j=3; while(j) {\n       System.out.println(“ j  is “+j);\n}\n</pre>",
+      "\n<pre>\nint  j=0;\nfor(int  k=0; j + k !=10; j++,k++) {\n        System.out.println(“ j  is “+ j + “k  is”+ k);\n}\n</pre>",
+      "\n<pre>\nint  j=0;\ndo{\n      System.out.println( “j  is “+j++);\n     if (j == 3) {\n        continue  loop;\n     }\n}while  (j<10);\n</pre>"
+    ]
+  },
+  {
+    "id": "1980428028242960388",
+    "content": "在JAVA中，给定代码片段如下所示，则编译运行后，输出结果是（）。@[](2)\n```\nfor (int i = 0; i < 10; i++) {\n    if (i == 10 - i) {\n        break;\n    }\n    \n    if (i % 3 != 0) {\n        continue;\n    }\n    System.out.print(i + \" \");\n}\n```\n\nA. 0\nB. 0 3\nC. 0 3 6\nD. 0 3 6 9\n",
+    "choices": ["0", "0 3", "0 3 6", "0 3 6 9"]
+  },
+  {
+    "id": "1980428028242960389",
+    "content": "下面代码将输出（    ）行 \"Welcome to Java\"?。   @[](2)\n```\nint count = 0;\ndo {\n     System.out.println(\"Welcome to Java\");\n} while (count++ < 10);\n```\nA. 10\nB. 11\nC. 9\nD. 1\n",
+    "choices": ["10", "11", "9", "1"]
+  },
+  {
+    "id": "1980428028242960390",
+    "content": "分析下列代码的运行结果是什么？\n\nvoid looper(){\n    \n\t\tint x=0;\n\t\tone:\n\t\twhile(x<20) {\n\t\t    two:\n\t\t\t\tSystem.out.print(++x);\n\t\t\t\tif(x>3)\n\t\t\t\t  break two;\n\t\t}\n}\n\t\t\t\n@[](2)\n\nA. 编译错误\nB. 0\nC. 1\nD. 2",
+    "choices": ["编译错误", "0", "1", "2"]
+  },
+  {
+    "id": "1980428028242960391",
+    "content": "当编译并运行下列程序段时，运行结果是什么？\n \n public class Test {\n \n\t\tpublic static void main(String[ ] args) {\n            int i=0;\n            while (i--<0){\n                 System.out.println(\"The value of i is \"+i);\n             }\n             System.out.println(\"The end\");\n\t\t }\n\t}\n\n@[](2)\n\nA. 编译时错误\nB. 运行时错误\nC. The end\nD. The value of i is 0",
+    "choices": ["编译时错误", "运行时错误", "The end", "The value of i is 0"]
+  },
+  {
+    "id": "1980428028242960392",
+    "content": "下列选项中不属于本段代码输出结果的是（      ）\n\n\tpublic class Main{\n\t\tpublic static void main(String args[]) {\n\t\t  one:\n\t\t  two:\n\t\t  for(int i=0; i<3; i++) {\n\t\t      three:\n\t\t      for(int j=10; j<30; j+=10) {\n\t\t         System.out.println(i+j);\n\t\t\t\t if(i>0)\n\t\t\t\t    break one;\n\t\t      }\n\t\t  }\n\t\t}\n\t}\n@[](2)\n\nA. 10\nB. 20\nC. 11\nD. 21",
+    "choices": ["10", "20", "11", "21"]
+  },
+  {
+    "id": "1980428028242960393",
+    "content": "关于类和对象的关系，下列说法哪种说法是错误的？",
+    "choices": [
+      "类和对象都是具体的。\n",
+      "类是抽象的，对象是具体的。\n",
+      "一般情况下，在定义类之后，能创建无数个对象，可以说，类能化身千万。\n",
+      "类是引用型数据类型。\n"
+    ]
+  }
+]
