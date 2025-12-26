@@ -1,0 +1,693 @@
+{
+  "organizationById": {
+    "8": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "263": {
+      "id": "263",
+      "name": "沈阳师范大学",
+      "code": "synu",
+      "type": "SCHOOL",
+      "logo": ""
+    },
+    "10": {
+      "id": "10",
+      "name": "内蒙古师范大学",
+      "code": "imnu",
+      "type": "SCHOOL",
+      "logo": "e9a11a15-4403-4d1a-8a57-2695ee5ef995.png"
+    },
+    "1067247900581347328": {
+      "id": "1067247900581347328",
+      "name": "贵州工程应用技术学院",
+      "code": "gues",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/gues.png"
+    },
+    "975756327607476224": {
+      "id": "975756327607476224",
+      "name": "赤峰学院",
+      "code": "cfxy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/cfxy.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "2004418985242300465",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["内模式", "外模式", "概念模式", "用户模式"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "数据库的三级模式结构中最接近用户的是：",
+      "content": "数据库的三级模式结构中最接近用户的是：",
+      "type": "MULTIPLE_CHOICE",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1709484851004297216",
+      "description": "数据库的三级模式结构中最接近用户的是：",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985242300477",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "数据结构化",
+            "数据的冗余度小",
+            "较高的数据独立性",
+            "程序的标准化"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列四项中，不属于数据库系统的主要特点的是(      )",
+      "content": "下列四项中，不属于数据库系统的主要特点的是(      )",
+      "type": "MULTIPLE_CHOICE",
+      "author": "祁长兴",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1399899468274094080",
+      "description": "下列四项中，不属于数据库系统的主要特点的是(      )",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "2004418985246494723",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "数据存储量过大",
+            "缺乏数据保护机制",
+            "数据冗余",
+            "缺乏数据安全性控制"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在数据库中,产生数据不一致的根本原因是：",
+      "content": "在数据库中,产生数据不一致的根本原因是：",
+      "type": "MULTIPLE_CHOICE",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1709482481486786560",
+      "description": "在数据库中,产生数据不一致的根本原因是：",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985246494735",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["投影", "交", "自然联接", "笛卡尔积"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "有三个关系S、R、T如下，则由S、R得到T的运算是（      ）。   ",
+      "content": "有三个关系S、R、T如下，则由S、R得到T的运算是（      ）。   @[](2)\n\n\n![微信截图_20200326074552.png](~/79ed77e8-fc94-4625-9900-c6e67e745c15.png)\nA. 投影\nB. 交\nC. 自然联接\nD. 笛卡尔积\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "葛湘巍",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1242961451015348224",
+      "description": "有三个关系S、R、T如下，则由S、R得到T的运算是（      ）。\n\n![微信截图_20200326074552.png](~/79ed77e8-fc94-4625-9900-c6e67e745c15.png)",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "10"
+    },
+    {
+      "id": "2004418985246494750",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "π姓名,家庭地址(σ职务 \u003d \u0027科长\u0027 and 性别 \u003d \u0027女\u0027 (职工))",
+            "σ姓名,家庭地址(π职务 \u003d \u0027科长\u0027 ∧ 性别 \u003d \u0027女\u0027 (职工))",
+            "π姓名,家庭地址(σ职务 \u003d \u0027科长\u0027 ∧ 性别 \u003d \u0027女\u0027 (职工))",
+            "σ职务 \u003d \u0027科长\u0027 ∧ 性别 \u003d \u0027女\u0027 (π姓名,家庭地址(职工))"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面是一部门职工情况数据库，现有如下关系： 职工（职工号，姓名，性别，职务，家庭地址，部门编号） 主键：职工号部门（部门编号，部",
+      "content": "下面是一部门职工情况数据库，现有如下关系： \n\n职工（职工号，姓名，性别，职务，家庭地址，部门编号） 主键：职工号\n\n部门（部门编号，部门名称，地址，电话） 主键：部门编号\n\n保健（保健卡编号，职工号，检查身体日期，健康状况）主键：保健卡编号\n\nselect 姓名, 家庭地址\n\nfrom 职工\n\nwhere 职务\u003d\u0027科长\u0027 and 性别\u003d\u0027女’\n\n请将上述查询转换为相应的关系代数表达。\n@[](2)\n\nA. π姓名,家庭地址(σ职务 \u003d \u0027科长\u0027 and 性别 \u003d \u0027女\u0027 (职工))\nB. σ姓名,家庭地址(π职务 \u003d \u0027科长\u0027 ∧ 性别 \u003d \u0027女\u0027 (职工))\nC. π姓名,家庭地址(σ职务 \u003d \u0027科长\u0027 ∧ 性别 \u003d \u0027女\u0027 (职工))\nD. σ职务 \u003d \u0027科长\u0027 ∧ 性别 \u003d \u0027女\u0027 (π姓名,家庭地址(职工))",
+      "type": "MULTIPLE_CHOICE",
+      "author": "张悦",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1342020892599533568",
+      "description": "下面是一部门职工情况数据库，现有如下关系： \n\n职工（职工号，姓名，性别，职务，家庭地址，部门编号） 主键：职工号\n\n部门（部门编号，部门名称，地址，电话） 主键：部门编号\n\n保健（保健卡编号，职工号，检查身体日期，健康状况）主键：保健卡编号\n\nselect 姓名, 家庭地址\n\nfrom 职工\n\nwhere 职务\u003d\u0027科长\u0027 and 性别\u003d\u0027女’\n\n请将上述查询转换为相应的关系代数表达。",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "2004418985246494761",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "`MODIFY TABLE`",
+            "`MODIFY STRUCTURE`",
+            "`ALTER TABLE`",
+            "`ALTER STRUCTURE`"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "SQL语句中修改表结构的命令是：",
+      "content": " SQL语句中修改表结构的命令是：",
+      "type": "MULTIPLE_CHOICE",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1710475661082472448",
+      "description": " SQL语句中修改表结构的命令是：",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985246494771",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "```\nINSERT INTO Teachers VALUES(\u0027T100\u0027,\u0027张鸿\u0027,NULL)\n```",
+            "```\nINSERT INTO Teachers(Tno,Tname,Age) VALUES(\u0027T100\u0027,\u0027张鸿\u0027,30)\n```",
+            "```\nINSERT INTO Teachers(Tno,Tname) VALUES(\u0027T100\u0027,\u0027张鸿\u0027)\n```",
+            "```\nINSERT INTO Teachers VALUES(\u0027T100\u0027,\u0027张鸿\u0027)\n```"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "设有Teachers表，该表的定义如下：",
+      "content": "设有Teachers表，该表的定义如下：\n```\nCREATE TABLE Teachers(\n\t  Tno CHAR(8) PRIMARY KEY,\n      Tname VARCHAR(10) NOT NULL,\n      Age TINYINT CHECK(Age BETWEEN 25 AND 65) )\n\n```\n下列插入语句中，不能正确执行的是：",
+      "type": "MULTIPLE_CHOICE",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1446305285661167616",
+      "description": "设有Teachers表，该表的定义如下：\n```\nCREATE TABLE Teachers(\n\t  Tno CHAR(8) PRIMARY KEY,\n      Tname VARCHAR(10) NOT NULL,\n      Age TINYINT CHECK(Age BETWEEN 25 AND 65) )\n\n```\n下列插入语句中，不能正确执行的是：",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985246494783",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "SELECT * FROM 学生 ORDER BY 学号 , 成绩",
+            "SELECT * FROM 学生 ORDER BY 学号 , 成绩 DESC",
+            "SELECT * FROM 学生 ORDER BY 学号 ASC, AND 成绩 DESC",
+            "SELECT * FROM 学生 ORDER BY 成绩 DESC，学号 ASC"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "欲将表“学生”中的信息先按“学号”升序排序，再按“成绩”降序排列，SQL 语句能正确完成的是",
+      "content": "欲将表“学生”中的信息先按“学号”升序排序，再按“成绩”降序排列，SQL 语句能正确完成的是：\n\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1580829124301942784",
+      "description": "欲将表“学生”中的信息先按“学号”升序排序，再按“成绩”降序排列，SQL 语句能正确完成的是：\n\n",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985246494810",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["外模式  ", "存储模式", "模式", "内模式"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在SQL语言中的视图VIEW是数据库的：",
+      "content": "在SQL语言中的视图VIEW是数据库的：",
+      "type": "MULTIPLE_CHOICE",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1710856841485205504",
+      "description": "在SQL语言中的视图VIEW是数据库的：",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985246494815",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["DROP", "DELETE", "REVOKE", "ALTER"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列SQL语句中，用于收回已授予用户权限的语句是",
+      "content": "下列SQL语句中，用于收回已授予用户权限的语句是：\n\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1598674043694497792",
+      "description": "下列SQL语句中，用于收回已授予用户权限的语句是：\n\n",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985246494823",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "只能读不能写",
+            "只能写不能读",
+            "可以写也可以读",
+            "不能读也不能写"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "如果事务T获得了数据项A上的排他锁，则其他事务对A",
+      "content": "如果事务T获得了数据项A上的排他锁，则其他事务对A：\n\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1584448532371095552",
+      "description": "如果事务T获得了数据项A上的排他锁，则其他事务对A：\n\n",
+      "problemPoolIndex": 11,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985246494832",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["CLUSTER", "ALTER", "WITH GRANT OPTION", "CHECK"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在CREATE  TABLE语句中可以用（    ）短语来定义元组上的约束条件。   ",
+      "content": "在CREATE  TABLE语句中可以用（    ）短语来定义元组上的约束条件。   @[](2)\n\nA. CLUSTER\nB. ALTER\nC. WITH GRANT OPTION\nD. CHECK\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "黄淑伟",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1219420773629943808",
+      "description": "在CREATE  TABLE语句中可以用（    ）短语来定义元组上的约束条件。",
+      "problemPoolIndex": 12,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "2004418985246494846",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["概念设计", "逻辑设计", "物理设计", "全局设计"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "数据库设计可划分为六个阶段，每个阶段都有自己的设计内容，“为哪些关系，在哪些属性上建什么样的索引”这一设计内容应该属于（）设计阶",
+      "content": "数据库设计可划分为六个阶段，每个阶段都有自己的设计内容，“为哪些关系，在哪些属性上建什么样的索引”这一设计内容应该属于（）设计阶段。   @[](2)\n\nA. 概念设计\nB. 逻辑设计\nC. 物理设计\nD. 全局设计\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "黄淑伟",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1217018740993376256",
+      "description": "数据库设计可划分为六个阶段，每个阶段都有自己的设计内容，“为哪些关系，在哪些属性上建什么样的索引”这一设计内容应该属于（）设计阶段。",
+      "problemPoolIndex": 13,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "2004418985246494860",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "任何一个关系模式一定有键。",
+            "任何一个包含两个属性的关系模式一定满足3NF。",
+            "任何一个包含三个属性的关系模式一定满足2NF",
+            "任何一个包含两个属性的关系模式一定满足BCNF"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在下列关于规范化理论的叙述中，不正确的是_________。",
+      "content": "在下列关于规范化理论的叙述中，不正确的是_________。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "张继燕",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1466237381821337600",
+      "description": "在下列关于规范化理论的叙述中，不正确的是_________。",
+      "problemPoolIndex": 14,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1067247900581347328"
+    },
+    {
+      "id": "2004418985246494869",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["1NF", "2NF", "3NF", "BCNF"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "有关系模式A（C，T，H，R，S），基中各属性的含义是：C：课程T：教员H：上课时间R：教室S：学生。函数依赖集： F\u003d{C→T",
+      "content": "有关系模式A（C，T，H，R，S），基中各属性的含义是：C：课程T：教员H：上课时间R：教室S：学生。函数依赖集： F\u003d{C→T，（H，R）→C，（H，T）→R，（H，S）→R}，若将关系模式A分解为两个关系模式A1（C，T），A2（H，R，S），则其中A1的规范化程度达到。   @[](2)\n\nA. 1NF\nB. 2NF\nC. 3NF\nD. BCNF\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "黄淑伟",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1219459634657615872",
+      "description": "有关系模式A（C，T，H，R，S），基中各属性的含义是：C：课程T：教员H：上课时间R：教室S：学生。函数依赖集： F\u003d{C→T，（H，R）→C，（H，T）→R，（H，S）→R}，若将关系模式A分解为两个关系模式A1（C，T），A2（H，R，S），则其中A1的规范化程度达到。",
+      "problemPoolIndex": 15,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "2004418985246494876",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["XQ", "YZ", "WY", "XW"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关系R(X，Y，Z，W，Q)，函数依赖集合F\u003d{X→Y，Y→Z，Z→W，WQ→Z，ZQ→Y}，关系R的候选码(   )",
+      "content": "关系R(X，Y，Z，W，Q)，函数依赖集合F\u003d{X→Y，Y→Z，Z→W，WQ→Z，ZQ→Y}，关系R的候选码(   )\n@[](2)\n\nA. XQ\nB. YZ\nC. WY\nD. XW",
+      "type": "MULTIPLE_CHOICE",
+      "author": "张悦",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1333256519767863296",
+      "description": "关系R(X，Y，Z，W，Q)，函数依赖集合F\u003d{X→Y，Y→Z，Z→W，WQ→Z，ZQ→Y}，关系R的候选码(   )",
+      "problemPoolIndex": 16,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "2004418985246494884",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "CREATE INDEX index_name ON score(math);",
+            "CREATE INDEX score ON score(math_score);",
+            "CREATE INDEX math_score ON studentnfo(math);",
+            "CREATE INDEX math_score ON score(math);"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在score数据表中给math字段添加名称为math_score索引的语句中，正确的是（ ）。",
+      "content": "在score数据表中给math字段添加名称为math_score索引的语句中，正确的是（ ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "白彦辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1456279255083253760",
+      "description": "在score数据表中给math字段添加名称为math_score索引的语句中，正确的是（ ）。",
+      "problemPoolIndex": 17,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "975756327607476224"
+    },
+    {
+      "id": "2004418985246494890",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["1个表", "2个表", "3个表", "4个表"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "现有关系:学生(学号,姓名,系号,系名),为消除数据冗余,至少需要分解为：",
+      "content": "现有关系:学生(学号,姓名,系号,系名),为消除数据冗余,至少需要分解为：",
+      "type": "MULTIPLE_CHOICE",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1710300655362887680",
+      "description": "现有关系:学生(学号,姓名,系号,系名),为消除数据冗余,至少需要分解为：",
+      "problemPoolIndex": 18,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004421637267161088",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": ["1NF", "2NF", "3NF", "BCNF"],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "设有关系模式R（A,B,C,D,E），R中的属性均不可再分解，函数依赖集F\u003d｛CD→A，CD→B，AB→E｝,若只基于函数依赖进",
+      "content": "设有关系模式R（A,B,C,D,E），R中的属性均不可再分解，函数依赖集F\u003d｛CD→A，CD→B，AB→E｝,若只基于函数依赖进行讨论，R最高属于第几范式。  @[](2)\n\nA. 1NF\nB. 2NF\nC. 3NF\nD. BCNF\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "黄淑伟",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1241623649300389888",
+      "description": "设有关系模式R（A,B,C,D,E），R中的属性均不可再分解，函数依赖集F\u003d｛CD→A，CD→B，AB→E｝,若只基于函数依赖进行讨论，R最高属于第几范式。",
+      "problemPoolIndex": 18,
+      "indexInProblemPool": 2,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "2004421637267161089",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "ALTER TABLE … DELETE …",
+            "ALTER TABLE … DELETE COLUMN…",
+            "ALTER TABLE … change …",
+            "ALTER TABLE … DROP COLUMN…"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "删除列的命令是______。",
+      "content": "删除列的命令是______。\n\n\n\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "白彦辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1458468869543419904",
+      "description": "删除列的命令是______。\n\n\n\n",
+      "problemPoolIndex": 18,
+      "indexInProblemPool": 3,
+      "authorOrganizationId": "975756327607476224"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "2004418985242300465": "R2-1",
+    "2004418985242300477": "R2-2",
+    "2004418985246494723": "R2-3",
+    "2004418985246494735": "R2-4",
+    "2004418985246494750": "R2-5",
+    "2004418985246494761": "R2-6",
+    "2004418985246494771": "R2-7",
+    "2004418985246494783": "R2-8",
+    "2004418985246494810": "R2-9",
+    "2004418985246494815": "R2-10",
+    "2004418985246494823": "R2-11",
+    "2004418985246494832": "R2-12",
+    "2004418985246494846": "R2-13",
+    "2004418985246494860": "R2-14",
+    "2004418985246494869": "R2-15",
+    "2004418985246494876": "R2-16",
+    "2004418985246494884": "R2-17",
+    "2004418985246494890": "R2-18",
+    "2004421637267161088": "R2-19",
+    "2004421637267161089": "R2-20"
+  }
+}

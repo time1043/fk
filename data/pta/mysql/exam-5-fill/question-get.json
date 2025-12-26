@@ -1,0 +1,506 @@
+{
+  "organizationById": {
+    "263": {
+      "id": "263",
+      "name": "沈阳师范大学",
+      "code": "synu",
+      "type": "SCHOOL",
+      "logo": ""
+    },
+    "146": {
+      "id": "146",
+      "name": "宁波财经学院",
+      "code": "dhy",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/dhy.png"
+    },
+    "8": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "1513359561112621056": {
+      "id": "1513359561112621056",
+      "name": "黄冈科技职业学院",
+      "code": "hbhgkj",
+      "type": "SCHOOL",
+      "logo": ""
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "2004418985246494892",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "fillInTheBlankProblemConfig": {
+          "scores": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          "blankLength": 19,
+          "blanks": [
+            {
+              "index": 108,
+              "multipleLine": false,
+              "length": 8,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            },
+            {
+              "index": 135,
+              "multipleLine": false,
+              "length": 8,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            },
+            {
+              "index": 148,
+              "multipleLine": false,
+              "length": 10,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            },
+            {
+              "index": 185,
+              "multipleLine": false,
+              "length": 4,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            },
+            {
+              "index": 191,
+              "multipleLine": false,
+              "length": 8,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            },
+            {
+              "index": 192,
+              "multipleLine": false,
+              "length": 8,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            },
+            {
+              "index": 210,
+              "multipleLine": false,
+              "length": 4,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            },
+            {
+              "index": 211,
+              "multipleLine": false,
+              "length": 10,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            },
+            {
+              "index": 212,
+              "multipleLine": false,
+              "length": 10,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            },
+            {
+              "index": 238,
+              "multipleLine": false,
+              "length": 8,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            }
+          ]
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "请分析以下E-R图（超市销售）将其转换为相应的关系模式完成逻辑模型设计。",
+      "content": "请分析以下E-R图（超市销售）将其转换为相应的关系模式完成逻辑模型设计。\n\n![PTA-ER模型-超市-答案.jpg](~/3ac2a63e-52e2-4eaf-9eb1-5f2a123b3422.jpg)\n\n部门（，部门名称）\n\n员工（员工编号，员工姓名，性别，职务，）\n\n供应商（供应商编号，，地址，电话，联系人）\n\n商品（商品编号，商品名称，类别，数量，单价）\n\n（入库编号，，，入库时间，计量单位，入库价格）\n\n（，，数量，销售价格，业务员编号）\n\n员工关系的外键为：（若没有外键请填写无）",
+      "type": "FILL_IN_THE_BLANK",
+      "author": "张悦",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1400286748360900608",
+      "description": "请分析以下E-R图（超市销售）将其转换为相应的关系模式完成逻辑模型设计。\n\n![PTA-ER模型-超市-答案.jpg](~/3ac2a63e-52e2-4eaf-9eb1-5f2a123b3422.jpg)\n\n部门（，部门名称）\n\n员工（员工编号，员工姓名，性别，职务，）\n\n供应商（供应商编号，，地址，电话，联系人）\n\n商品（商品编号，商品名称，类别，数量，单价）\n\n（入库编号，，，入库时间，计量单位，入库价格）\n\n（，，数量，销售价格，业务员编号）\n\n员工关系的外键为：（若没有外键请填写无）",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "2004418985246494893",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "fillInTheBlankProblemConfig": {
+          "scores": [2],
+          "blankLength": 85,
+          "blanks": [
+            {
+              "index": 464,
+              "multipleLine": false,
+              "length": 21,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 1
+            }
+          ]
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "创建表并设置相应的约束2",
+      "content": "题目要求填写SQL语句，题目将用到以下表结构。\n\n![image.png](https://images.ptausercontent.com/5e7daf6a-8979-467e-ab66-e5e4e9cd2986.png \"image.png\")\\\n![image.png](https://images.ptausercontent.com/fafd0374-2b2d-4d91-a41d-3af09f0bd622.png \"image.png\")\n\n题目：**创建表并设置相应的约束2**\n\n注意：填写时要么都小写，要么都大写，使用英文符号，单词之间一个空格分隔不要多加。\n\n**代码如下：**\u003cbr\u003e**CREATE TABLE sc (   /\\*创建sc表\\*/**\n\n  **cno CHAR(7) NOT NULL,**\n\n  **sno CHAR(7) NOT NULL,**\n\n  **score decimal(4,1) NULL,**\n\n  **point decimal(2,1) NULL,**\n\n /\\*主键\\*/\n\n**);**",
+      "type": "FILL_IN_THE_BLANK",
+      "author": "邵煜",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1688355428990763008",
+      "description": "题目要求填写SQL语句，题目将用到以下表结构。\n\n![image.png](https://images.ptausercontent.com/5e7daf6a-8979-467e-ab66-e5e4e9cd2986.png \"image.png\")\\\n![image.png](https://images.ptausercontent.com/fafd0374-2b2d-4d91-a41d-3af09f0bd622.png \"image.png\")\n\n题目：**创建表并设置相应的约束2**\n\n注意：填写时要么都小写，要么都大写，使用英文符号，单词之间一个空格分隔不要多加。\n\n**代码如下：**\u003cbr\u003e**CREATE TABLE sc (   /\\*创建sc表\\*/**\n\n  **cno CHAR(7) NOT NULL,**\n\n  **sno CHAR(7) NOT NULL,**\n\n  **score decimal(4,1) NULL,**\n\n  **point decimal(2,1) NULL,**\n\n /\\*主键\\*/\n\n**);**",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "146"
+    },
+    {
+      "id": "2004418985246494894",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "fillInTheBlankProblemConfig": {
+          "scores": [2],
+          "blankLength": 191,
+          "blanks": [
+            {
+              "index": 168,
+              "multipleLine": false,
+              "length": 30,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 1
+            }
+          ]
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "使用create index语句在students表的sname、class和sdept字段上创建名为ix_scs的组合索引。",
+      "content": "题目要求填写SQL语句，\n\n使用create index语句为`students`表（学生表）的sname、class和sdept字段（学生姓名、班级、系名）上创建名为ix_scs的组合索引。\n\n注意：填写时要么都小写，要么都大写，使用英文符号，不要有多余空格。\n\n**代码如下：**\n\n**CREATE INDEX ix_scs** **;**",
+      "type": "FILL_IN_THE_BLANK",
+      "author": "邵煜",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1684806955543498752",
+      "description": "题目要求填写SQL语句，\n\n使用create index语句为`students`表（学生表）的sname、class和sdept字段（学生姓名、班级、系名）上创建名为ix_scs的组合索引。\n\n注意：填写时要么都小写，要么都大写，使用英文符号，不要有多余空格。\n\n**代码如下：**\n\n**CREATE INDEX ix_scs** **;**",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 2,
+      "authorOrganizationId": "146"
+    },
+    {
+      "id": "2004418985246494895",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "fillInTheBlankProblemConfig": {
+          "scores": [1, 1],
+          "blankLength": 1,
+          "blanks": [
+            {
+              "index": 8,
+              "multipleLine": false,
+              "length": 1,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 1
+            },
+            {
+              "index": 20,
+              "multipleLine": false,
+              "length": 1,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 1
+            }
+          ]
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "数据插入和删除",
+      "content": "数据插入和删除以作为基本单位，数据修改以作为基本单位。\n\n提示：空格中填A或B，其中A为数据项，B为数据行",
+      "type": "FILL_IN_THE_BLANK",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1569958439495598080",
+      "description": "数据插入和删除以作为基本单位，数据修改以作为基本单位。\n\n提示：空格中填A或B，其中A为数据项，B为数据行",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 3,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985246494896",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "fillInTheBlankProblemConfig": {
+          "scores": [1, 1],
+          "blankLength": 17,
+          "blanks": [
+            {
+              "index": 49,
+              "multipleLine": false,
+              "length": 5,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 1
+            },
+            {
+              "index": 55,
+              "multipleLine": false,
+              "length": 2,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 1
+            }
+          ]
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在employees表的phone列上建立一个非聚集索引的SQL语句是：",
+      "content": "在employees表的phone列上建立一个非聚集索引的SQL语句是：\n```\n CREATE  IDX1  employees(phone)\n\n```\n\n\n\n",
+      "type": "FILL_IN_THE_BLANK",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1582314930271158272",
+      "description": "在employees表的phone列上建立一个非聚集索引的SQL语句是：\n```\n CREATE  IDX1  employees(phone)\n\n```\n\n\n\n",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 4,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985246494897",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "fillInTheBlankProblemConfig": {
+          "scores": [2],
+          "blankLength": 44,
+          "blanks": [
+            {
+              "index": 46,
+              "multipleLine": false,
+              "length": 8,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 1
+            }
+          ]
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "为student表添加一个\"resume”字段",
+      "content": "为student表添加一个\"resume”字段，字段类型为变长字符串，大小为200，请用小写",
+      "type": "FILL_IN_THE_BLANK",
+      "author": "贡维才",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1641359737541005312",
+      "description": "为student表添加一个\"resume”字段，字段类型为变长字符串，大小为200，请用小写",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 5,
+      "authorOrganizationId": "1513359561112621056"
+    },
+    {
+      "id": "2004418985246494898",
+      "label": "",
+      "score": 2,
+      "problemConfig": {
+        "fillInTheBlankProblemConfig": {
+          "scores": [2],
+          "blankLength": 35,
+          "blanks": [
+            {
+              "index": 70,
+              "multipleLine": false,
+              "length": 17,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 1
+            }
+          ]
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "将视图v_sc_39删除。",
+      "content": "本题目要求填写SQL语句，\\\n要求：将视图v_sc_39删除。\u003cbr\u003e\n\n注意：填写时要么都小写，要么都大写。\n\n**代码如下：**\u003cbr\u003e ;",
+      "type": "FILL_IN_THE_BLANK",
+      "author": "邵煜",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1684552774744215552",
+      "description": "本题目要求填写SQL语句，\\\n要求：将视图v_sc_39删除。\u003cbr\u003e\n\n注意：填写时要么都小写，要么都大写。\n\n**代码如下：**\u003cbr\u003e ;",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 6,
+      "authorOrganizationId": "146"
+    },
+    {
+      "id": "2004418985246494899",
+      "label": "",
+      "score": 4,
+      "problemConfig": {
+        "fillInTheBlankProblemConfig": {
+          "scores": [1, 1, 1, 1],
+          "blankLength": 3,
+          "blanks": [
+            {
+              "index": 67,
+              "multipleLine": false,
+              "length": 2,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 1
+            },
+            {
+              "index": 83,
+              "multipleLine": false,
+              "length": 1,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 1
+            },
+            {
+              "index": 101,
+              "multipleLine": false,
+              "length": 2,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 1
+            },
+            {
+              "index": 119,
+              "multipleLine": false,
+              "length": 3,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 1
+            }
+          ]
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "设Grade 列中有三个值：78、90和NULL，求对其使用聚合函数的结果",
+      "content": "设 Grade 列中有三个值：78、90和NULL，则 AVG(Grade) 得到的结果是，COUNT(*) 得到的结果是，MIN(Grade) 得到的结果是，SUM(Grade) 得到的结果是。\n\n",
+      "type": "FILL_IN_THE_BLANK",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1580847338054475776",
+      "description": "假设成绩表只有一列，为Grade列。 Grade 列中有三行，其值分别为：78、90和NULL，则 AVG(Grade) 得到的结果是，COUNT(*) 得到的结果是，MIN(Grade) 得到的结果是，SUM(Grade) 得到的结果是。\n\n",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985246494900",
+      "label": "",
+      "score": 4,
+      "problemConfig": {
+        "fillInTheBlankProblemConfig": {
+          "scores": [1, 1, 1, 1],
+          "blankLength": 5,
+          "blanks": [
+            {
+              "index": 171,
+              "multipleLine": false,
+              "length": 2,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            },
+            {
+              "index": 177,
+              "multipleLine": false,
+              "length": 5,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            },
+            {
+              "index": 182,
+              "multipleLine": false,
+              "length": 2,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            },
+            {
+              "index": 194,
+              "multipleLine": false,
+              "length": 1,
+              "choices": {},
+              "maxDisplayChoicesPerLine": 0
+            }
+          ]
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "设教学数据库中有3个关系：",
+      "content": "设教学数据库中有3个关系：\n\n学生关系： S(SNO,SNAME,AGE,SEX)\n\n学习关系： SC(SNO,CNO,GRADE)\n\n课程关系： C(CNO,CNAME,TEACHER)\n\n下面用关系代数表达式表达每个查询语句。关系代数表达式使用的符号：σπ×∞÷∪∩－∧∨≠（复制粘贴使用）\n\n查询选修了DB这门课程的学生姓名、成绩。\n\nSNAME,(S∞SCσCNAME\u003d\u0027DB\u0027())\n",
+      "type": "FILL_IN_THE_BLANK",
+      "author": "刘春颖",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1376156247649714176",
+      "description": "设教学数据库中有3个关系：\n\n学生关系： S(SNO,SNAME,AGE,SEX)\n\n学习关系： SC(SNO,CNO,GRADE)\n\n课程关系： C(CNO,CNAME,TEACHER)\n\n下面用关系代数表达式表达每个查询语句。关系代数表达式使用的符号：σπ×∞÷∪∩－∧∨≠（复制粘贴使用）\n\n查询选修了DB这门课程的学生姓名、成绩。\n\nSNAME,(S∞SCσCNAME\u003d\u0027DB\u0027())\n",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "2004418985246494892": "R4-1",
+    "2004418985246494893": "R4-2",
+    "2004418985246494894": "R4-3",
+    "2004418985246494895": "R4-4",
+    "2004418985246494896": "R4-5",
+    "2004418985246494897": "R4-6",
+    "2004418985246494898": "R4-7",
+    "2004418985246494899": "R4-8",
+    "2004418985246494900": "R4-9"
+  }
+}

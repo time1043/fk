@@ -1,0 +1,12 @@
+{
+  "problemType": "SQL_PROGRAMMING",
+  "details": [
+    {
+      "problemId": "0",
+      "problemSetProblemId": "2004418985250689024",
+      "sqlProgrammingSubmissionDetail": {
+        "program": "SELECT * FROM Teacher ORDER BY TeacherID ASC;"
+      }
+    }
+  ]
+}

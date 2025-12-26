@@ -1,0 +1,79 @@
+{
+  "problemType": "FILL_IN_THE_BLANK",
+  "details": [
+    {
+      "problemId": "0",
+      "problemSetProblemId": "2004418985246494892",
+      "fillInTheBlankSubmissionDetail": {
+        "answers": [
+          "部门编号",
+          "部门编号",
+          "供应商名称",
+          "入库",
+          "员工编号",
+          "商品编号",
+          "销售",
+          "供应商编号",
+          "商品编号",
+          "部门编号"
+        ]
+      }
+    },
+    {
+      "problemId": "0",
+      "problemSetProblemId": "2004418985246494893",
+      "fillInTheBlankSubmissionDetail": {
+        "answers": ["PRIMARY KEY (sno, cno)"]
+      }
+    },
+    {
+      "problemId": "0",
+      "problemSetProblemId": "2004418985246494894",
+      "fillInTheBlankSubmissionDetail": {
+        "answers": ["ON students (sname, class, sdept)"]
+      }
+    },
+    {
+      "problemId": "0",
+      "problemSetProblemId": "2004418985246494895",
+      "fillInTheBlankSubmissionDetail": {
+        "answers": ["B", "A"]
+      }
+    },
+    {
+      "problemId": "0",
+      "problemSetProblemId": "2004418985246494896",
+      "fillInTheBlankSubmissionDetail": {
+        "answers": ["NONCLUSTERED", "ON"]
+      }
+    },
+    {
+      "problemId": "0",
+      "problemSetProblemId": "2004418985246494897",
+      "fillInTheBlankSubmissionDetail": {
+        "answers": ["ALTER TABLE student ADD resume VARCHAR(200)"]
+      }
+    },
+    {
+      "problemId": "0",
+      "problemSetProblemId": "2004418985246494898",
+      "fillInTheBlankSubmissionDetail": {
+        "answers": ["DROP VIEW v_sc_39"]
+      }
+    },
+    {
+      "problemId": "0",
+      "problemSetProblemId": "2004418985246494899",
+      "fillInTheBlankSubmissionDetail": {
+        "answers": ["84", "3", "78", "168"]
+      }
+    },
+    {
+      "problemId": "0",
+      "problemSetProblemId": "2004418985246494900",
+      "fillInTheBlankSubmissionDetail": {
+        "answers": ["π", "SNO", "σ", "CNAME='DB'"]
+      }
+    }
+  ]
+}

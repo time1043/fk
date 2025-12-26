@@ -1,0 +1,303 @@
+{
+  "organizationById": {
+    "10": {
+      "id": "10",
+      "name": "内蒙古师范大学",
+      "code": "imnu",
+      "type": "SCHOOL",
+      "logo": "e9a11a15-4403-4d1a-8a57-2695ee5ef995.png"
+    },
+    "8": {
+      "id": "8",
+      "name": "广东东软学院",
+      "code": "neusoft",
+      "type": "SCHOOL",
+      "logo": "a7f56d5c-ca09-4aa9-bf4d-c53be237c45b.png"
+    },
+    "263": {
+      "id": "263",
+      "name": "沈阳师范大学",
+      "code": "synu",
+      "type": "SCHOOL",
+      "logo": ""
+    },
+    "2": {
+      "id": "2",
+      "name": "浙大城市学院",
+      "code": "zucc",
+      "type": "SCHOOL",
+      "logo": "a7a4740b-4fb1-4f54-b79c-6080378d7579.png"
+    },
+    "1037012045755973632": {
+      "id": "1037012045755973632",
+      "name": "湖北文理学院",
+      "code": "hbuas",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/hbuas.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "2004418985217134597",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "三级模式结构可提供数据独立性。  ",
+      "content": "三级模式结构可提供数据独立性。  ~@[](5)",
+      "type": "TRUE_OR_FALSE",
+      "author": "葛湘巍",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1236827027345276928",
+      "description": "三级模式结构可提供数据独立性。  ",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "10"
+    },
+    {
+      "id": "2004418985221328909",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "建立复合主键约束的多个字段值只要有一个字段数据相同就会被视为重复记录。",
+      "content": "建立复合主键约束的多个字段值只要有一个字段数据相同就会被视为重复记录。 ",
+      "type": "TRUE_OR_FALSE",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1441389515864268800",
+      "description": "建立复合主键约束的多个字段值只要有一个字段数据相同就会被视为重复记录。 ",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985221328915",
+      "label": "1-20",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "授权时，如果指定了WITH GRANT OPTION子句，获得某种权限的用户只能使用该权限，不能传播该权限。",
+      "content": "授权时，如果指定了WITH GRANT OPTION子句，获得某种权限的用户只能使用该权限，不能传播该权限。\n~@[](2)",
+      "type": "TRUE_OR_FALSE",
+      "author": "张悦",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1337389680062394368",
+      "description": "授权时，如果指定了WITH GRANT OPTION子句，获得某种权限的用户只能使用该权限，不能传播该权限。",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "2004418985221328922",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "当删除一个视图时，与之相关联的基本表也会自动被删除。  ",
+      "content": "当删除一个视图时，与之相关联的基本表也会自动被删除。  ~@[](2)",
+      "type": "TRUE_OR_FALSE",
+      "author": "柯海丰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1251720829571317760",
+      "description": "当删除一个视图时，与之相关联的基本表也会自动被删除。  ",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "2"
+    },
+    {
+      "id": "2004418985221328946",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "索引是在基本表的列上建立的一种数据库对象，它和基本表分开存储，它的建立或撤消对数据的内容毫无影响。  ",
+      "content": "索引是在基本表的列上建立的一种数据库对象，它和基本表分开存储，它的建立或撤消对数据的内容毫无影响。  ~@[](2)",
+      "type": "TRUE_OR_FALSE",
+      "author": "柯海丰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1251720268826427392",
+      "description": "索引是在基本表的列上建立的一种数据库对象，它和基本表分开存储，它的建立或撤消对数据的内容毫无影响。  ",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "2"
+    },
+    {
+      "id": "2004418985221328956",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "数据库的概念模型依赖于计算机硬件和DBMS。",
+      "content": "数据库的概念模型依赖于计算机硬件和DBMS。",
+      "type": "TRUE_OR_FALSE",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1710309429544873984",
+      "description": "数据库的概念模型依赖于计算机硬件和DBMS。",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985242300424",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关系中行的顺序和列的顺序都可以交换",
+      "content": "关系中行的顺序和列的顺序都可以交换",
+      "type": "TRUE_OR_FALSE",
+      "author": "祁长兴",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1399909803601207296",
+      "description": "关系中行的顺序和列的顺序都可以交换",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "2004418985242300431",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "COUNT()用于统计不包括值为NULL的所有记录数量。",
+      "content": "```\nCOUNT(*)\n```用于统计不包括值为NULL的所有记录数量。",
+      "type": "TRUE_OR_FALSE",
+      "author": "冰冰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1441280708895039488",
+      "description": "```\nCOUNT(*)\n```用于统计不包括值为NULL的所有记录数量。",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "8"
+    },
+    {
+      "id": "2004418985242300443",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "任何一个二目关系是属于BCNF。",
+      "content": "任何一个二目关系是属于BCNF。",
+      "type": "TRUE_OR_FALSE",
+      "author": "DB课程组",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1402830028794273792",
+      "description": "任何一个二目关系是属于BCNF。",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "2004418985242300455",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "设关系模式 R〈A, B, C, D〉，函数依赖集 F\u003d{A→C, C→A, B→AC, D→AC, BD→A}",
+      "content": "设关系模式 R〈A, B, C, D〉，函数依赖集 F\u003d{A→C, C→A, B→AC, D→AC, BD→A},则R 的候选码为 BD",
+      "type": "TRUE_OR_FALSE",
+      "author": "康长青",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "2004418984684158976",
+      "problemId": "1434402847070244864",
+      "description": "设关系模式 R〈A, B, C, D〉，函数依赖集 F\u003d{A→C, C→A, B→AC, D→AC, BD→A},则R 的候选码为 BD",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1037012045755973632"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "2004418985217134597": "R1-1",
+    "2004418985221328909": "R1-2",
+    "2004418985221328915": "R1-3",
+    "2004418985221328922": "R1-4",
+    "2004418985221328946": "R1-5",
+    "2004418985221328956": "R1-6",
+    "2004418985242300424": "R1-7",
+    "2004418985242300431": "R1-8",
+    "2004418985242300443": "R1-9",
+    "2004418985242300455": "R1-10"
+  }
+}

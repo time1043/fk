@@ -1,0 +1,42 @@
+[
+  {
+    "problemSetProblemId": "2004418985250689024",
+    "program": "SELECT * FROM Teacher ORDER BY TeacherID ASC;"
+  },
+  {
+    "problemSetProblemId": "2004418985250689027",
+    "program": "SELECT * FROM goods WHERE name LIKE '%pad%';"
+  },
+  {
+    "problemSetProblemId": "2004418985250689034",
+    "program": "SELECT id, category_id, name FROM sh_goods;"
+  },
+  {
+    "problemSetProblemId": "2004418985250689039",
+    "program": "SELECT sno, sname, class FROM students WHERE sno NOT IN (SELECT sno FROM sc);"
+  },
+  {
+    "problemSetProblemId": "2004418985250689048",
+    "program": "SELECT ProductID, ProductName FROM products WHERE UnitsInStock < UnitsOnOrder;"
+  },
+  {
+    "problemSetProblemId": "2004418985250689051",
+    "program": "SELECT cno FROM sc WHERE sno = 'S001' EXCEPT SELECT cno FROM sc WHERE sno = 'S003';"
+  },
+  {
+    "problemSetProblemId": "2004418985250689074",
+    "program": "SELECT DISTINCT e.Eid, e.EName FROM employee e WHERE e.Eid <> '0011' AND NOT EXISTS (SELECT p.Pid FROM orders p WHERE p.Eid = '0011' AND NOT EXISTS (SELECT 1 FROM orders o WHERE o.Eid = e.Eid AND o.Pid = p.Pid));"
+  },
+  {
+    "problemSetProblemId": "2004418985250689076",
+    "program": "SELECT Eid, EName FROM employee WHERE Wno = 'A01' AND Salary < ANY (SELECT Salary FROM employee WHERE Wno = 'A02');"
+  },
+  {
+    "problemSetProblemId": "2004418985250689077",
+    "program": "SELECT c.* FROM sh_goods g JOIN sh_goods_comment c ON g.id = c.goods_id WHERE g.score = 5.00;"
+  },
+  {
+    "problemSetProblemId": "2004418985250689083",
+    "program": "DELETE sc FROM sc JOIN stu ON sc.sno = stu.sno JOIN cou ON sc.cno = cou.cno WHERE cou.cname = 'C语言' AND stu.sex = 0;"
+  }
+]
